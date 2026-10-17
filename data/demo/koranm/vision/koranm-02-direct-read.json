@@ -1,0 +1,145 @@
+{
+  "demo_id": "koranm-02",
+  "title": "Dark Fawn Rose Embroidery Bandi Shirt for Men",
+  "product_url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men",
+  "method": "Direct visual read by Claude in a Claude Code session, looking at the downloaded photo. Not the project's /api/extract OpenAI adapter; no confidence model behind the numbers, they are the reader's judgement (0.9 clear, 0.7 likely, 0.5 uncertain).",
+  "read_at": "2026-10-17T22:29:00.261618+00:00",
+  "images_examined": [
+    {
+      "id": "img-1",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/KVC-NM-1740-1.jpg?v=1753880303",
+      "local_path": "data/demo/koranm/images/dark-fawn-rose-embroidery-bandi-shirt-for-men/01.jpg"
+    }
+  ],
+  "garment": "Sleeveless Nehru jacket layered over a full-sleeve shirt",
+  "attributes": [
+    {
+      "name": "pieces_visible",
+      "value": [
+        "Nehru jacket",
+        "full-sleeve shirt"
+      ],
+      "tier": "visible",
+      "confidence": 0.9,
+      "note": "Shirt hem visible below jacket"
+    },
+    {
+      "name": "collar",
+      "value": "mandarin (band) collar",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "closure",
+      "value": "6 centre-front buttons, dark antique-metal finish",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "pockets",
+      "value": "two lower welt pockets; no chest pocket visible",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "decorative_details",
+      "value": "metallic grey-silver floral embroidered motif on the left chest",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "sleeve",
+      "value": "full-length shirt sleeves rolled with button tab above the elbow",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "pattern",
+      "value": "solid; single embroidered motif",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "garment_length",
+      "value": "jacket to upper hip; shirt slightly longer",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "primary_color",
+      "value": "taupe / mushroom brown-grey (consistent with 'dark fawn')",
+      "tier": "inferred",
+      "confidence": 0.7,
+      "note": "Warm cream backdrop"
+    },
+    {
+      "name": "visible_texture",
+      "value": "smooth, fine suiting weave with a slight sheen; does not look like linen",
+      "tier": "inferred",
+      "confidence": 0.7,
+      "note": "Consistent with TR suiting; cannot confirm fiber"
+    },
+    {
+      "name": "apparent_fit",
+      "value": "slim through the body",
+      "tier": "inferred",
+      "confidence": 0.7,
+      "note": "Matches description 'slim-fit'"
+    }
+  ],
+  "styling_not_included": [
+    "taupe trousers",
+    "brown tassel loafers"
+  ],
+  "listing_check": [
+    {
+      "listing_field": "page_features.Material vs description vs alt",
+      "listing_value": "Silk (field), TR fabric (description), Linen (alt)",
+      "photo_reading": "smooth suiting look with slight sheen, not linen texture",
+      "verdict": "contradicts",
+      "note": "Photo argues against linen; cannot settle silk vs TR",
+      "field": "fabric"
+    },
+    {
+      "listing_field": "page_features.Colour",
+      "listing_value": "Fawn",
+      "photo_reading": "taupe brown-grey",
+      "verdict": "matches",
+      "note": "Close enough to 'dark fawn'",
+      "field": "color"
+    },
+    {
+      "listing_field": "product_type",
+      "listing_value": "Bandi Shirt (single item)",
+      "photo_reading": "Two garments: jacket + shirt",
+      "verdict": "contradicts",
+      "note": "Supports Includes 'Nehru Jacket and Shirt'",
+      "field": "pieces_included",
+      "supports": "page_features.Includes"
+    },
+    {
+      "listing_field": "description: rose embroidery",
+      "listing_value": "Rose embroidery (title)",
+      "photo_reading": "floral motif on chest",
+      "verdict": "matches",
+      "field": "design_details"
+    }
+  ],
+  "photo_quality_notes": "Full-length studio shot; good for colour and fit.",
+  "visual_description": "Taupe Nehru jacket over a matching full-sleeve shirt, mandarin collar, six antique-metal buttons, two welt pockets and a metallic floral motif on the chest.",
+  "not_determinable": [
+    "fiber composition %",
+    "lining",
+    "fabric weight",
+    "opacity",
+    "stretch",
+    "care",
+    "size worn by model"
+  ]
+}

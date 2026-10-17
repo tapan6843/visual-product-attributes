@@ -1,0 +1,99 @@
+1
+00:00:00,600 --> 00:00:06,506
+AGENT: I couldn't find a wine sherwani with matching trousers. Here are some purple options, with cream pants.
+
+2
+00:00:07,406 --> 00:00:12,327
+The sherwani it needed was right there. In wine. With matching trousers.
+
+3
+00:00:12,827 --> 00:00:14,855
+The page just said otherwise.
+
+4
+00:00:15,755 --> 00:00:20,140
+The agent didn't fail. It filtered on exactly what it was told.
+
+5
+00:00:21,540 --> 00:00:27,856
+Product pages were written for people. People look at the photo, and quietly correct the words.
+
+6
+00:00:28,456 --> 00:00:33,997
+Agents can't. They filter on text and structured data, and they take it literally.
+
+7
+00:00:34,897 --> 00:00:41,435
+On this shirt, the title says fawn. The image text says beige. The photo shows grey.
+
+8
+00:00:42,035 --> 00:00:46,469
+This one is sold as a single shirt, but ships as a jacket and a shirt.
+
+9
+00:00:47,069 --> 00:00:51,543
+Here, the material says silk. The description says nylon.
+
+10
+00:00:52,443 --> 00:00:58,274
+Every one of those is a filter that fails without a sound. A missed sale, or a return.
+
+11
+00:00:59,674 --> 00:01:07,483
+FitCheck reads a product the way an agent does. Every line of text. Every structured field. Every photo.
+
+12
+00:01:08,083 --> 00:01:14,204
+It checks them against each other, and shows each conflict with both sources, side by side.
+
+13
+00:01:14,804 --> 00:01:26,586
+Then it rebuilds the data agents filter on. Colour. Pieces. Collar. Length. Embellishment. Sizes in stock. Every value cites where it came from.
+
+14
+00:01:27,186 --> 00:01:34,200
+Where the page contradicts itself, it doesn't guess. It holds the value back, and asks the brand.
+
+15
+00:01:35,600 --> 00:01:44,785
+AGENT: Found one. This sherwani is photographed in deep wine, with a sheer dupatta. The trouser colour isn't confirmed by the brand, so I'd check before ordering.
+
+16
+00:01:45,685 --> 00:01:52,674
+Same agent. Same question. Now it finds the product, and it's honest about what the page can't prove.
+
+17
+00:01:54,074 --> 00:01:57,697
+We scanned ten listings from one premium menswear brand.
+
+18
+00:01:58,297 --> 00:02:08,261
+Eight disagreed with themselves, or with their own photos. Five couldn't agree on how many pieces ship. Eight had structured data a strict parser rejects.
+
+19
+00:02:08,861 --> 00:02:15,028
+Average readiness went from fifty-seven to seventy-eight, before the brand answered a single question.
+
+20
+00:02:16,428 --> 00:02:19,480
+Shoppers are starting to hand the search to agents.
+
+21
+00:02:19,980 --> 00:02:29,258
+Brands can't see what those agents read, or why their products get skipped. Their analytics don't show it. Their search tools weren't built for it.
+
+22
+00:02:30,658 --> 00:02:36,580
+We're starting with clothing, where colour, fit, and what's in the box decide everything.
+
+23
+00:02:37,080 --> 00:02:43,159
+Next: any product, and an endpoint any shopping agent can call before it recommends.
+
+24
+00:02:44,359 --> 00:02:47,994
+Make your catalogue legible to the things that now do the shopping.
+
+25
+00:02:48,994 --> 00:02:49,861
+FitCheck.

@@ -399,6 +399,155 @@ function extractAttributes(before, findings) {
   return attributes;
 }
 
+// ---------- photo findings (direct read) ----------
+
+const PHOTO_LABEL = "photo_direct_read";
+const PHOTO_ATTRIBUTE_NAMES = {
+  pieces_visible: "pieces_visible",
+  collar: "collar",
+  closure: "photo_closure",
+  pockets: "pockets",
+  decorative_details: "decorative_details",
+  sleeve: "sleeve_length",
+  pattern: "photo_pattern",
+  garment_length: "garment_length",
+  silhouette: "silhouette",
+  hem: "hem",
+  primary_color: "photo_primary_color",
+  secondary_colors: "photo_secondary_colors",
+  bottom_color: "photo_bottom_color",
+  visible_texture: "visible_texture",
+  apparent_fit: "fit_type",
+  logo_visibility: "logo_visibility"
+};
+const PHOTO_QUESTIONS = {
+  color: "Which colour name matches the photographed garment? Title, image text and photo disagree.",
+  bottom_color: "What colour are the bottoms that ship with this set? The listing and the photos disagree.",
+  pieces_included: "How many pieces ship with this set? The photo and the listing disagree.",
+  fabric: "What is the exact fabric? The photo does not look like what the listing names."
+};
+const SEVERITY_RANK = { low: 0, medium: 1, high: 2 };
+
+// Folds a direct-read vision file into findings and attributes, keeping the photo source label.
+function mergePhotoRead(before, findings, attributes, vision) {
+  const source = `vision/${before.demo_id}-direct-read.json`;
+  const imageIds = vision.images_examined.map((image) => image.id);
+  const photoRef = `${source}#${imageIds.join(",")}`;
+  const contradictionsFor = (field) => findings.filter((f) => f.field === field && f.kind === "contradiction");
+
+  for (const check of vision.listing_check) {
+    const photoEvidence = { source: photoRef, label: PHOTO_LABEL, value: check.photo_reading };
+    const existing = contradictionsFor(check.field);
+
+    if (check.supports) {
+      for (const finding of existing) {
+        finding.resolved = true;
+        finding.resolution = { by: PHOTO_LABEL, supports: check.supports, photo_reading: check.photo_reading, source: photoRef, note: check.note ?? null };
+      }
+      continue;
+    }
+    if (check.verdict === "contradicts") {
+      if (existing.length) {
+        for (const finding of existing) {
+          finding.evidence.push(photoEvidence);
+          finding.detected_by = [...new Set([...(finding.detected_by ?? ["text_rules"]), PHOTO_LABEL])];
+          if (SEVERITY_RANK[finding.severity] < SEVERITY_RANK.medium) finding.severity = "medium";
+        }
+      } else {
+        findings.push({
+          id: `F${String(findings.length + 1).padStart(2, "0")}`,
+          kind: "contradiction",
+          severity: check.field === "bottom_color" ? "high" : "medium",
+          field: check.field,
+          summary: `Photo shows ${check.photo_reading}, but the listing says "${check.listing_value}".`,
+          evidence: [{ source: check.listing_field, value: check.listing_value }, photoEvidence],
+          detected_by: [PHOTO_LABEL],
+          merchant_question: PHOTO_QUESTIONS[check.field] ?? `Please confirm ${check.listing_field}: the photo shows ${check.photo_reading}.`,
+          ...(check.note ? { note: check.note } : {})
+        });
+      }
+    } else if (check.verdict === "ambiguous") {
+      if (existing.length) {
+        for (const finding of existing) finding.evidence.push(photoEvidence);
+      } else {
+        findings.push({
+          id: `F${String(findings.length + 1).padStart(2, "0")}`,
+          kind: "data_quality",
+          severity: "low",
+          field: check.field,
+          summary: `Listing value "${check.listing_value ?? "none"}" is a weak match for the photo (${check.photo_reading}).`,
+          evidence: [{ source: check.listing_field, value: check.listing_value }, photoEvidence],
+          detected_by: [PHOTO_LABEL],
+          ...(check.note ? { note: check.note } : {})
+        });
+      }
+    }
+  }
+
+  for (const read of vision.attributes) {
+    const name = PHOTO_ATTRIBUTE_NAMES[read.name] ?? read.name;
+    const photo = { value: read.value, tier: `photo_${read.tier}`, confidence: read.confidence, source: photoRef, label: PHOTO_LABEL, ...(read.note ? { note: read.note } : {}) };
+    const attribute = attributes.find((candidate) => candidate.name === name);
+    if (attribute && attribute.tier === "pending_vision") {
+      Object.assign(attribute, { value: read.value, tier: photo.tier, sources: [photoRef], confidence: read.confidence, label: PHOTO_LABEL, ...(read.note ? { note: read.note } : {}) });
+    } else if (attribute) {
+      attribute.photo_check = photo;
+    } else {
+      attributes.push({ name, value: read.value, tier: photo.tier, sources: [photoRef], confidence: read.confidence, label: PHOTO_LABEL, ...(read.note ? { note: read.note } : {}) });
+    }
+  }
+
+  // Re-derive which listing attributes are still contradicted once photo evidence is in.
+  const open = new Set(findings.filter((f) => f.kind === "contradiction" && f.severity !== "low" && !f.resolved).map((f) => f.field));
+  for (const attribute of attributes) {
+    if (attribute.tier === "contradicted" && !open.has(attribute.name)) {
+      attribute.tier = "stated";
+      attribute.note = "Contradiction resolved by photo evidence.";
+    }
+    if (attribute.tier === "stated" && open.has(attribute.name)) attribute.tier = "contradicted";
+  }
+  const bottom = attributes.find((attribute) => attribute.name === "bottom_color");
+  if (bottom && open.has("bottom_color")) bottom.tier = "contradicted";
+}
+
+// Normalised values an agent can filter on; contradicted values are withheld.
+function buildFilterFacets(before, attributes) {
+  const attr = (name) => attributes.find((attribute) => attribute.name === name);
+  const facet = (name, ...candidates) => {
+    for (const candidate of candidates) {
+      const attribute = attr(candidate);
+      if (!attribute || attribute.value == null) continue;
+      if (attribute.tier === "contradicted") return { value: null, status: "withheld_contradicted", sources: attribute.sources };
+      if (["stated", "photo_visible"].includes(attribute.tier)) return { value: attribute.value, tier: attribute.tier, sources: attribute.sources };
+      if (attribute.tier === "photo_inferred") return { value: attribute.value, tier: attribute.tier, sources: attribute.sources, needs_confirmation: true };
+    }
+    return { value: null, status: "missing" };
+  };
+  const split = (value) => (typeof value === "string" ? value.split(/,|\band\b/i).map((part) => part.trim().toLowerCase()).filter(Boolean) : value);
+  const pieces = attr("pieces_visible")?.value ?? null;
+  const occasions = facet("occasions", "occasions");
+  return {
+    category: facet("category", "garment_type"),
+    primary_color: facet("primary_color", "color"),
+    photo_primary_color: facet("photo_primary_color", "photo_primary_color"),
+    secondary_colors: facet("secondary_colors", "photo_secondary_colors"),
+    bottom_color: facet("bottom_color", "bottom_color", "photo_bottom_color"),
+    pieces: { ...facet("pieces", "pieces_included"), photo_count: Array.isArray(pieces) ? pieces.length : null },
+    collar: facet("collar", "collar"),
+    sleeve: facet("sleeve", "sleeve_length"),
+    garment_length: facet("garment_length", "garment_length"),
+    pattern: facet("pattern", "pattern"),
+    embellishment: facet("embellishment", "decorative_details", "work_type"),
+    closure: facet("closure", "closure"),
+    pockets: facet("pockets", "pockets"),
+    fabric: facet("fabric", "fabric"),
+    fit: facet("fit", "fit_type"),
+    occasions: { ...occasions, value: split(occasions.value) },
+    sizes_in_stock: facet("sizes_in_stock", "sizes_in_stock"),
+    price_inr: { value: before.page_price?.amount ?? before.variants[0].price, tier: "stated", sources: ["page_price"] }
+  };
+}
+
 // ---------- fixes ----------
 
 function buildSizeChart(before) {
@@ -420,10 +569,11 @@ function buildSizeChart(before) {
   };
 }
 
-function buildDescription(before, findings) {
+function buildDescription(before, findings, attributes = []) {
   const f = before.page_features;
   const has = (field, severities = ["high", "medium"]) =>
-    findings.some((finding) => finding.field === field && finding.kind === "contradiction" && severities.includes(finding.severity));
+    findings.some((finding) => finding.field === field && finding.kind === "contradiction" && !finding.resolved && severities.includes(finding.severity));
+  const resolvedPieces = findings.find((finding) => finding.field === "pieces_included" && finding.resolved);
   const sentences = [];
   const say = (text, sources) => text && sentences.push({ text, sources });
 
@@ -431,16 +581,24 @@ function buildDescription(before, findings) {
   if (has("pieces_included")) {
     say(`Pieces included: to be confirmed by the merchant (the page lists "${f.Includes}" and Set: ${f.Set}).`, ["page_features.Includes", "page_features.Set"]);
   } else if (f.Includes) {
-    say(`This ${f.Set}-piece set includes: ${f.Includes.replace(/\s+,/g, ",")}.`, ["page_features.Includes", "page_features.Set"]);
+    say(
+      `This ${f.Set}-piece set includes: ${f.Includes.replace(/\s+,/g, ",")}${resolvedPieces ? " (confirmed in the product photo)" : ""}.`,
+      ["page_features.Includes", "page_features.Set", ...(resolvedPieces ? [resolvedPieces.resolution.source] : [])]
+    );
   }
   if (has("fabric")) {
     say(`Fabric: to be confirmed by the merchant (the page names more than one fabric). Composition percentages are not stated.`, ["page_features.Material", "description.text"]);
   } else if (f.Material) {
     say(`Fabric: ${f.Material}. Composition percentages are not stated.`, ["page_features.Material"]);
   }
-  const colourBits = [`Colour: ${f.Colour ?? before.product.options[0].values[0]}`];
-  if (f["Bottom Color"] && f["Bottom Color"] !== f.Colour) colourBits.push(`bottoms in ${f["Bottom Color"]}`);
-  say(`${colourBits.join(", ")}.`, ["page_features.Colour", "page_features.Bottom Color"]);
+  const colourBits = [
+    has("color")
+      ? "Colour: to be confirmed by the merchant (the colour name, image text and photo disagree)"
+      : `Colour: ${f.Colour ?? before.product.options[0].values[0]}`
+  ];
+  if (has("bottom_color")) colourBits.push("bottoms colour to be confirmed (the listing and the photos disagree)");
+  else if (f["Bottom Color"] && f["Bottom Color"] !== f.Colour) colourBits.push(`bottoms in ${f["Bottom Color"]}`);
+  say(`${colourBits.join("; ")}.`, ["page_features.Colour", "page_features.Bottom Color"]);
 
   const design = [];
   const collar = wordsIn(before.description.text, COLLAR_WORDS)[0];
@@ -450,8 +608,21 @@ function buildDescription(before, findings) {
   if (f.Pattern) design.push(`${f.Pattern.toLowerCase()}${f["Work Type"] ? ` (${f["Work Type"].toLowerCase()})` : ""}`);
   if (design.length) say(`Design: ${design.join(", ")}.`, ["description.text", "page_features.Closure Type", "page_features.Pattern", "page_features.Work Type"]);
 
+  const photoVisible = attributes.filter(
+    (attribute) => attribute.tier === "photo_visible" && ["pockets", "decorative_details", "garment_length", "hem", "collar", "sleeve_length"].includes(attribute.name)
+  );
+  if (photoVisible.length) {
+    say(
+      `Visible in the product photo: ${photoVisible.map((attribute) => `${attribute.name.replace(/_/g, " ")}: ${attribute.value}`).join("; ")}.`,
+      [...new Set(photoVisible.flatMap((attribute) => attribute.sources))]
+    );
+  }
+
   const fit = wordsIn(before.description.text, FIT_WORDS)[0];
-  say(fit ? `Fit: ${fit}.` : "Fit type is not stated.", fit ? ["description.text"] : []);
+  const photoFit = attributes.find((attribute) => attribute.name === "fit_type" && attribute.tier === "photo_inferred");
+  if (fit) say(`Fit: ${fit}.`, ["description.text"]);
+  else if (photoFit) say(`Fit appears ${photoFit.value} in the photo (merchant to confirm).`, photoFit.sources);
+  else say("Fit type is not stated.", []);
 
   const chest = chartColumn(before.size_chart, "CHEST")?.filter((row) => before.variant_sizes.includes(row.size));
   const shoulder = chartColumn(before.size_chart, "SHOULDER")?.filter((row) => before.variant_sizes.includes(row.size));
@@ -474,7 +645,7 @@ function buildDescription(before, findings) {
   return { text: sentences.map((sentence) => sentence.text).join(" "), sentences };
 }
 
-function buildJsonLd(before, attributes, sizeChart) {
+function buildJsonLd(before, attributes, sizeChart, facets = {}) {
   const attr = (name) => attributes.find((attribute) => attribute.name === name);
   const usable = (name) => {
     const attribute = attr(name);
@@ -489,7 +660,11 @@ function buildJsonLd(before, attributes, sizeChart) {
     ["Bottom type", usable("bottom_type")],
     ["Occasions", usable("occasions")],
     ["Fit", usable("fit_type")],
-    ["Size chart basis", sizeChart ? `${sizeChart.basis} Units: ${sizeChart.unit}.` : undefined]
+    ["Size chart basis", sizeChart ? `${sizeChart.basis} Units: ${sizeChart.unit}.` : undefined],
+    // Photo-visible facets (direct read) that the listing never states as text.
+    ...["collar", "sleeve", "garment_length", "embellishment", "pockets", "secondary_colors"]
+      .filter((name) => facets[name]?.tier === "photo_visible" && !usable(name))
+      .map((name) => [`${name.replace(/_/g, " ")} (from photo)`, [].concat(facets[name].value).join(", ")])
   ]
     .filter(([, value]) => value)
     .map(([name, value]) => ({ "@type": "PropertyValue", name, value: String(value) }));
@@ -526,18 +701,22 @@ function buildJsonLd(before, attributes, sizeChart) {
   };
 }
 
-function buildAltText(before, findings) {
+function buildAltText(before, findings, vision = null) {
   const fixIds = new Set(
     findings.flatMap((finding) => (finding.fix?.type === "alt_text" ? finding.fix.image_ids ?? [finding.fix.image_id] : []))
   );
-  return before.images.map((image) => ({
+  const photoAlt = new Map((vision?.images_examined ?? []).slice(0, 1).map((image) => [image.id, vision.visual_description]));
+  return before.images.map((image) =>
+    photoAlt.has(image.id)
+      ? { image_id: image.id, before: image.alt, after: photoAlt.get(image.id), changed: true, tier: "photo_visible", label: PHOTO_LABEL, note: "Written from the direct read of this photo." }
+      : {
     image_id: image.id,
     before: image.alt,
     after: fixIds.has(image.id) || !image.alt ? `${before.product.title} – photo ${image.position} of ${before.images.length}` : image.alt,
     changed: fixIds.has(image.id) || !image.alt,
     tier: "stated",
     note: "Text-derived placeholder; replace with a description of the view once the vision step runs."
-  }));
+  });
 }
 
 // ---------- score (PRD FR2 weights) ----------
@@ -545,9 +724,12 @@ function buildAltText(before, findings) {
 function score(before, findings, attributes, fixes) {
   const finding = (field, kinds = ["contradiction", "gap", "data_quality"]) =>
     findings.find((candidate) => candidate.field === field && kinds.includes(candidate.kind));
+  // `serious` = the listing as published disagrees with itself or its photo; `open` = still unresolved after fixes.
   const serious = (field) => findings.some((f) => f.field === field && f.kind === "contradiction" && f.severity !== "low");
+  const open = (field) => findings.some((f) => f.field === field && f.kind === "contradiction" && f.severity !== "low" && !f.resolved);
   const attr = (name) => attributes.find((attribute) => attribute.name === name);
   const stated = (name) => ["stated"].includes(attr(name)?.tier) && attr(name)?.value;
+  const photoVisible = (name) => attr(name)?.tier === "photo_visible" && attr(name)?.value;
 
   // [part, weight, criterion, points, before, afterGenerated, afterMerchant]
   const criteria = [
@@ -556,16 +738,16 @@ function score(before, findings, attributes, fixes) {
     ["fit_and_sizing", 30, "Model height and size worn", 5, Boolean(before.featured_model), Boolean(before.featured_model), true],
     ["fit_and_sizing", 30, "Fit type stated", 5, Boolean(stated("fit_type")), Boolean(stated("fit_type")), true],
     ["fit_and_sizing", 30, "Size chart matches sizes sold", 5, !finding("size_range"), Boolean(fixes.size_chart) || !finding("size_range"), true],
-    ["fabric_and_care", 20, "Material stated without contradiction", 8, Boolean(stated("fabric")) && !serious("fabric"), Boolean(stated("fabric")) && !serious("fabric"), true],
+    ["fabric_and_care", 20, "Material stated without contradiction", 8, Boolean(stated("fabric")) && !serious("fabric"), Boolean(stated("fabric")) && !open("fabric"), true],
     ["fabric_and_care", 20, "Fiber composition with %", 6, false, false, true],
     ["fabric_and_care", 20, "Care instructions", 6, Boolean(stated("care")), Boolean(stated("care")), true],
-    ["design_details", 15, "Collar or neckline", 4, Boolean(stated("collar")), Boolean(stated("collar")), true],
+    ["design_details", 15, "Collar or neckline", 4, Boolean(stated("collar")), Boolean(stated("collar") || photoVisible("collar")), true],
     ["design_details", 15, "Closure", 3, Boolean(stated("closure")), Boolean(stated("closure")), true],
-    ["design_details", 15, "Sleeve length", 3, Boolean(stated("sleeve_length")), Boolean(stated("sleeve_length")), true],
-    ["design_details", 15, "Pieces included, consistent", 3, !serious("pieces_included"), !serious("pieces_included"), true],
-    ["design_details", 15, "Garment length", 2, Boolean(stated("garment_length")), Boolean(stated("garment_length")), true],
+    ["design_details", 15, "Sleeve length", 3, Boolean(stated("sleeve_length")), Boolean(stated("sleeve_length") || photoVisible("sleeve_length")), true],
+    ["design_details", 15, "Pieces included, consistent", 3, !serious("pieces_included"), !open("pieces_included"), true],
+    ["design_details", 15, "Garment length", 2, Boolean(stated("garment_length")), Boolean(stated("garment_length") || photoVisible("garment_length")), true],
     ["variants_and_availability", 15, "Every size as a record with availability", 5, true, true, true],
-    ["variants_and_availability", 15, "Colour named consistently", 4, !serious("color"), !serious("color"), true],
+    ["variants_and_availability", 15, "Colour named consistently (garment and bottoms)", 4, !serious("color") && !serious("bottom_color"), !open("color") && !open("bottom_color"), true],
     ["variants_and_availability", 15, "Valid structured data with material, colour, size", 6, false, true, true],
     ["policies_and_price", 10, "Price with currency", 4, Boolean(before.page_price), Boolean(before.page_price), true],
     ["policies_and_price", 10, "Return policy linked", 2, true, true, true],
@@ -595,9 +777,16 @@ function score(before, findings, attributes, fixes) {
 
 // ---------- comparison ----------
 
-function compare(before, attributes, fixes, findings) {
+function compare(before, attributes, fixes, findings, facets) {
   const productLd = before.structured_data.find((block) => block.type === "Product");
+  const filled = Object.values(facets).filter((facet) => facet.value != null && facet.status == null);
   return [
+    {
+      field: "filter_facets",
+      before: `${filled.filter((facet) => facet.tier === "stated").length} facets from listing text (prose and an invalid structured-data block)`,
+      after: `${filled.length} facets in structured data (${filled.filter((facet) => facet.tier?.startsWith("photo")).length} from the photo), ${Object.values(facets).filter((facet) => facet.status === "withheld_contradicted").length} withheld as contradicted`,
+      change: "agents can filter on normalised values instead of parsing prose"
+    },
     { field: "description", before: before.description.text, after: fixes.description.text, change: "rewritten from cited page facts; contradicted facts held for merchant" },
     { field: "size_chart", before: before.size_chart ? `${before.size_chart.rows.length} rows, unitless` : null, after: fixes.size_chart ? `${fixes.size_chart.rows.length} rows, in + cm` : null, change: fixes.size_chart ? "labelled units, kept sold sizes only" : "missing; merchant question" },
     { field: "structured_data", before: productLd ? `Product block valid JSON: ${productLd.valid_json}; material/colour/size fields: none` : "none", after: "valid ProductGroup with per-size offers, colour, material and properties", change: "replaced" },
@@ -610,6 +799,14 @@ function compare(before, attributes, fixes, findings) {
 
 // ---------- main ----------
 
+async function readVision(demoId) {
+  try {
+    return JSON.parse(await readFile(path.join(ROOT, "vision", `${demoId}-direct-read.json`), "utf8"));
+  } catch {
+    return null;
+  }
+}
+
 async function main() {
   const files = (await readdir(BEFORE_DIR)).filter((name) => name.endsWith(".json")).sort();
   const befores = await Promise.all(files.map(async (name) => ({ name, data: JSON.parse(await readFile(path.join(BEFORE_DIR, name), "utf8")) })));
@@ -621,11 +818,14 @@ async function main() {
     const context = { total: befores.length, modelTextCount: modelTexts.filter((text) => text === before.featured_model).length };
     const findings = detectFindings(before, context);
     const attributes = extractAttributes(before, findings);
+    const vision = await readVision(before.demo_id);
+    if (vision) mergePhotoRead(before, findings, attributes, vision);
+    const facets = buildFilterFacets(before, attributes);
     const sizeChart = buildSizeChart(before);
     const fixes = { size_chart: sizeChart };
-    fixes.description = buildDescription(before, findings);
-    fixes.json_ld = buildJsonLd(before, attributes, sizeChart);
-    fixes.alt_text = buildAltText(before, findings);
+    fixes.description = buildDescription(before, findings, attributes);
+    fixes.json_ld = buildJsonLd(before, attributes, sizeChart, facets);
+    fixes.alt_text = buildAltText(before, findings, vision);
     const scores = score(before, findings, attributes, fixes);
 
     const after = {
@@ -634,19 +834,23 @@ async function main() {
       product_url: before.source.product_url,
       before_file: `before/${name}`,
       generated_at: new Date().toISOString(),
-      generator: "scripts/demo/build-after.mjs (text and structured data rules; no vision yet)",
+      generator: vision
+        ? `scripts/demo/build-after.mjs (text and structured data rules + ${PHOTO_LABEL}: vision/${before.demo_id}-direct-read.json)`
+        : "scripts/demo/build-after.mjs (text and structured data rules; no vision yet)",
       score: scores,
       findings,
       merchant_questions: [...new Set(findings.map((finding) => finding.merchant_question).filter(Boolean))],
       attributes,
+      filter_facets: facets,
       fixes,
       image_processing: {
-        status: "pending",
+        status: vision ? `direct read done for ${vision.images_examined.map((image) => image.id).join(", ")} (${PHOTO_LABEL}); /api/extract run pending` : "pending",
+        direct_read_file: vision ? `vision/${before.demo_id}-direct-read.json` : null,
         download_command: "node scripts/demo/download-images.mjs",
         checks: [...new Set(findings.map((finding) => finding.pending_image_check).filter(Boolean)), "Read visible design attributes per image (neckline, sleeve, length, pattern)", "OCR any size chart, care label or fabric tag"],
         images: before.images.map((image) => ({ id: image.id, src: image.src, local_path: image.local_path, width: image.width, height: image.height }))
       },
-      comparison: compare(before, attributes, fixes, findings)
+      comparison: compare(before, attributes, fixes, findings, facets)
     };
     await writeFile(path.join(AFTER_DIR, name), `${JSON.stringify(after, null, 2)}\n`);
     summary.push({
@@ -658,7 +862,10 @@ async function main() {
       score_before: scores.before,
       score_after_generated: scores.after_generated,
       score_after_merchant_answers: scores.after_merchant_answers,
-      contradictions: findings.filter((f) => f.kind === "contradiction").map((f) => `${f.severity}: ${f.summary}`),
+      contradictions: findings
+        .filter((f) => f.kind === "contradiction")
+        .map((f) => `${f.severity}${f.resolved ? " (resolved by photo)" : ""}${f.detected_by?.includes(PHOTO_LABEL) ? " [photo]" : ""}: ${f.summary}`),
+      filterable_facets: Object.values(facets).filter((value) => value.value != null && value.status == null).length,
       merchant_questions: after.merchant_questions.length,
       before_file: `before/${name}`,
       after_file: `after/${name}`

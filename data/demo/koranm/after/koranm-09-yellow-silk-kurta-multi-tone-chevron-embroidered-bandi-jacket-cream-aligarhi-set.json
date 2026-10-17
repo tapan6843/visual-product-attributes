@@ -3,12 +3,12 @@
   "title": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men",
   "product_url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set",
   "before_file": "before/koranm-09-yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set.json",
-  "generated_at": "2026-10-17T21:29:33.366Z",
-  "generator": "scripts/demo/build-after.mjs (text and structured data rules; no vision yet)",
+  "generated_at": "2026-10-17T22:32:07.020Z",
+  "generator": "scripts/demo/build-after.mjs (text and structured data rules + photo_direct_read: vision/koranm-09-direct-read.json)",
   "score": {
     "rubric": "PRD FR2 weights (fit 30, fabric 20, design 15, variants 15, policies 10, occasion 10); hackathon criteria, untuned.",
-    "before": 60,
-    "after_generated": 79,
+    "before": 56,
+    "after_generated": 78,
     "after_merchant_answers": 97,
     "parts": {
       "fit_and_sizing": {
@@ -86,7 +86,7 @@
       "design_details": {
         "weight": 15,
         "before": 12,
-        "after_generated": 12,
+        "after_generated": 15,
         "after_merchant_answers": 15,
         "criteria": [
           {
@@ -107,7 +107,7 @@
             "criterion": "Sleeve length",
             "points": 3,
             "before": false,
-            "after_generated": false,
+            "after_generated": true,
             "after_merchant_answers": true
           },
           {
@@ -128,8 +128,8 @@
       },
       "variants_and_availability": {
         "weight": 15,
-        "before": 9,
-        "after_generated": 15,
+        "before": 5,
+        "after_generated": 11,
         "after_merchant_answers": 15,
         "criteria": [
           {
@@ -140,10 +140,10 @@
             "after_merchant_answers": true
           },
           {
-            "criterion": "Colour named consistently",
+            "criterion": "Colour named consistently (garment and bottoms)",
             "points": 4,
-            "before": true,
-            "after_generated": true,
+            "before": false,
+            "after_generated": false,
             "after_merchant_answers": true
           },
           {
@@ -463,6 +463,29 @@
           "value": 0
         }
       ]
+    },
+    {
+      "id": "F13",
+      "kind": "contradiction",
+      "severity": "medium",
+      "field": "color",
+      "summary": "Photo shows kurta is cream; only the jacket is yellow, but the listing says \"Yellow Silk Kurta\".",
+      "evidence": [
+        {
+          "source": "title",
+          "value": "Yellow Silk Kurta"
+        },
+        {
+          "source": "vision/koranm-09-direct-read.json#img-1",
+          "label": "photo_direct_read",
+          "value": "kurta is cream; only the jacket is yellow"
+        }
+      ],
+      "detected_by": [
+        "photo_direct_read"
+      ],
+      "merchant_question": "Which colour name matches the photographed garment? Title, image text and photo disagree.",
+      "note": "Description says 'cream-yellow kurta'; title implies a yellow kurta"
     }
   ],
   "merchant_questions": [
@@ -471,7 +494,8 @@
     "Is the fit slim, regular or relaxed?",
     "What is the fiber composition with percentages (including any lining)?",
     "Is the model in these photos 6 ft and wearing size 40?",
-    "For US orders: how many days to return, and who pays return shipping?"
+    "For US orders: how many days to return, and who pays return shipping?",
+    "Which colour name matches the photographed garment? Title, image text and photo disagree."
   ],
   "attributes": [
     {
@@ -485,7 +509,7 @@
     {
       "name": "color",
       "value": "Yellow",
-      "tier": "stated",
+      "tier": "contradicted",
       "sources": [
         "page_features.Colour",
         "product.options.Color"
@@ -561,7 +585,14 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "mandarin collar on jacket and kurta",
+        "tier": "photo_visible",
+        "confidence": 0.9,
+        "source": "vision/koranm-09-direct-read.json#img-1",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "fit_type",
@@ -577,15 +608,24 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "kurta just above the knee; jacket to upper hip",
+        "tier": "photo_visible",
+        "confidence": 0.8,
+        "source": "vision/koranm-09-direct-read.json#img-1",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "sleeve_length",
-      "value": null,
-      "tier": "pending_vision",
+      "value": "jacket sleeveless; kurta full sleeves",
+      "tier": "photo_visible",
       "sources": [
-        "images"
-      ]
+        "vision/koranm-09-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
     },
     {
       "name": "model_height_and_size_worn",
@@ -648,8 +688,227 @@
         "page_price",
         "variants[].price"
       ]
+    },
+    {
+      "name": "pieces_visible",
+      "value": [
+        "bandi jacket",
+        "kurta",
+        "trousers"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-09-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_closure",
+      "value": "jacket worn open; kurta placket with contrast pink-red buttons (about 4 visible)",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-09-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_pattern",
+      "value": "jacket: chevron / leheriya stripes; kurta and trousers plain",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-09-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_primary_color",
+      "value": "jacket yellow; kurta cream; trousers white / off-white",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-09-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_secondary_colors",
+      "value": [
+        "turquoise",
+        "coral",
+        "white"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-09-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read",
+      "note": "Jacket stripes and border"
+    },
+    {
+      "name": "decorative_details",
+      "value": "white floral embroidered border along the jacket edges and hem; embroidered kurta placket and cuffs",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-09-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-09-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
     }
   ],
+  "filter_facets": {
+    "category": {
+      "value": "Bandi Set",
+      "tier": "stated",
+      "sources": [
+        "product.product_type"
+      ]
+    },
+    "primary_color": {
+      "value": null,
+      "status": "withheld_contradicted",
+      "sources": [
+        "page_features.Colour",
+        "product.options.Color"
+      ]
+    },
+    "photo_primary_color": {
+      "value": "jacket yellow; kurta cream; trousers white / off-white",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-09-direct-read.json#img-1"
+      ]
+    },
+    "secondary_colors": {
+      "value": [
+        "turquoise",
+        "coral",
+        "white"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-09-direct-read.json#img-1"
+      ]
+    },
+    "bottom_color": {
+      "value": "Cream",
+      "tier": "stated",
+      "sources": [
+        "page_features.Bottom Color"
+      ]
+    },
+    "pieces": {
+      "value": "Kurta, Jacket, and Aligarhi (Set: 3)",
+      "tier": "stated",
+      "sources": [
+        "page_features.Includes",
+        "page_features.Set"
+      ],
+      "photo_count": 3
+    },
+    "collar": {
+      "value": "bandhgala",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "sleeve": {
+      "value": "jacket sleeveless; kurta full sleeves",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-09-direct-read.json#img-1"
+      ]
+    },
+    "garment_length": {
+      "value": "above-knee",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "pattern": {
+      "value": "Embroidery and Printed",
+      "tier": "stated",
+      "sources": [
+        "page_features.Pattern"
+      ]
+    },
+    "embellishment": {
+      "value": "white floral embroidered border along the jacket edges and hem; embroidered kurta placket and cuffs",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-09-direct-read.json#img-1"
+      ]
+    },
+    "closure": {
+      "value": "Buttons",
+      "tier": "stated",
+      "sources": [
+        "page_features.Closure Type"
+      ]
+    },
+    "pockets": {
+      "value": null,
+      "status": "missing"
+    },
+    "fabric": {
+      "value": "Silk",
+      "tier": "stated",
+      "sources": [
+        "page_features.Material"
+      ]
+    },
+    "fit": {
+      "value": null,
+      "status": "missing"
+    },
+    "occasions": {
+      "value": [
+        "reception",
+        "office party wear"
+      ],
+      "tier": "stated",
+      "sources": [
+        "page_features.Occasions"
+      ]
+    },
+    "sizes_in_stock": {
+      "value": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "tier": "stated",
+      "sources": [
+        "variants[].available"
+      ]
+    },
+    "price_inr": {
+      "value": 28656,
+      "tier": "stated",
+      "sources": [
+        "page_price"
+      ]
+    }
+  },
   "fixes": {
     "size_chart": {
       "unit": "in",
@@ -784,7 +1043,7 @@
       ]
     },
     "description": {
-      "text": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men. This 3-piece set includes: Kurta, Jacket, and Aligarhi. Fabric: Silk. Composition percentages are not stated. Colour: Yellow, bottoms in Cream. Design: Bandhgala, button closure, embroidery and printed. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–54 in, shoulder 18–23 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Reception and Office Party Wear. Price: ₹ 28,656 MRP, inclusive of all taxes.",
+      "text": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men. This 3-piece set includes: Kurta, Jacket, and Aligarhi. Fabric: Silk. Composition percentages are not stated. Colour: to be confirmed by the merchant (the colour name, image text and photo disagree); bottoms in Cream. Design: Bandhgala, button closure, embroidery and printed. Visible in the product photo: sleeve length: jacket sleeveless; kurta full sleeves; decorative details: white floral embroidered border along the jacket edges and hem; embroidered kurta placket and cuffs. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–54 in, shoulder 18–23 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Reception and Office Party Wear. Price: ₹ 28,656 MRP, inclusive of all taxes.",
       "sentences": [
         {
           "text": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men.",
@@ -806,7 +1065,7 @@
           ]
         },
         {
-          "text": "Colour: Yellow, bottoms in Cream.",
+          "text": "Colour: to be confirmed by the merchant (the colour name, image text and photo disagree); bottoms in Cream.",
           "sources": [
             "page_features.Colour",
             "page_features.Bottom Color"
@@ -819,6 +1078,12 @@
             "page_features.Closure Type",
             "page_features.Pattern",
             "page_features.Work Type"
+          ]
+        },
+        {
+          "text": "Visible in the product photo: sleeve length: jacket sleeveless; kurta full sleeves; decorative details: white floral embroidered border along the jacket edges and hem; embroidered kurta placket and cuffs.",
+          "sources": [
+            "vision/koranm-09-direct-read.json#img-1"
           ]
         },
         {
@@ -877,7 +1142,6 @@
       },
       "productGroupID": "AKB-0946",
       "category": "Bandi Set",
-      "color": "Yellow",
       "material": "Silk",
       "audience": {
         "@type": "PeopleAudience",
@@ -928,6 +1192,21 @@
           "@type": "PropertyValue",
           "name": "Size chart basis",
           "value": "Garment measurements; fitting ease already included (per page note). Units: in."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sleeve (from photo)",
+          "value": "jacket sleeveless; kurta full sleeves"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "embellishment (from photo)",
+          "value": "white floral embroidered border along the jacket edges and hem; embroidered kurta placket and cuffs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "secondary colors (from photo)",
+          "value": "turquoise, coral, white"
         }
       ],
       "hasVariant": [
@@ -1035,10 +1314,11 @@
       {
         "image_id": "img-1",
         "before": null,
-        "after": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – photo 1 of 5",
+        "after": "Yellow chevron-striped bandi jacket with turquoise and coral accents and a white floral border, over a cream knee-length kurta with pink buttons and white trousers.",
         "changed": true,
-        "tier": "stated",
-        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+        "tier": "photo_visible",
+        "label": "photo_direct_read",
+        "note": "Written from the direct read of this photo."
       },
       {
         "image_id": "img-2",
@@ -1075,7 +1355,8 @@
     ]
   },
   "image_processing": {
-    "status": "pending",
+    "status": "direct read done for img-1 (photo_direct_read); /api/extract run pending",
+    "direct_read_file": "vision/koranm-09-direct-read.json",
     "download_command": "node scripts/demo/download-images.mjs",
     "checks": [
       "Estimate where the hem falls on the model (inferred tier, merchant to confirm).",
@@ -1123,9 +1404,15 @@
   },
   "comparison": [
     {
+      "field": "filter_facets",
+      "before": "11 facets from listing text (prose and an invalid structured-data block)",
+      "after": "15 facets in structured data (4 from the photo), 1 withheld as contradicted",
+      "change": "agents can filter on normalised values instead of parsing prose"
+    },
+    {
       "field": "description",
       "before": "Product Description\nRedefine your festive presence with this Sunburst Yellow Silk Set. Crafted from rich, premium silk fabric, this refined outfit features a long, above-knee cream-yellow kurta, classic cream silk Aligarhi-style bottoms, and a statement Bandi jacket showcasing energetic chevron and Leheriya stripes in yellow, turquoise, and coral. Accentuated with delicate white floral embroidery framing the jacket border, a sharp Bandgala collar with multi-tone stitch detailing, and contrasting pink buttons along the kurta placket, this ensemble strikes a flawless balance between celebratory color and modern tailoring. Whether attending haldi ceremonies, daytime pujas, or festive family gatherings, this outfit guarantees a vibrant, royal presence.\nKey Features\n3-Piece Complete Set\nPremium Silk Fabric with Cream Silk Aligarhi Bottoms\nYellow, Turquoise & Coral Leheriya Print\nFloral Thread Embroidery\nClassic Bandhgala Collar with Multi-Color Stitching\nContrast Pink Button Detailing\nIdeal for Haldi, Daytime Functions & Festive Celebrations\nStyling Tips\nFootwear: Complete your look by pairing this ensemble with our Handcrafted Embroidered Juttis for a traditional aesthetic, or our Classic Leather Sandals for a sleek, breathable finish.\nAccessories: Enhance the look with an antique gold or silver-toned watch, regal metallic cuff studs, and a statement ring featuring traditional stone setting to complement the fine threadwork.\nStyling: Wear the full 3-piece set for main daytime ceremonies and haldi festivities, or pair the cream-yellow kurta and cream Aligarhi bottoms solo for a light, effortless celebration look.",
-      "after": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men. This 3-piece set includes: Kurta, Jacket, and Aligarhi. Fabric: Silk. Composition percentages are not stated. Colour: Yellow, bottoms in Cream. Design: Bandhgala, button closure, embroidery and printed. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–54 in, shoulder 18–23 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Reception and Office Party Wear. Price: ₹ 28,656 MRP, inclusive of all taxes.",
+      "after": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men. This 3-piece set includes: Kurta, Jacket, and Aligarhi. Fabric: Silk. Composition percentages are not stated. Colour: to be confirmed by the merchant (the colour name, image text and photo disagree); bottoms in Cream. Design: Bandhgala, button closure, embroidery and printed. Visible in the product photo: sleeve length: jacket sleeveless; kurta full sleeves; decorative details: white floral embroidered border along the jacket edges and hem; embroidered kurta placket and cuffs. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–54 in, shoulder 18–23 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Reception and Office Party Wear. Price: ₹ 28,656 MRP, inclusive of all taxes.",
       "change": "rewritten from cited page facts; contradicted facts held for merchant"
     },
     {
@@ -1148,14 +1435,14 @@
     },
     {
       "field": "contradictions",
-      "before": 2,
+      "before": 3,
       "after": "surfaced with both sources; held out of generated copy",
       "change": "flagged"
     },
     {
       "field": "merchant_questions",
       "before": 0,
-      "after": 6,
+      "after": 7,
       "change": "added"
     },
     {
@@ -1168,7 +1455,7 @@
       "field": "attribute.color",
       "before": "Yellow",
       "after": "Yellow",
-      "tier": "stated"
+      "tier": "contradicted"
     },
     {
       "field": "attribute.bottom_color",
@@ -1238,9 +1525,9 @@
     },
     {
       "field": "attribute.sleeve_length",
-      "before": null,
-      "after": null,
-      "tier": "pending_vision"
+      "before": "jacket sleeveless; kurta full sleeves",
+      "after": "jacket sleeveless; kurta full sleeves",
+      "tier": "photo_visible"
     },
     {
       "field": "attribute.model_height_and_size_worn",
@@ -1311,6 +1598,64 @@
         "label": "MRP (Inclusive of all taxes)"
       },
       "tier": "stated"
+    },
+    {
+      "field": "attribute.pieces_visible",
+      "before": [
+        "bandi jacket",
+        "kurta",
+        "trousers"
+      ],
+      "after": [
+        "bandi jacket",
+        "kurta",
+        "trousers"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_closure",
+      "before": "jacket worn open; kurta placket with contrast pink-red buttons (about 4 visible)",
+      "after": "jacket worn open; kurta placket with contrast pink-red buttons (about 4 visible)",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_pattern",
+      "before": "jacket: chevron / leheriya stripes; kurta and trousers plain",
+      "after": "jacket: chevron / leheriya stripes; kurta and trousers plain",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_primary_color",
+      "before": "jacket yellow; kurta cream; trousers white / off-white",
+      "after": "jacket yellow; kurta cream; trousers white / off-white",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_secondary_colors",
+      "before": [
+        "turquoise",
+        "coral",
+        "white"
+      ],
+      "after": [
+        "turquoise",
+        "coral",
+        "white"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.decorative_details",
+      "before": "white floral embroidered border along the jacket edges and hem; embroidered kurta placket and cuffs",
+      "after": "white floral embroidered border along the jacket edges and hem; embroidered kurta placket and cuffs",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.logo_visibility",
+      "before": "none",
+      "after": "none",
+      "tier": "photo_visible"
     }
   ]
 }

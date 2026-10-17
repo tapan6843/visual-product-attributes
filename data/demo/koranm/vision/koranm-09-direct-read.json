@@ -1,0 +1,131 @@
+{
+  "demo_id": "koranm-09",
+  "title": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men",
+  "product_url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set",
+  "method": "Direct visual read by Claude in a Claude Code session, looking at the downloaded photo. Not the project's /api/extract OpenAI adapter; no confidence model behind the numbers, they are the reader's judgement (0.9 clear, 0.7 likely, 0.5 uncertain).",
+  "read_at": "2026-10-17T22:29:00.261618+00:00",
+  "images_examined": [
+    {
+      "id": "img-1",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_4.jpg?v=1785849236",
+      "local_path": "data/demo/koranm/images/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set/01.jpg"
+    }
+  ],
+  "garment": "Sleeveless bandi jacket over a knee-length kurta, with trousers",
+  "attributes": [
+    {
+      "name": "pieces_visible",
+      "value": [
+        "bandi jacket",
+        "kurta",
+        "trousers"
+      ],
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "collar",
+      "value": "mandarin collar on jacket and kurta",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "closure",
+      "value": "jacket worn open; kurta placket with contrast pink-red buttons (about 4 visible)",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "pattern",
+      "value": "jacket: chevron / leheriya stripes; kurta and trousers plain",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "primary_color",
+      "value": "jacket yellow; kurta cream; trousers white / off-white",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "secondary_colors",
+      "value": [
+        "turquoise",
+        "coral",
+        "white"
+      ],
+      "tier": "visible",
+      "confidence": 0.9,
+      "note": "Jacket stripes and border"
+    },
+    {
+      "name": "decorative_details",
+      "value": "white floral embroidered border along the jacket edges and hem; embroidered kurta placket and cuffs",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "sleeve",
+      "value": "jacket sleeveless; kurta full sleeves",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "garment_length",
+      "value": "kurta just above the knee; jacket to upper hip",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "visible",
+      "confidence": 0.9
+    }
+  ],
+  "styling_not_included": [
+    "cream embroidered loafers"
+  ],
+  "listing_check": [
+    {
+      "listing_field": "title",
+      "listing_value": "Yellow Silk Kurta",
+      "photo_reading": "kurta is cream; only the jacket is yellow",
+      "verdict": "contradicts",
+      "note": "Description says 'cream-yellow kurta'; title implies a yellow kurta",
+      "field": "color"
+    },
+    {
+      "listing_field": "description: contrast pink buttons",
+      "listing_value": "contrasting pink buttons",
+      "photo_reading": "pink-red buttons on kurta placket",
+      "verdict": "matches",
+      "field": "design_details"
+    },
+    {
+      "listing_field": "description: chevron and leheriya stripes in yellow, turquoise and coral",
+      "listing_value": "yes",
+      "photo_reading": "yellow, turquoise, coral chevrons",
+      "verdict": "matches",
+      "field": "design_details"
+    },
+    {
+      "listing_field": "description: above-knee kurta",
+      "listing_value": "long, above-knee",
+      "photo_reading": "just above the knee",
+      "verdict": "matches",
+      "field": "design_details"
+    }
+  ],
+  "photo_quality_notes": "Full-length studio shot; good for colour and length.",
+  "visual_description": "Yellow chevron-striped bandi jacket with turquoise and coral accents and a white floral border, over a cream knee-length kurta with pink buttons and white trousers.",
+  "not_determinable": [
+    "fiber composition %",
+    "lining",
+    "fabric weight",
+    "opacity",
+    "stretch",
+    "care",
+    "size worn by model"
+  ]
+}

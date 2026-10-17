@@ -1,0 +1,50 @@
+{
+  "title": "FitCheck — hackathon video",
+  "target_length": "about 2:30",
+  "voices": {
+    "narrator": { "say_voice": "Daniel", "rate_wpm": 150, "direction": "Low, unhurried, documentary. Falling endings, no hype words. Pauses do the work." },
+    "agent": { "say_voice": "Samantha", "rate_wpm": 180, "direction": "Polite, flat, quick. The shopping agent. Hedges before the fix, precise after it." }
+  },
+  "sections": [
+    { "id": "cold_open", "name": "Cold open", "on_screen": "Chat window. Shopper types: \"Wine sherwani with matching trousers, under ₹50,000.\" Agent reply appears as the agent voice speaks.", "assets": ["data/demo/koranm/before/koranm-07-*.json (page_features.Colour, Bottom Color)"] },
+    { "id": "problem", "name": "Problem", "on_screen": "The real listings, one per line: product 01 title vs alt text vs photo; product 02 product type vs Includes; product 04 Material vs description. Highlight each pair.", "assets": ["images/natural-fawn-…/01.jpg", "before/koranm-01, koranm-02, koranm-04"] },
+    { "id": "solution", "name": "Solution", "on_screen": "FitCheck report page: findings with both sources side by side, then the filter facets panel filling in, then the merchant question list.", "assets": ["after/koranm-07 (findings, filter_facets, merchant_questions)"] },
+    { "id": "proof", "name": "Proof", "on_screen": "Same chat as the cold open, now answered from the improved data. Then the before/after answer-check table (add once step 5 has run).", "assets": ["after/koranm-07 fixes.description, filter_facets"] },
+    { "id": "scale", "name": "Scale", "on_screen": "Grid of the 10 product cards; counters appear: 8/10, 5/10, 8/10; score bar 57 → 78.", "assets": ["data/demo/koranm/comparison.json"] },
+    { "id": "need", "name": "Need", "on_screen": "Plain text on black, one line at a time.", "assets": [] },
+    { "id": "vision", "name": "Vision and close", "on_screen": "FitCheck wordmark, then the line scan_product(url). Music out before the last word.", "assets": [] }
+  ],
+  "lines": [
+    { "section": "cold_open", "voice": "agent", "text": "I couldn't find a wine sherwani with matching trousers. Here are some purple options, with cream pants.", "pause_ms": 900 },
+    { "section": "cold_open", "voice": "narrator", "text": "The sherwani it needed was right there. In wine. With matching trousers.", "pause_ms": 500 },
+    { "section": "cold_open", "voice": "narrator", "text": "The page just said otherwise.", "pause_ms": 900 },
+    { "section": "cold_open", "voice": "narrator", "text": "The agent didn't fail. It filtered on exactly what it was told.", "pause_ms": 1400 },
+
+    { "section": "problem", "voice": "narrator", "text": "Product pages were written for people. People look at the photo, and quietly correct the words.", "pause_ms": 600 },
+    { "section": "problem", "voice": "narrator", "text": "Agents can't. They filter on text and structured data, and they take it literally.", "pause_ms": 900 },
+    { "section": "problem", "voice": "narrator", "text": "On this shirt, the title says fawn. The image text says beige. The photo shows grey.", "pause_ms": 600 },
+    { "section": "problem", "voice": "narrator", "text": "This one is sold as a single shirt, but ships as a jacket and a shirt.", "pause_ms": 600 },
+    { "section": "problem", "voice": "narrator", "text": "Here, the material says silk. The description says nylon.", "pause_ms": 900 },
+    { "section": "problem", "voice": "narrator", "text": "Every one of those is a filter that fails without a sound. A missed sale, or a return.", "pause_ms": 1400 },
+
+    { "section": "solution", "voice": "narrator", "text": "FitCheck reads a product the way an agent does. Every line of text. Every structured field. Every photo.", "pause_ms": 600 },
+    { "section": "solution", "voice": "narrator", "text": "It checks them against each other, and shows each conflict with both sources, side by side.", "pause_ms": 600 },
+    { "section": "solution", "voice": "narrator", "text": "Then it rebuilds the data agents filter on. Colour. Pieces. Collar. Length. Embellishment. Sizes in stock. Every value cites where it came from.", "pause_ms": 600 },
+    { "section": "solution", "voice": "narrator", "text": "Where the page contradicts itself, it doesn't guess. It holds the value back, and asks the brand.", "pause_ms": 1400 },
+
+    { "section": "proof", "voice": "agent", "text": "Found one. This sherwani is photographed in deep wine, with a sheer dupatta. The trouser colour isn't confirmed by the brand, so I'd check before ordering.", "pause_ms": 900 },
+    { "section": "proof", "voice": "narrator", "text": "Same agent. Same question. Now it finds the product, and it's honest about what the page can't prove.", "pause_ms": 1400 },
+
+    { "section": "scale", "voice": "narrator", "text": "We scanned ten listings from one premium menswear brand.", "pause_ms": 600 },
+    { "section": "scale", "voice": "narrator", "text": "Eight disagreed with themselves, or with their own photos. Five couldn't agree on how many pieces ship. Eight had structured data a strict parser rejects.", "pause_ms": 600 },
+    { "section": "scale", "voice": "narrator", "text": "Average readiness went from fifty-seven to seventy-eight, before the brand answered a single question.", "pause_ms": 1400 },
+
+    { "section": "need", "voice": "narrator", "text": "Shoppers are starting to hand the search to agents.", "pause_ms": 500 },
+    { "section": "need", "voice": "narrator", "text": "Brands can't see what those agents read, or why their products get skipped. Their analytics don't show it. Their search tools weren't built for it.", "pause_ms": 1400 },
+
+    { "section": "vision", "voice": "narrator", "text": "We're starting with clothing, where colour, fit, and what's in the box decide everything.", "pause_ms": 500 },
+    { "section": "vision", "voice": "narrator", "text": "Next: any product, and an endpoint any shopping agent can call before it recommends.", "pause_ms": 1200 },
+    { "section": "vision", "voice": "narrator", "text": "Make your catalogue legible to the things that now do the shopping.", "pause_ms": 1000 },
+    { "section": "vision", "voice": "narrator", "text": "FitCheck.", "pause_ms": 1500 }
+  ]
+}

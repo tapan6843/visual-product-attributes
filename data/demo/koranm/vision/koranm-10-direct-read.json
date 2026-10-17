@@ -1,0 +1,148 @@
+{
+  "demo_id": "koranm-10",
+  "title": "Cobalt Blue Embroidered Tuxedo Set for Men",
+  "product_url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set",
+  "method": "Direct visual read by Claude in a Claude Code session, looking at the downloaded photo. Not the project's /api/extract OpenAI adapter; no confidence model behind the numbers, they are the reader's judgement (0.9 clear, 0.7 likely, 0.5 uncertain).",
+  "read_at": "2026-10-17T22:29:00.261618+00:00",
+  "images_examined": [
+    {
+      "id": "img-1",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/NM-31569-BLUE-01.jpg?v=1754459141",
+      "local_path": "data/demo/koranm/images/cobalt-blue-embroidered-tuxedo-set/01.jpg"
+    }
+  ],
+  "garment": "Tuxedo set: blazer, waistcoat, shirt, trousers and bow tie",
+  "attributes": [
+    {
+      "name": "pieces_visible",
+      "value": [
+        "blazer",
+        "waistcoat",
+        "shirt",
+        "trousers",
+        "bow tie"
+      ],
+      "tier": "visible",
+      "confidence": 0.9,
+      "note": "Plus a pocket square"
+    },
+    {
+      "name": "collar",
+      "value": "black satin shawl lapel; white shirt with standing collar",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "closure",
+      "value": "single-button blazer; buttoned U-neck waistcoat; studded shirt front",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "primary_color",
+      "value": "cobalt / royal blue blazer",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "secondary_colors",
+      "value": [
+        "black",
+        "white"
+      ],
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "decorative_details",
+      "value": "black beaded / sequin lines in an abstract geometric pattern across the blazer; beaded black bow tie; black pocket square",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "pockets",
+      "value": "chest welt pocket",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "sleeve",
+      "value": "full sleeves",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "silhouette",
+      "value": "slim blazer; slim tapered trousers",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "visible_texture",
+      "value": "high satin sheen on the blazer",
+      "tier": "inferred",
+      "confidence": 0.7,
+      "note": "Terry rayon is usually a matte suiting; merchant to confirm fabric"
+    }
+  ],
+  "styling_not_included": [
+    "black suede tassel loafers"
+  ],
+  "listing_check": [
+    {
+      "listing_field": "description: three-piece suit",
+      "listing_value": "three-piece suit",
+      "photo_reading": "5 pieces visible (blazer, waistcoat, shirt, trousers, bow tie)",
+      "verdict": "contradicts",
+      "note": "Photo supports Set: 5",
+      "field": "pieces_included",
+      "supports": "page_features.Set"
+    },
+    {
+      "listing_field": "description: terry rayon blazer",
+      "listing_value": "terry rayon",
+      "photo_reading": "high-sheen satin finish",
+      "verdict": "ambiguous",
+      "note": "Appearance does not match a typical terry rayon; cannot confirm fiber",
+      "field": "fabric"
+    },
+    {
+      "listing_field": "description: straight-fit trousers",
+      "listing_value": "straight fit",
+      "photo_reading": "slim, tapered trousers",
+      "verdict": "ambiguous",
+      "field": "fit_type"
+    },
+    {
+      "listing_field": "description: sequin and cutdana embroidery",
+      "listing_value": "abstract stripped embroidery in sequin and cutdana",
+      "photo_reading": "black beaded geometric lines",
+      "verdict": "matches",
+      "field": "design_details"
+    },
+    {
+      "listing_field": "page_features.Colour",
+      "listing_value": "Blue",
+      "photo_reading": "cobalt blue",
+      "verdict": "matches",
+      "field": "color"
+    }
+  ],
+  "photo_quality_notes": "Full-length studio shot; good for all garment pieces.",
+  "visual_description": "Cobalt blue satin tuxedo blazer with a black shawl lapel and black beaded geometric lines, over a black waistcoat, white studded shirt and beaded bow tie, with slim black trousers.",
+  "not_determinable": [
+    "fiber composition %",
+    "lining",
+    "fabric weight",
+    "opacity",
+    "stretch",
+    "care",
+    "size worn by model"
+  ]
+}

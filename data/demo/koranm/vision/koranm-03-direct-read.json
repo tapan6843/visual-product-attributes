@@ -1,0 +1,144 @@
+{
+  "demo_id": "koranm-03",
+  "title": "Black Embroidered Kurta with Palazzo Pant for Men",
+  "product_url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black",
+  "method": "Direct visual read by Claude in a Claude Code session, looking at the downloaded photo. Not the project's /api/extract OpenAI adapter; no confidence model behind the numbers, they are the reader's judgement (0.9 clear, 0.7 likely, 0.5 uncertain).",
+  "read_at": "2026-10-17T22:29:00.261618+00:00",
+  "images_examined": [
+    {
+      "id": "img-1",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3401.jpg?v=1784898206",
+      "local_path": "data/demo/koranm/images/ak-2870-fkemb-3416-black/01.jpg"
+    }
+  ],
+  "garment": "Knee-length kurta with straight pants",
+  "attributes": [
+    {
+      "name": "pieces_visible",
+      "value": [
+        "kurta",
+        "pants"
+      ],
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "collar",
+      "value": "mandarin collar with embroidered band",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "closure",
+      "value": "front placket slit; buttons not visible in this shot",
+      "tier": "visible",
+      "confidence": 0.6
+    },
+    {
+      "name": "primary_color",
+      "value": "black",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "secondary_colors",
+      "value": [
+        "beige",
+        "cream",
+        "grey-green"
+      ],
+      "tier": "visible",
+      "confidence": 0.8,
+      "note": "Embroidery thread colours"
+    },
+    {
+      "name": "decorative_details",
+      "value": "large multicolour floral thread embroidery sweeping from chest to hem; tonal black embroidery around the neck and placket; diamond lattice stitching near the hem; small scattered motifs",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "sleeve",
+      "value": "full sleeves",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "garment_length",
+      "value": "just above the knee",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "silhouette",
+      "value": "straight-cut kurta; straight relaxed pants",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "visible_texture",
+      "value": "smooth fabric with a soft sheen",
+      "tier": "inferred",
+      "confidence": 0.6,
+      "note": "Cannot confirm silk"
+    },
+    {
+      "name": "apparent_fit",
+      "value": "regular",
+      "tier": "inferred",
+      "confidence": 0.7,
+      "note": "Matches description 'regular-fit'"
+    }
+  ],
+  "styling_not_included": [
+    "black sandals"
+  ],
+  "listing_check": [
+    {
+      "listing_field": "page_features.Set vs pieces",
+      "listing_value": "Set: 3, Includes: Kurta and Plazzo Pant",
+      "photo_reading": "2 garments visible",
+      "verdict": "contradicts",
+      "note": "Photo supports 2 pieces; a third item is not shown",
+      "field": "pieces_included"
+    },
+    {
+      "listing_field": "page_features.Colour",
+      "listing_value": "Black",
+      "photo_reading": "black with multicolour embroidery",
+      "verdict": "matches",
+      "field": "color"
+    },
+    {
+      "listing_field": "description: mandarin collar",
+      "listing_value": "mandarin collar",
+      "photo_reading": "mandarin collar",
+      "verdict": "matches",
+      "field": "collar"
+    },
+    {
+      "listing_field": "bottoms",
+      "listing_value": "palazzo pants",
+      "photo_reading": "straight relaxed pants, not wide palazzo",
+      "verdict": "ambiguous",
+      "field": "bottom_type"
+    }
+  ],
+  "photo_quality_notes": "Three-quarter studio shot; embroidery clearly visible.",
+  "visual_description": "Black knee-length kurta with a mandarin collar and large multicolour floral embroidery from chest to hem, worn with black straight pants.",
+  "not_determinable": [
+    "fiber composition %",
+    "lining",
+    "fabric weight",
+    "opacity",
+    "stretch",
+    "care",
+    "size worn by model"
+  ]
+}

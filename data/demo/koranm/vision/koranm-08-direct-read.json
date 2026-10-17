@@ -1,0 +1,128 @@
+{
+  "demo_id": "koranm-08",
+  "title": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men",
+  "product_url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants",
+  "method": "Direct visual read by Claude in a Claude Code session, looking at the downloaded photo. Not the project's /api/extract OpenAI adapter; no confidence model behind the numbers, they are the reader's judgement (0.9 clear, 0.7 likely, 0.5 uncertain).",
+  "read_at": "2026-10-17T22:29:00.261618+00:00",
+  "images_examined": [
+    {
+      "id": "img-1",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/5_f0c4679c-69b3-4e57-a7fb-437de4e5bf5b.jpg?v=1789550798",
+      "local_path": "data/demo/koranm/images/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants/01.jpg"
+    }
+  ],
+  "garment": "Open jacket over a kurta, with light trousers (lifestyle shot)",
+  "attributes": [
+    {
+      "name": "pieces_visible",
+      "value": [
+        "open jacket",
+        "kurta",
+        "trousers (partly)"
+      ],
+      "tier": "visible",
+      "confidence": 0.7,
+      "note": "Tight, angled crop"
+    },
+    {
+      "name": "primary_color",
+      "value": "hot pink / fuchsia",
+      "tier": "visible",
+      "confidence": 0.6,
+      "note": "Strong coloured lighting distorts the shade"
+    },
+    {
+      "name": "secondary_colors",
+      "value": [
+        "yellow",
+        "green",
+        "blue",
+        "white",
+        "gold"
+      ],
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "decorative_details",
+      "value": "geometric cross-stitch-style embroidery over the jacket front and sleeves, gold elephant motifs on the chest, small scattered square motifs",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "sleeve",
+      "value": "full sleeves",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "bottom_color",
+      "value": "off-white",
+      "tier": "visible",
+      "confidence": 0.6,
+      "note": "Partly visible, coloured lighting"
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "collar",
+      "value": "kurta collar not clearly readable",
+      "tier": "inferred",
+      "confidence": 0.4,
+      "note": "Angle and lighting hide the neckline; description claims a Chinese collar"
+    },
+    {
+      "name": "visible_texture",
+      "value": "satin-like sheen",
+      "tier": "inferred",
+      "confidence": 0.6,
+      "note": "Consistent with 'satin linen'; cannot confirm"
+    }
+  ],
+  "styling_not_included": [
+    "sunglasses",
+    "radio prop"
+  ],
+  "listing_check": [
+    {
+      "listing_field": "page_features.Includes vs description",
+      "listing_value": "Kurta, Jacket, and Plazzo Pant (description never mentions a jacket)",
+      "photo_reading": "open embroidered jacket clearly worn",
+      "verdict": "matches",
+      "note": "Photo supports the Includes field; the description should name the jacket",
+      "field": "pieces_included",
+      "supports": "page_features.Includes"
+    },
+    {
+      "listing_field": "page_features.Colour",
+      "listing_value": "Pink",
+      "photo_reading": "hot pink / fuchsia",
+      "verdict": "matches",
+      "note": "Shade uncertain under the lighting",
+      "field": "color"
+    },
+    {
+      "listing_field": "decorative_details",
+      "listing_value": "Printed and Embroidery",
+      "photo_reading": "embroidered geometric and elephant motifs",
+      "verdict": "new",
+      "note": "Elephant motif is not mentioned anywhere on the page",
+      "field": "design_details"
+    }
+  ],
+  "photo_quality_notes": "Stylised lifestyle shot with heavy purple/red lighting and a tight crop. Poor source for colour, collar and length; use the studio images for extraction.",
+  "visual_description": "Hot pink open jacket with geometric cross-stitch embroidery and gold elephant motifs over a pink kurta, with off-white trousers.",
+  "not_determinable": [
+    "fiber composition %",
+    "lining",
+    "fabric weight",
+    "opacity",
+    "stretch",
+    "care",
+    "size worn by model"
+  ]
+}

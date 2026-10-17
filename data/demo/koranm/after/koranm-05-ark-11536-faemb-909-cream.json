@@ -3,12 +3,12 @@
   "title": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men",
   "product_url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream",
   "before_file": "before/koranm-05-ark-11536-faemb-909-cream.json",
-  "generated_at": "2026-10-17T21:29:33.359Z",
-  "generator": "scripts/demo/build-after.mjs (text and structured data rules; no vision yet)",
+  "generated_at": "2026-10-17T22:32:07.012Z",
+  "generator": "scripts/demo/build-after.mjs (text and structured data rules + photo_direct_read: vision/koranm-05-direct-read.json)",
   "score": {
     "rubric": "PRD FR2 weights (fit 30, fabric 20, design 15, variants 15, policies 10, occasion 10); hackathon criteria, untuned.",
     "before": 60,
-    "after_generated": 79,
+    "after_generated": 82,
     "after_merchant_answers": 97,
     "parts": {
       "fit_and_sizing": {
@@ -86,7 +86,7 @@
       "design_details": {
         "weight": 15,
         "before": 12,
-        "after_generated": 12,
+        "after_generated": 15,
         "after_merchant_answers": 15,
         "criteria": [
           {
@@ -107,7 +107,7 @@
             "criterion": "Sleeve length",
             "points": 3,
             "before": false,
-            "after_generated": false,
+            "after_generated": true,
             "after_merchant_answers": true
           },
           {
@@ -140,7 +140,7 @@
             "after_merchant_answers": true
           },
           {
-            "criterion": "Colour named consistently",
+            "criterion": "Colour named consistently (garment and bottoms)",
             "points": 4,
             "before": true,
             "after_generated": true,
@@ -423,6 +423,28 @@
           "value": 0
         }
       ]
+    },
+    {
+      "id": "F12",
+      "kind": "data_quality",
+      "severity": "low",
+      "field": "color",
+      "summary": "Listing value \"Cream\" is a weak match for the photo (ivory base with dense multicolour floral embroidery).",
+      "evidence": [
+        {
+          "source": "page_features.Colour",
+          "value": "Cream"
+        },
+        {
+          "source": "vision/koranm-05-direct-read.json#img-1",
+          "label": "photo_direct_read",
+          "value": "ivory base with dense multicolour floral embroidery"
+        }
+      ],
+      "detected_by": [
+        "photo_direct_read"
+      ],
+      "note": "'Cream' alone undersells a mostly multicolour jacket; shoppers asking for a colourful outfit would miss it"
     }
   ],
   "merchant_questions": [
@@ -529,7 +551,14 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "stand collar on the jacket, worn open; kurta with embroidered V placket",
+        "tier": "photo_visible",
+        "confidence": 0.8,
+        "source": "vision/koranm-05-direct-read.json#img-1",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "fit_type",
@@ -545,15 +574,24 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "jacket to mid-thigh; kurta slightly shorter",
+        "tier": "photo_visible",
+        "confidence": 0.8,
+        "source": "vision/koranm-05-direct-read.json#img-1",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "sleeve_length",
-      "value": null,
-      "tier": "pending_vision",
+      "value": "full sleeves",
+      "tier": "photo_visible",
       "sources": [
-        "images"
-      ]
+        "vision/koranm-05-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
     },
     {
       "name": "model_height_and_size_worn",
@@ -613,8 +651,233 @@
         "page_price",
         "variants[].price"
       ]
+    },
+    {
+      "name": "pieces_visible",
+      "value": [
+        "open jacket",
+        "kurta",
+        "pants"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-05-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_closure",
+      "value": "jacket open-front, no fastening visible",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-05-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_primary_color",
+      "value": "ivory / pale blush base",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-05-direct-read.json#img-1"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_secondary_colors",
+      "value": [
+        "pink",
+        "teal",
+        "orange",
+        "purple",
+        "yellow",
+        "green"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-05-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read",
+      "note": "All-over floral embroidery on the jacket"
+    },
+    {
+      "name": "photo_pattern",
+      "value": "all-over multicolour floral embroidery on the jacket; kurta and pants plain",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-05-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-05-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "visible_texture",
+      "value": "pants show slub texture consistent with raw silk",
+      "tier": "photo_inferred",
+      "sources": [
+        "vision/koranm-05-direct-read.json#img-1"
+      ],
+      "confidence": 0.6,
+      "label": "photo_direct_read",
+      "note": "Cannot confirm Prabal Silk"
     }
   ],
+  "filter_facets": {
+    "category": {
+      "value": "Indowestern",
+      "tier": "stated",
+      "sources": [
+        "product.product_type"
+      ]
+    },
+    "primary_color": {
+      "value": "Cream",
+      "tier": "stated",
+      "sources": [
+        "page_features.Colour",
+        "product.options.Color"
+      ]
+    },
+    "photo_primary_color": {
+      "value": "ivory / pale blush base",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-05-direct-read.json#img-1"
+      ]
+    },
+    "secondary_colors": {
+      "value": [
+        "pink",
+        "teal",
+        "orange",
+        "purple",
+        "yellow",
+        "green"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-05-direct-read.json#img-1"
+      ]
+    },
+    "bottom_color": {
+      "value": "Cream",
+      "tier": "stated",
+      "sources": [
+        "page_features.Bottom Color"
+      ]
+    },
+    "pieces": {
+      "value": "Indo-Western, Kurta, and Pant (Set: 3)",
+      "tier": "stated",
+      "sources": [
+        "page_features.Includes",
+        "page_features.Set"
+      ],
+      "photo_count": 3
+    },
+    "collar": {
+      "value": "chinese collar",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "sleeve": {
+      "value": "full sleeves",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-05-direct-read.json#img-1"
+      ]
+    },
+    "garment_length": {
+      "value": "medium-length",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "pattern": {
+      "value": "Embroidery",
+      "tier": "stated",
+      "sources": [
+        "page_features.Pattern"
+      ]
+    },
+    "embellishment": {
+      "value": "Resham Work",
+      "tier": "stated",
+      "sources": [
+        "page_features.Work Type"
+      ]
+    },
+    "closure": {
+      "value": "Open",
+      "tier": "stated",
+      "sources": [
+        "page_features.Closure Type"
+      ]
+    },
+    "pockets": {
+      "value": null,
+      "status": "missing"
+    },
+    "fabric": {
+      "value": "Prabal Silk",
+      "tier": "stated",
+      "sources": [
+        "page_features.Material"
+      ]
+    },
+    "fit": {
+      "value": null,
+      "status": "missing"
+    },
+    "occasions": {
+      "value": [
+        "wedding",
+        "engagement",
+        "reception",
+        "office party wear"
+      ],
+      "tier": "stated",
+      "sources": [
+        "page_features.Occasions"
+      ]
+    },
+    "sizes_in_stock": {
+      "value": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "tier": "stated",
+      "sources": [
+        "variants[].available"
+      ]
+    },
+    "price_inr": {
+      "value": 53438.4,
+      "tier": "stated",
+      "sources": [
+        "page_price"
+      ]
+    }
+  },
   "fixes": {
     "size_chart": {
       "unit": "in",
@@ -733,7 +996,7 @@
       ]
     },
     "description": {
-      "text": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men. This 3-piece set includes: Indo-Western, Kurta, and Pant. Fabric: Prabal Silk. Composition percentages are not stated. Colour: Cream. Design: Chinese collar, open closure, embroidery (resham work). Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding, Engagement, Reception, and Office Party Wear. Price: ₹ 53,438 MRP, inclusive of all taxes.",
+      "text": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men. This 3-piece set includes: Indo-Western, Kurta, and Pant. Fabric: Prabal Silk. Composition percentages are not stated. Colour: Cream. Design: Chinese collar, open closure, embroidery (resham work). Visible in the product photo: sleeve length: full sleeves. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding, Engagement, Reception, and Office Party Wear. Price: ₹ 53,438 MRP, inclusive of all taxes.",
       "sentences": [
         {
           "text": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men.",
@@ -768,6 +1031,12 @@
             "page_features.Closure Type",
             "page_features.Pattern",
             "page_features.Work Type"
+          ]
+        },
+        {
+          "text": "Visible in the product photo: sleeve length: full sleeves.",
+          "sources": [
+            "vision/koranm-05-direct-read.json#img-1"
           ]
         },
         {
@@ -885,6 +1154,16 @@
           "@type": "PropertyValue",
           "name": "Size chart basis",
           "value": "Garment measurements; fitting ease already included (per page note). Units: in."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sleeve (from photo)",
+          "value": "full sleeves"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "secondary colors (from photo)",
+          "value": "pink, teal, orange, purple, yellow, green"
         }
       ],
       "hasVariant": [
@@ -992,10 +1271,11 @@
       {
         "image_id": "img-1",
         "before": "Cream Prabal Silk Floral Embroidered Indo Western Set - KORANM",
-        "after": "Cream Prabal Silk Floral Embroidered Indo Western Set - KORANM",
-        "changed": false,
-        "tier": "stated",
-        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+        "after": "Ivory open-front Indo-Western jacket covered in multicolour floral embroidery, over a plain cream kurta and cream straight pants.",
+        "changed": true,
+        "tier": "photo_visible",
+        "label": "photo_direct_read",
+        "note": "Written from the direct read of this photo."
       },
       {
         "image_id": "img-2",
@@ -1056,7 +1336,8 @@
     ]
   },
   "image_processing": {
-    "status": "pending",
+    "status": "direct read done for img-1 (photo_direct_read); /api/extract run pending",
+    "direct_read_file": "vision/koranm-05-direct-read.json",
     "download_command": "node scripts/demo/download-images.mjs",
     "checks": [
       "Estimate where the hem falls on the model (inferred tier, merchant to confirm).",
@@ -1125,9 +1406,15 @@
   },
   "comparison": [
     {
+      "field": "filter_facets",
+      "before": "13 facets from listing text (prose and an invalid structured-data block)",
+      "after": "16 facets in structured data (3 from the photo), 0 withheld as contradicted",
+      "change": "agents can filter on normalised values instead of parsing prose"
+    },
+    {
       "field": "description",
       "before": "Elevate your festive wardrobe with this Cream Prabal Silk Indo Western Set, featuring elegant floral embroidery on premium silk fabric. Designed with a sophisticated Chinese collar and an open-style silhouette, this three-piece ensemble includes an embroidered Indo Western jacket, kurta, and pants. Perfect for weddings, receptions, engagements, and festive celebrations.\nKey Features\nPremium Cream Prabal Silk Fabric\nElegant Floral Embroidery\nClassic Chinese Collar\nOpen-Style Indo Western Jacket\nMedium-Length Silhouette\nMatching Cream Kurta & Pants\n3-Piece Indo Western Set\nIdeal for Weddings, Receptions & Festive Occasions\nStyling Tips\nPair with cream embroidered juttis for a timeless ethnic look.\nStyle with tan leather slip-on shoes for a refined reception ensemble.\nComplete the outfit with brown leather sandals for elegant festive celebrations.",
-      "after": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men. This 3-piece set includes: Indo-Western, Kurta, and Pant. Fabric: Prabal Silk. Composition percentages are not stated. Colour: Cream. Design: Chinese collar, open closure, embroidery (resham work). Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding, Engagement, Reception, and Office Party Wear. Price: ₹ 53,438 MRP, inclusive of all taxes.",
+      "after": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men. This 3-piece set includes: Indo-Western, Kurta, and Pant. Fabric: Prabal Silk. Composition percentages are not stated. Colour: Cream. Design: Chinese collar, open closure, embroidery (resham work). Visible in the product photo: sleeve length: full sleeves. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding, Engagement, Reception, and Office Party Wear. Price: ₹ 53,438 MRP, inclusive of all taxes.",
       "change": "rewritten from cited page facts; contradicted facts held for merchant"
     },
     {
@@ -1146,7 +1433,7 @@
       "field": "image_alt_text",
       "before": "8/8 images have alt text",
       "after": "8/8",
-      "change": "0 changed"
+      "change": "1 changed"
     },
     {
       "field": "contradictions",
@@ -1246,9 +1533,9 @@
     },
     {
       "field": "attribute.sleeve_length",
-      "before": null,
-      "after": null,
-      "tier": "pending_vision"
+      "before": "full sleeves",
+      "after": "full sleeves",
+      "tier": "photo_visible"
     },
     {
       "field": "attribute.model_height_and_size_worn",
@@ -1313,6 +1600,70 @@
         "label": "MRP (Inclusive of all taxes)"
       },
       "tier": "stated"
+    },
+    {
+      "field": "attribute.pieces_visible",
+      "before": [
+        "open jacket",
+        "kurta",
+        "pants"
+      ],
+      "after": [
+        "open jacket",
+        "kurta",
+        "pants"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_closure",
+      "before": "jacket open-front, no fastening visible",
+      "after": "jacket open-front, no fastening visible",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_primary_color",
+      "before": "ivory / pale blush base",
+      "after": "ivory / pale blush base",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_secondary_colors",
+      "before": [
+        "pink",
+        "teal",
+        "orange",
+        "purple",
+        "yellow",
+        "green"
+      ],
+      "after": [
+        "pink",
+        "teal",
+        "orange",
+        "purple",
+        "yellow",
+        "green"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_pattern",
+      "before": "all-over multicolour floral embroidery on the jacket; kurta and pants plain",
+      "after": "all-over multicolour floral embroidery on the jacket; kurta and pants plain",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.logo_visibility",
+      "before": "none",
+      "after": "none",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.visible_texture",
+      "before": "pants show slub texture consistent with raw silk",
+      "after": "pants show slub texture consistent with raw silk",
+      "tier": "photo_inferred"
     }
   ]
 }

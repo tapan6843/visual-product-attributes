@@ -3,12 +3,12 @@
   "title": "Black Embroidered Kurta with Palazzo Pant for Men",
   "product_url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black",
   "before_file": "before/koranm-03-ak-2870-fkemb-3416-black.json",
-  "generated_at": "2026-10-17T21:29:33.357Z",
-  "generator": "scripts/demo/build-after.mjs (text and structured data rules; no vision yet)",
+  "generated_at": "2026-10-17T22:32:07.009Z",
+  "generator": "scripts/demo/build-after.mjs (text and structured data rules + photo_direct_read: vision/koranm-03-direct-read.json)",
   "score": {
     "rubric": "PRD FR2 weights (fit 30, fabric 20, design 15, variants 15, policies 10, occasion 10); hackathon criteria, untuned.",
     "before": 58,
-    "after_generated": 67,
+    "after_generated": 69,
     "after_merchant_answers": 97,
     "parts": {
       "fit_and_sizing": {
@@ -86,7 +86,7 @@
       "design_details": {
         "weight": 15,
         "before": 10,
-        "after_generated": 10,
+        "after_generated": 12,
         "after_merchant_answers": 15,
         "criteria": [
           {
@@ -121,7 +121,7 @@
             "criterion": "Garment length",
             "points": 2,
             "before": false,
-            "after_generated": false,
+            "after_generated": true,
             "after_merchant_answers": true
           }
         ]
@@ -140,7 +140,7 @@
             "after_merchant_answers": true
           },
           {
-            "criterion": "Colour named consistently",
+            "criterion": "Colour named consistently (garment and bottoms)",
             "points": 4,
             "before": true,
             "after_generated": true,
@@ -230,9 +230,18 @@
         {
           "source": "page_features.Includes",
           "value": "Kurta and Plazzo Pant"
+        },
+        {
+          "source": "vision/koranm-03-direct-read.json#img-1",
+          "label": "photo_direct_read",
+          "value": "2 garments visible"
         }
       ],
-      "merchant_question": "How many pieces ship with this set, and what are they? The page lists 3 pieces but names 2."
+      "merchant_question": "How many pieces ship with this set, and what are they? The page lists 3 pieces but names 2.",
+      "detected_by": [
+        "text_rules",
+        "photo_direct_read"
+      ]
     },
     {
       "id": "F02",
@@ -363,6 +372,27 @@
           "value": 0
         }
       ]
+    },
+    {
+      "id": "F10",
+      "kind": "data_quality",
+      "severity": "low",
+      "field": "bottom_type",
+      "summary": "Listing value \"palazzo pants\" is a weak match for the photo (straight relaxed pants, not wide palazzo).",
+      "evidence": [
+        {
+          "source": "bottoms",
+          "value": "palazzo pants"
+        },
+        {
+          "source": "vision/koranm-03-direct-read.json#img-1",
+          "label": "photo_direct_read",
+          "value": "straight relaxed pants, not wide palazzo"
+        }
+      ],
+      "detected_by": [
+        "photo_direct_read"
+      ]
     }
   ],
   "merchant_questions": [
@@ -461,7 +491,14 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "mandarin collar with embroidered band",
+        "tier": "photo_visible",
+        "confidence": 0.9,
+        "source": "vision/koranm-03-direct-read.json#img-1",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "fit_type",
@@ -469,15 +506,25 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "regular",
+        "tier": "photo_inferred",
+        "confidence": 0.7,
+        "source": "vision/koranm-03-direct-read.json#img-1",
+        "label": "photo_direct_read",
+        "note": "Matches description 'regular-fit'"
+      }
     },
     {
       "name": "garment_length",
-      "value": null,
-      "tier": "pending_vision",
+      "value": "just above the knee",
+      "tier": "photo_visible",
       "sources": [
-        "images"
-      ]
+        "vision/koranm-03-direct-read.json#img-1"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
     },
     {
       "name": "sleeve_length",
@@ -485,7 +532,14 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "full sleeves",
+        "tier": "photo_visible",
+        "confidence": 0.9,
+        "source": "vision/koranm-03-direct-read.json#img-1",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "model_height_and_size_worn",
@@ -543,12 +597,241 @@
         "page_price",
         "variants[].price"
       ]
+    },
+    {
+      "name": "pieces_visible",
+      "value": [
+        "kurta",
+        "pants"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_closure",
+      "value": "front placket slit; buttons not visible in this shot",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ],
+      "confidence": 0.6,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_primary_color",
+      "value": "black",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_secondary_colors",
+      "value": [
+        "beige",
+        "cream",
+        "grey-green"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read",
+      "note": "Embroidery thread colours"
+    },
+    {
+      "name": "decorative_details",
+      "value": "large multicolour floral thread embroidery sweeping from chest to hem; tonal black embroidery around the neck and placket; diamond lattice stitching near the hem; small scattered motifs",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "silhouette",
+      "value": "straight-cut kurta; straight relaxed pants",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "visible_texture",
+      "value": "smooth fabric with a soft sheen",
+      "tier": "photo_inferred",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ],
+      "confidence": 0.6,
+      "label": "photo_direct_read",
+      "note": "Cannot confirm silk"
     }
   ],
+  "filter_facets": {
+    "category": {
+      "value": "Kurta Set",
+      "tier": "stated",
+      "sources": [
+        "product.product_type"
+      ]
+    },
+    "primary_color": {
+      "value": "Black",
+      "tier": "stated",
+      "sources": [
+        "page_features.Colour",
+        "product.options.Color"
+      ]
+    },
+    "photo_primary_color": {
+      "value": "black",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ]
+    },
+    "secondary_colors": {
+      "value": [
+        "beige",
+        "cream",
+        "grey-green"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ]
+    },
+    "bottom_color": {
+      "value": "Black",
+      "tier": "stated",
+      "sources": [
+        "page_features.Bottom Color"
+      ]
+    },
+    "pieces": {
+      "value": null,
+      "status": "withheld_contradicted",
+      "sources": [
+        "page_features.Includes",
+        "page_features.Set"
+      ],
+      "photo_count": 2
+    },
+    "collar": {
+      "value": "mandarin collar",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "sleeve": {
+      "value": "full",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "garment_length": {
+      "value": "just above the knee",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ]
+    },
+    "pattern": {
+      "value": "Embroidery",
+      "tier": "stated",
+      "sources": [
+        "page_features.Pattern"
+      ]
+    },
+    "embellishment": {
+      "value": "large multicolour floral thread embroidery sweeping from chest to hem; tonal black embroidery around the neck and placket; diamond lattice stitching near the hem; small scattered motifs",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-03-direct-read.json#img-1"
+      ]
+    },
+    "closure": {
+      "value": "Buttons",
+      "tier": "stated",
+      "sources": [
+        "page_features.Closure Type"
+      ]
+    },
+    "pockets": {
+      "value": null,
+      "status": "missing"
+    },
+    "fabric": {
+      "value": "Silk",
+      "tier": "stated",
+      "sources": [
+        "page_features.Material"
+      ]
+    },
+    "fit": {
+      "value": "regular",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "occasions": {
+      "value": [
+        "office party wear",
+        "reception"
+      ],
+      "tier": "stated",
+      "sources": [
+        "page_features.Occasions"
+      ]
+    },
+    "sizes_in_stock": {
+      "value": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "tier": "stated",
+      "sources": [
+        "variants[].available"
+      ]
+    },
+    "price_inr": {
+      "value": 18392,
+      "tier": "stated",
+      "sources": [
+        "page_price"
+      ]
+    }
+  },
   "fixes": {
     "size_chart": null,
     "description": {
-      "text": "Black Embroidered Kurta with Palazzo Pant for Men. Pieces included: to be confirmed by the merchant (the page lists \"Kurta and Plazzo Pant\" and Set: 3). Fabric: Silk. Composition percentages are not stated. Colour: Black. Design: Mandarin collar, full sleeves, button closure, embroidery. Fit: regular. Sold in sizes 38–46. No measurements are published for this product. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46). Care: dry clean only. Listed occasions: Office Party Wear and Reception. Price: ₹ 18,392 MRP, inclusive of all taxes.",
+      "text": "Black Embroidered Kurta with Palazzo Pant for Men. Pieces included: to be confirmed by the merchant (the page lists \"Kurta and Plazzo Pant\" and Set: 3). Fabric: Silk. Composition percentages are not stated. Colour: Black. Design: Mandarin collar, full sleeves, button closure, embroidery. Visible in the product photo: garment length: just above the knee; decorative details: large multicolour floral thread embroidery sweeping from chest to hem; tonal black embroidery around the neck and placket; diamond lattice stitching near the hem; small scattered motifs. Fit: regular. Sold in sizes 38–46. No measurements are published for this product. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46). Care: dry clean only. Listed occasions: Office Party Wear and Reception. Price: ₹ 18,392 MRP, inclusive of all taxes.",
       "sentences": [
         {
           "text": "Black Embroidered Kurta with Palazzo Pant for Men.",
@@ -583,6 +866,12 @@
             "page_features.Closure Type",
             "page_features.Pattern",
             "page_features.Work Type"
+          ]
+        },
+        {
+          "text": "Visible in the product photo: garment length: just above the knee; decorative details: large multicolour floral thread embroidery sweeping from chest to hem; tonal black embroidery around the neck and placket; diamond lattice stitching near the hem; small scattered motifs.",
+          "sources": [
+            "vision/koranm-03-direct-read.json#img-1"
           ]
         },
         {
@@ -691,6 +980,21 @@
           "@type": "PropertyValue",
           "name": "Fit",
           "value": "regular"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "garment length (from photo)",
+          "value": "just above the knee"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "embellishment (from photo)",
+          "value": "large multicolour floral thread embroidery sweeping from chest to hem; tonal black embroidery around the neck and placket; diamond lattice stitching near the hem; small scattered motifs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "secondary colors (from photo)",
+          "value": "beige, cream, grey-green"
         }
       ],
       "hasVariant": [
@@ -770,10 +1074,11 @@
       {
         "image_id": "img-1",
         "before": "Black Embroidered Kurta with Palazzo Pant - KORANM",
-        "after": "Black Embroidered Kurta with Palazzo Pant - KORANM",
-        "changed": false,
-        "tier": "stated",
-        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+        "after": "Black knee-length kurta with a mandarin collar and large multicolour floral embroidery from chest to hem, worn with black straight pants.",
+        "changed": true,
+        "tier": "photo_visible",
+        "label": "photo_direct_read",
+        "note": "Written from the direct read of this photo."
       },
       {
         "image_id": "img-2",
@@ -842,7 +1147,8 @@
     ]
   },
   "image_processing": {
-    "status": "pending",
+    "status": "direct read done for img-1 (photo_direct_read); /api/extract run pending",
+    "direct_read_file": "vision/koranm-03-direct-read.json",
     "download_command": "node scripts/demo/download-images.mjs",
     "checks": [
       "Read visible design attributes per image (neckline, sleeve, length, pattern)",
@@ -916,9 +1222,15 @@
   },
   "comparison": [
     {
+      "field": "filter_facets",
+      "before": "12 facets from listing text (prose and an invalid structured-data block)",
+      "after": "16 facets in structured data (4 from the photo), 1 withheld as contradicted",
+      "change": "agents can filter on normalised values instead of parsing prose"
+    },
+    {
       "field": "description",
       "before": "Make a sophisticated statement with this black embroidered kurta set. Featuring elegant embroidery on a mandarin-collar kurta, this outfit is paired with matching palazzo pants for exceptional comfort and effortless style. Ideal for evening celebrations, festive occasions, and wedding festivities, it delivers a refined ethnic look with modern appeal.\nKey Features\nElegant embroidered craftsmanship\nClassic mandarin collar\nComfortable regular-fit silhouette\nFull sleeves for a polished finish\nMatching palazzo pants included\nLightweight construction for extended comfort\nPerfect for festive evenings, receptions, and celebrations\nStyling Tips\nPair with black embroidered mojaris for a sophisticated finish.\nAdd a metallic watch for a premium touch.\nComplete the look with a contrasting stole for grand occasions.",
-      "after": "Black Embroidered Kurta with Palazzo Pant for Men. Pieces included: to be confirmed by the merchant (the page lists \"Kurta and Plazzo Pant\" and Set: 3). Fabric: Silk. Composition percentages are not stated. Colour: Black. Design: Mandarin collar, full sleeves, button closure, embroidery. Fit: regular. Sold in sizes 38–46. No measurements are published for this product. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46). Care: dry clean only. Listed occasions: Office Party Wear and Reception. Price: ₹ 18,392 MRP, inclusive of all taxes.",
+      "after": "Black Embroidered Kurta with Palazzo Pant for Men. Pieces included: to be confirmed by the merchant (the page lists \"Kurta and Plazzo Pant\" and Set: 3). Fabric: Silk. Composition percentages are not stated. Colour: Black. Design: Mandarin collar, full sleeves, button closure, embroidery. Visible in the product photo: garment length: just above the knee; decorative details: large multicolour floral thread embroidery sweeping from chest to hem; tonal black embroidery around the neck and placket; diamond lattice stitching near the hem; small scattered motifs. Fit: regular. Sold in sizes 38–46. No measurements are published for this product. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46). Care: dry clean only. Listed occasions: Office Party Wear and Reception. Price: ₹ 18,392 MRP, inclusive of all taxes.",
       "change": "rewritten from cited page facts; contradicted facts held for merchant"
     },
     {
@@ -937,7 +1249,7 @@
       "field": "image_alt_text",
       "before": "9/9 images have alt text",
       "after": "9/9",
-      "change": "0 changed"
+      "change": "1 changed"
     },
     {
       "field": "contradictions",
@@ -1025,9 +1337,9 @@
     },
     {
       "field": "attribute.garment_length",
-      "before": null,
-      "after": null,
-      "tier": "pending_vision"
+      "before": "just above the knee",
+      "after": "just above the knee",
+      "tier": "photo_visible"
     },
     {
       "field": "attribute.sleeve_length",
@@ -1094,6 +1406,68 @@
         "label": "MRP (Inclusive of all taxes)"
       },
       "tier": "stated"
+    },
+    {
+      "field": "attribute.pieces_visible",
+      "before": [
+        "kurta",
+        "pants"
+      ],
+      "after": [
+        "kurta",
+        "pants"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_closure",
+      "before": "front placket slit; buttons not visible in this shot",
+      "after": "front placket slit; buttons not visible in this shot",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_primary_color",
+      "before": "black",
+      "after": "black",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_secondary_colors",
+      "before": [
+        "beige",
+        "cream",
+        "grey-green"
+      ],
+      "after": [
+        "beige",
+        "cream",
+        "grey-green"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.decorative_details",
+      "before": "large multicolour floral thread embroidery sweeping from chest to hem; tonal black embroidery around the neck and placket; diamond lattice stitching near the hem; small scattered motifs",
+      "after": "large multicolour floral thread embroidery sweeping from chest to hem; tonal black embroidery around the neck and placket; diamond lattice stitching near the hem; small scattered motifs",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.silhouette",
+      "before": "straight-cut kurta; straight relaxed pants",
+      "after": "straight-cut kurta; straight relaxed pants",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.logo_visibility",
+      "before": "none",
+      "after": "none",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.visible_texture",
+      "before": "smooth fabric with a soft sheen",
+      "after": "smooth fabric with a soft sheen",
+      "tier": "photo_inferred"
     }
   ]
 }

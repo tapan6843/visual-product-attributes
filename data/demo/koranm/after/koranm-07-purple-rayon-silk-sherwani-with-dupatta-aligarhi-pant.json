@@ -3,12 +3,12 @@
   "title": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men",
   "product_url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant",
   "before_file": "before/koranm-07-purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant.json",
-  "generated_at": "2026-10-17T21:29:33.362Z",
-  "generator": "scripts/demo/build-after.mjs (text and structured data rules; no vision yet)",
+  "generated_at": "2026-10-17T22:32:07.016Z",
+  "generator": "scripts/demo/build-after.mjs (text and structured data rules + photo_direct_read: vision/koranm-07-direct-read.json)",
   "score": {
     "rubric": "PRD FR2 weights (fit 30, fabric 20, design 15, variants 15, policies 10, occasion 10); hackathon criteria, untuned.",
-    "before": 63,
-    "after_generated": 82,
+    "before": 59,
+    "after_generated": 78,
     "after_merchant_answers": 97,
     "parts": {
       "fit_and_sizing": {
@@ -128,8 +128,8 @@
       },
       "variants_and_availability": {
         "weight": 15,
-        "before": 9,
-        "after_generated": 15,
+        "before": 5,
+        "after_generated": 11,
         "after_merchant_answers": 15,
         "criteria": [
           {
@@ -140,10 +140,10 @@
             "after_merchant_answers": true
           },
           {
-            "criterion": "Colour named consistently",
+            "criterion": "Colour named consistently (garment and bottoms)",
             "points": 4,
-            "before": true,
-            "after_generated": true,
+            "before": false,
+            "after_generated": false,
             "after_merchant_answers": true
           },
           {
@@ -427,6 +427,51 @@
           "value": 0
         }
       ]
+    },
+    {
+      "id": "F12",
+      "kind": "contradiction",
+      "severity": "high",
+      "field": "bottom_color",
+      "summary": "Photo shows dark wine trousers in images 1, 2, 4 and 6, but the listing says \"Cream Aligarhi pant\".",
+      "evidence": [
+        {
+          "source": "page_features.Bottom Color / title",
+          "value": "Cream Aligarhi pant"
+        },
+        {
+          "source": "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6",
+          "label": "photo_direct_read",
+          "value": "dark wine trousers in images 1, 2, 4 and 6"
+        }
+      ],
+      "detected_by": [
+        "photo_direct_read"
+      ],
+      "merchant_question": "What colour are the bottoms that ship with this set? The listing and the photos disagree.",
+      "note": "Shoppers expecting cream bottoms will receive or see something else; high-severity merchant question"
+    },
+    {
+      "id": "F13",
+      "kind": "data_quality",
+      "severity": "low",
+      "field": "color",
+      "summary": "Listing value \"Purple\" is a weak match for the photo (deep wine / plum).",
+      "evidence": [
+        {
+          "source": "page_features.Colour",
+          "value": "Purple"
+        },
+        {
+          "source": "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6",
+          "label": "photo_direct_read",
+          "value": "deep wine / plum"
+        }
+      ],
+      "detected_by": [
+        "photo_direct_read"
+      ],
+      "note": "Reads closer to burgundy than purple"
     }
   ],
   "merchant_questions": [
@@ -435,7 +480,8 @@
     "What is the garment length per size?",
     "Is the fit slim, regular or relaxed?",
     "Is the model in these photos 6 ft and wearing size 40?",
-    "For US orders: how many days to return, and who pays return shipping?"
+    "For US orders: how many days to return, and who pays return shipping?",
+    "What colour are the bottoms that ship with this set? The listing and the photos disagree."
   ],
   "attributes": [
     {
@@ -458,7 +504,7 @@
     {
       "name": "bottom_color",
       "value": "Cream",
-      "tier": "stated",
+      "tier": "contradicted",
       "sources": [
         "page_features.Bottom Color"
       ]
@@ -525,7 +571,14 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "bandhgala (mandarin) collar",
+        "tier": "photo_visible",
+        "confidence": 0.9,
+        "source": "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "fit_type",
@@ -541,7 +594,14 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "just above the knee",
+        "tier": "photo_visible",
+        "confidence": 0.8,
+        "source": "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "sleeve_length",
@@ -549,7 +609,14 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "full sleeves with cuff buttons",
+        "tier": "photo_visible",
+        "confidence": 0.8,
+        "source": "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "model_height_and_size_worn",
@@ -609,8 +676,224 @@
         "page_price",
         "variants[].price"
       ]
+    },
+    {
+      "name": "pieces_visible",
+      "value": [
+        "sherwani",
+        "dupatta",
+        "trousers"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_closure",
+      "value": "centre-front buttons, about 6, dark metallic",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_primary_color",
+      "value": "deep wine / plum (aubergine)",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_pattern",
+      "value": "all-over tonal jacquard with self-embroidery and sequin sparkle",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "decorative_details",
+      "value": "sheer dupatta with embroidered border and scattered motifs",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_bottom_color",
+      "value": "dark wine, matching the sherwani, in every photo examined",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "visible_texture",
+      "value": "trousers have a satin sheen",
+      "tier": "photo_inferred",
+      "sources": [
+        "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6"
+      ],
+      "confidence": 0.6,
+      "label": "photo_direct_read",
+      "note": "Cannot confirm rayon or silk"
     }
   ],
+  "filter_facets": {
+    "category": {
+      "value": "Sherwani",
+      "tier": "stated",
+      "sources": [
+        "product.product_type"
+      ]
+    },
+    "primary_color": {
+      "value": "Purple",
+      "tier": "stated",
+      "sources": [
+        "page_features.Colour",
+        "product.options.Color"
+      ]
+    },
+    "photo_primary_color": {
+      "value": "deep wine / plum (aubergine)",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6"
+      ]
+    },
+    "secondary_colors": {
+      "value": null,
+      "status": "missing"
+    },
+    "bottom_color": {
+      "value": null,
+      "status": "withheld_contradicted",
+      "sources": [
+        "page_features.Bottom Color"
+      ]
+    },
+    "pieces": {
+      "value": "Sherwani, Dupatta, and Aligarhi (Set: 3)",
+      "tier": "stated",
+      "sources": [
+        "page_features.Includes",
+        "page_features.Set"
+      ],
+      "photo_count": 3
+    },
+    "collar": {
+      "value": "bandhgala",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "sleeve": {
+      "value": "full",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "garment_length": {
+      "value": "above-length",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "pattern": {
+      "value": "Jacquard",
+      "tier": "stated",
+      "sources": [
+        "page_features.Pattern"
+      ]
+    },
+    "embellishment": {
+      "value": "sheer dupatta with embroidered border and scattered motifs",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6"
+      ]
+    },
+    "closure": {
+      "value": "Buttons",
+      "tier": "stated",
+      "sources": [
+        "page_features.Closure Type"
+      ]
+    },
+    "pockets": {
+      "value": null,
+      "status": "missing"
+    },
+    "fabric": {
+      "value": "Rayon",
+      "tier": "stated",
+      "sources": [
+        "page_features.Material"
+      ]
+    },
+    "fit": {
+      "value": null,
+      "status": "missing"
+    },
+    "occasions": {
+      "value": [
+        "wedding",
+        "reception",
+        "office party wear"
+      ],
+      "tier": "stated",
+      "sources": [
+        "page_features.Occasions"
+      ]
+    },
+    "sizes_in_stock": {
+      "value": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "tier": "stated",
+      "sources": [
+        "variants[].available"
+      ]
+    },
+    "price_inr": {
+      "value": 47680,
+      "tier": "stated",
+      "sources": [
+        "page_price"
+      ]
+    }
+  },
   "fixes": {
     "size_chart": {
       "unit": "in",
@@ -729,7 +1012,7 @@
       ]
     },
     "description": {
-      "text": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men. This 3-piece set includes: Sherwani, Dupatta, and Aligarhi. Fabric: Rayon. Composition percentages are not stated. Colour: Purple, bottoms in Cream. Design: Bandhgala, full sleeves, button closure, jacquard. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding, Reception, and Office Party Wear. Price: ₹ 47,680 MRP, inclusive of all taxes.",
+      "text": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men. This 3-piece set includes: Sherwani, Dupatta, and Aligarhi. Fabric: Rayon. Composition percentages are not stated. Colour: Purple; bottoms colour to be confirmed (the listing and the photos disagree). Design: Bandhgala, full sleeves, button closure, jacquard. Visible in the product photo: decorative details: sheer dupatta with embroidered border and scattered motifs. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding, Reception, and Office Party Wear. Price: ₹ 47,680 MRP, inclusive of all taxes.",
       "sentences": [
         {
           "text": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men.",
@@ -751,7 +1034,7 @@
           ]
         },
         {
-          "text": "Colour: Purple, bottoms in Cream.",
+          "text": "Colour: Purple; bottoms colour to be confirmed (the listing and the photos disagree).",
           "sources": [
             "page_features.Colour",
             "page_features.Bottom Color"
@@ -764,6 +1047,12 @@
             "page_features.Closure Type",
             "page_features.Pattern",
             "page_features.Work Type"
+          ]
+        },
+        {
+          "text": "Visible in the product photo: decorative details: sheer dupatta with embroidered border and scattered motifs.",
+          "sources": [
+            "vision/koranm-07-direct-read.json#img-1,img-2,img-4,img-6"
           ]
         },
         {
@@ -874,6 +1163,11 @@
           "@type": "PropertyValue",
           "name": "Size chart basis",
           "value": "Garment measurements; fitting ease already included (per page note). Units: in."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "embellishment (from photo)",
+          "value": "sheer dupatta with embroidered border and scattered motifs"
         }
       ],
       "hasVariant": [
@@ -981,10 +1275,11 @@
       {
         "image_id": "img-1",
         "before": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant - KORANM",
-        "after": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant - KORANM",
-        "changed": false,
-        "tier": "stated",
-        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+        "after": "Deep wine sherwani with a bandhgala collar and all-over tonal jacquard embroidery, a sheer embroidered dupatta, and matching dark wine trousers.",
+        "changed": true,
+        "tier": "photo_visible",
+        "label": "photo_direct_read",
+        "note": "Written from the direct read of this photo."
       },
       {
         "image_id": "img-2",
@@ -1029,7 +1324,8 @@
     ]
   },
   "image_processing": {
-    "status": "pending",
+    "status": "direct read done for img-1, img-2, img-4, img-6 (photo_direct_read); /api/extract run pending",
+    "direct_read_file": "vision/koranm-07-direct-read.json",
     "download_command": "node scripts/demo/download-images.mjs",
     "checks": [
       "Estimate where the hem falls on the model (inferred tier, merchant to confirm).",
@@ -1084,9 +1380,15 @@
   },
   "comparison": [
     {
+      "field": "filter_facets",
+      "before": "12 facets from listing text (prose and an invalid structured-data block)",
+      "after": "14 facets in structured data (2 from the photo), 1 withheld as contradicted",
+      "change": "agents can filter on normalised values instead of parsing prose"
+    },
+    {
       "field": "description",
       "before": "Make a lasting impression with this Purple Rayon Silk Sherwani, crafted from premium rayon silk fabric with elegant highlight embroidery. Designed with a sophisticated Bandhgala neckline, full sleeves, and a button closure, this sherwani offers a regal and refined look. Paired with cream Aligarhi pants and a matching dupatta, it is an ideal choice for weddings, receptions, engagements, and grand festive celebrations.\nKey Features\nPremium Purple Rayon Silk Fabric\nElegant Highlight Embroidery\nClassic Bandhgala Neckline\nFull Sleeves with Button Closure\nAbove-Length Sherwani\nCream Aligarhi Pants & Matching Dupatta Included\nIdeal for Weddings, Receptions, Engagements & Festive Occasions\nStyling Tips\nPair with black juttis for a classic royal look.\nStyle with black leather shoes for evening receptions and formal celebrations.\nComplete the ensemble with maroon slip-on shoes for a refined festive appearance.",
-      "after": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men. This 3-piece set includes: Sherwani, Dupatta, and Aligarhi. Fabric: Rayon. Composition percentages are not stated. Colour: Purple, bottoms in Cream. Design: Bandhgala, full sleeves, button closure, jacquard. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding, Reception, and Office Party Wear. Price: ₹ 47,680 MRP, inclusive of all taxes.",
+      "after": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men. This 3-piece set includes: Sherwani, Dupatta, and Aligarhi. Fabric: Rayon. Composition percentages are not stated. Colour: Purple; bottoms colour to be confirmed (the listing and the photos disagree). Design: Bandhgala, full sleeves, button closure, jacquard. Visible in the product photo: decorative details: sheer dupatta with embroidered border and scattered motifs. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding, Reception, and Office Party Wear. Price: ₹ 47,680 MRP, inclusive of all taxes.",
       "change": "rewritten from cited page facts; contradicted facts held for merchant"
     },
     {
@@ -1105,18 +1407,18 @@
       "field": "image_alt_text",
       "before": "6/6 images have alt text",
       "after": "6/6",
-      "change": "0 changed"
+      "change": "1 changed"
     },
     {
       "field": "contradictions",
-      "before": 3,
+      "before": 4,
       "after": "surfaced with both sources; held out of generated copy",
       "change": "flagged"
     },
     {
       "field": "merchant_questions",
       "before": 0,
-      "after": 6,
+      "after": 7,
       "change": "added"
     },
     {
@@ -1135,7 +1437,7 @@
       "field": "attribute.bottom_color",
       "before": "Cream",
       "after": "Cream",
-      "tier": "stated"
+      "tier": "contradicted"
     },
     {
       "field": "attribute.fabric",
@@ -1266,6 +1568,62 @@
         "label": "MRP (Inclusive of all taxes)"
       },
       "tier": "stated"
+    },
+    {
+      "field": "attribute.pieces_visible",
+      "before": [
+        "sherwani",
+        "dupatta",
+        "trousers"
+      ],
+      "after": [
+        "sherwani",
+        "dupatta",
+        "trousers"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_closure",
+      "before": "centre-front buttons, about 6, dark metallic",
+      "after": "centre-front buttons, about 6, dark metallic",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_primary_color",
+      "before": "deep wine / plum (aubergine)",
+      "after": "deep wine / plum (aubergine)",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_pattern",
+      "before": "all-over tonal jacquard with self-embroidery and sequin sparkle",
+      "after": "all-over tonal jacquard with self-embroidery and sequin sparkle",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.decorative_details",
+      "before": "sheer dupatta with embroidered border and scattered motifs",
+      "after": "sheer dupatta with embroidered border and scattered motifs",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_bottom_color",
+      "before": "dark wine, matching the sherwani, in every photo examined",
+      "after": "dark wine, matching the sherwani, in every photo examined",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.logo_visibility",
+      "before": "none",
+      "after": "none",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.visible_texture",
+      "before": "trousers have a satin sheen",
+      "after": "trousers have a satin sheen",
+      "tier": "photo_inferred"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T21:29:33.367Z",
+  "generated_at": "2026-10-17T22:32:07.023Z",
   "products": [
     {
       "demo_id": "koranm-01",
@@ -8,14 +8,15 @@
       "product_url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1",
       "images": 5,
       "score_before": 56,
-      "score_after_generated": 75,
+      "score_after_generated": 83,
       "score_after_merchant_answers": 97,
       "contradictions": [
-        "medium: Title calls the colour \"fawn\" but image alt text calls it \"beige\".",
-        "medium: Sold as a single \"Bandi Shirt\" but \"Includes\" lists \"Nehru Jacket and Shirt\" (Set: 2).",
+        "medium [photo]: Title calls the colour \"fawn\" but image alt text calls it \"beige\".",
+        "medium (resolved by photo): Sold as a single \"Bandi Shirt\" but \"Includes\" lists \"Nehru Jacket and Shirt\" (Set: 2).",
         "low: Occasions field lists \"engagement, reception, sangeet, ceremony\" which the description never mentions.",
         "low: Size chart lists sizes 36 that are not sold for this product (sold: 38–50)."
       ],
+      "filterable_facets": 15,
       "merchant_questions": 6,
       "before_file": "before/koranm-01-natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1.json",
       "after_file": "after/koranm-01-natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1.json"
@@ -27,14 +28,15 @@
       "product_url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men",
       "images": 6,
       "score_before": 57,
-      "score_after_generated": 71,
+      "score_after_generated": 79,
       "score_after_merchant_answers": 97,
       "contradictions": [
-        "high: Material field says \"Silk\" but the description names a different fabric (TR fabric).",
-        "medium: Image alt text says \"linen\" but the material field says \"Silk\".",
-        "medium: Sold as a single \"Bandi Shirt\" but \"Includes\" lists \"Nehru Jacket and Shirt\" (Set: 2).",
+        "high [photo]: Material field says \"Silk\" but the description names a different fabric (TR fabric).",
+        "medium [photo]: Image alt text says \"linen\" but the material field says \"Silk\".",
+        "medium (resolved by photo): Sold as a single \"Bandi Shirt\" but \"Includes\" lists \"Nehru Jacket and Shirt\" (Set: 2).",
         "low: Occasions field lists \"engagement, reception, sangeet\" which the description never mentions."
       ],
+      "filterable_facets": 15,
       "merchant_questions": 6,
       "before_file": "before/koranm-02-dark-fawn-rose-embroidery-bandi-shirt-for-men.json",
       "after_file": "after/koranm-02-dark-fawn-rose-embroidery-bandi-shirt-for-men.json"
@@ -46,12 +48,13 @@
       "product_url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black",
       "images": 9,
       "score_before": 58,
-      "score_after_generated": 67,
+      "score_after_generated": 69,
       "score_after_merchant_answers": 97,
       "contradictions": [
-        "high: \"Set\" says 3 pieces but \"Includes\" lists 2 (Kurta and Plazzo Pant).",
+        "high [photo]: \"Set\" says 3 pieces but \"Includes\" lists 2 (Kurta and Plazzo Pant).",
         "low: Occasions field lists \"office party wear\" which the description never mentions."
       ],
+      "filterable_facets": 16,
       "merchant_questions": 6,
       "before_file": "before/koranm-03-ak-2870-fkemb-3416-black.json",
       "after_file": "after/koranm-03-ak-2870-fkemb-3416-black.json"
@@ -63,13 +66,14 @@
       "product_url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green",
       "images": 9,
       "score_before": 53,
-      "score_after_generated": 72,
+      "score_after_generated": 74,
       "score_after_merchant_answers": 97,
       "contradictions": [
         "high: Material field says \"Silk\" but the description names a different fabric (nylon).",
         "low: Occasions field lists \"mehendi, office party wear\" which the description never mentions.",
         "low: Size chart lists sizes 36, 48, 50 that are not sold for this product (sold: 38–46)."
       ],
+      "filterable_facets": 15,
       "merchant_questions": 6,
       "before_file": "before/koranm-04-ak-2869-fkemb-3417-b-green.json",
       "after_file": "after/koranm-04-ak-2869-fkemb-3417-b-green.json"
@@ -81,12 +85,13 @@
       "product_url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream",
       "images": 8,
       "score_before": 60,
-      "score_after_generated": 79,
+      "score_after_generated": 82,
       "score_after_merchant_answers": 97,
       "contradictions": [
         "low: Occasions field lists \"office party wear\" which the description never mentions.",
         "low: Size chart lists sizes 36 that are not sold for this product (sold: 38–50)."
       ],
+      "filterable_facets": 16,
       "merchant_questions": 6,
       "before_file": "before/koranm-05-ark-11536-faemb-909-cream.json",
       "after_file": "after/koranm-05-ark-11536-faemb-909-cream.json"
@@ -98,13 +103,14 @@
       "product_url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection",
       "images": 5,
       "score_before": 58,
-      "score_after_generated": 77,
+      "score_after_generated": 80,
       "score_after_merchant_answers": 97,
       "contradictions": [
         "low: Material field says \"Matka\" but the description adds \"silk\".",
         "low: Occasions field lists \"engagement, office party wear\" which the description never mentions.",
         "low: Size chart lists sizes 36 that are not sold for this product (sold: 38–50)."
       ],
+      "filterable_facets": 17,
       "merchant_questions": 6,
       "before_file": "before/koranm-06-cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection.json",
       "after_file": "after/koranm-06-cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection.json"
@@ -115,15 +121,17 @@
       "product_type": "Sherwani",
       "product_url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant",
       "images": 6,
-      "score_before": 63,
-      "score_after_generated": 82,
+      "score_before": 59,
+      "score_after_generated": 78,
       "score_after_merchant_answers": 97,
       "contradictions": [
         "low: Material field says \"Rayon\" but the description adds \"silk\".",
         "low: Occasions field lists \"office party wear\" which the description never mentions.",
-        "low: Size chart lists sizes 36 that are not sold for this product (sold: 38–50)."
+        "low: Size chart lists sizes 36 that are not sold for this product (sold: 38–50).",
+        "high [photo]: Photo shows dark wine trousers in images 1, 2, 4 and 6, but the listing says \"Cream Aligarhi pant\"."
       ],
-      "merchant_questions": 6,
+      "filterable_facets": 14,
+      "merchant_questions": 7,
       "before_file": "before/koranm-07-purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant.json",
       "after_file": "after/koranm-07-purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant.json"
     },
@@ -134,12 +142,13 @@
       "product_url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants",
       "images": 6,
       "score_before": 51,
-      "score_after_generated": 64,
+      "score_after_generated": 67,
       "score_after_merchant_answers": 97,
       "contradictions": [
-        "medium: \"Includes\" lists a jacket but the description never mentions one.",
+        "medium (resolved by photo): \"Includes\" lists a jacket but the description never mentions one.",
         "low: Size chart lists sizes 36, 46, 48, 50 that are not sold for this product (sold: 38–44)."
       ],
+      "filterable_facets": 14,
       "merchant_questions": 7,
       "before_file": "before/koranm-08-pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants.json",
       "after_file": "after/koranm-08-pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants.json"
@@ -150,14 +159,16 @@
       "product_type": "Bandi Set",
       "product_url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set",
       "images": 5,
-      "score_before": 60,
-      "score_after_generated": 79,
+      "score_before": 56,
+      "score_after_generated": 78,
       "score_after_merchant_answers": 97,
       "contradictions": [
         "low: Occasions field lists \"reception, office party wear\" which the description never mentions.",
-        "low: Size chart lists sizes 36 that are not sold for this product (sold: 38–50)."
+        "low: Size chart lists sizes 36 that are not sold for this product (sold: 38–50).",
+        "medium [photo]: Photo shows kurta is cream; only the jacket is yellow, but the listing says \"Yellow Silk Kurta\"."
       ],
-      "merchant_questions": 6,
+      "filterable_facets": 15,
+      "merchant_questions": 7,
       "before_file": "before/koranm-09-yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set.json",
       "after_file": "after/koranm-09-yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set.json"
     },
@@ -168,13 +179,14 @@
       "product_url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set",
       "images": 5,
       "score_before": 60,
-      "score_after_generated": 79,
+      "score_after_generated": 85,
       "score_after_merchant_answers": 97,
       "contradictions": [
-        "high: Description says \"three-piece\" but \"Set\" says 5 pieces (Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie).",
+        "high (resolved by photo): Description says \"three-piece\" but \"Set\" says 5 pieces (Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie).",
         "low: Occasions field lists \"wedding, engagement\" which the description never mentions.",
         "low: Size chart lists sizes 36 that are not sold for this product (sold: 38–50)."
       ],
+      "filterable_facets": 17,
       "merchant_questions": 6,
       "before_file": "before/koranm-10-cobalt-blue-embroidered-tuxedo-set.json",
       "after_file": "after/koranm-10-cobalt-blue-embroidered-tuxedo-set.json"

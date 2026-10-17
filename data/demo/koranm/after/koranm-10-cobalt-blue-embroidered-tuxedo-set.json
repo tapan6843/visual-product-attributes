@@ -3,12 +3,12 @@
   "title": "Cobalt Blue Embroidered Tuxedo Set for Men",
   "product_url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set",
   "before_file": "before/koranm-10-cobalt-blue-embroidered-tuxedo-set.json",
-  "generated_at": "2026-10-17T21:29:33.367Z",
-  "generator": "scripts/demo/build-after.mjs (text and structured data rules; no vision yet)",
+  "generated_at": "2026-10-17T22:32:07.022Z",
+  "generator": "scripts/demo/build-after.mjs (text and structured data rules + photo_direct_read: vision/koranm-10-direct-read.json)",
   "score": {
     "rubric": "PRD FR2 weights (fit 30, fabric 20, design 15, variants 15, policies 10, occasion 10); hackathon criteria, untuned.",
     "before": 60,
-    "after_generated": 79,
+    "after_generated": 85,
     "after_merchant_answers": 97,
     "parts": {
       "fit_and_sizing": {
@@ -86,7 +86,7 @@
       "design_details": {
         "weight": 15,
         "before": 7,
-        "after_generated": 7,
+        "after_generated": 13,
         "after_merchant_answers": 15,
         "criteria": [
           {
@@ -107,14 +107,14 @@
             "criterion": "Sleeve length",
             "points": 3,
             "before": false,
-            "after_generated": false,
+            "after_generated": true,
             "after_merchant_answers": true
           },
           {
             "criterion": "Pieces included, consistent",
             "points": 3,
             "before": false,
-            "after_generated": false,
+            "after_generated": true,
             "after_merchant_answers": true
           },
           {
@@ -140,7 +140,7 @@
             "after_merchant_answers": true
           },
           {
-            "criterion": "Colour named consistently",
+            "criterion": "Colour named consistently (garment and bottoms)",
             "points": 4,
             "before": true,
             "after_generated": true,
@@ -236,7 +236,15 @@
           "value": "Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie"
         }
       ],
-      "merchant_question": "Is this a 3-piece or 5-piece set?"
+      "merchant_question": "Is this a 3-piece or 5-piece set?",
+      "resolved": true,
+      "resolution": {
+        "by": "photo_direct_read",
+        "supports": "page_features.Set",
+        "photo_reading": "5 pieces visible (blazer, waistcoat, shirt, trousers, bow tie)",
+        "source": "vision/koranm-10-direct-read.json#img-1",
+        "note": "Photo supports Set: 5"
+      }
     },
     {
       "id": "F02",
@@ -430,6 +438,49 @@
           "value": 0
         }
       ]
+    },
+    {
+      "id": "F12",
+      "kind": "data_quality",
+      "severity": "low",
+      "field": "fabric",
+      "summary": "Listing value \"terry rayon\" is a weak match for the photo (high-sheen satin finish).",
+      "evidence": [
+        {
+          "source": "description: terry rayon blazer",
+          "value": "terry rayon"
+        },
+        {
+          "source": "vision/koranm-10-direct-read.json#img-1",
+          "label": "photo_direct_read",
+          "value": "high-sheen satin finish"
+        }
+      ],
+      "detected_by": [
+        "photo_direct_read"
+      ],
+      "note": "Appearance does not match a typical terry rayon; cannot confirm fiber"
+    },
+    {
+      "id": "F13",
+      "kind": "data_quality",
+      "severity": "low",
+      "field": "fit_type",
+      "summary": "Listing value \"straight fit\" is a weak match for the photo (slim, tapered trousers).",
+      "evidence": [
+        {
+          "source": "description: straight-fit trousers",
+          "value": "straight fit"
+        },
+        {
+          "source": "vision/koranm-10-direct-read.json#img-1",
+          "label": "photo_direct_read",
+          "value": "slim, tapered trousers"
+        }
+      ],
+      "detected_by": [
+        "photo_direct_read"
+      ]
     }
   ],
   "merchant_questions": [
@@ -508,11 +559,12 @@
     {
       "name": "pieces_included",
       "value": "Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie (Set: 5)",
-      "tier": "contradicted",
+      "tier": "stated",
       "sources": [
         "page_features.Includes",
         "page_features.Set"
-      ]
+      ],
+      "note": "Contradiction resolved by photo evidence."
     },
     {
       "name": "bottom_type",
@@ -528,7 +580,14 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "black satin shawl lapel; white shirt with standing collar",
+        "tier": "photo_visible",
+        "confidence": 0.9,
+        "source": "vision/koranm-10-direct-read.json#img-1",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "fit_type",
@@ -548,11 +607,13 @@
     },
     {
       "name": "sleeve_length",
-      "value": null,
-      "tier": "pending_vision",
+      "value": "full sleeves",
+      "tier": "photo_visible",
       "sources": [
-        "images"
-      ]
+        "vision/koranm-10-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
     },
     {
       "name": "model_height_and_size_worn",
@@ -615,8 +676,251 @@
         "page_price",
         "variants[].price"
       ]
+    },
+    {
+      "name": "pieces_visible",
+      "value": [
+        "blazer",
+        "waistcoat",
+        "shirt",
+        "trousers",
+        "bow tie"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read",
+      "note": "Plus a pocket square"
+    },
+    {
+      "name": "photo_closure",
+      "value": "single-button blazer; buttoned U-neck waistcoat; studded shirt front",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_primary_color",
+      "value": "cobalt / royal blue blazer",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_secondary_colors",
+      "value": [
+        "black",
+        "white"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "decorative_details",
+      "value": "black beaded / sequin lines in an abstract geometric pattern across the blazer; beaded black bow tie; black pocket square",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "pockets",
+      "value": "chest welt pocket",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "silhouette",
+      "value": "slim blazer; slim tapered trousers",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "visible_texture",
+      "value": "high satin sheen on the blazer",
+      "tier": "photo_inferred",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ],
+      "confidence": 0.7,
+      "label": "photo_direct_read",
+      "note": "Terry rayon is usually a matte suiting; merchant to confirm fabric"
     }
   ],
+  "filter_facets": {
+    "category": {
+      "value": "Tuxedo",
+      "tier": "stated",
+      "sources": [
+        "product.product_type"
+      ]
+    },
+    "primary_color": {
+      "value": "Blue",
+      "tier": "stated",
+      "sources": [
+        "page_features.Colour",
+        "product.options.Color"
+      ]
+    },
+    "photo_primary_color": {
+      "value": "cobalt / royal blue blazer",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ]
+    },
+    "secondary_colors": {
+      "value": [
+        "black",
+        "white"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ]
+    },
+    "bottom_color": {
+      "value": "Black",
+      "tier": "stated",
+      "sources": [
+        "page_features.Bottom Color"
+      ]
+    },
+    "pieces": {
+      "value": "Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie (Set: 5)",
+      "tier": "stated",
+      "sources": [
+        "page_features.Includes",
+        "page_features.Set"
+      ],
+      "photo_count": 5
+    },
+    "collar": {
+      "value": "lapel",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "sleeve": {
+      "value": "full sleeves",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ]
+    },
+    "garment_length": {
+      "value": null,
+      "status": "missing"
+    },
+    "pattern": {
+      "value": "Embroidery",
+      "tier": "stated",
+      "sources": [
+        "page_features.Pattern"
+      ]
+    },
+    "embellishment": {
+      "value": "black beaded / sequin lines in an abstract geometric pattern across the blazer; beaded black bow tie; black pocket square",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ]
+    },
+    "closure": {
+      "value": "Buttons",
+      "tier": "stated",
+      "sources": [
+        "page_features.Closure Type"
+      ]
+    },
+    "pockets": {
+      "value": "chest welt pocket",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-10-direct-read.json#img-1"
+      ]
+    },
+    "fabric": {
+      "value": "Rayon",
+      "tier": "stated",
+      "sources": [
+        "page_features.Material"
+      ]
+    },
+    "fit": {
+      "value": "slim",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "occasions": {
+      "value": [
+        "wedding",
+        "engagement"
+      ],
+      "tier": "stated",
+      "sources": [
+        "page_features.Occasions"
+      ]
+    },
+    "sizes_in_stock": {
+      "value": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "tier": "stated",
+      "sources": [
+        "variants[].available"
+      ]
+    },
+    "price_inr": {
+      "value": 53352,
+      "tier": "stated",
+      "sources": [
+        "page_price"
+      ]
+    }
+  },
   "fixes": {
     "size_chart": {
       "unit": "in",
@@ -735,7 +1039,7 @@
       ]
     },
     "description": {
-      "text": "Cobalt Blue Embroidered Tuxedo Set for Men. Pieces included: to be confirmed by the merchant (the page lists \"Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie\" and Set: 5). Fabric: Rayon. Composition percentages are not stated. Colour: Blue, bottoms in Black. Design: Lapel, button closure, embroidery. Fit: slim. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding and Engagement. Price: ₹ 53,352 MRP, inclusive of all taxes.",
+      "text": "Cobalt Blue Embroidered Tuxedo Set for Men. This 5-piece set includes: Tuxedo, Waist Coat, Shirt, Pant, and Bow Tie (confirmed in the product photo). Fabric: Rayon. Composition percentages are not stated. Colour: Blue; bottoms in Black. Design: Lapel, button closure, embroidery. Visible in the product photo: sleeve length: full sleeves; decorative details: black beaded / sequin lines in an abstract geometric pattern across the blazer; beaded black bow tie; black pocket square; pockets: chest welt pocket. Fit: slim. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding and Engagement. Price: ₹ 53,352 MRP, inclusive of all taxes.",
       "sentences": [
         {
           "text": "Cobalt Blue Embroidered Tuxedo Set for Men.",
@@ -744,10 +1048,11 @@
           ]
         },
         {
-          "text": "Pieces included: to be confirmed by the merchant (the page lists \"Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie\" and Set: 5).",
+          "text": "This 5-piece set includes: Tuxedo, Waist Coat, Shirt, Pant, and Bow Tie (confirmed in the product photo).",
           "sources": [
             "page_features.Includes",
-            "page_features.Set"
+            "page_features.Set",
+            "vision/koranm-10-direct-read.json#img-1"
           ]
         },
         {
@@ -757,7 +1062,7 @@
           ]
         },
         {
-          "text": "Colour: Blue, bottoms in Black.",
+          "text": "Colour: Blue; bottoms in Black.",
           "sources": [
             "page_features.Colour",
             "page_features.Bottom Color"
@@ -770,6 +1075,12 @@
             "page_features.Closure Type",
             "page_features.Pattern",
             "page_features.Work Type"
+          ]
+        },
+        {
+          "text": "Visible in the product photo: sleeve length: full sleeves; decorative details: black beaded / sequin lines in an abstract geometric pattern across the blazer; beaded black bow tie; black pocket square; pockets: chest welt pocket.",
+          "sources": [
+            "vision/koranm-10-direct-read.json#img-1"
           ]
         },
         {
@@ -864,6 +1175,11 @@
         },
         {
           "@type": "PropertyValue",
+          "name": "Pieces included",
+          "value": "Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie (Set: 5)"
+        },
+        {
+          "@type": "PropertyValue",
           "name": "Bottom type",
           "value": "Pant"
         },
@@ -881,6 +1197,26 @@
           "@type": "PropertyValue",
           "name": "Size chart basis",
           "value": "Garment measurements; fitting ease already included (per page note). Units: in."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sleeve (from photo)",
+          "value": "full sleeves"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "embellishment (from photo)",
+          "value": "black beaded / sequin lines in an abstract geometric pattern across the blazer; beaded black bow tie; black pocket square"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "pockets (from photo)",
+          "value": "chest welt pocket"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "secondary colors (from photo)",
+          "value": "black, white"
         }
       ],
       "hasVariant": [
@@ -988,10 +1324,11 @@
       {
         "image_id": "img-1",
         "before": "Cobalt Blue Embroidered Tuxedo Set",
-        "after": "Cobalt Blue Embroidered Tuxedo Set",
-        "changed": false,
-        "tier": "stated",
-        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+        "after": "Cobalt blue satin tuxedo blazer with a black shawl lapel and black beaded geometric lines, over a black waistcoat, white studded shirt and beaded bow tie, with slim black trousers.",
+        "changed": true,
+        "tier": "photo_visible",
+        "label": "photo_direct_read",
+        "note": "Written from the direct read of this photo."
       },
       {
         "image_id": "img-2",
@@ -1028,7 +1365,8 @@
     ]
   },
   "image_processing": {
-    "status": "pending",
+    "status": "direct read done for img-1 (photo_direct_read); /api/extract run pending",
+    "direct_read_file": "vision/koranm-10-direct-read.json",
     "download_command": "node scripts/demo/download-images.mjs",
     "checks": [
       "Estimate where the hem falls on the model (inferred tier, merchant to confirm).",
@@ -1075,9 +1413,15 @@
   },
   "comparison": [
     {
+      "field": "filter_facets",
+      "before": "12 facets from listing text (prose and an invalid structured-data block)",
+      "after": "17 facets in structured data (5 from the photo), 0 withheld as contradicted",
+      "change": "agents can filter on normalised values instead of parsing prose"
+    },
+    {
       "field": "description",
       "before": "Disclaimer: Slight colour variations are possible due\nto photographic lighting or your monitor settings.\nProduct Details:\nExhibit a vibe of elegance with this classic three-piece suit from Kora.\nThe set comes with a royal cobalt blue embellished blazer, contrast white shirt and a black waist coat along with a classic black trouser, that is fashioned from premium quality material and is tailored for a slim fit.\nThe blazer is tailored to perfection in terry rayon fabric.\nThe abstract stripped embroidery in sequin and cutdana add charm to the blazer.\nThe lapel is tailored in contrast black blended fabric for a classy look.\nThe set comes with a black terry rayon waist coat.\nThe white shirt featuring is a timeless one which can never go wrong for a cocktail event.\nThe set comes with a solid black trouser tailored in straight fit crafted in terry rayon fabric.\nThe tuxedo looks great with a embellished band with a bow.\nAccessorize the outfit with black suede shoes.",
-      "after": "Cobalt Blue Embroidered Tuxedo Set for Men. Pieces included: to be confirmed by the merchant (the page lists \"Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie\" and Set: 5). Fabric: Rayon. Composition percentages are not stated. Colour: Blue, bottoms in Black. Design: Lapel, button closure, embroidery. Fit: slim. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding and Engagement. Price: ₹ 53,352 MRP, inclusive of all taxes.",
+      "after": "Cobalt Blue Embroidered Tuxedo Set for Men. This 5-piece set includes: Tuxedo, Waist Coat, Shirt, Pant, and Bow Tie (confirmed in the product photo). Fabric: Rayon. Composition percentages are not stated. Colour: Blue; bottoms in Black. Design: Lapel, button closure, embroidery. Visible in the product photo: sleeve length: full sleeves; decorative details: black beaded / sequin lines in an abstract geometric pattern across the blazer; beaded black bow tie; black pocket square; pockets: chest welt pocket. Fit: slim. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 18–21 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Wedding and Engagement. Price: ₹ 53,352 MRP, inclusive of all taxes.",
       "change": "rewritten from cited page facts; contradicted facts held for merchant"
     },
     {
@@ -1096,7 +1440,7 @@
       "field": "image_alt_text",
       "before": "5/5 images have alt text",
       "after": "5/5",
-      "change": "0 changed"
+      "change": "1 changed"
     },
     {
       "field": "contradictions",
@@ -1162,7 +1506,7 @@
       "field": "attribute.pieces_included",
       "before": "Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie (Set: 5)",
       "after": "Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie (Set: 5)",
-      "tier": "contradicted"
+      "tier": "stated"
     },
     {
       "field": "attribute.bottom_type",
@@ -1190,9 +1534,9 @@
     },
     {
       "field": "attribute.sleeve_length",
-      "before": null,
-      "after": null,
-      "tier": "pending_vision"
+      "before": "full sleeves",
+      "after": "full sleeves",
+      "tier": "photo_visible"
     },
     {
       "field": "attribute.model_height_and_size_worn",
@@ -1263,6 +1607,78 @@
         "label": "MRP (Inclusive of all taxes)"
       },
       "tier": "stated"
+    },
+    {
+      "field": "attribute.pieces_visible",
+      "before": [
+        "blazer",
+        "waistcoat",
+        "shirt",
+        "trousers",
+        "bow tie"
+      ],
+      "after": [
+        "blazer",
+        "waistcoat",
+        "shirt",
+        "trousers",
+        "bow tie"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_closure",
+      "before": "single-button blazer; buttoned U-neck waistcoat; studded shirt front",
+      "after": "single-button blazer; buttoned U-neck waistcoat; studded shirt front",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_primary_color",
+      "before": "cobalt / royal blue blazer",
+      "after": "cobalt / royal blue blazer",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_secondary_colors",
+      "before": [
+        "black",
+        "white"
+      ],
+      "after": [
+        "black",
+        "white"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.decorative_details",
+      "before": "black beaded / sequin lines in an abstract geometric pattern across the blazer; beaded black bow tie; black pocket square",
+      "after": "black beaded / sequin lines in an abstract geometric pattern across the blazer; beaded black bow tie; black pocket square",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.pockets",
+      "before": "chest welt pocket",
+      "after": "chest welt pocket",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.silhouette",
+      "before": "slim blazer; slim tapered trousers",
+      "after": "slim blazer; slim tapered trousers",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.logo_visibility",
+      "before": "none",
+      "after": "none",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.visible_texture",
+      "before": "high satin sheen on the blazer",
+      "after": "high satin sheen on the blazer",
+      "tier": "photo_inferred"
     }
   ]
 }

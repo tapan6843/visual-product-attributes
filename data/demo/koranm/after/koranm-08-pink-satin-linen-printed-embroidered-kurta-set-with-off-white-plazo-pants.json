@@ -3,12 +3,12 @@
   "title": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men",
   "product_url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants",
   "before_file": "before/koranm-08-pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants.json",
-  "generated_at": "2026-10-17T21:29:33.364Z",
-  "generator": "scripts/demo/build-after.mjs (text and structured data rules; no vision yet)",
+  "generated_at": "2026-10-17T22:32:07.018Z",
+  "generator": "scripts/demo/build-after.mjs (text and structured data rules + photo_direct_read: vision/koranm-08-direct-read.json)",
   "score": {
     "rubric": "PRD FR2 weights (fit 30, fabric 20, design 15, variants 15, policies 10, occasion 10); hackathon criteria, untuned.",
     "before": 51,
-    "after_generated": 64,
+    "after_generated": 67,
     "after_merchant_answers": 97,
     "parts": {
       "fit_and_sizing": {
@@ -86,7 +86,7 @@
       "design_details": {
         "weight": 15,
         "before": 10,
-        "after_generated": 10,
+        "after_generated": 13,
         "after_merchant_answers": 15,
         "criteria": [
           {
@@ -114,7 +114,7 @@
             "criterion": "Pieces included, consistent",
             "points": 3,
             "before": false,
-            "after_generated": false,
+            "after_generated": true,
             "after_merchant_answers": true
           },
           {
@@ -140,7 +140,7 @@
             "after_merchant_answers": true
           },
           {
-            "criterion": "Colour named consistently",
+            "criterion": "Colour named consistently (garment and bottoms)",
             "points": 4,
             "before": true,
             "after_generated": true,
@@ -232,7 +232,15 @@
           "value": "Elevate your festive wardrobe with this Pink Kurta Set, crafted from premium RFD/Satin Linen for a refined and luxurious appeal. Featuring a sophisticated Chinese collar, full sleeves, and a classic button closure, the kurta combines an elegant print with intricate embroidery for a distinctive festive look. Paired with contrasting Off White Satin Linen Palazzo pant, this ensemble is perfect for weddings, festive celebrations, receptions, and special occasions."
         }
       ],
-      "merchant_question": "Does this set include a jacket? The includes list says yes; the description does not mention it."
+      "merchant_question": "Does this set include a jacket? The includes list says yes; the description does not mention it.",
+      "resolved": true,
+      "resolution": {
+        "by": "photo_direct_read",
+        "supports": "page_features.Includes",
+        "photo_reading": "open embroidered jacket clearly worn",
+        "source": "vision/koranm-08-direct-read.json#img-1",
+        "note": "Photo supports the Includes field; the description should name the jacket"
+      }
     },
     {
       "id": "F02",
@@ -530,11 +538,12 @@
     {
       "name": "pieces_included",
       "value": "Kurta, Jacket, and Plazzo Pant (Set: 3)",
-      "tier": "contradicted",
+      "tier": "stated",
       "sources": [
         "page_features.Includes",
         "page_features.Set"
-      ]
+      ],
+      "note": "Contradiction resolved by photo evidence."
     },
     {
       "name": "bottom_type",
@@ -550,7 +559,15 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "kurta collar not clearly readable",
+        "tier": "photo_inferred",
+        "confidence": 0.4,
+        "source": "vision/koranm-08-direct-read.json#img-1",
+        "label": "photo_direct_read",
+        "note": "Angle and lighting hide the neckline; description claims a Chinese collar"
+      }
     },
     {
       "name": "fit_type",
@@ -574,7 +591,14 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "full sleeves",
+        "tier": "photo_visible",
+        "confidence": 0.8,
+        "source": "vision/koranm-08-direct-read.json#img-1",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "model_height_and_size_worn",
@@ -631,8 +655,222 @@
         "page_price",
         "variants[].price"
       ]
+    },
+    {
+      "name": "pieces_visible",
+      "value": [
+        "open jacket",
+        "kurta",
+        "trousers (partly)"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-08-direct-read.json#img-1"
+      ],
+      "confidence": 0.7,
+      "label": "photo_direct_read",
+      "note": "Tight, angled crop"
+    },
+    {
+      "name": "photo_primary_color",
+      "value": "hot pink / fuchsia",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-08-direct-read.json#img-1"
+      ],
+      "confidence": 0.6,
+      "label": "photo_direct_read",
+      "note": "Strong coloured lighting distorts the shade"
+    },
+    {
+      "name": "photo_secondary_colors",
+      "value": [
+        "yellow",
+        "green",
+        "blue",
+        "white",
+        "gold"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-08-direct-read.json#img-1"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "decorative_details",
+      "value": "geometric cross-stitch-style embroidery over the jacket front and sleeves, gold elephant motifs on the chest, small scattered square motifs",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-08-direct-read.json#img-1"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_bottom_color",
+      "value": "off-white",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-08-direct-read.json#img-1"
+      ],
+      "confidence": 0.6,
+      "label": "photo_direct_read",
+      "note": "Partly visible, coloured lighting"
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-08-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "visible_texture",
+      "value": "satin-like sheen",
+      "tier": "photo_inferred",
+      "sources": [
+        "vision/koranm-08-direct-read.json#img-1"
+      ],
+      "confidence": 0.6,
+      "label": "photo_direct_read",
+      "note": "Consistent with 'satin linen'; cannot confirm"
     }
   ],
+  "filter_facets": {
+    "category": {
+      "value": "Kurta Jacket Set",
+      "tier": "stated",
+      "sources": [
+        "product.product_type"
+      ]
+    },
+    "primary_color": {
+      "value": "Pink",
+      "tier": "stated",
+      "sources": [
+        "page_features.Colour",
+        "product.options.Color"
+      ]
+    },
+    "photo_primary_color": {
+      "value": "hot pink / fuchsia",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-08-direct-read.json#img-1"
+      ]
+    },
+    "secondary_colors": {
+      "value": [
+        "yellow",
+        "green",
+        "blue",
+        "white",
+        "gold"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-08-direct-read.json#img-1"
+      ]
+    },
+    "bottom_color": {
+      "value": "Off White",
+      "tier": "stated",
+      "sources": [
+        "page_features.Bottom Color"
+      ]
+    },
+    "pieces": {
+      "value": "Kurta, Jacket, and Plazzo Pant (Set: 3)",
+      "tier": "stated",
+      "sources": [
+        "page_features.Includes",
+        "page_features.Set"
+      ],
+      "photo_count": 3
+    },
+    "collar": {
+      "value": "chinese collar",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "sleeve": {
+      "value": "full",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "garment_length": {
+      "value": null,
+      "status": "missing"
+    },
+    "pattern": {
+      "value": "Printed and Embroidery",
+      "tier": "stated",
+      "sources": [
+        "page_features.Pattern"
+      ]
+    },
+    "embellishment": {
+      "value": "geometric cross-stitch-style embroidery over the jacket front and sleeves, gold elephant motifs on the chest, small scattered square motifs",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-08-direct-read.json#img-1"
+      ]
+    },
+    "closure": {
+      "value": "Buttons",
+      "tier": "stated",
+      "sources": [
+        "page_features.Closure Type"
+      ]
+    },
+    "pockets": {
+      "value": null,
+      "status": "missing"
+    },
+    "fabric": {
+      "value": "Satin Linen",
+      "tier": "stated",
+      "sources": [
+        "page_features.Material"
+      ]
+    },
+    "fit": {
+      "value": null,
+      "status": "missing"
+    },
+    "occasions": {
+      "value": null,
+      "status": "missing"
+    },
+    "sizes_in_stock": {
+      "value": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "tier": "stated",
+      "sources": [
+        "variants[].available"
+      ]
+    },
+    "price_inr": {
+      "value": 60768,
+      "tier": "stated",
+      "sources": [
+        "page_price"
+      ]
+    }
+  },
   "fixes": {
     "size_chart": {
       "unit": "in",
@@ -722,7 +960,7 @@
       ]
     },
     "description": {
-      "text": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men. Pieces included: to be confirmed by the merchant (the page lists \"Kurta, Jacket, and Plazzo Pant\" and Set: 3). Fabric: Satin Linen. Composition percentages are not stated. Colour: Pink, bottoms in Off White. Design: Chinese collar, full sleeves, button closure, printed and embroidery. Fit type is not stated. Sizes 38–44 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–48 in, shoulder 18–20.5 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44). Price: ₹ 60,768 MRP, inclusive of all taxes.",
+      "text": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men. This 3-piece set includes: Kurta, Jacket, and Plazzo Pant (confirmed in the product photo). Fabric: Satin Linen. Composition percentages are not stated. Colour: Pink; bottoms in Off White. Design: Chinese collar, full sleeves, button closure, printed and embroidery. Visible in the product photo: decorative details: geometric cross-stitch-style embroidery over the jacket front and sleeves, gold elephant motifs on the chest, small scattered square motifs. Fit type is not stated. Sizes 38–44 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–48 in, shoulder 18–20.5 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44). Price: ₹ 60,768 MRP, inclusive of all taxes.",
       "sentences": [
         {
           "text": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men.",
@@ -731,10 +969,11 @@
           ]
         },
         {
-          "text": "Pieces included: to be confirmed by the merchant (the page lists \"Kurta, Jacket, and Plazzo Pant\" and Set: 3).",
+          "text": "This 3-piece set includes: Kurta, Jacket, and Plazzo Pant (confirmed in the product photo).",
           "sources": [
             "page_features.Includes",
-            "page_features.Set"
+            "page_features.Set",
+            "vision/koranm-08-direct-read.json#img-1"
           ]
         },
         {
@@ -744,7 +983,7 @@
           ]
         },
         {
-          "text": "Colour: Pink, bottoms in Off White.",
+          "text": "Colour: Pink; bottoms in Off White.",
           "sources": [
             "page_features.Colour",
             "page_features.Bottom Color"
@@ -757,6 +996,12 @@
             "page_features.Closure Type",
             "page_features.Pattern",
             "page_features.Work Type"
+          ]
+        },
+        {
+          "text": "Visible in the product photo: decorative details: geometric cross-stitch-style embroidery over the jacket front and sleeves, gold elephant motifs on the chest, small scattered square motifs.",
+          "sources": [
+            "vision/koranm-08-direct-read.json#img-1"
           ]
         },
         {
@@ -833,6 +1078,11 @@
         },
         {
           "@type": "PropertyValue",
+          "name": "Pieces included",
+          "value": "Kurta, Jacket, and Plazzo Pant (Set: 3)"
+        },
+        {
+          "@type": "PropertyValue",
           "name": "Bottom type",
           "value": "Plazzo Pant"
         },
@@ -840,6 +1090,16 @@
           "@type": "PropertyValue",
           "name": "Size chart basis",
           "value": "Garment measurements; fitting ease already included (per page note). Units: in."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "embellishment (from photo)",
+          "value": "geometric cross-stitch-style embroidery over the jacket front and sleeves, gold elephant motifs on the chest, small scattered square motifs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "secondary colors (from photo)",
+          "value": "yellow, green, blue, white, gold"
         }
       ],
       "hasVariant": [
@@ -905,10 +1165,11 @@
       {
         "image_id": "img-1",
         "before": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant - KORANM",
-        "after": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant - KORANM",
-        "changed": false,
-        "tier": "stated",
-        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+        "after": "Hot pink open jacket with geometric cross-stitch embroidery and gold elephant motifs over a pink kurta, with off-white trousers.",
+        "changed": true,
+        "tier": "photo_visible",
+        "label": "photo_direct_read",
+        "note": "Written from the direct read of this photo."
       },
       {
         "image_id": "img-2",
@@ -953,7 +1214,8 @@
     ]
   },
   "image_processing": {
-    "status": "pending",
+    "status": "direct read done for img-1 (photo_direct_read); /api/extract run pending",
+    "direct_read_file": "vision/koranm-08-direct-read.json",
     "download_command": "node scripts/demo/download-images.mjs",
     "checks": [
       "Estimate where the hem falls on the model (inferred tier, merchant to confirm).",
@@ -1009,9 +1271,15 @@
   },
   "comparison": [
     {
+      "field": "filter_facets",
+      "before": "11 facets from listing text (prose and an invalid structured-data block)",
+      "after": "14 facets in structured data (3 from the photo), 0 withheld as contradicted",
+      "change": "agents can filter on normalised values instead of parsing prose"
+    },
+    {
       "field": "description",
       "before": "Elevate your festive wardrobe with this Pink Kurta Set, crafted from premium RFD/Satin Linen for a refined and luxurious appeal. Featuring a sophisticated Chinese collar, full sleeves, and a classic button closure, the kurta combines an elegant print with intricate embroidery for a distinctive festive look. Paired with contrasting Off White Satin Linen Palazzo pant, this ensemble is perfect for weddings, festive celebrations, receptions, and special occasions.",
-      "after": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men. Pieces included: to be confirmed by the merchant (the page lists \"Kurta, Jacket, and Plazzo Pant\" and Set: 3). Fabric: Satin Linen. Composition percentages are not stated. Colour: Pink, bottoms in Off White. Design: Chinese collar, full sleeves, button closure, printed and embroidery. Fit type is not stated. Sizes 38–44 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–48 in, shoulder 18–20.5 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44). Price: ₹ 60,768 MRP, inclusive of all taxes.",
+      "after": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men. This 3-piece set includes: Kurta, Jacket, and Plazzo Pant (confirmed in the product photo). Fabric: Satin Linen. Composition percentages are not stated. Colour: Pink; bottoms in Off White. Design: Chinese collar, full sleeves, button closure, printed and embroidery. Visible in the product photo: decorative details: geometric cross-stitch-style embroidery over the jacket front and sleeves, gold elephant motifs on the chest, small scattered square motifs. Fit type is not stated. Sizes 38–44 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–48 in, shoulder 18–20.5 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44). Price: ₹ 60,768 MRP, inclusive of all taxes.",
       "change": "rewritten from cited page facts; contradicted facts held for merchant"
     },
     {
@@ -1030,7 +1298,7 @@
       "field": "image_alt_text",
       "before": "6/6 images have alt text",
       "after": "6/6",
-      "change": "0 changed"
+      "change": "1 changed"
     },
     {
       "field": "contradictions",
@@ -1096,7 +1364,7 @@
       "field": "attribute.pieces_included",
       "before": "Kurta, Jacket, and Plazzo Pant (Set: 3)",
       "after": "Kurta, Jacket, and Plazzo Pant (Set: 3)",
-      "tier": "contradicted"
+      "tier": "stated"
     },
     {
       "field": "attribute.bottom_type",
@@ -1185,6 +1453,68 @@
         "label": "MRP (Inclusive of all taxes)"
       },
       "tier": "stated"
+    },
+    {
+      "field": "attribute.pieces_visible",
+      "before": [
+        "open jacket",
+        "kurta",
+        "trousers (partly)"
+      ],
+      "after": [
+        "open jacket",
+        "kurta",
+        "trousers (partly)"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_primary_color",
+      "before": "hot pink / fuchsia",
+      "after": "hot pink / fuchsia",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_secondary_colors",
+      "before": [
+        "yellow",
+        "green",
+        "blue",
+        "white",
+        "gold"
+      ],
+      "after": [
+        "yellow",
+        "green",
+        "blue",
+        "white",
+        "gold"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.decorative_details",
+      "before": "geometric cross-stitch-style embroidery over the jacket front and sleeves, gold elephant motifs on the chest, small scattered square motifs",
+      "after": "geometric cross-stitch-style embroidery over the jacket front and sleeves, gold elephant motifs on the chest, small scattered square motifs",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_bottom_color",
+      "before": "off-white",
+      "after": "off-white",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.logo_visibility",
+      "before": "none",
+      "after": "none",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.visible_texture",
+      "before": "satin-like sheen",
+      "after": "satin-like sheen",
+      "tier": "photo_inferred"
     }
   ]
 }

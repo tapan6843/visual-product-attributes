@@ -1,0 +1,158 @@
+{
+  "demo_id": "koranm-01",
+  "title": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men",
+  "product_url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1",
+  "method": "Direct visual read by Claude in a Claude Code session, looking at the downloaded photo. Not the project's /api/extract OpenAI adapter; no confidence model behind the numbers, they are the reader's judgement (0.9 clear, 0.7 likely, 0.5 uncertain).",
+  "read_at": "2026-10-17T22:29:00.261618+00:00",
+  "images_examined": [
+    {
+      "id": "img-1",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/23_2.jpg?v=1790846948",
+      "local_path": "data/demo/koranm/images/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1/01.jpg"
+    }
+  ],
+  "garment": "Sleeveless Nehru jacket (bandi) layered over a full-sleeve shirt; two hem layers visible",
+  "attributes": [
+    {
+      "name": "pieces_visible",
+      "value": [
+        "Nehru jacket",
+        "full-sleeve shirt"
+      ],
+      "tier": "visible",
+      "confidence": 0.9,
+      "note": "Shirt hem shows below jacket hem; shirt sleeves come out of jacket armholes"
+    },
+    {
+      "name": "collar",
+      "value": "mandarin (band) collar on jacket, shirt band collar inside",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "closure",
+      "value": "single-breasted centre-front buttons: 5 visible, likely 6 (one behind hand); round, white with pearl-like sheen",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "pockets",
+      "value": "two lower welt pockets and one left chest welt pocket on the jacket",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "decorative_details",
+      "value": "tonal cream feather/leaf floral embroidery on both upper sleeves and at the left chest pocket",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "sleeve",
+      "value": "full-length shirt sleeves worn rolled to just below the elbow",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "pattern",
+      "value": "solid; embroidery only",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "garment_length",
+      "value": "jacket ends at upper hip with a straight hem; shirt a few cm longer",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "primary_color",
+      "value": "light warm grey / greige, heathered",
+      "tier": "inferred",
+      "confidence": 0.7,
+      "note": "Terracotta backdrop may warm the tone; does not read as fawn (yellow-brown)"
+    },
+    {
+      "name": "visible_texture",
+      "value": "matte, slubby cross-weave consistent with linen",
+      "tier": "inferred",
+      "confidence": 0.7,
+      "note": "Appearance cannot confirm fiber"
+    },
+    {
+      "name": "apparent_fit",
+      "value": "tailored, straight through the body",
+      "tier": "inferred",
+      "confidence": 0.7,
+      "note": "Depends on model size, which is unconfirmed"
+    }
+  ],
+  "styling_not_included": [
+    "white trousers"
+  ],
+  "listing_check": [
+    {
+      "listing_field": "product_type / title",
+      "listing_value": "Bandi Shirt (single item)",
+      "photo_reading": "Two garments: jacket + shirt",
+      "verdict": "contradicts",
+      "note": "Supports page_features.Includes 'Nehru Jacket and Shirt' (Set: 2)",
+      "field": "pieces_included",
+      "supports": "page_features.Includes"
+    },
+    {
+      "listing_field": "page_features.Colour / title",
+      "listing_value": "Fawn (title), Beige (image alt)",
+      "photo_reading": "light grey-greige",
+      "verdict": "contradicts",
+      "note": "Three sources disagree; hero finding",
+      "field": "color"
+    },
+    {
+      "listing_field": "description: Chinese collar",
+      "listing_value": "Chinese collar",
+      "photo_reading": "mandarin band collar",
+      "verdict": "matches",
+      "field": "collar"
+    },
+    {
+      "listing_field": "description: embroidery on chest and sleeves",
+      "listing_value": "floral hand embroidery on chest and sleeves",
+      "photo_reading": "tonal floral embroidery on both sleeves and chest",
+      "verdict": "matches",
+      "field": "design_details"
+    },
+    {
+      "listing_field": "description: folded cuff detailing",
+      "listing_value": "folded cuffs",
+      "photo_reading": "sleeves rolled below elbow",
+      "verdict": "matches",
+      "note": "May be styling rather than construction",
+      "field": "design_details"
+    },
+    {
+      "listing_field": "pockets",
+      "listing_value": null,
+      "photo_reading": "3 welt pockets",
+      "verdict": "new",
+      "field": "pockets"
+    }
+  ],
+  "photo_quality_notes": "Clean studio shot; warm coloured backdrop affects colour judgement.",
+  "visual_description": "Light grey-greige linen-look Nehru jacket over a matching full-sleeve shirt, mandarin collar, pearl-tone buttons, three welt pockets, tonal floral embroidery on the sleeves and chest.",
+  "not_determinable": [
+    "fiber composition %",
+    "lining",
+    "fabric weight",
+    "opacity",
+    "stretch",
+    "care",
+    "size worn by model"
+  ]
+}

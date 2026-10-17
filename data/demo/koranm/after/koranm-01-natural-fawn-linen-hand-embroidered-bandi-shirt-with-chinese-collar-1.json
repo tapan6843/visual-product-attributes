@@ -3,12 +3,12 @@
   "title": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men",
   "product_url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1",
   "before_file": "before/koranm-01-natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1.json",
-  "generated_at": "2026-10-17T21:29:33.350Z",
-  "generator": "scripts/demo/build-after.mjs (text and structured data rules; no vision yet)",
+  "generated_at": "2026-10-17T22:32:07.002Z",
+  "generator": "scripts/demo/build-after.mjs (text and structured data rules + photo_direct_read: vision/koranm-01-direct-read.json)",
   "score": {
     "rubric": "PRD FR2 weights (fit 30, fabric 20, design 15, variants 15, policies 10, occasion 10); hackathon criteria, untuned.",
     "before": 56,
-    "after_generated": 75,
+    "after_generated": 83,
     "after_merchant_answers": 97,
     "parts": {
       "fit_and_sizing": {
@@ -86,7 +86,7 @@
       "design_details": {
         "weight": 15,
         "before": 7,
-        "after_generated": 7,
+        "after_generated": 15,
         "after_merchant_answers": 15,
         "criteria": [
           {
@@ -107,21 +107,21 @@
             "criterion": "Sleeve length",
             "points": 3,
             "before": false,
-            "after_generated": false,
+            "after_generated": true,
             "after_merchant_answers": true
           },
           {
             "criterion": "Pieces included, consistent",
             "points": 3,
             "before": false,
-            "after_generated": false,
+            "after_generated": true,
             "after_merchant_answers": true
           },
           {
             "criterion": "Garment length",
             "points": 2,
             "before": false,
-            "after_generated": false,
+            "after_generated": true,
             "after_merchant_answers": true
           }
         ]
@@ -140,7 +140,7 @@
             "after_merchant_answers": true
           },
           {
-            "criterion": "Colour named consistently",
+            "criterion": "Colour named consistently (garment and bottoms)",
             "points": 4,
             "before": false,
             "after_generated": false,
@@ -230,13 +230,22 @@
         {
           "source": "images[img-1].alt",
           "value": "Natural Beige Linen Hand-Embroidered Bandi Shirt with Chinese Collar - KORANM"
+        },
+        {
+          "source": "vision/koranm-01-direct-read.json#img-1",
+          "label": "photo_direct_read",
+          "value": "light grey-greige"
         }
       ],
       "fix": {
         "type": "alt_text",
         "image_id": "img-1"
       },
-      "pending_image_check": "Compare the photographed colour against both names."
+      "pending_image_check": "Compare the photographed colour against both names.",
+      "detected_by": [
+        "text_rules",
+        "photo_direct_read"
+      ]
     },
     {
       "id": "F02",
@@ -254,7 +263,15 @@
           "value": "Nehru Jacket and Shirt"
         }
       ],
-      "merchant_question": "Is this one bandi shirt, or a Nehru jacket plus a shirt?"
+      "merchant_question": "Is this one bandi shirt, or a Nehru jacket plus a shirt?",
+      "resolved": true,
+      "resolution": {
+        "by": "photo_direct_read",
+        "supports": "page_features.Includes",
+        "photo_reading": "Two garments: jacket + shirt",
+        "source": "vision/koranm-01-direct-read.json#img-1",
+        "note": "Supports page_features.Includes 'Nehru Jacket and Shirt' (Set: 2)"
+      }
     },
     {
       "id": "F03",
@@ -525,11 +542,12 @@
     {
       "name": "pieces_included",
       "value": "Nehru Jacket and Shirt (Set: 2)",
-      "tier": "contradicted",
+      "tier": "stated",
       "sources": [
         "page_features.Includes",
         "page_features.Set"
-      ]
+      ],
+      "note": "Contradiction resolved by photo evidence."
     },
     {
       "name": "collar",
@@ -537,7 +555,14 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "mandarin (band) collar on jacket, shirt band collar inside",
+        "tier": "photo_visible",
+        "confidence": 0.9,
+        "source": "vision/koranm-01-direct-read.json#img-1",
+        "label": "photo_direct_read"
+      }
     },
     {
       "name": "fit_type",
@@ -545,23 +570,35 @@
       "tier": "stated",
       "sources": [
         "description.text"
-      ]
+      ],
+      "photo_check": {
+        "value": "tailored, straight through the body",
+        "tier": "photo_inferred",
+        "confidence": 0.7,
+        "source": "vision/koranm-01-direct-read.json#img-1",
+        "label": "photo_direct_read",
+        "note": "Depends on model size, which is unconfirmed"
+      }
     },
     {
       "name": "garment_length",
-      "value": null,
-      "tier": "pending_vision",
+      "value": "jacket ends at upper hip with a straight hem; shirt a few cm longer",
+      "tier": "photo_visible",
       "sources": [
-        "images"
-      ]
+        "vision/koranm-01-direct-read.json#img-1"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
     },
     {
       "name": "sleeve_length",
-      "value": null,
-      "tier": "pending_vision",
+      "value": "full-length shirt sleeves worn rolled to just below the elbow",
+      "tier": "photo_visible",
       "sources": [
-        "images"
-      ]
+        "vision/koranm-01-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
     },
     {
       "name": "model_height_and_size_worn",
@@ -624,8 +661,233 @@
         "page_price",
         "variants[].price"
       ]
+    },
+    {
+      "name": "pieces_visible",
+      "value": [
+        "Nehru jacket",
+        "full-sleeve shirt"
+      ],
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read",
+      "note": "Shirt hem shows below jacket hem; shirt sleeves come out of jacket armholes"
+    },
+    {
+      "name": "photo_closure",
+      "value": "single-breasted centre-front buttons: 5 visible, likely 6 (one behind hand); round, white with pearl-like sheen",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ],
+      "confidence": 0.8,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "pockets",
+      "value": "two lower welt pockets and one left chest welt pocket on the jacket",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "decorative_details",
+      "value": "tonal cream feather/leaf floral embroidery on both upper sleeves and at the left chest pocket",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_pattern",
+      "value": "solid; embroidery only",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ],
+      "confidence": 0.9,
+      "label": "photo_direct_read"
+    },
+    {
+      "name": "photo_primary_color",
+      "value": "light warm grey / greige, heathered",
+      "tier": "photo_inferred",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ],
+      "confidence": 0.7,
+      "label": "photo_direct_read",
+      "note": "Terracotta backdrop may warm the tone; does not read as fawn (yellow-brown)"
+    },
+    {
+      "name": "visible_texture",
+      "value": "matte, slubby cross-weave consistent with linen",
+      "tier": "photo_inferred",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ],
+      "confidence": 0.7,
+      "label": "photo_direct_read",
+      "note": "Appearance cannot confirm fiber"
     }
   ],
+  "filter_facets": {
+    "category": {
+      "value": "Bandi Shirt",
+      "tier": "stated",
+      "sources": [
+        "product.product_type"
+      ]
+    },
+    "primary_color": {
+      "value": null,
+      "status": "withheld_contradicted",
+      "sources": [
+        "page_features.Colour",
+        "product.options.Color"
+      ]
+    },
+    "photo_primary_color": {
+      "value": "light warm grey / greige, heathered",
+      "tier": "photo_inferred",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ],
+      "needs_confirmation": true
+    },
+    "secondary_colors": {
+      "value": null,
+      "status": "missing"
+    },
+    "bottom_color": {
+      "value": null,
+      "status": "missing"
+    },
+    "pieces": {
+      "value": "Nehru Jacket and Shirt (Set: 2)",
+      "tier": "stated",
+      "sources": [
+        "page_features.Includes",
+        "page_features.Set"
+      ],
+      "photo_count": 2
+    },
+    "collar": {
+      "value": "chinese collar",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "sleeve": {
+      "value": "full-length shirt sleeves worn rolled to just below the elbow",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ]
+    },
+    "garment_length": {
+      "value": "jacket ends at upper hip with a straight hem; shirt a few cm longer",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ]
+    },
+    "pattern": {
+      "value": "Embroidery",
+      "tier": "stated",
+      "sources": [
+        "page_features.Pattern"
+      ]
+    },
+    "embellishment": {
+      "value": "tonal cream feather/leaf floral embroidery on both upper sleeves and at the left chest pocket",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ]
+    },
+    "closure": {
+      "value": "Buttons",
+      "tier": "stated",
+      "sources": [
+        "page_features.Closure Type"
+      ]
+    },
+    "pockets": {
+      "value": "two lower welt pockets and one left chest welt pocket on the jacket",
+      "tier": "photo_visible",
+      "sources": [
+        "vision/koranm-01-direct-read.json#img-1"
+      ]
+    },
+    "fabric": {
+      "value": "Linen",
+      "tier": "stated",
+      "sources": [
+        "page_features.Material"
+      ]
+    },
+    "fit": {
+      "value": "tailored",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    "occasions": {
+      "value": [
+        "engagement",
+        "reception",
+        "sangeet",
+        "ceremony"
+      ],
+      "tier": "stated",
+      "sources": [
+        "page_features.Occasions"
+      ]
+    },
+    "sizes_in_stock": {
+      "value": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "tier": "stated",
+      "sources": [
+        "variants[].available"
+      ]
+    },
+    "price_inr": {
+      "value": 23992,
+      "tier": "stated",
+      "sources": [
+        "page_price"
+      ]
+    }
+  },
   "fixes": {
     "size_chart": {
       "unit": "in",
@@ -728,7 +990,7 @@
       ]
     },
     "description": {
-      "text": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men. Pieces included: to be confirmed by the merchant (the page lists \"Nehru Jacket and Shirt\" and Set: 2). Fabric: Linen. Composition percentages are not stated. Colour: Fawn. Design: Chinese collar, button closure, embroidery (hand embroidery). Fit: tailored. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 17–19.5 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Engagement, Reception, Sangeet, and Ceremony. Price: ₹ 23,992 MRP, inclusive of all taxes.",
+      "text": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men. This 2-piece set includes: Nehru Jacket and Shirt (confirmed in the product photo). Fabric: Linen. Composition percentages are not stated. Colour: to be confirmed by the merchant (the colour name, image text and photo disagree). Design: Chinese collar, button closure, embroidery (hand embroidery). Visible in the product photo: garment length: jacket ends at upper hip with a straight hem; shirt a few cm longer; sleeve length: full-length shirt sleeves worn rolled to just below the elbow; pockets: two lower welt pockets and one left chest welt pocket on the jacket; decorative details: tonal cream feather/leaf floral embroidery on both upper sleeves and at the left chest pocket. Fit: tailored. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 17–19.5 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Engagement, Reception, Sangeet, and Ceremony. Price: ₹ 23,992 MRP, inclusive of all taxes.",
       "sentences": [
         {
           "text": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men.",
@@ -737,10 +999,11 @@
           ]
         },
         {
-          "text": "Pieces included: to be confirmed by the merchant (the page lists \"Nehru Jacket and Shirt\" and Set: 2).",
+          "text": "This 2-piece set includes: Nehru Jacket and Shirt (confirmed in the product photo).",
           "sources": [
             "page_features.Includes",
-            "page_features.Set"
+            "page_features.Set",
+            "vision/koranm-01-direct-read.json#img-1"
           ]
         },
         {
@@ -750,7 +1013,7 @@
           ]
         },
         {
-          "text": "Colour: Fawn.",
+          "text": "Colour: to be confirmed by the merchant (the colour name, image text and photo disagree).",
           "sources": [
             "page_features.Colour",
             "page_features.Bottom Color"
@@ -763,6 +1026,12 @@
             "page_features.Closure Type",
             "page_features.Pattern",
             "page_features.Work Type"
+          ]
+        },
+        {
+          "text": "Visible in the product photo: garment length: jacket ends at upper hip with a straight hem; shirt a few cm longer; sleeve length: full-length shirt sleeves worn rolled to just below the elbow; pockets: two lower welt pockets and one left chest welt pocket on the jacket; decorative details: tonal cream feather/leaf floral embroidery on both upper sleeves and at the left chest pocket.",
+          "sources": [
+            "vision/koranm-01-direct-read.json#img-1"
           ]
         },
         {
@@ -861,6 +1130,11 @@
         },
         {
           "@type": "PropertyValue",
+          "name": "Pieces included",
+          "value": "Nehru Jacket and Shirt (Set: 2)"
+        },
+        {
+          "@type": "PropertyValue",
           "name": "Occasions",
           "value": "Engagement, Reception, Sangeet, and Ceremony"
         },
@@ -873,6 +1147,26 @@
           "@type": "PropertyValue",
           "name": "Size chart basis",
           "value": "Garment measurements; fitting ease already included (per page note). Units: in."
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "sleeve (from photo)",
+          "value": "full-length shirt sleeves worn rolled to just below the elbow"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "garment length (from photo)",
+          "value": "jacket ends at upper hip with a straight hem; shirt a few cm longer"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "embellishment (from photo)",
+          "value": "tonal cream feather/leaf floral embroidery on both upper sleeves and at the left chest pocket"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "pockets (from photo)",
+          "value": "two lower welt pockets and one left chest welt pocket on the jacket"
         }
       ],
       "hasVariant": [
@@ -980,10 +1274,11 @@
       {
         "image_id": "img-1",
         "before": "Natural Beige Linen Hand-Embroidered Bandi Shirt with Chinese Collar - KORANM",
-        "after": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men – photo 1 of 5",
+        "after": "Light grey-greige linen-look Nehru jacket over a matching full-sleeve shirt, mandarin collar, pearl-tone buttons, three welt pockets, tonal floral embroidery on the sleeves and chest.",
         "changed": true,
-        "tier": "stated",
-        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+        "tier": "photo_visible",
+        "label": "photo_direct_read",
+        "note": "Written from the direct read of this photo."
       },
       {
         "image_id": "img-2",
@@ -1020,7 +1315,8 @@
     ]
   },
   "image_processing": {
-    "status": "pending",
+    "status": "direct read done for img-1 (photo_direct_read); /api/extract run pending",
+    "direct_read_file": "vision/koranm-01-direct-read.json",
     "download_command": "node scripts/demo/download-images.mjs",
     "checks": [
       "Compare the photographed colour against both names.",
@@ -1068,9 +1364,15 @@
   },
   "comparison": [
     {
+      "field": "filter_facets",
+      "before": "10 facets from listing text (prose and an invalid structured-data block)",
+      "after": "15 facets in structured data (5 from the photo), 1 withheld as contradicted",
+      "change": "agents can filter on normalised values instead of parsing prose"
+    },
+    {
       "field": "description",
       "before": "Step into effortless sophistication with this Natural Fawn Linen Hand-Embroidered Bandi Shirt. Crafted from premium linen in a soft natural Fawn shade, this ensemble features a structured Chinese collar and a clean buttoned front for a refined silhouette. The subtle floral hand embroidery on the chest and sleeves adds an elegant artisanal touch, while the rolled cuff detailing gives the design a relaxed contemporary finish. Ideal for festive celebrations, daytime weddings, cultural gatherings, and intimate occasions.\nKey Features\nFabric: Premium linen with a lightweight and breathable feel\nColor: Natural Fawn with subtle tonal embroidery\nDetailing: Delicate floral hand embroidery on the chest and sleeves\nDesign: Chinese collar with a clean buttoned placket\nSleeves: Folded cuff detailing for a contemporary finish\nFit: Tailored silhouette for a polished and sophisticated look\nProduct: Hand-Embroidered Bandi Shirt\nStyling Tips\nFootwear: Pair with tan or brown loafers for a refined look, or opt for beige juttis for a traditional festive appeal.\nAccessories: Style with a classic watch or minimal bracelet to complement the understated embroidery.",
-      "after": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men. Pieces included: to be confirmed by the merchant (the page lists \"Nehru Jacket and Shirt\" and Set: 2). Fabric: Linen. Composition percentages are not stated. Colour: Fawn. Design: Chinese collar, button closure, embroidery (hand embroidery). Fit: tailored. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 17–19.5 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Engagement, Reception, Sangeet, and Ceremony. Price: ₹ 23,992 MRP, inclusive of all taxes.",
+      "after": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men. This 2-piece set includes: Nehru Jacket and Shirt (confirmed in the product photo). Fabric: Linen. Composition percentages are not stated. Colour: to be confirmed by the merchant (the colour name, image text and photo disagree). Design: Chinese collar, button closure, embroidery (hand embroidery). Visible in the product photo: garment length: jacket ends at upper hip with a straight hem; shirt a few cm longer; sleeve length: full-length shirt sleeves worn rolled to just below the elbow; pockets: two lower welt pockets and one left chest welt pocket on the jacket; decorative details: tonal cream feather/leaf floral embroidery on both upper sleeves and at the left chest pocket. Fit: tailored. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 41–53 in, shoulder 17–19.5 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Engagement, Reception, Sangeet, and Ceremony. Price: ₹ 23,992 MRP, inclusive of all taxes.",
       "change": "rewritten from cited page facts; contradicted facts held for merchant"
     },
     {
@@ -1155,7 +1457,7 @@
       "field": "attribute.pieces_included",
       "before": "Nehru Jacket and Shirt (Set: 2)",
       "after": "Nehru Jacket and Shirt (Set: 2)",
-      "tier": "contradicted"
+      "tier": "stated"
     },
     {
       "field": "attribute.collar",
@@ -1171,15 +1473,15 @@
     },
     {
       "field": "attribute.garment_length",
-      "before": null,
-      "after": null,
-      "tier": "pending_vision"
+      "before": "jacket ends at upper hip with a straight hem; shirt a few cm longer",
+      "after": "jacket ends at upper hip with a straight hem; shirt a few cm longer",
+      "tier": "photo_visible"
     },
     {
       "field": "attribute.sleeve_length",
-      "before": null,
-      "after": null,
-      "tier": "pending_vision"
+      "before": "full-length shirt sleeves worn rolled to just below the elbow",
+      "after": "full-length shirt sleeves worn rolled to just below the elbow",
+      "tier": "photo_visible"
     },
     {
       "field": "attribute.model_height_and_size_worn",
@@ -1250,6 +1552,60 @@
         "label": "MRP (Inclusive of all taxes)"
       },
       "tier": "stated"
+    },
+    {
+      "field": "attribute.pieces_visible",
+      "before": [
+        "Nehru jacket",
+        "full-sleeve shirt"
+      ],
+      "after": [
+        "Nehru jacket",
+        "full-sleeve shirt"
+      ],
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_closure",
+      "before": "single-breasted centre-front buttons: 5 visible, likely 6 (one behind hand); round, white with pearl-like sheen",
+      "after": "single-breasted centre-front buttons: 5 visible, likely 6 (one behind hand); round, white with pearl-like sheen",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.pockets",
+      "before": "two lower welt pockets and one left chest welt pocket on the jacket",
+      "after": "two lower welt pockets and one left chest welt pocket on the jacket",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.decorative_details",
+      "before": "tonal cream feather/leaf floral embroidery on both upper sleeves and at the left chest pocket",
+      "after": "tonal cream feather/leaf floral embroidery on both upper sleeves and at the left chest pocket",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_pattern",
+      "before": "solid; embroidery only",
+      "after": "solid; embroidery only",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.logo_visibility",
+      "before": "none",
+      "after": "none",
+      "tier": "photo_visible"
+    },
+    {
+      "field": "attribute.photo_primary_color",
+      "before": "light warm grey / greige, heathered",
+      "after": "light warm grey / greige, heathered",
+      "tier": "photo_inferred"
+    },
+    {
+      "field": "attribute.visible_texture",
+      "before": "matte, slubby cross-weave consistent with linen",
+      "after": "matte, slubby cross-weave consistent with linen",
+      "tier": "photo_inferred"
     }
   ]
 }

@@ -1,0 +1,135 @@
+{
+  "demo_id": "koranm-05",
+  "title": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men",
+  "product_url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream",
+  "method": "Direct visual read by Claude in a Claude Code session, looking at the downloaded photo. Not the project's /api/extract OpenAI adapter; no confidence model behind the numbers, they are the reader's judgement (0.9 clear, 0.7 likely, 0.5 uncertain).",
+  "read_at": "2026-10-17T22:29:00.261618+00:00",
+  "images_examined": [
+    {
+      "id": "img-1",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A4106_43d0d8a0-4636-4e12-a07e-b40073e3041e.jpg?v=1784971678",
+      "local_path": "data/demo/koranm/images/ark-11536-faemb-909-cream/01.jpg"
+    }
+  ],
+  "garment": "Open-front Indo-Western long jacket over a short kurta and pants",
+  "attributes": [
+    {
+      "name": "pieces_visible",
+      "value": [
+        "open jacket",
+        "kurta",
+        "pants"
+      ],
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "collar",
+      "value": "stand collar on the jacket, worn open; kurta with embroidered V placket",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "closure",
+      "value": "jacket open-front, no fastening visible",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "primary_color",
+      "value": "ivory / pale blush base",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "secondary_colors",
+      "value": [
+        "pink",
+        "teal",
+        "orange",
+        "purple",
+        "yellow",
+        "green"
+      ],
+      "tier": "visible",
+      "confidence": 0.9,
+      "note": "All-over floral embroidery on the jacket"
+    },
+    {
+      "name": "pattern",
+      "value": "all-over multicolour floral embroidery on the jacket; kurta and pants plain",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "sleeve",
+      "value": "full sleeves",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "garment_length",
+      "value": "jacket to mid-thigh; kurta slightly shorter",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "visible_texture",
+      "value": "pants show slub texture consistent with raw silk",
+      "tier": "inferred",
+      "confidence": 0.6,
+      "note": "Cannot confirm Prabal Silk"
+    }
+  ],
+  "styling_not_included": [
+    "cream embroidered loafers"
+  ],
+  "listing_check": [
+    {
+      "listing_field": "page_features.Includes",
+      "listing_value": "Indo-Western, Kurta, and Pant (Set: 3)",
+      "photo_reading": "3 garments visible",
+      "verdict": "matches",
+      "field": "pieces_included"
+    },
+    {
+      "listing_field": "page_features.Closure Type",
+      "listing_value": "Open",
+      "photo_reading": "open-front jacket",
+      "verdict": "matches",
+      "field": "design_details"
+    },
+    {
+      "listing_field": "page_features.Colour",
+      "listing_value": "Cream",
+      "photo_reading": "ivory base with dense multicolour floral embroidery",
+      "verdict": "ambiguous",
+      "note": "'Cream' alone undersells a mostly multicolour jacket; shoppers asking for a colourful outfit would miss it",
+      "field": "color"
+    },
+    {
+      "listing_field": "description: medium-length silhouette",
+      "listing_value": "Medium-Length",
+      "photo_reading": "mid-thigh jacket",
+      "verdict": "matches",
+      "field": "garment_length"
+    }
+  ],
+  "photo_quality_notes": "Full-length studio shot.",
+  "visual_description": "Ivory open-front Indo-Western jacket covered in multicolour floral embroidery, over a plain cream kurta and cream straight pants.",
+  "not_determinable": [
+    "fiber composition %",
+    "lining",
+    "fabric weight",
+    "opacity",
+    "stretch",
+    "care",
+    "size worn by model"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "demo_id": "koranm-06",
+  "title": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection",
+  "product_url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection",
+  "method": "Direct visual read by Claude in a Claude Code session, looking at the downloaded photo. Not the project's /api/extract OpenAI adapter; no confidence model behind the numbers, they are the reader's judgement (0.9 clear, 0.7 likely, 0.5 uncertain).",
+  "read_at": "2026-10-17T22:29:00.261618+00:00",
+  "images_examined": [
+    {
+      "id": "img-1",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1_f481202a-60f5-4346-8e15-6e1392ff7942.jpg?v=1791803752",
+      "local_path": "data/demo/koranm/images/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection/01.jpg"
+    }
+  ],
+  "garment": "Jodhpuri (bandhgala) jacket over a printed kurta, with trousers",
+  "attributes": [
+    {
+      "name": "pieces_visible",
+      "value": [
+        "Jodhpuri jacket",
+        "printed kurta",
+        "trousers"
+      ],
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "collar",
+      "value": "mandarin (bandhgala) collar",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "closure",
+      "value": "3 visible gold-rimmed buttons set with blue stones; cuff buttons on sleeves",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "pockets",
+      "value": "two lower welt pockets",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "decorative_details",
+      "value": "jewelled brooch on the left chest (gold-tone with blue stones and a pearl drop)",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "hem",
+      "value": "curved front cutaway below the last button",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "primary_color",
+      "value": "cream / ivory jacket and trousers",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "secondary_colors",
+      "value": [
+        "navy",
+        "white"
+      ],
+      "tier": "visible",
+      "confidence": 0.9,
+      "note": "Kurta in a navy and white ikat-style print"
+    },
+    {
+      "name": "sleeve",
+      "value": "full sleeves",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "visible_texture",
+      "value": "nubby, slubbed weave consistent with matka silk",
+      "tier": "inferred",
+      "confidence": 0.7,
+      "note": "Cannot confirm fiber"
+    },
+    {
+      "name": "apparent_fit",
+      "value": "structured, tailored jacket",
+      "tier": "inferred",
+      "confidence": 0.7,
+      "note": "Waist-up shot only"
+    }
+  ],
+  "styling_not_included": [],
+  "listing_check": [
+    {
+      "listing_field": "page_features.Pattern",
+      "listing_value": "Solid",
+      "photo_reading": "solid jacket, printed kurta",
+      "verdict": "ambiguous",
+      "note": "Field ignores the kurta's print",
+      "field": "design_details"
+    },
+    {
+      "listing_field": "page_features.Work Type",
+      "listing_value": "Brooch",
+      "photo_reading": "jewelled brooch on chest",
+      "verdict": "matches",
+      "field": "design_details"
+    },
+    {
+      "listing_field": "description: sapphire-blue jewelled buttons",
+      "listing_value": "sapphire-blue jewelled buttons",
+      "photo_reading": "gold buttons with blue stones",
+      "verdict": "matches",
+      "field": "design_details"
+    },
+    {
+      "listing_field": "description: curved front cutaway",
+      "listing_value": "curved front cutaway hemline",
+      "photo_reading": "curved cutaway visible",
+      "verdict": "matches",
+      "field": "design_details"
+    },
+    {
+      "listing_field": "featured_model",
+      "listing_value": "6ft and wearing size 40",
+      "photo_reading": "not determinable",
+      "verdict": "ambiguous",
+      "note": "Collection is fronted by a named actor; the template model line is unlikely to describe this shoot",
+      "field": "model_size_worn"
+    }
+  ],
+  "photo_quality_notes": "Waist-up campaign shot; no full-length view in this image, so length and trousers are partly cropped.",
+  "visual_description": "Cream textured Jodhpuri jacket with a mandarin collar, blue-stone gold buttons, a jewelled chest brooch and a curved front cutaway, over a navy and white ikat-print kurta and cream trousers.",
+  "not_determinable": [
+    "fiber composition %",
+    "lining",
+    "fabric weight",
+    "opacity",
+    "stretch",
+    "care",
+    "size worn by model"
+  ]
+}

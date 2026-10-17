@@ -1,0 +1,150 @@
+{
+  "demo_id": "koranm-07",
+  "title": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men",
+  "product_url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant",
+  "method": "Direct visual read by Claude in a Claude Code session, looking at the downloaded photo. Not the project's /api/extract OpenAI adapter; no confidence model behind the numbers, they are the reader's judgement (0.9 clear, 0.7 likely, 0.5 uncertain).",
+  "read_at": "2026-10-17T22:29:00.261618+00:00",
+  "images_examined": [
+    {
+      "id": "img-1",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A2735.jpg?v=1784980351",
+      "local_path": "data/demo/koranm/images/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant/01.jpg"
+    },
+    {
+      "id": "img-2",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A2749.jpg?v=1784980351",
+      "local_path": "data/demo/koranm/images/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant/02.jpg"
+    },
+    {
+      "id": "img-4",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A2744.jpg?v=1784980351",
+      "local_path": "data/demo/koranm/images/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant/04.jpg"
+    },
+    {
+      "id": "img-6",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A2728.jpg?v=1784980351",
+      "local_path": "data/demo/koranm/images/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant/06.jpg"
+    }
+  ],
+  "garment": "Knee-length sherwani with a draped dupatta and trousers",
+  "attributes": [
+    {
+      "name": "pieces_visible",
+      "value": [
+        "sherwani",
+        "dupatta",
+        "trousers"
+      ],
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "collar",
+      "value": "bandhgala (mandarin) collar",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "closure",
+      "value": "centre-front buttons, about 6, dark metallic",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "primary_color",
+      "value": "deep wine / plum (aubergine)",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "pattern",
+      "value": "all-over tonal jacquard with self-embroidery and sequin sparkle",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "decorative_details",
+      "value": "sheer dupatta with embroidered border and scattered motifs",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "bottom_color",
+      "value": "dark wine, matching the sherwani, in every photo examined",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "garment_length",
+      "value": "just above the knee",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "sleeve",
+      "value": "full sleeves with cuff buttons",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "visible_texture",
+      "value": "trousers have a satin sheen",
+      "tier": "inferred",
+      "confidence": 0.6,
+      "note": "Cannot confirm rayon or silk"
+    }
+  ],
+  "styling_not_included": [
+    "brown embroidered loafers"
+  ],
+  "listing_check": [
+    {
+      "listing_field": "page_features.Bottom Color / title",
+      "listing_value": "Cream Aligarhi pant",
+      "photo_reading": "dark wine trousers in images 1, 2, 4 and 6",
+      "verdict": "contradicts",
+      "note": "Shoppers expecting cream bottoms will receive or see something else; high-severity merchant question",
+      "field": "bottom_color"
+    },
+    {
+      "listing_field": "page_features.Colour",
+      "listing_value": "Purple",
+      "photo_reading": "deep wine / plum",
+      "verdict": "ambiguous",
+      "note": "Reads closer to burgundy than purple",
+      "field": "color"
+    },
+    {
+      "listing_field": "description: Bandhgala neckline",
+      "listing_value": "Bandhgala neckline",
+      "photo_reading": "bandhgala collar",
+      "verdict": "matches",
+      "field": "collar"
+    },
+    {
+      "listing_field": "page_features.Includes",
+      "listing_value": "Sherwani, Dupatta, and Aligarhi",
+      "photo_reading": "sherwani, dupatta, trousers",
+      "verdict": "matches",
+      "note": "Trouser style looks straight, not a fitted Aligarhi cut",
+      "field": "pieces_included"
+    }
+  ],
+  "photo_quality_notes": "Consistent studio set across all images; the dupatta drape can be mistaken for an open outer coat.",
+  "visual_description": "Deep wine sherwani with a bandhgala collar and all-over tonal jacquard embroidery, a sheer embroidered dupatta, and matching dark wine trousers.",
+  "not_determinable": [
+    "fiber composition %",
+    "lining",
+    "fabric weight",
+    "opacity",
+    "stretch",
+    "care",
+    "size worn by model"
+  ]
+}

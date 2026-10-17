@@ -1,0 +1,138 @@
+{
+  "demo_id": "koranm-04",
+  "title": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men",
+  "product_url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green",
+  "method": "Direct visual read by Claude in a Claude Code session, looking at the downloaded photo. Not the project's /api/extract OpenAI adapter; no confidence model behind the numbers, they are the reader's judgement (0.9 clear, 0.7 likely, 0.5 uncertain).",
+  "read_at": "2026-10-17T22:29:00.261618+00:00",
+  "images_examined": [
+    {
+      "id": "img-1",
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3588.jpg?v=1784897936",
+      "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/01.jpg"
+    }
+  ],
+  "garment": "Short kurta with wide straight pants",
+  "attributes": [
+    {
+      "name": "pieces_visible",
+      "value": [
+        "short kurta",
+        "pants"
+      ],
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "collar",
+      "value": "mandarin collar with embroidered band",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "closure",
+      "value": "short front placket with small buttons (about 4 visible)",
+      "tier": "visible",
+      "confidence": 0.7
+    },
+    {
+      "name": "primary_color",
+      "value": "deep bottle / olive green",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "secondary_colors",
+      "value": [
+        "pink",
+        "ivory",
+        "silver"
+      ],
+      "tier": "visible",
+      "confidence": 0.8,
+      "note": "Embroidery thread colours"
+    },
+    {
+      "name": "decorative_details",
+      "value": "vertical floral vine embroidery panels on the chest, a dense embroidered border at the hem, scattered small motifs",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "sleeve",
+      "value": "full sleeves with cuffs",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "garment_length",
+      "value": "mid-thigh",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "silhouette",
+      "value": "straight short kurta; wide straight pants",
+      "tier": "visible",
+      "confidence": 0.8
+    },
+    {
+      "name": "logo_visibility",
+      "value": "none",
+      "tier": "visible",
+      "confidence": 0.9
+    },
+    {
+      "name": "visible_texture",
+      "value": "smooth, matte with a slight sheen",
+      "tier": "inferred",
+      "confidence": 0.6,
+      "note": "Cannot settle silk vs Storm Nylon from appearance"
+    }
+  ],
+  "styling_not_included": [
+    "brown woven loafers"
+  ],
+  "listing_check": [
+    {
+      "listing_field": "page_features.Material vs description",
+      "listing_value": "Silk (field), Storm Nylon (description)",
+      "photo_reading": "smooth matte fabric",
+      "verdict": "ambiguous",
+      "note": "Photo cannot resolve; merchant question stays",
+      "field": "fabric"
+    },
+    {
+      "listing_field": "page_features.Colour",
+      "listing_value": "Green",
+      "photo_reading": "deep bottle/olive green",
+      "verdict": "matches",
+      "note": "Title 'Bottle Green' is more precise than the field",
+      "field": "color"
+    },
+    {
+      "listing_field": "page_features.Work Type",
+      "listing_value": "Thread Work and Mukaish",
+      "photo_reading": "thread embroidery with a metallic glint",
+      "verdict": "matches",
+      "field": "design_details"
+    },
+    {
+      "listing_field": "garment_length",
+      "listing_value": null,
+      "photo_reading": "mid-thigh short kurta",
+      "verdict": "new",
+      "field": "garment_length"
+    }
+  ],
+  "photo_quality_notes": "Full-length studio shot; good for colour and length.",
+  "visual_description": "Deep bottle-green mid-thigh kurta with a mandarin collar, pink and ivory floral vine embroidery on the chest and hem border, worn with matching wide straight pants.",
+  "not_determinable": [
+    "fiber composition %",
+    "lining",
+    "fabric weight",
+    "opacity",
+    "stretch",
+    "care",
+    "size worn by model"
+  ]
+}

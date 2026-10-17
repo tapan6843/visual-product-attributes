@@ -1,0 +1,532 @@
+{
+  "demo_id": "koranm-04",
+  "captured_at": "2026-10-17T21:25:38.147Z",
+  "source": {
+    "brand_site": "https://koranm.com/en-us",
+    "product_url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green",
+    "feed_url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green.json",
+    "availability_url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green.js",
+    "capture_method": "Shopify product feed + raw product page HTML (no JavaScript rendering)"
+  },
+  "product": {
+    "shopify_id": 7899306131533,
+    "handle": "ak-2869-fkemb-3417-b-green",
+    "title": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men",
+    "vendor": "AROK - N M FASHION DESIGNS PVT LTD",
+    "product_type": "Kurta Set",
+    "tags": "Festive, Kurta Set, Men, New Arrivals, Whats New",
+    "published_at": "2026-10-05T18:12:26+05:30",
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Green"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "name": "Material",
+        "values": [
+          "Silk"
+        ]
+      }
+    ]
+  },
+  "description": {
+    "html": "<div class=\"ewa-rteLine\">Designed in premium Storm Nylon fabric, this bottle green embroidered kurta set combines modern elegance with traditional styling. The mandarin-collar kurta is beautifully detailed with embroidery and paired with matching palazzo pants for enhanced comfort and contemporary appeal. An excellent choice for festive celebrations, receptions, and cultural events.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Key Features</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Premium Storm Nylon fabric</div>\n<div class=\"ewa-rteLine\">Elegant embroidered detailing</div>\n<div class=\"ewa-rteLine\">Mandarin collar for a refined finish</div>\n<div class=\"ewa-rteLine\">Full sleeves with a comfortable fit</div>\n<div class=\"ewa-rteLine\">Matching palazzo pants included</div>\n<div class=\"ewa-rteLine\">Lightweight and breathable construction</div>\n<div class=\"ewa-rteLine\">Perfect for festive occasions, receptions, and celebrations</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Styling Tips</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Pair with embroidered mojaris for a regal finish.</div>\n<div class=\"ewa-rteLine\">Accessorize with a statement watch.</div>\n<div class=\"ewa-rteLine\">Layer with a contrasting stole for wedding functions.</div>",
+    "text": "Designed in premium Storm Nylon fabric, this bottle green embroidered kurta set combines modern elegance with traditional styling. The mandarin-collar kurta is beautifully detailed with embroidery and paired with matching palazzo pants for enhanced comfort and contemporary appeal. An excellent choice for festive celebrations, receptions, and cultural events.\nKey Features\nPremium Storm Nylon fabric\nElegant embroidered detailing\nMandarin collar for a refined finish\nFull sleeves with a comfortable fit\nMatching palazzo pants included\nLightweight and breathable construction\nPerfect for festive occasions, receptions, and celebrations\nStyling Tips\nPair with embroidered mojaris for a regal finish.\nAccessorize with a statement watch.\nLayer with a contrasting stole for wedding functions.",
+    "parsed": {
+      "intro": {
+        "text": [
+          "Designed in premium Storm Nylon fabric, this bottle green embroidered kurta set combines modern elegance with traditional styling. The mandarin-collar kurta is beautifully detailed with embroidery and paired with matching palazzo pants for enhanced comfort and contemporary appeal. An excellent choice for festive celebrations, receptions, and cultural events.",
+          "Perfect for festive occasions, receptions, and celebrations",
+          "Pair with embroidered mojaris for a regal finish.",
+          "Layer with a contrasting stole for wedding functions."
+        ]
+      },
+      "key_features": {},
+      "premium_storm_nylon_fabric": {},
+      "elegant_embroidered_detailing": {},
+      "mandarin_collar_for_a_refined_finish": {},
+      "full_sleeves_with_a_comfortable_fit": {},
+      "matching_palazzo_pants_included": {},
+      "lightweight_and_breathable_construction": {},
+      "styling_tips": {},
+      "accessorize_with_a_statement_watch": {}
+    }
+  },
+  "page_features": {
+    "Design No": "AK-2869",
+    "Colour": "Green",
+    "Material": "Silk",
+    "Bottom Type": "Plazzo Pant",
+    "Bottom Color": "Green",
+    "Includes": "Kurta and Plazzo Pant",
+    "Pattern": "Embroidery",
+    "Work Type": "Thread Work and Mukaish",
+    "Occasions": "Mehendi, Reception, and Office Party Wear",
+    "Set": "2",
+    "Wash Care": "Dry clean only",
+    "Closure Type": "Buttons"
+  },
+  "featured_model": "6ft and wearing size 40",
+  "size_chart": {
+    "headers": [
+      "SIZE",
+      "SHOULDER",
+      "SLEEVE LENGTH",
+      "CHEST",
+      "STOMACH",
+      "WAIST",
+      "HIP"
+    ],
+    "rows": [
+      [
+        "36",
+        "17.5",
+        "24.5",
+        "40",
+        "38",
+        "30",
+        "42"
+      ],
+      [
+        "38",
+        "18",
+        "25",
+        "42",
+        "40",
+        "32",
+        "44"
+      ],
+      [
+        "40",
+        "18.5",
+        "25.5",
+        "44",
+        "42",
+        "34",
+        "46"
+      ],
+      [
+        "42",
+        "19",
+        "26",
+        "46",
+        "44",
+        "36",
+        "48"
+      ],
+      [
+        "44",
+        "20.5",
+        "26.5",
+        "48",
+        "46",
+        "38",
+        "50"
+      ],
+      [
+        "46",
+        "21.5",
+        "27",
+        "50",
+        "48",
+        "40",
+        "52"
+      ],
+      [
+        "48",
+        "22",
+        "27.5",
+        "52",
+        "50",
+        "42",
+        "54"
+      ],
+      [
+        "50",
+        "23",
+        "28",
+        "54",
+        "52",
+        "44",
+        "56"
+      ]
+    ],
+    "unit_as_published": "inches (unlabelled in table; page offers an in/cm toggle)",
+    "cm_toggle_present": true,
+    "notes": "Whatsapp Us at +91 88797 77222 if you are unsure of your size.\nOur size chart is based on ready-made garment measurements. For example, if your chest measurement is 40, please select size 40. Required fitting ease and loosenings are already included in the garment measurements.\nLength may vary according to the style.\nAlternatively, you may contact our customer care team for specific queries at customercare@koranm.com.",
+    "source": "product page size guide modal (HTML table)"
+  },
+  "variants": [
+    {
+      "id": 43270034358349,
+      "sku": "AK-2869-FKEMB-3417-B.GREEN-38",
+      "title": "Green / 38 / Silk",
+      "color": "Green",
+      "size": "38",
+      "material": "Silk",
+      "available": true,
+      "price": 15992,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43270034391117,
+      "sku": "AK-2869-FKEMB-3417-B.GREEN-40",
+      "title": "Green / 40 / Silk",
+      "color": "Green",
+      "size": "40",
+      "material": "Silk",
+      "available": true,
+      "price": 15992,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43270034423885,
+      "sku": "AK-2869-FKEMB-3417-B.GREEN-42",
+      "title": "Green / 42 / Silk",
+      "color": "Green",
+      "size": "42",
+      "material": "Silk",
+      "available": true,
+      "price": 15992,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43270034456653,
+      "sku": "AK-2869-FKEMB-3417-B.GREEN-44",
+      "title": "Green / 44 / Silk",
+      "color": "Green",
+      "size": "44",
+      "material": "Silk",
+      "available": true,
+      "price": 15992,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43270034489421,
+      "sku": "AK-2869-FKEMB-3417-B.GREEN-46",
+      "title": "Green / 46 / Silk",
+      "color": "Green",
+      "size": "46",
+      "material": "Silk",
+      "available": false,
+      "price": 17584,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    }
+  ],
+  "variant_sizes": [
+    "38",
+    "40",
+    "42",
+    "44",
+    "46"
+  ],
+  "page_price": {
+    "amount": 15992,
+    "display": "₹ 15,992",
+    "label": "MRP (Inclusive of all taxes)"
+  },
+  "images": [
+    {
+      "id": "img-1",
+      "shopify_image_id": 36135089340493,
+      "position": 1,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3588.jpg?v=1784897936",
+      "alt": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/01.jpg"
+    },
+    {
+      "id": "img-2",
+      "shopify_image_id": 36135089307725,
+      "position": 2,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3585.jpg?v=1784897936",
+      "alt": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/02.jpg"
+    },
+    {
+      "id": "img-3",
+      "shopify_image_id": 36135089242189,
+      "position": 3,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3580.jpg?v=1784897936",
+      "alt": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/03.jpg"
+    },
+    {
+      "id": "img-4",
+      "shopify_image_id": 36135089438797,
+      "position": 4,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3607.jpg?v=1784897936",
+      "alt": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/04.jpg"
+    },
+    {
+      "id": "img-5",
+      "shopify_image_id": 36135089471565,
+      "position": 5,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3612.jpg?v=1784897937",
+      "alt": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/05.jpg"
+    },
+    {
+      "id": "img-6",
+      "shopify_image_id": 36135089274957,
+      "position": 6,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3583.jpg?v=1784897936",
+      "alt": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/06.jpg"
+    },
+    {
+      "id": "img-7",
+      "shopify_image_id": 36135089373261,
+      "position": 7,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3591.jpg?v=1784897936",
+      "alt": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/07.jpg"
+    },
+    {
+      "id": "img-8",
+      "shopify_image_id": 36135089406029,
+      "position": 8,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3596.jpg?v=1784897936",
+      "alt": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/08.jpg"
+    },
+    {
+      "id": "img-9",
+      "shopify_image_id": 36135089209421,
+      "position": 9,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3575.jpg?v=1784897936",
+      "alt": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/09.jpg"
+    }
+  ],
+  "structured_data": [
+    {
+      "type": "ProductGroup",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "category",
+        "description",
+        "hasVariant",
+        "name",
+        "productGroupID",
+        "url"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "http://schema.org/",
+        "@id": "/en-us/products/ak-2869-fkemb-3417-b-green#product",
+        "@type": "ProductGroup",
+        "brand": {
+          "@type": "Brand",
+          "name": "AROK - N M FASHION DESIGNS PVT LTD"
+        },
+        "category": "Traditional & Ceremonial Clothing",
+        "description": "Designed in premium Storm Nylon fabric, this bottle green embroidered kurta set combines modern elegance with traditional styling. The mandarin-collar kurta is beautifully detailed with embroidery and paired with matching palazzo pants for enhanced comfort and contemporary appeal. An excellent choice for festive celebrations, receptions, and cultural events.\n\nKey Features\n\nPremium Storm Nylon fabric\nElegant embroidered detailing\nMandarin collar for a refined finish\nFull sleeves with a comfortable fit\nMatching palazzo pants included\nLightweight and breathable construction\nPerfect for festive occasions, receptions, and celebrations\n\nStyling Tips\n\nPair with embroidered mojaris for a regal finish.\nAccessorize with a statement watch.\nLayer with a contrasting stole for wedding functions.",
+        "hasVariant": [
+          {
+            "@id": "/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034358349#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A3588.jpg?v=1784897936&width=1920",
+            "mpn": "NMG466327",
+            "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men - Green / 38 / Silk",
+            "offers": {
+              "@id": "/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034358349#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "15992.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034358349"
+            },
+            "sku": "AK-2869-FKEMB-3417-B.GREEN-38"
+          },
+          {
+            "@id": "/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034391117#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A3588.jpg?v=1784897936&width=1920",
+            "mpn": "NMG466328",
+            "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men - Green / 40 / Silk",
+            "offers": {
+              "@id": "/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034391117#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "15992.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034391117"
+            },
+            "sku": "AK-2869-FKEMB-3417-B.GREEN-40"
+          },
+          {
+            "@id": "/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034423885#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A3588.jpg?v=1784897936&width=1920",
+            "mpn": "NMG466329",
+            "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men - Green / 42 / Silk",
+            "offers": {
+              "@id": "/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034423885#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "15992.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034423885"
+            },
+            "sku": "AK-2869-FKEMB-3417-B.GREEN-42"
+          },
+          {
+            "@id": "/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034456653#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A3588.jpg?v=1784897936&width=1920",
+            "mpn": "NMG466330",
+            "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men - Green / 44 / Silk",
+            "offers": {
+              "@id": "/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034456653#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "15992.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034456653"
+            },
+            "sku": "AK-2869-FKEMB-3417-B.GREEN-44"
+          },
+          {
+            "@id": "/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034489421#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A3588.jpg?v=1784897936&width=1920",
+            "mpn": "NMG466331",
+            "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men - Green / 46 / Silk",
+            "offers": {
+              "@id": "/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034489421#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "17584.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034489421"
+            },
+            "sku": "AK-2869-FKEMB-3417-B.GREEN-46"
+          }
+        ],
+        "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men",
+        "productGroupID": "7899306131533",
+        "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green"
+      }
+    },
+    {
+      "type": "Product",
+      "valid_json": false,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "description",
+        "image",
+        "name",
+        "offers",
+        "sku"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "@id": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green#product",
+        "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men",
+        "image": [
+          "//koranm.com/cdn/shop/files/1J8A3588.jpg?v=1784897936",
+          "//koranm.com/cdn/shop/files/1J8A3585.jpg?v=1784897936",
+          "//koranm.com/cdn/shop/files/1J8A3580.jpg?v=1784897936",
+          "//koranm.com/cdn/shop/files/1J8A3607.jpg?v=1784897936",
+          "//koranm.com/cdn/shop/files/1J8A3612.jpg?v=1784897937",
+          "//koranm.com/cdn/shop/files/1J8A3583.jpg?v=1784897936",
+          "//koranm.com/cdn/shop/files/1J8A3591.jpg?v=1784897936",
+          "//koranm.com/cdn/shop/files/1J8A3596.jpg?v=1784897936",
+          "//koranm.com/cdn/shop/files/1J8A3575.jpg?v=1784897936"
+        ],
+        "description": "Designed in premium Storm Nylon fabric, this bottle green embroidered kurta set combines modern elegance with traditional styling. The mandarin-collar kurta is beautifully detailed with embroidery and paired with matching palazzo pants for enhanced comfort and contemporary appeal. An excellent choice for festive celebrations, receptions, and cultural events.  Key Features  Premium Storm Nylon fabric Elegant embroidered detailing Mandarin collar for a refined finish Full sleeves with a comfortable fit Matching palazzo pants included Lightweight and breathable construction Perfect for festive occasions, receptions, and celebrations  Styling Tips  Pair with embroidered mojaris for a regal finish. Accessorize with a statement watch. Layer with a contrasting stole for wedding functions.",
+        "sku": "AK-2869-FKEMB-3417-B.GREEN-38",
+        "brand": {
+          "@type": "Brand",
+          "name": "AROK - N M FASHION DESIGNS PVT LTD"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green",
+          "priceCurrency": "INR",
+          "price": "15,992",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ],
+  "reviews": {
+    "count": 0,
+    "source": "product page review widget"
+  },
+  "policies": {
+    "return_policy_url": "https://koranm.com/en-us/policies/refund-policy",
+    "shipping_policy_url": "https://koranm.com/en-us/policies/shipping-policy",
+    "page_claims": [
+      "World Wide Free Shipping"
+    ],
+    "disclaimer": "Slight colour variations are possible due to photographic lighting or your monitor settings."
+  }
+}

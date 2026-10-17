@@ -1,0 +1,525 @@
+{
+  "demo_id": "koranm-06",
+  "captured_at": "2026-10-17T21:25:38.147Z",
+  "source": {
+    "brand_site": "https://koranm.com/en-us",
+    "product_url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection",
+    "feed_url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection.json",
+    "availability_url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection.js",
+    "capture_method": "Shopify product feed + raw product page HTML (no JavaScript rendering)"
+  },
+  "product": {
+    "shopify_id": 15392571949133,
+    "handle": "cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection",
+    "title": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection",
+    "vendor": "KORA - N M FASHION DESIGNS PVT LTD",
+    "product_type": "Jodhpuri Set",
+    "tags": "",
+    "published_at": "2026-10-15T14:15:07+05:30",
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Cream"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "38",
+          "40",
+          "42",
+          "44",
+          "46",
+          "48",
+          "50"
+        ]
+      },
+      {
+        "name": "Material",
+        "values": [
+          "Matka"
+        ]
+      }
+    ]
+  },
+  "description": {
+    "html": "<p>Featured in the Aditya Roy Kapur Collection, this three-piece Jodhpuri set is crafted in rich cream Matka silk and styled with a layered navy-and-white printed kurta and matching cream trousers. The structured jacket features a classic mandarin collar, a curved front cutaway hemline, and statement sapphire-blue jeweled buttons along the placket. An ornate crest brooch on the chest adds a distinguished finishing touch, while the interplay of crisp tailoring and artisanal prints creates a sharp, contemporary silhouette. An elegant choice for wedding receptions, sangeet evenings, and festive celebrations.</p>",
+    "text": "Featured in the Aditya Roy Kapur Collection, this three-piece Jodhpuri set is crafted in rich cream Matka silk and styled with a layered navy-and-white printed kurta and matching cream trousers. The structured jacket features a classic mandarin collar, a curved front cutaway hemline, and statement sapphire-blue jeweled buttons along the placket. An ornate crest brooch on the chest adds a distinguished finishing touch, while the interplay of crisp tailoring and artisanal prints creates a sharp, contemporary silhouette. An elegant choice for wedding receptions, sangeet evenings, and festive celebrations.",
+    "parsed": {
+      "intro": {
+        "text": [
+          "Featured in the Aditya Roy Kapur Collection, this three-piece Jodhpuri set is crafted in rich cream Matka silk and styled with a layered navy-and-white printed kurta and matching cream trousers. The structured jacket features a classic mandarin collar, a curved front cutaway hemline, and statement sapphire-blue jeweled buttons along the placket. An ornate crest brooch on the chest adds a distinguished finishing touch, while the interplay of crisp tailoring and artisanal prints creates a sharp, contemporary silhouette. An elegant choice for wedding receptions, sangeet evenings, and festive celebrations."
+        ]
+      }
+    }
+  },
+  "page_features": {
+    "Design No": "KO-63406A",
+    "Colour": "Cream",
+    "Material": "Matka",
+    "Bottom Type": "Pant",
+    "Bottom Color": "Cream",
+    "Includes": "Jodhpuri , Kurta, and Pant",
+    "Pattern": "Solid",
+    "Work Type": "Brooch",
+    "Occasions": "Wedding, Engagement, Reception, and Office Party Wear",
+    "Set": "3",
+    "Wash Care": "Dry clean only",
+    "Closure Type": "Buttons"
+  },
+  "featured_model": "6ft and wearing size 40",
+  "size_chart": {
+    "headers": [
+      "SIZE",
+      "SHOULDER",
+      "SLEEVE LENGTH",
+      "CHEST",
+      "PANTS WAIST",
+      "PANTS HIPS"
+    ],
+    "rows": [
+      [
+        "36",
+        "17.5",
+        "25",
+        "39",
+        "30",
+        "36"
+      ],
+      [
+        "38",
+        "18",
+        "25.3",
+        "41",
+        "32",
+        "38"
+      ],
+      [
+        "40",
+        "18.5",
+        "25.5",
+        "43",
+        "34",
+        "40"
+      ],
+      [
+        "42",
+        "19",
+        "25.3",
+        "45",
+        "36",
+        "42"
+      ],
+      [
+        "44",
+        "19.5",
+        "26",
+        "47",
+        "38",
+        "44"
+      ],
+      [
+        "46",
+        "20",
+        "26.3",
+        "49",
+        "40",
+        "46"
+      ],
+      [
+        "48",
+        "20.5",
+        "26.5",
+        "51",
+        "42",
+        "48"
+      ],
+      [
+        "50",
+        "21",
+        "26.5",
+        "53",
+        "44",
+        "50"
+      ]
+    ],
+    "unit_as_published": "inches (unlabelled in table; page offers an in/cm toggle)",
+    "cm_toggle_present": true,
+    "notes": "Whatsapp Us at +91 88797 77222 if you are unsure of your size.\nOur size chart is based on ready-made garment measurements. For example, if your chest measurement is 40, please select size 40. Required fitting ease and loosenings are already included in the garment measurements.\nLength may vary according to the style.\nAlternatively, you may contact our customer care team for specific queries at customercare@koranm.com.",
+    "source": "product page size guide modal (HTML table)"
+  },
+  "variants": [
+    {
+      "id": 67577990217805,
+      "sku": "KO-63406A-FMT-26-CREAM-38",
+      "title": "Cream / 38 / Matka",
+      "color": "Cream",
+      "size": "38",
+      "material": "Matka",
+      "available": true,
+      "price": 63518.4,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 67577990250573,
+      "sku": "KO-63406A-FMT-26-CREAM-40",
+      "title": "Cream / 40 / Matka",
+      "color": "Cream",
+      "size": "40",
+      "material": "Matka",
+      "available": true,
+      "price": 63518.4,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 67577990283341,
+      "sku": "KO-63406A-FMT-26-CREAM-42",
+      "title": "Cream / 42 / Matka",
+      "color": "Cream",
+      "size": "42",
+      "material": "Matka",
+      "available": true,
+      "price": 63518.4,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 67577990316109,
+      "sku": "KO-63406A-FMT-26-CREAM-44",
+      "title": "Cream / 44 / Matka",
+      "color": "Cream",
+      "size": "44",
+      "material": "Matka",
+      "available": true,
+      "price": 63518.4,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 67577990348877,
+      "sku": "KO-63406A-FMT-26-CREAM-46",
+      "title": "Cream / 46 / Matka",
+      "color": "Cream",
+      "size": "46",
+      "material": "Matka",
+      "available": true,
+      "price": 69872,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 67577990381645,
+      "sku": "KO-63406A-FMT-26-CREAM-48",
+      "title": "Cream / 48 / Matka",
+      "color": "Cream",
+      "size": "48",
+      "material": "Matka",
+      "available": true,
+      "price": 73048,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 67577990414413,
+      "sku": "KO-63406A-FMT-26-CREAM-50",
+      "title": "Cream / 50 / Matka",
+      "color": "Cream",
+      "size": "50",
+      "material": "Matka",
+      "available": true,
+      "price": 76224,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    }
+  ],
+  "variant_sizes": [
+    "38",
+    "40",
+    "42",
+    "44",
+    "46",
+    "48",
+    "50"
+  ],
+  "page_price": {
+    "amount": 63518.4,
+    "display": "₹ 63,518",
+    "label": "MRP (Inclusive of all taxes)"
+  },
+  "images": [
+    {
+      "id": "img-1",
+      "shopify_image_id": 38040450531405,
+      "position": 1,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1_f481202a-60f5-4346-8e15-6e1392ff7942.jpg?v=1791803752",
+      "alt": null,
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection/01.jpg"
+    },
+    {
+      "id": "img-2",
+      "shopify_image_id": 38040450564173,
+      "position": 2,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/2_ccc43edf-2397-4e03-a5de-908e75aa28c4.jpg?v=1791803752",
+      "alt": null,
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection/02.jpg"
+    },
+    {
+      "id": "img-3",
+      "shopify_image_id": 38040450596941,
+      "position": 3,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/3_e1d8a545-5ff6-426b-ba5d-5f152edfdb1e.png?v=1791803753",
+      "alt": null,
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection/03.jpg"
+    },
+    {
+      "id": "img-4",
+      "shopify_image_id": 38040450629709,
+      "position": 4,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/4_a0910e0f-b935-4583-b810-688c71cb8344.jpg?v=1791803752",
+      "alt": null,
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection/04.jpg"
+    },
+    {
+      "id": "img-5",
+      "shopify_image_id": 38040450662477,
+      "position": 5,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/11_f28912f8-1efd-4b0a-a067-f5b546e9b6f1.png?v=1791803753",
+      "alt": null,
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection/05.jpg"
+    }
+  ],
+  "structured_data": [
+    {
+      "type": "ProductGroup",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "category",
+        "description",
+        "hasVariant",
+        "name",
+        "productGroupID",
+        "url"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "http://schema.org/",
+        "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection#product",
+        "@type": "ProductGroup",
+        "brand": {
+          "@type": "Brand",
+          "name": "KORA - N M FASHION DESIGNS PVT LTD"
+        },
+        "category": "Suits",
+        "description": "Featured in the Aditya Roy Kapur Collection, this three-piece Jodhpuri set is crafted in rich cream Matka silk and styled with a layered navy-and-white printed kurta and matching cream trousers. The structured jacket features a classic mandarin collar, a curved front cutaway hemline, and statement sapphire-blue jeweled buttons along the placket. An ornate crest brooch on the chest adds a distinguished finishing touch, while the interplay of crisp tailoring and artisanal prints creates a sharp, contemporary silhouette. An elegant choice for wedding receptions, sangeet evenings, and festive celebrations.",
+        "hasVariant": [
+          {
+            "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990217805#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1_f481202a-60f5-4346-8e15-6e1392ff7942.jpg?v=1791803752&width=1920",
+            "mpn": "NMG515820",
+            "name": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection - Cream / 38 / Matka",
+            "offers": {
+              "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990217805#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "63518.40",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990217805"
+            },
+            "sku": "KO-63406A-FMT-26-CREAM-38"
+          },
+          {
+            "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990250573#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1_f481202a-60f5-4346-8e15-6e1392ff7942.jpg?v=1791803752&width=1920",
+            "mpn": "NMG515821",
+            "name": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection - Cream / 40 / Matka",
+            "offers": {
+              "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990250573#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "63518.40",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990250573"
+            },
+            "sku": "KO-63406A-FMT-26-CREAM-40"
+          },
+          {
+            "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990283341#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1_f481202a-60f5-4346-8e15-6e1392ff7942.jpg?v=1791803752&width=1920",
+            "mpn": "NMG515822",
+            "name": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection - Cream / 42 / Matka",
+            "offers": {
+              "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990283341#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "63518.40",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990283341"
+            },
+            "sku": "KO-63406A-FMT-26-CREAM-42"
+          },
+          {
+            "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990316109#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1_f481202a-60f5-4346-8e15-6e1392ff7942.jpg?v=1791803752&width=1920",
+            "mpn": "NMG515823",
+            "name": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection - Cream / 44 / Matka",
+            "offers": {
+              "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990316109#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "63518.40",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990316109"
+            },
+            "sku": "KO-63406A-FMT-26-CREAM-44"
+          },
+          {
+            "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990348877#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1_f481202a-60f5-4346-8e15-6e1392ff7942.jpg?v=1791803752&width=1920",
+            "mpn": "NMG515824",
+            "name": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection - Cream / 46 / Matka",
+            "offers": {
+              "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990348877#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "69872.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990348877"
+            },
+            "sku": "KO-63406A-FMT-26-CREAM-46"
+          },
+          {
+            "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990381645#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1_f481202a-60f5-4346-8e15-6e1392ff7942.jpg?v=1791803752&width=1920",
+            "mpn": "NMG515825",
+            "name": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection - Cream / 48 / Matka",
+            "offers": {
+              "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990381645#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "73048.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990381645"
+            },
+            "sku": "KO-63406A-FMT-26-CREAM-48"
+          },
+          {
+            "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990414413#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1_f481202a-60f5-4346-8e15-6e1392ff7942.jpg?v=1791803752&width=1920",
+            "mpn": "NMG515826",
+            "name": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection - Cream / 50 / Matka",
+            "offers": {
+              "@id": "/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990414413#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "76224.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection?variant=67577990414413"
+            },
+            "sku": "KO-63406A-FMT-26-CREAM-50"
+          }
+        ],
+        "name": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection",
+        "productGroupID": "15392571949133",
+        "url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection"
+      }
+    },
+    {
+      "type": "Product",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "description",
+        "image",
+        "name",
+        "offers",
+        "sku"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "@id": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection#product",
+        "name": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection",
+        "image": [
+          "//koranm.com/cdn/shop/files/1_f481202a-60f5-4346-8e15-6e1392ff7942.jpg?v=1791803752",
+          "//koranm.com/cdn/shop/files/2_ccc43edf-2397-4e03-a5de-908e75aa28c4.jpg?v=1791803752",
+          "//koranm.com/cdn/shop/files/3_e1d8a545-5ff6-426b-ba5d-5f152edfdb1e.png?v=1791803753",
+          "//koranm.com/cdn/shop/files/4_a0910e0f-b935-4583-b810-688c71cb8344.jpg?v=1791803752",
+          "//koranm.com/cdn/shop/files/11_f28912f8-1efd-4b0a-a067-f5b546e9b6f1.png?v=1791803753"
+        ],
+        "description": "Featured in the Aditya Roy Kapur Collection, this three-piece Jodhpuri set is crafted in rich cream Matka silk and styled with a layered navy-and-white printed kurta and matching cream trousers. The structured jacket features a classic mandarin collar, a curved front cutaway hemline, and statement sapphire-blue jeweled buttons along the placket. An ornate crest brooch on the chest adds a distinguished finishing touch, while the interplay of crisp tailoring and artisanal prints creates a sharp, contemporary silhouette. An elegant choice for wedding receptions, sangeet evenings, and festive celebrations.",
+        "sku": "KO-63406A-FMT-26-CREAM-38",
+        "brand": {
+          "@type": "Brand",
+          "name": "KORA - N M FASHION DESIGNS PVT LTD"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection",
+          "priceCurrency": "INR",
+          "price": "63,518",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ],
+  "reviews": {
+    "count": 0,
+    "source": "product page review widget"
+  },
+  "policies": {
+    "return_policy_url": "https://koranm.com/en-us/policies/refund-policy",
+    "shipping_policy_url": "https://koranm.com/en-us/policies/shipping-policy",
+    "page_claims": [
+      "World Wide Free Shipping"
+    ],
+    "disclaimer": "Slight colour variations are possible due to photographic lighting or your monitor settings."
+  }
+}

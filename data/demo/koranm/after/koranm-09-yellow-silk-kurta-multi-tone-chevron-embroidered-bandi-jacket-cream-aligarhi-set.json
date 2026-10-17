@@ -1,0 +1,1316 @@
+{
+  "demo_id": "koranm-09",
+  "title": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men",
+  "product_url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set",
+  "before_file": "before/koranm-09-yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set.json",
+  "generated_at": "2026-10-17T21:29:33.366Z",
+  "generator": "scripts/demo/build-after.mjs (text and structured data rules; no vision yet)",
+  "score": {
+    "rubric": "PRD FR2 weights (fit 30, fabric 20, design 15, variants 15, policies 10, occasion 10); hackathon criteria, untuned.",
+    "before": 60,
+    "after_generated": 79,
+    "after_merchant_answers": 97,
+    "parts": {
+      "fit_and_sizing": {
+        "weight": 30,
+        "before": 15,
+        "after_generated": 25,
+        "after_merchant_answers": 30,
+        "criteria": [
+          {
+            "criterion": "Size chart published as text",
+            "points": 10,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Measurement units labelled (in and cm)",
+            "points": 5,
+            "before": false,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Model height and size worn",
+            "points": 5,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Fit type stated",
+            "points": 5,
+            "before": false,
+            "after_generated": false,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Size chart matches sizes sold",
+            "points": 5,
+            "before": false,
+            "after_generated": true,
+            "after_merchant_answers": true
+          }
+        ]
+      },
+      "fabric_and_care": {
+        "weight": 20,
+        "before": 14,
+        "after_generated": 14,
+        "after_merchant_answers": 20,
+        "criteria": [
+          {
+            "criterion": "Material stated without contradiction",
+            "points": 8,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Fiber composition with %",
+            "points": 6,
+            "before": false,
+            "after_generated": false,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Care instructions",
+            "points": 6,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          }
+        ]
+      },
+      "design_details": {
+        "weight": 15,
+        "before": 12,
+        "after_generated": 12,
+        "after_merchant_answers": 15,
+        "criteria": [
+          {
+            "criterion": "Collar or neckline",
+            "points": 4,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Closure",
+            "points": 3,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Sleeve length",
+            "points": 3,
+            "before": false,
+            "after_generated": false,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Pieces included, consistent",
+            "points": 3,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Garment length",
+            "points": 2,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          }
+        ]
+      },
+      "variants_and_availability": {
+        "weight": 15,
+        "before": 9,
+        "after_generated": 15,
+        "after_merchant_answers": 15,
+        "criteria": [
+          {
+            "criterion": "Every size as a record with availability",
+            "points": 5,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Colour named consistently",
+            "points": 4,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Valid structured data with material, colour, size",
+            "points": 6,
+            "before": false,
+            "after_generated": true,
+            "after_merchant_answers": true
+          }
+        ]
+      },
+      "policies_and_price": {
+        "weight": 10,
+        "before": 6,
+        "after_generated": 6,
+        "after_merchant_answers": 10,
+        "criteria": [
+          {
+            "criterion": "Price with currency",
+            "points": 4,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Return policy linked",
+            "points": 2,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Return window and return shipping cost on page",
+            "points": 4,
+            "before": false,
+            "after_generated": false,
+            "after_merchant_answers": true
+          }
+        ]
+      },
+      "occasion_and_style": {
+        "weight": 10,
+        "before": 4,
+        "after_generated": 7,
+        "after_merchant_answers": 7,
+        "criteria": [
+          {
+            "criterion": "Occasions listed",
+            "points": 4,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Occasions consistent across the page",
+            "points": 3,
+            "before": false,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Occasion claims backed by reviews",
+            "points": 3,
+            "before": false,
+            "after_generated": false,
+            "after_merchant_answers": false
+          }
+        ]
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "F01",
+      "kind": "contradiction",
+      "severity": "low",
+      "field": "occasions",
+      "summary": "Occasions field lists \"reception, office party wear\" which the description never mentions.",
+      "evidence": [
+        {
+          "source": "page_features.Occasions",
+          "value": "Reception and Office Party Wear"
+        },
+        {
+          "source": "description.text",
+          "value": "Redefine your festive presence with this Sunburst Yellow Silk Set. Crafted from rich, premium silk fabric, this refined outfit features a long, above-knee cream-yellow kurta, classic cream silk Aligarhi-style bottoms, and a statement Bandi jacket showcasing energetic chevron and Leheriya stripes in yellow, turquoise, and coral. Accentuated with delicate white floral embroidery framing the jacket border, a sharp Bandgala collar with multi-tone stitch detailing, and contrasting pink buttons along the kurta placket, this ensemble strikes a flawless balance between celebratory color and modern tailoring. Whether attending haldi ceremonies, daytime pujas, or festive family gatherings, this outfit guarantees a vibrant, royal presence."
+        }
+      ],
+      "merchant_question": "Which occasions should AI recommend this for? The page lists both \"Reception and Office Party Wear\" and the description's wording."
+    },
+    {
+      "id": "F02",
+      "kind": "contradiction",
+      "severity": "low",
+      "field": "size_range",
+      "summary": "Size chart lists sizes 36 that are not sold for this product (sold: 38–50).",
+      "evidence": [
+        {
+          "source": "size_chart.rows",
+          "value": [
+            "36",
+            "38",
+            "40",
+            "42",
+            "44",
+            "46",
+            "48",
+            "50"
+          ]
+        },
+        {
+          "source": "variants[].size",
+          "value": [
+            "38",
+            "40",
+            "42",
+            "44",
+            "46",
+            "48",
+            "50"
+          ]
+        }
+      ],
+      "fix": {
+        "type": "size_chart",
+        "note": "Generated size chart keeps only sold sizes."
+      }
+    },
+    {
+      "id": "F03",
+      "kind": "data_quality",
+      "severity": "medium",
+      "field": "size_chart_units",
+      "summary": "Size chart values have no unit in the table; the page toggle defaults to inches.",
+      "evidence": [
+        {
+          "source": "size_chart.unit_as_published",
+          "value": "inches (unlabelled in table; page offers an in/cm toggle)"
+        }
+      ],
+      "fix": {
+        "type": "size_chart",
+        "note": "Generated chart labels inches and adds centimetres (×2.54)."
+      }
+    },
+    {
+      "id": "F04",
+      "kind": "gap",
+      "severity": "medium",
+      "field": "garment_length",
+      "summary": "Size chart has no garment length, so AI cannot say where the garment falls on the body.",
+      "evidence": [
+        {
+          "source": "size_chart.headers",
+          "value": [
+            "SIZE",
+            "SHOULDER",
+            "SLEEVE LENGTH",
+            "CHEST",
+            "STOMACH",
+            "WAIST",
+            "HIP"
+          ]
+        }
+      ],
+      "merchant_question": "What is the garment length per size?",
+      "pending_image_check": "Estimate where the hem falls on the model (inferred tier, merchant to confirm)."
+    },
+    {
+      "id": "F05",
+      "kind": "gap",
+      "severity": "medium",
+      "field": "fit_type",
+      "summary": "No fit type stated (slim, regular, relaxed).",
+      "evidence": [
+        {
+          "source": "description.text",
+          "value": null
+        }
+      ],
+      "merchant_question": "Is the fit slim, regular or relaxed?",
+      "pending_image_check": "Infer fit from model photos (inferred tier, merchant to confirm)."
+    },
+    {
+      "id": "F06",
+      "kind": "gap",
+      "severity": "medium",
+      "field": "fiber_composition_pct",
+      "summary": "No fiber composition percentages, so AI cannot answer stretch or blend questions.",
+      "evidence": [
+        {
+          "source": "page_features.Material",
+          "value": "Silk"
+        }
+      ],
+      "merchant_question": "What is the fiber composition with percentages (including any lining)?"
+    },
+    {
+      "id": "F07",
+      "kind": "data_quality",
+      "severity": "medium",
+      "field": "model_size_worn",
+      "summary": "\"Featured Model: 6ft and wearing size 40\" appears on 10 of 10 demo products, so it may be a site-wide template rather than this shoot.",
+      "evidence": [
+        {
+          "source": "featured_model",
+          "value": "6ft and wearing size 40"
+        }
+      ],
+      "merchant_question": "Is the model in these photos 6 ft and wearing size 40?"
+    },
+    {
+      "id": "F08",
+      "kind": "gap",
+      "severity": "medium",
+      "field": "image_alt_text",
+      "summary": "5 of 5 images have no alt text, so text-only agents get nothing from them.",
+      "evidence": [
+        {
+          "source": "images[img-1].alt",
+          "value": null
+        },
+        {
+          "source": "images[img-2].alt",
+          "value": null
+        },
+        {
+          "source": "images[img-3].alt",
+          "value": null
+        },
+        {
+          "source": "images[img-4].alt",
+          "value": null
+        },
+        {
+          "source": "images[img-5].alt",
+          "value": null
+        }
+      ],
+      "fix": {
+        "type": "alt_text",
+        "image_ids": [
+          "img-1",
+          "img-2",
+          "img-3",
+          "img-4",
+          "img-5"
+        ]
+      }
+    },
+    {
+      "id": "F09",
+      "kind": "data_quality",
+      "severity": "high",
+      "field": "structured_data",
+      "summary": "The schema.org Product block is invalid JSON (raw line breaks inside the description), so strict parsers drop it.",
+      "evidence": [
+        {
+          "source": "structured_data[Product].valid_json",
+          "value": false
+        }
+      ],
+      "fix": {
+        "type": "json_ld"
+      }
+    },
+    {
+      "id": "F10",
+      "kind": "gap",
+      "severity": "medium",
+      "field": "structured_data_attributes",
+      "summary": "Structured data has no material, colour or size fields, so agents must parse prose to find them.",
+      "evidence": [
+        {
+          "source": "structured_data[ProductGroup].fields_present",
+          "value": [
+            "@context",
+            "@id",
+            "@type",
+            "brand",
+            "category",
+            "description",
+            "hasVariant",
+            "name",
+            "productGroupID",
+            "url"
+          ]
+        }
+      ],
+      "fix": {
+        "type": "json_ld"
+      }
+    },
+    {
+      "id": "F11",
+      "kind": "gap",
+      "severity": "medium",
+      "field": "returns",
+      "summary": "No return window or return shipping cost on the product page; only a generic policy link.",
+      "evidence": [
+        {
+          "source": "policies.return_policy_url",
+          "value": "https://koranm.com/en-us/policies/refund-policy"
+        }
+      ],
+      "merchant_question": "For US orders: how many days to return, and who pays return shipping?"
+    },
+    {
+      "id": "F12",
+      "kind": "gap",
+      "severity": "low",
+      "field": "reviews",
+      "summary": "No customer reviews, so comfort and occasion claims have no shopper evidence.",
+      "evidence": [
+        {
+          "source": "reviews.count",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "merchant_questions": [
+    "Which occasions should AI recommend this for? The page lists both \"Reception and Office Party Wear\" and the description's wording.",
+    "What is the garment length per size?",
+    "Is the fit slim, regular or relaxed?",
+    "What is the fiber composition with percentages (including any lining)?",
+    "Is the model in these photos 6 ft and wearing size 40?",
+    "For US orders: how many days to return, and who pays return shipping?"
+  ],
+  "attributes": [
+    {
+      "name": "garment_type",
+      "value": "Bandi Set",
+      "tier": "stated",
+      "sources": [
+        "product.product_type"
+      ]
+    },
+    {
+      "name": "color",
+      "value": "Yellow",
+      "tier": "stated",
+      "sources": [
+        "page_features.Colour",
+        "product.options.Color"
+      ]
+    },
+    {
+      "name": "bottom_color",
+      "value": "Cream",
+      "tier": "stated",
+      "sources": [
+        "page_features.Bottom Color"
+      ]
+    },
+    {
+      "name": "fabric",
+      "value": "Silk",
+      "tier": "stated",
+      "sources": [
+        "page_features.Material"
+      ]
+    },
+    {
+      "name": "fiber_composition_pct",
+      "value": null,
+      "tier": "not_determinable",
+      "sources": [],
+      "note": "Never generated; merchant question."
+    },
+    {
+      "name": "care",
+      "value": "Dry clean only",
+      "tier": "stated",
+      "sources": [
+        "page_features.Wash Care"
+      ]
+    },
+    {
+      "name": "closure",
+      "value": "Buttons",
+      "tier": "stated",
+      "sources": [
+        "page_features.Closure Type"
+      ]
+    },
+    {
+      "name": "pattern",
+      "value": "Embroidery and Printed",
+      "tier": "stated",
+      "sources": [
+        "page_features.Pattern"
+      ]
+    },
+    {
+      "name": "pieces_included",
+      "value": "Kurta, Jacket, and Aligarhi (Set: 3)",
+      "tier": "stated",
+      "sources": [
+        "page_features.Includes",
+        "page_features.Set"
+      ]
+    },
+    {
+      "name": "bottom_type",
+      "value": "Aligarhi",
+      "tier": "stated",
+      "sources": [
+        "page_features.Bottom Type"
+      ]
+    },
+    {
+      "name": "collar",
+      "value": "bandhgala",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    {
+      "name": "fit_type",
+      "value": null,
+      "tier": "pending_vision",
+      "sources": [
+        "images"
+      ]
+    },
+    {
+      "name": "garment_length",
+      "value": "above-knee",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    {
+      "name": "sleeve_length",
+      "value": null,
+      "tier": "pending_vision",
+      "sources": [
+        "images"
+      ]
+    },
+    {
+      "name": "model_height_and_size_worn",
+      "value": "6ft and wearing size 40",
+      "tier": "inferred",
+      "sources": [
+        "featured_model"
+      ],
+      "note": "Same text on every demo product; merchant to confirm."
+    },
+    {
+      "name": "sizes_sold",
+      "value": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "tier": "stated",
+      "sources": [
+        "variants[].size"
+      ]
+    },
+    {
+      "name": "sizes_in_stock",
+      "value": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "tier": "stated",
+      "sources": [
+        "variants[].available"
+      ]
+    },
+    {
+      "name": "occasions",
+      "value": "Reception and Office Party Wear",
+      "tier": "stated",
+      "sources": [
+        "page_features.Occasions"
+      ]
+    },
+    {
+      "name": "price",
+      "value": {
+        "amount": 28656,
+        "currency": "INR",
+        "label": "MRP (Inclusive of all taxes)"
+      },
+      "tier": "stated",
+      "sources": [
+        "page_price",
+        "variants[].price"
+      ]
+    }
+  ],
+  "fixes": {
+    "size_chart": {
+      "unit": "in",
+      "unit_tier": "inferred",
+      "unit_note": "Table is unlabelled; page toggle defaults to inches. Merchant to confirm.",
+      "basis": "Garment measurements; fitting ease already included (per page note).",
+      "headers": [
+        "size",
+        "shoulder_in",
+        "sleeve length_in",
+        "chest_in",
+        "stomach_in",
+        "waist_in",
+        "hip_in",
+        "shoulder_cm",
+        "sleeve length_cm",
+        "chest_cm",
+        "stomach_cm",
+        "waist_cm",
+        "hip_cm"
+      ],
+      "rows": [
+        [
+          "38",
+          18,
+          25,
+          42,
+          40,
+          32,
+          44,
+          45.7,
+          63.5,
+          106.7,
+          101.6,
+          81.3,
+          111.8
+        ],
+        [
+          "40",
+          18.5,
+          25.5,
+          44,
+          42,
+          34,
+          46,
+          47,
+          64.8,
+          111.8,
+          106.7,
+          86.4,
+          116.8
+        ],
+        [
+          "42",
+          19,
+          26,
+          46,
+          44,
+          36,
+          48,
+          48.3,
+          66,
+          116.8,
+          111.8,
+          91.4,
+          121.9
+        ],
+        [
+          "44",
+          20.5,
+          26.5,
+          48,
+          46,
+          38,
+          50,
+          52.1,
+          67.3,
+          121.9,
+          116.8,
+          96.5,
+          127
+        ],
+        [
+          "46",
+          21.5,
+          27,
+          50,
+          48,
+          40,
+          52,
+          54.6,
+          68.6,
+          127,
+          121.9,
+          101.6,
+          132.1
+        ],
+        [
+          "48",
+          22,
+          27.5,
+          52,
+          50,
+          42,
+          54,
+          55.9,
+          69.9,
+          132.1,
+          127,
+          106.7,
+          137.2
+        ],
+        [
+          "50",
+          23,
+          28,
+          54,
+          52,
+          44,
+          56,
+          58.4,
+          71.1,
+          137.2,
+          132.1,
+          111.8,
+          142.2
+        ]
+      ],
+      "sources": [
+        "size_chart.rows",
+        "size_chart.notes"
+      ]
+    },
+    "description": {
+      "text": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men. This 3-piece set includes: Kurta, Jacket, and Aligarhi. Fabric: Silk. Composition percentages are not stated. Colour: Yellow, bottoms in Cream. Design: Bandhgala, button closure, embroidery and printed. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–54 in, shoulder 18–23 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Reception and Office Party Wear. Price: ₹ 28,656 MRP, inclusive of all taxes.",
+      "sentences": [
+        {
+          "text": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men.",
+          "sources": [
+            "product.title"
+          ]
+        },
+        {
+          "text": "This 3-piece set includes: Kurta, Jacket, and Aligarhi.",
+          "sources": [
+            "page_features.Includes",
+            "page_features.Set"
+          ]
+        },
+        {
+          "text": "Fabric: Silk. Composition percentages are not stated.",
+          "sources": [
+            "page_features.Material"
+          ]
+        },
+        {
+          "text": "Colour: Yellow, bottoms in Cream.",
+          "sources": [
+            "page_features.Colour",
+            "page_features.Bottom Color"
+          ]
+        },
+        {
+          "text": "Design: Bandhgala, button closure, embroidery and printed.",
+          "sources": [
+            "description.text",
+            "page_features.Closure Type",
+            "page_features.Pattern",
+            "page_features.Work Type"
+          ]
+        },
+        {
+          "text": "Fit type is not stated.",
+          "sources": []
+        },
+        {
+          "text": "Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–54 in, shoulder 18–23 in.",
+          "sources": [
+            "size_chart.rows",
+            "size_chart.notes",
+            "variants[].size"
+          ]
+        },
+        {
+          "text": "The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot).",
+          "sources": [
+            "featured_model"
+          ]
+        },
+        {
+          "text": "In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50).",
+          "sources": [
+            "variants[].available"
+          ]
+        },
+        {
+          "text": "Care: dry clean only.",
+          "sources": [
+            "page_features.Wash Care"
+          ]
+        },
+        {
+          "text": "Listed occasions: Reception and Office Party Wear.",
+          "sources": [
+            "page_features.Occasions"
+          ]
+        },
+        {
+          "text": "Price: ₹ 28,656 MRP, inclusive of all taxes.",
+          "sources": [
+            "page_price"
+          ]
+        }
+      ]
+    },
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "ProductGroup",
+      "@id": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set#product",
+      "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men",
+      "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set",
+      "brand": {
+        "@type": "Brand",
+        "name": "KORA by NM"
+      },
+      "productGroupID": "AKB-0946",
+      "category": "Bandi Set",
+      "color": "Yellow",
+      "material": "Silk",
+      "audience": {
+        "@type": "PeopleAudience",
+        "suggestedGender": "male"
+      },
+      "variesBy": [
+        "https://schema.org/size"
+      ],
+      "image": [
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_4.jpg?v=1785849236",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_19__edit_1.jpg?v=1785849236",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_3.jpg?v=1785849236",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_16__ai-edit_1__ai-edit_1.jpg?v=1785849236",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_2.jpg?v=1785849236"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Care",
+          "value": "Dry clean only"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Closure",
+          "value": "Buttons"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pattern",
+          "value": "Embroidery and Printed"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pieces included",
+          "value": "Kurta, Jacket, and Aligarhi (Set: 3)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Bottom type",
+          "value": "Aligarhi"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Occasions",
+          "value": "Reception and Office Party Wear"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Size chart basis",
+          "value": "Garment measurements; fitting ease already included (per page note). Units: in."
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "sku": "AKB-0946-FKPR-4309-YELLOW-38",
+          "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – size 38",
+          "size": "38",
+          "color": "Yellow",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187760717",
+            "price": 28656,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "sku": "AKB-0946-FKPR-4309-YELLOW-40",
+          "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – size 40",
+          "size": "40",
+          "color": "Yellow",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187793485",
+            "price": 28656,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "sku": "AKB-0946-FKPR-4309-YELLOW-42",
+          "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – size 42",
+          "size": "42",
+          "color": "Yellow",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187826253",
+            "price": 28656,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "sku": "AKB-0946-FKPR-4309-YELLOW-44",
+          "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – size 44",
+          "size": "44",
+          "color": "Yellow",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187859021",
+            "price": 28656,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "sku": "AKB-0946-FKPR-4309-YELLOW-46",
+          "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – size 46",
+          "size": "46",
+          "color": "Yellow",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187891789",
+            "price": 28656,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "sku": "AKB-0946-FKPR-4309-YELLOW-48",
+          "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – size 48",
+          "size": "48",
+          "color": "Yellow",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187924557",
+            "price": 28656,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "sku": "AKB-0946-FKPR-4309-YELLOW-50",
+          "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – size 50",
+          "size": "50",
+          "color": "Yellow",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187957325",
+            "price": 28656,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    },
+    "alt_text": [
+      {
+        "image_id": "img-1",
+        "before": null,
+        "after": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – photo 1 of 5",
+        "changed": true,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-2",
+        "before": null,
+        "after": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – photo 2 of 5",
+        "changed": true,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-3",
+        "before": null,
+        "after": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – photo 3 of 5",
+        "changed": true,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-4",
+        "before": null,
+        "after": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – photo 4 of 5",
+        "changed": true,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-5",
+        "before": null,
+        "after": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men – photo 5 of 5",
+        "changed": true,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      }
+    ]
+  },
+  "image_processing": {
+    "status": "pending",
+    "download_command": "node scripts/demo/download-images.mjs",
+    "checks": [
+      "Estimate where the hem falls on the model (inferred tier, merchant to confirm).",
+      "Infer fit from model photos (inferred tier, merchant to confirm).",
+      "Read visible design attributes per image (neckline, sleeve, length, pattern)",
+      "OCR any size chart, care label or fabric tag"
+    ],
+    "images": [
+      {
+        "id": "img-1",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_4.jpg?v=1785849236",
+        "local_path": "data/demo/koranm/images/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set/01.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-2",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_19__edit_1.jpg?v=1785849236",
+        "local_path": "data/demo/koranm/images/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set/02.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-3",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_3.jpg?v=1785849236",
+        "local_path": "data/demo/koranm/images/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set/03.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-4",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_16__ai-edit_1__ai-edit_1.jpg?v=1785849236",
+        "local_path": "data/demo/koranm/images/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set/04.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-5",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_2.jpg?v=1785849236",
+        "local_path": "data/demo/koranm/images/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set/05.jpg",
+        "width": 1080,
+        "height": 1440
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "field": "description",
+      "before": "Product Description\nRedefine your festive presence with this Sunburst Yellow Silk Set. Crafted from rich, premium silk fabric, this refined outfit features a long, above-knee cream-yellow kurta, classic cream silk Aligarhi-style bottoms, and a statement Bandi jacket showcasing energetic chevron and Leheriya stripes in yellow, turquoise, and coral. Accentuated with delicate white floral embroidery framing the jacket border, a sharp Bandgala collar with multi-tone stitch detailing, and contrasting pink buttons along the kurta placket, this ensemble strikes a flawless balance between celebratory color and modern tailoring. Whether attending haldi ceremonies, daytime pujas, or festive family gatherings, this outfit guarantees a vibrant, royal presence.\nKey Features\n3-Piece Complete Set\nPremium Silk Fabric with Cream Silk Aligarhi Bottoms\nYellow, Turquoise & Coral Leheriya Print\nFloral Thread Embroidery\nClassic Bandhgala Collar with Multi-Color Stitching\nContrast Pink Button Detailing\nIdeal for Haldi, Daytime Functions & Festive Celebrations\nStyling Tips\nFootwear: Complete your look by pairing this ensemble with our Handcrafted Embroidered Juttis for a traditional aesthetic, or our Classic Leather Sandals for a sleek, breathable finish.\nAccessories: Enhance the look with an antique gold or silver-toned watch, regal metallic cuff studs, and a statement ring featuring traditional stone setting to complement the fine threadwork.\nStyling: Wear the full 3-piece set for main daytime ceremonies and haldi festivities, or pair the cream-yellow kurta and cream Aligarhi bottoms solo for a light, effortless celebration look.",
+      "after": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men. This 3-piece set includes: Kurta, Jacket, and Aligarhi. Fabric: Silk. Composition percentages are not stated. Colour: Yellow, bottoms in Cream. Design: Bandhgala, button closure, embroidery and printed. Fit type is not stated. Sizes 38–50 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–54 in, shoulder 18–23 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44, 46, 48, 50 (of 38, 40, 42, 44, 46, 48, 50). Care: dry clean only. Listed occasions: Reception and Office Party Wear. Price: ₹ 28,656 MRP, inclusive of all taxes.",
+      "change": "rewritten from cited page facts; contradicted facts held for merchant"
+    },
+    {
+      "field": "size_chart",
+      "before": "8 rows, unitless",
+      "after": "7 rows, in + cm",
+      "change": "labelled units, kept sold sizes only"
+    },
+    {
+      "field": "structured_data",
+      "before": "Product block valid JSON: false; material/colour/size fields: none",
+      "after": "valid ProductGroup with per-size offers, colour, material and properties",
+      "change": "replaced"
+    },
+    {
+      "field": "image_alt_text",
+      "before": "0/5 images have alt text",
+      "after": "5/5",
+      "change": "5 changed"
+    },
+    {
+      "field": "contradictions",
+      "before": 2,
+      "after": "surfaced with both sources; held out of generated copy",
+      "change": "flagged"
+    },
+    {
+      "field": "merchant_questions",
+      "before": 0,
+      "after": 6,
+      "change": "added"
+    },
+    {
+      "field": "attribute.garment_type",
+      "before": "Bandi Set",
+      "after": "Bandi Set",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.color",
+      "before": "Yellow",
+      "after": "Yellow",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.bottom_color",
+      "before": "Cream",
+      "after": "Cream",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.fabric",
+      "before": "Silk",
+      "after": "Silk",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.fiber_composition_pct",
+      "before": null,
+      "after": null,
+      "tier": "not_determinable"
+    },
+    {
+      "field": "attribute.care",
+      "before": "Dry clean only",
+      "after": "Dry clean only",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.closure",
+      "before": "Buttons",
+      "after": "Buttons",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.pattern",
+      "before": "Embroidery and Printed",
+      "after": "Embroidery and Printed",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.pieces_included",
+      "before": "Kurta, Jacket, and Aligarhi (Set: 3)",
+      "after": "Kurta, Jacket, and Aligarhi (Set: 3)",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.bottom_type",
+      "before": "Aligarhi",
+      "after": "Aligarhi",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.collar",
+      "before": "bandhgala",
+      "after": "bandhgala",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.fit_type",
+      "before": null,
+      "after": null,
+      "tier": "pending_vision"
+    },
+    {
+      "field": "attribute.garment_length",
+      "before": "above-knee",
+      "after": "above-knee",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.sleeve_length",
+      "before": null,
+      "after": null,
+      "tier": "pending_vision"
+    },
+    {
+      "field": "attribute.model_height_and_size_worn",
+      "before": "6ft and wearing size 40",
+      "after": "6ft and wearing size 40",
+      "tier": "inferred"
+    },
+    {
+      "field": "attribute.sizes_sold",
+      "before": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "after": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.sizes_in_stock",
+      "before": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "after": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48",
+        "50"
+      ],
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.occasions",
+      "before": "Reception and Office Party Wear",
+      "after": "Reception and Office Party Wear",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.price",
+      "before": {
+        "amount": 28656,
+        "currency": "INR",
+        "label": "MRP (Inclusive of all taxes)"
+      },
+      "after": {
+        "amount": 28656,
+        "currency": "INR",
+        "label": "MRP (Inclusive of all taxes)"
+      },
+      "tier": "stated"
+    }
+  ]
+}

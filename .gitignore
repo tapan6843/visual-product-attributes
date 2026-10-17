@@ -7,3 +7,6 @@ coverage/
 npm-debug.log*
 .npm-cache/
 
+
+# Downloaded brand images for local vision runs (not ours to redistribute)
+data/demo/*/images/

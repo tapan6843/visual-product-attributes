@@ -1,0 +1,450 @@
+{
+  "demo_id": "koranm-08",
+  "captured_at": "2026-10-17T21:25:38.147Z",
+  "source": {
+    "brand_site": "https://koranm.com/en-us",
+    "product_url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants",
+    "feed_url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants.json",
+    "availability_url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants.js",
+    "capture_method": "Shopify product feed + raw product page HTML (no JavaScript rendering)"
+  },
+  "product": {
+    "shopify_id": 7979214766157,
+    "handle": "pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants",
+    "title": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men",
+    "vendor": "KORA - N M FASHION DESIGNS PVT LTD",
+    "product_type": "Kurta Jacket Set",
+    "tags": "",
+    "published_at": "2026-10-11T13:05:05+05:30",
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Pink"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "38",
+          "40",
+          "42",
+          "44"
+        ]
+      },
+      {
+        "name": "Material",
+        "values": [
+          "Satin Linen"
+        ]
+      }
+    ]
+  },
+  "description": {
+    "html": "<p><span>Elevate your festive wardrobe with this Pink Kurta Set, crafted from premium RFD/Satin Linen for a refined and luxurious appeal. Featuring a sophisticated Chinese collar, full sleeves, and a classic button closure, the kurta combines an elegant print with intricate embroidery for a distinctive festive look. Paired with contrasting Off White Satin Linen Palazzo pant, this ensemble is perfect for weddings, festive celebrations, receptions, and special occasions.</span></p>",
+    "text": "Elevate your festive wardrobe with this Pink Kurta Set, crafted from premium RFD/Satin Linen for a refined and luxurious appeal. Featuring a sophisticated Chinese collar, full sleeves, and a classic button closure, the kurta combines an elegant print with intricate embroidery for a distinctive festive look. Paired with contrasting Off White Satin Linen Palazzo pant, this ensemble is perfect for weddings, festive celebrations, receptions, and special occasions.",
+    "parsed": {
+      "intro": {
+        "text": [
+          "Elevate your festive wardrobe with this Pink Kurta Set, crafted from premium RFD/Satin Linen for a refined and luxurious appeal. Featuring a sophisticated Chinese collar, full sleeves, and a classic button closure, the kurta combines an elegant print with intricate embroidery for a distinctive festive look. Paired with contrasting Off White Satin Linen Palazzo pant, this ensemble is perfect for weddings, festive celebrations, receptions, and special occasions."
+        ]
+      }
+    }
+  },
+  "page_features": {
+    "Design No": "KB-0625",
+    "Colour": "Pink",
+    "Material": "Satin Linen",
+    "Bottom Type": "Plazzo Pant",
+    "Bottom Color": "Off White",
+    "Includes": "Kurta, Jacket, and Plazzo Pant",
+    "Pattern": "Printed and Embroidery",
+    "Set": "3",
+    "Closure Type": "Buttons"
+  },
+  "featured_model": "6ft and wearing size 40",
+  "size_chart": {
+    "headers": [
+      "SIZE",
+      "SHOULDER",
+      "SLEEVE LENGTH",
+      "CHEST",
+      "STOMACH",
+      "WAIST",
+      "HIP"
+    ],
+    "rows": [
+      [
+        "36",
+        "17.5",
+        "24.5",
+        "40",
+        "38",
+        "30",
+        "42"
+      ],
+      [
+        "38",
+        "18",
+        "25",
+        "42",
+        "40",
+        "32",
+        "44"
+      ],
+      [
+        "40",
+        "18.5",
+        "25.5",
+        "44",
+        "42",
+        "34",
+        "46"
+      ],
+      [
+        "42",
+        "19",
+        "26",
+        "46",
+        "44",
+        "36",
+        "48"
+      ],
+      [
+        "44",
+        "20.5",
+        "26.5",
+        "48",
+        "46",
+        "38",
+        "50"
+      ],
+      [
+        "46",
+        "21.5",
+        "27",
+        "50",
+        "48",
+        "40",
+        "52"
+      ],
+      [
+        "48",
+        "22",
+        "27.5",
+        "52",
+        "50",
+        "42",
+        "54"
+      ],
+      [
+        "50",
+        "23",
+        "28",
+        "54",
+        "52",
+        "44",
+        "56"
+      ]
+    ],
+    "unit_as_published": "inches (unlabelled in table; page offers an in/cm toggle)",
+    "cm_toggle_present": true,
+    "notes": "Whatsapp Us at +91 88797 77222 if you are unsure of your size.\nOur size chart is based on ready-made garment measurements. For example, if your chest measurement is 40, please select size 40. Required fitting ease and loosenings are already included in the garment measurements.\nLength may vary according to the style.\nAlternatively, you may contact our customer care team for specific queries at customercare@koranm.com.",
+    "source": "product page size guide modal (HTML table)"
+  },
+  "variants": [
+    {
+      "id": 43775969525837,
+      "sku": "KB-0625-FKPL-2079RFD-PINK-38",
+      "title": "Pink / 38 / Satin Linen",
+      "color": "Pink",
+      "size": "38",
+      "material": "Satin Linen",
+      "available": true,
+      "price": 60768,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43775969558605,
+      "sku": "KB-0625-FKPL-2079RFD-PINK-40",
+      "title": "Pink / 40 / Satin Linen",
+      "color": "Pink",
+      "size": "40",
+      "material": "Satin Linen",
+      "available": true,
+      "price": 60768,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43775969591373,
+      "sku": "KB-0625-FKPL-2079RFD-PINK-42",
+      "title": "Pink / 42 / Satin Linen",
+      "color": "Pink",
+      "size": "42",
+      "material": "Satin Linen",
+      "available": true,
+      "price": 60768,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43775969624141,
+      "sku": "KB-0625-FKPL-2079RFD-PINK-44",
+      "title": "Pink / 44 / Satin Linen",
+      "color": "Pink",
+      "size": "44",
+      "material": "Satin Linen",
+      "available": true,
+      "price": 60768,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    }
+  ],
+  "variant_sizes": [
+    "38",
+    "40",
+    "42",
+    "44"
+  ],
+  "page_price": {
+    "amount": 60768,
+    "display": "₹ 60,768",
+    "label": "MRP (Inclusive of all taxes)"
+  },
+  "images": [
+    {
+      "id": "img-1",
+      "shopify_image_id": 37178079805517,
+      "position": 1,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/5_f0c4679c-69b3-4e57-a7fb-437de4e5bf5b.jpg?v=1789550798",
+      "alt": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants/01.jpg"
+    },
+    {
+      "id": "img-2",
+      "shopify_image_id": 37178079707213,
+      "position": 2,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1_a11dce53-0629-4e42-bb19-af05265268b1.jpg?v=1789550798",
+      "alt": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants/02.jpg"
+    },
+    {
+      "id": "img-3",
+      "shopify_image_id": 37178079772749,
+      "position": 3,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/4_53bb4bd3-5ef6-43f4-b634-1b35f2161618.jpg?v=1789550798",
+      "alt": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants/03.jpg"
+    },
+    {
+      "id": "img-4",
+      "shopify_image_id": 37178079739981,
+      "position": 4,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/2_c8711308-a497-4b0f-ba49-85efbf167fd9.jpg?v=1789550798",
+      "alt": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants/04.jpg"
+    },
+    {
+      "id": "img-5",
+      "shopify_image_id": 37178079838285,
+      "position": 5,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/6_b20e77e7-7f12-4731-b16a-98a611c41e0a.jpg?v=1789550798",
+      "alt": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants/05.jpg"
+    },
+    {
+      "id": "img-6",
+      "shopify_image_id": 37178079871053,
+      "position": 6,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/7_99b6cda4-bfed-4033-83ea-4f122d15cc7d.jpg?v=1789550799",
+      "alt": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants/06.jpg"
+    }
+  ],
+  "structured_data": [
+    {
+      "type": "ProductGroup",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "category",
+        "description",
+        "hasVariant",
+        "name",
+        "productGroupID",
+        "url"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "http://schema.org/",
+        "@id": "/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants#product",
+        "@type": "ProductGroup",
+        "brand": {
+          "@type": "Brand",
+          "name": "KORA - N M FASHION DESIGNS PVT LTD"
+        },
+        "category": "Traditional & Ceremonial Clothing",
+        "description": "Elevate your festive wardrobe with this Pink Kurta Set, crafted from premium RFD/Satin Linen for a refined and luxurious appeal. Featuring a sophisticated Chinese collar, full sleeves, and a classic button closure, the kurta combines an elegant print with intricate embroidery for a distinctive festive look. Paired with contrasting Off White Satin Linen Palazzo pant, this ensemble is perfect for weddings, festive celebrations, receptions, and special occasions.",
+        "hasVariant": [
+          {
+            "@id": "/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969525837#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/5_f0c4679c-69b3-4e57-a7fb-437de4e5bf5b.jpg?v=1789550798&width=1920",
+            "mpn": "NMG496265",
+            "name": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men - Pink / 38 / Satin Linen",
+            "offers": {
+              "@id": "/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969525837#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "60768.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969525837"
+            },
+            "sku": "KB-0625-FKPL-2079RFD-PINK-38"
+          },
+          {
+            "@id": "/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969558605#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/5_f0c4679c-69b3-4e57-a7fb-437de4e5bf5b.jpg?v=1789550798&width=1920",
+            "mpn": "NMG496266",
+            "name": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men - Pink / 40 / Satin Linen",
+            "offers": {
+              "@id": "/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969558605#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "60768.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969558605"
+            },
+            "sku": "KB-0625-FKPL-2079RFD-PINK-40"
+          },
+          {
+            "@id": "/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969591373#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/5_f0c4679c-69b3-4e57-a7fb-437de4e5bf5b.jpg?v=1789550798&width=1920",
+            "mpn": "NMG496267",
+            "name": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men - Pink / 42 / Satin Linen",
+            "offers": {
+              "@id": "/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969591373#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "60768.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969591373"
+            },
+            "sku": "KB-0625-FKPL-2079RFD-PINK-42"
+          },
+          {
+            "@id": "/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969624141#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/5_f0c4679c-69b3-4e57-a7fb-437de4e5bf5b.jpg?v=1789550798&width=1920",
+            "mpn": "NMG496268",
+            "name": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men - Pink / 44 / Satin Linen",
+            "offers": {
+              "@id": "/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969624141#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "60768.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants?variant=43775969624141"
+            },
+            "sku": "KB-0625-FKPL-2079RFD-PINK-44"
+          }
+        ],
+        "name": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men",
+        "productGroupID": "7979214766157",
+        "url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants"
+      }
+    },
+    {
+      "type": "Product",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "description",
+        "image",
+        "name",
+        "offers",
+        "sku"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "@id": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants#product",
+        "name": "Pink Satin Linen Printed &amp; Embroidered Kurta Set with Off White Palazzo Pant for Men",
+        "image": [
+          "//koranm.com/cdn/shop/files/5_f0c4679c-69b3-4e57-a7fb-437de4e5bf5b.jpg?v=1789550798",
+          "//koranm.com/cdn/shop/files/1_a11dce53-0629-4e42-bb19-af05265268b1.jpg?v=1789550798",
+          "//koranm.com/cdn/shop/files/4_53bb4bd3-5ef6-43f4-b634-1b35f2161618.jpg?v=1789550798",
+          "//koranm.com/cdn/shop/files/2_c8711308-a497-4b0f-ba49-85efbf167fd9.jpg?v=1789550798",
+          "//koranm.com/cdn/shop/files/6_b20e77e7-7f12-4731-b16a-98a611c41e0a.jpg?v=1789550798",
+          "//koranm.com/cdn/shop/files/7_99b6cda4-bfed-4033-83ea-4f122d15cc7d.jpg?v=1789550799"
+        ],
+        "description": "Elevate your festive wardrobe with this Pink Kurta Set, crafted from premium RFD/Satin Linen for a refined and luxurious appeal. Featuring a sophisticated Chinese collar, full sleeves, and a classic button closure, the kurta combines an elegant print with intricate embroidery for a distinctive festive look. Paired with contrasting Off White Satin Linen Palazzo pant, this ensemble is perfect for weddings, festive celebrations, receptions, and special occasions.",
+        "sku": "KB-0625-FKPL-2079RFD-PINK-38",
+        "brand": {
+          "@type": "Brand",
+          "name": "KORA - N M FASHION DESIGNS PVT LTD"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants",
+          "priceCurrency": "INR",
+          "price": "60,768",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ],
+  "reviews": {
+    "count": 0,
+    "source": "product page review widget"
+  },
+  "policies": {
+    "return_policy_url": "https://koranm.com/en-us/policies/refund-policy",
+    "shipping_policy_url": "https://koranm.com/en-us/policies/shipping-policy",
+    "page_claims": [
+      "World Wide Free Shipping"
+    ],
+    "disclaimer": "Slight colour variations are possible due to photographic lighting or your monitor settings."
+  }
+}

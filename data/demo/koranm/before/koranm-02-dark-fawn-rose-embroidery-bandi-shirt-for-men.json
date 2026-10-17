@@ -1,0 +1,563 @@
+{
+  "demo_id": "koranm-02",
+  "captured_at": "2026-10-17T21:25:38.147Z",
+  "source": {
+    "brand_site": "https://koranm.com/en-us",
+    "product_url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men",
+    "feed_url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men.json",
+    "availability_url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men.js",
+    "capture_method": "Shopify product feed + raw product page HTML (no JavaScript rendering)"
+  },
+  "product": {
+    "shopify_id": 7438869332045,
+    "handle": "dark-fawn-rose-embroidery-bandi-shirt-for-men",
+    "title": "Dark Fawn Rose Embroidery Bandi Shirt for Men",
+    "vendor": "KORA - N M FASHION DESIGNS PVT LTD",
+    "product_type": "Bandi Shirt",
+    "tags": "bandi, Bandi Shirt, Bandi-Set, Festive, Men, New Arrivals, Reception, shirt",
+    "published_at": "2026-03-05T17:04:58+05:30",
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Fawn"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "36",
+          "38",
+          "40",
+          "42",
+          "44",
+          "46",
+          "48",
+          "50"
+        ]
+      },
+      {
+        "name": "Material",
+        "values": [
+          "Silk"
+        ]
+      }
+    ]
+  },
+  "description": {
+    "html": "<p><strong><span data-sheets-root=\"1\">Product Description: </span></strong></p>\n<ul>\n<li>This D. Fawn bandi shirt for men features intricate embroidery that enhances its stylish appeal.</li>\n<li>Crafted from premium TR fabric, it provides a lightweight and comfortable feel.</li>\n<li>The slim-fit design offers a modern and tailored silhouette, perfect for any occasion.</li>\n<li>The Chinese collar adds a unique touch, elevating the overall look with a sophisticated flair.</li>\n<li>Ideal for weddings, festive events, and formal gatherings, this bandi shirt ensures you stand out with confidence and elegance.</li>\n<li>\n<strong>Disclaimer:<span> </span></strong>Slight colour variations are possible due to photographic lighting or your monitor settings.</li>\n</ul>",
+    "text": "Product Description:\nThis D. Fawn bandi shirt for men features intricate embroidery that enhances its stylish appeal.\nCrafted from premium TR fabric, it provides a lightweight and comfortable feel.\nThe slim-fit design offers a modern and tailored silhouette, perfect for any occasion.\nThe Chinese collar adds a unique touch, elevating the overall look with a sophisticated flair.\nIdeal for weddings, festive events, and formal gatherings, this bandi shirt ensures you stand out with confidence and elegance.\nDisclaimer: Slight colour variations are possible due to photographic lighting or your monitor settings.",
+    "parsed": {
+      "product_description": {
+        "Disclaimer": "Slight colour variations are possible due to photographic lighting or your monitor settings."
+      },
+      "intro": {
+        "text": [
+          "This D. Fawn bandi shirt for men features intricate embroidery that enhances its stylish appeal.",
+          "Crafted from premium TR fabric, it provides a lightweight and comfortable feel.",
+          "The slim-fit design offers a modern and tailored silhouette, perfect for any occasion.",
+          "The Chinese collar adds a unique touch, elevating the overall look with a sophisticated flair.",
+          "Ideal for weddings, festive events, and formal gatherings, this bandi shirt ensures you stand out with confidence and elegance."
+        ]
+      }
+    }
+  },
+  "page_features": {
+    "Design No": "KVC-NM-1740",
+    "Colour": "Fawn",
+    "Material": "Silk",
+    "Includes": "Nehru Jacket and Shirt",
+    "Pattern": "Embroidery",
+    "Occasions": "Engagement, Reception, and Sangeet",
+    "Set": "2",
+    "Wash Care": "Dry clean only",
+    "Closure Type": "Buttons"
+  },
+  "featured_model": "6ft and wearing size 40",
+  "size_chart": {
+    "headers": [
+      "SIZE",
+      "SHOULDER",
+      "CHEST",
+      "STOMACH",
+      "NECK"
+    ],
+    "rows": [
+      [
+        "36",
+        "16.5",
+        "39",
+        "34",
+        "15.5"
+      ],
+      [
+        "38",
+        "17",
+        "41",
+        "36",
+        "16"
+      ],
+      [
+        "40",
+        "17.5",
+        "43",
+        "38",
+        "16.5"
+      ],
+      [
+        "42",
+        "18",
+        "45",
+        "40",
+        "17"
+      ],
+      [
+        "44",
+        "18.5",
+        "47",
+        "42",
+        "17.5"
+      ],
+      [
+        "46",
+        "19",
+        "49",
+        "44",
+        "18"
+      ],
+      [
+        "48",
+        "19",
+        "51",
+        "46",
+        "18.5"
+      ],
+      [
+        "50",
+        "19.5",
+        "53",
+        "48",
+        "18.5"
+      ]
+    ],
+    "unit_as_published": "inches (unlabelled in table; page offers an in/cm toggle)",
+    "cm_toggle_present": true,
+    "notes": "Whatsapp Us at +91 88797 77222 if you are unsure of your size.\nOur size chart is based on ready-made garment measurements. For example, if your chest measurement is 40, please select size 40. Required fitting ease and loosenings are already included in the garment measurements.\nLength may vary according to the style.\nAlternatively, you may contact our customer care team for specific queries at customercare@koranm.com.",
+    "source": "product page size guide modal (HTML table)"
+  },
+  "variants": [
+    {
+      "id": 42482614108237,
+      "sku": "KVC-NM-1740-FTR-2106-FAWN-36",
+      "title": "Fawn / 36 / Silk",
+      "color": "Fawn",
+      "size": "36",
+      "material": "Silk",
+      "available": true,
+      "price": 18088,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 42482614141005,
+      "sku": "KVC-NM-1740-FTR-2106-FAWN-38",
+      "title": "Fawn / 38 / Silk",
+      "color": "Fawn",
+      "size": "38",
+      "material": "Silk",
+      "available": false,
+      "price": 18088,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 41922020081741,
+      "sku": "KVC-NM-1740-FTR-2106-FAWN-40",
+      "title": "Fawn / 40 / Silk",
+      "color": "Fawn",
+      "size": "40",
+      "material": "Silk",
+      "available": false,
+      "price": 18088,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 41922020114509,
+      "sku": "KVC-NM-1740-FTR-2106-FAWN-42",
+      "title": "Fawn / 42 / Silk",
+      "color": "Fawn",
+      "size": "42",
+      "material": "Silk",
+      "available": false,
+      "price": 18088,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 41922020147277,
+      "sku": "KVC-NM-1740-FTR-2106-FAWN-44",
+      "title": "Fawn / 44 / Silk",
+      "color": "Fawn",
+      "size": "44",
+      "material": "Silk",
+      "available": false,
+      "price": 18088,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 41922020180045,
+      "sku": "KVC-NM-1740-FTR-2106-FAWN-46",
+      "title": "Fawn / 46 / Silk",
+      "color": "Fawn",
+      "size": "46",
+      "material": "Silk",
+      "available": true,
+      "price": 19888,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 41922020212813,
+      "sku": "KVC-NM-1740-FTR-2106-FAWN-48",
+      "title": "Fawn / 48 / Silk",
+      "color": "Fawn",
+      "size": "48",
+      "material": "Silk",
+      "available": true,
+      "price": 19888,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 41922020245581,
+      "sku": "KVC-NM-1740-FTR-2106-FAWN-50",
+      "title": "Fawn / 50 / Silk",
+      "color": "Fawn",
+      "size": "50",
+      "material": "Silk",
+      "available": true,
+      "price": 20792,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    }
+  ],
+  "variant_sizes": [
+    "36",
+    "38",
+    "40",
+    "42",
+    "44",
+    "46",
+    "48",
+    "50"
+  ],
+  "page_price": {
+    "amount": 18088,
+    "display": "₹ 18,088",
+    "label": "MRP (Inclusive of all taxes)"
+  },
+  "images": [
+    {
+      "id": "img-1",
+      "shopify_image_id": 32538795442253,
+      "position": 1,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/KVC-NM-1740-1.jpg?v=1753880303",
+      "alt": "D. Fawn Linen Embroidery Bandi Shirt",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/dark-fawn-rose-embroidery-bandi-shirt-for-men/01.jpg"
+    },
+    {
+      "id": "img-2",
+      "shopify_image_id": 32538795540557,
+      "position": 2,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/KVC-NM-1740-2.jpg?v=1753880313",
+      "alt": "D. Fawn Rose Embroidery Bandi Shirt for Men",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/dark-fawn-rose-embroidery-bandi-shirt-for-men/02.jpg"
+    },
+    {
+      "id": "img-3",
+      "shopify_image_id": 32538795507789,
+      "position": 3,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/KVC-NM-1740-3.jpg?v=1753880324",
+      "alt": "D. Fawn Rose Embroidery Bandi Shirt for Men",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/dark-fawn-rose-embroidery-bandi-shirt-for-men/03.jpg"
+    },
+    {
+      "id": "img-4",
+      "shopify_image_id": 32538795638861,
+      "position": 4,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/KVC-NM-1740-4.jpg?v=1753880335",
+      "alt": "D. Fawn Rose Embroidery Bandi Shirt for Men",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/dark-fawn-rose-embroidery-bandi-shirt-for-men/04.jpg"
+    },
+    {
+      "id": "img-5",
+      "shopify_image_id": 32538795475021,
+      "position": 5,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/KVC-NM-1740-5.jpg?v=1753880347",
+      "alt": "D. Fawn Rose Embroidery Bandi Shirt for Men",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/dark-fawn-rose-embroidery-bandi-shirt-for-men/05.jpg"
+    },
+    {
+      "id": "img-6",
+      "shopify_image_id": 32538795573325,
+      "position": 6,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/KVC-NM-1740-6.jpg?v=1753880358",
+      "alt": "D. Fawn Rose Embroidery Bandi Shirt for Men",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/dark-fawn-rose-embroidery-bandi-shirt-for-men/06.jpg"
+    }
+  ],
+  "structured_data": [
+    {
+      "type": "ProductGroup",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "category",
+        "description",
+        "hasVariant",
+        "name",
+        "productGroupID",
+        "url"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "http://schema.org/",
+        "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men#product",
+        "@type": "ProductGroup",
+        "brand": {
+          "@type": "Brand",
+          "name": "KORA - N M FASHION DESIGNS PVT LTD"
+        },
+        "category": "Suits",
+        "description": "Product Description: \n\nThis D. Fawn bandi shirt for men features intricate embroidery that enhances its stylish appeal.\nCrafted from premium TR fabric, it provides a lightweight and comfortable feel.\nThe slim-fit design offers a modern and tailored silhouette, perfect for any occasion.\nThe Chinese collar adds a unique touch, elevating the overall look with a sophisticated flair.\nIdeal for weddings, festive events, and formal gatherings, this bandi shirt ensures you stand out with confidence and elegance.\n\nDisclaimer: Slight colour variations are possible due to photographic lighting or your monitor settings.\n",
+        "hasVariant": [
+          {
+            "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=42482614108237#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/KVC-NM-1740-1.jpg?v=1753880303&width=1920",
+            "mpn": "NMF932717",
+            "name": "Dark Fawn Rose Embroidery Bandi Shirt for Men - Fawn / 36 / Silk",
+            "offers": {
+              "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=42482614108237#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "18088.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=42482614108237"
+            },
+            "sku": "KVC-NM-1740-FTR-2106-FAWN-36"
+          },
+          {
+            "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=42482614141005#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/KVC-NM-1740-1.jpg?v=1753880303&width=1920",
+            "mpn": "NMF932718",
+            "name": "Dark Fawn Rose Embroidery Bandi Shirt for Men - Fawn / 38 / Silk",
+            "offers": {
+              "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=42482614141005#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "18088.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=42482614141005"
+            },
+            "sku": "KVC-NM-1740-FTR-2106-FAWN-38"
+          },
+          {
+            "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020081741#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/KVC-NM-1740-1.jpg?v=1753880303&width=1920",
+            "mpn": "NMF932719",
+            "name": "Dark Fawn Rose Embroidery Bandi Shirt for Men - Fawn / 40 / Silk",
+            "offers": {
+              "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020081741#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "18088.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020081741"
+            },
+            "sku": "KVC-NM-1740-FTR-2106-FAWN-40"
+          },
+          {
+            "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020114509#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/KVC-NM-1740-1.jpg?v=1753880303&width=1920",
+            "mpn": "NMF932720",
+            "name": "Dark Fawn Rose Embroidery Bandi Shirt for Men - Fawn / 42 / Silk",
+            "offers": {
+              "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020114509#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "18088.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020114509"
+            },
+            "sku": "KVC-NM-1740-FTR-2106-FAWN-42"
+          },
+          {
+            "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020147277#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/KVC-NM-1740-1.jpg?v=1753880303&width=1920",
+            "mpn": "NMF932721",
+            "name": "Dark Fawn Rose Embroidery Bandi Shirt for Men - Fawn / 44 / Silk",
+            "offers": {
+              "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020147277#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "18088.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020147277"
+            },
+            "sku": "KVC-NM-1740-FTR-2106-FAWN-44"
+          },
+          {
+            "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020180045#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/KVC-NM-1740-1.jpg?v=1753880303&width=1920",
+            "mpn": "NMF932722",
+            "name": "Dark Fawn Rose Embroidery Bandi Shirt for Men - Fawn / 46 / Silk",
+            "offers": {
+              "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020180045#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "19888.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020180045"
+            },
+            "sku": "KVC-NM-1740-FTR-2106-FAWN-46"
+          },
+          {
+            "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020212813#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/KVC-NM-1740-1.jpg?v=1753880303&width=1920",
+            "mpn": "NMF932723",
+            "name": "Dark Fawn Rose Embroidery Bandi Shirt for Men - Fawn / 48 / Silk",
+            "offers": {
+              "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020212813#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "19888.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020212813"
+            },
+            "sku": "KVC-NM-1740-FTR-2106-FAWN-48"
+          },
+          {
+            "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020245581#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/KVC-NM-1740-1.jpg?v=1753880303&width=1920",
+            "mpn": "NMF932724",
+            "name": "Dark Fawn Rose Embroidery Bandi Shirt for Men - Fawn / 50 / Silk",
+            "offers": {
+              "@id": "/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020245581#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "20792.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men?variant=41922020245581"
+            },
+            "sku": "KVC-NM-1740-FTR-2106-FAWN-50"
+          }
+        ],
+        "name": "Dark Fawn Rose Embroidery Bandi Shirt for Men",
+        "productGroupID": "7438869332045",
+        "url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men"
+      }
+    },
+    {
+      "type": "Product",
+      "valid_json": false,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "description",
+        "image",
+        "name",
+        "offers",
+        "sku"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "@id": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men#product",
+        "name": "Dark Fawn Rose Embroidery Bandi Shirt for Men",
+        "image": [
+          "//koranm.com/cdn/shop/files/KVC-NM-1740-1.jpg?v=1753880303",
+          "//koranm.com/cdn/shop/files/KVC-NM-1740-2.jpg?v=1753880313",
+          "//koranm.com/cdn/shop/files/KVC-NM-1740-3.jpg?v=1753880324",
+          "//koranm.com/cdn/shop/files/KVC-NM-1740-4.jpg?v=1753880335",
+          "//koranm.com/cdn/shop/files/KVC-NM-1740-5.jpg?v=1753880347",
+          "//koranm.com/cdn/shop/files/KVC-NM-1740-6.jpg?v=1753880358"
+        ],
+        "description": "Product Description:   This D. Fawn bandi shirt for men features intricate embroidery that enhances its stylish appeal. Crafted from premium TR fabric, it provides a lightweight and comfortable feel. The slim-fit design offers a modern and tailored silhouette, perfect for any occasion. The Chinese collar adds a unique touch, elevating the overall look with a sophisticated flair. Ideal for weddings, festive events, and formal gatherings, this bandi shirt ensures you stand out with confidence and elegance.  Disclaimer: Slight colour variations are possible due to photographic lighting or your monitor settings. ",
+        "sku": "KVC-NM-1740-FTR-2106-FAWN-36",
+        "brand": {
+          "@type": "Brand",
+          "name": "KORA - N M FASHION DESIGNS PVT LTD"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men",
+          "priceCurrency": "INR",
+          "price": "18,088",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ],
+  "reviews": {
+    "count": 0,
+    "source": "product page review widget"
+  },
+  "policies": {
+    "return_policy_url": "https://koranm.com/en-us/policies/refund-policy",
+    "shipping_policy_url": "https://koranm.com/en-us/policies/shipping-policy",
+    "page_claims": [
+      "World Wide Free Shipping"
+    ],
+    "disclaimer": "Slight colour variations are possible due to photographic lighting or your monitor settings."
+  }
+}

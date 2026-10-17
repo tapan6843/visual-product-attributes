@@ -1,0 +1,538 @@
+{
+  "demo_id": "koranm-10",
+  "captured_at": "2026-10-17T21:25:38.147Z",
+  "source": {
+    "brand_site": "https://koranm.com/en-us",
+    "product_url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set",
+    "feed_url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set.json",
+    "availability_url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set.js",
+    "capture_method": "Shopify product feed + raw product page HTML (no JavaScript rendering)"
+  },
+  "product": {
+    "shopify_id": 7087447113805,
+    "handle": "cobalt-blue-embroidered-tuxedo-set",
+    "title": "Cobalt Blue Embroidered Tuxedo Set for Men",
+    "vendor": "KORA - N M FASHION DESIGNS PVT LTD",
+    "product_type": "Tuxedo",
+    "tags": "Blue, Cocktail, FHST-11, Groom, NM-31569-BLUE, Reception, Terry Rayon, Trouser, Tuxedo",
+    "published_at": "2026-06-05T17:15:41+05:30",
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Blue"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "38",
+          "40",
+          "42",
+          "44",
+          "46",
+          "48",
+          "50"
+        ]
+      },
+      {
+        "name": "Material",
+        "values": [
+          "Rayon"
+        ]
+      }
+    ]
+  },
+  "description": {
+    "html": "<p><strong>Disclaimer:</strong> Slight colour variations are possible due<br data-mce-fragment=\"1\">to photographic lighting or your monitor settings.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\"><strong>Product Details:</strong></p>\n<ul>\n<li>Exhibit a vibe of elegance with this classic three-piece suit from Kora.</li>\n<li>The set comes with a royal cobalt blue embellished blazer, contrast white shirt and a black waist coat along with a classic black trouser, that is fashioned from premium quality material and is tailored for a slim fit.</li>\n<li>The blazer is tailored to perfection in terry rayon fabric.</li>\n<li>The abstract stripped embroidery in sequin and cutdana add charm to the blazer.</li>\n<li>The lapel is tailored in contrast black blended fabric for a classy look.</li>\n<li>The set comes with a black terry rayon waist coat.</li>\n<li>The white shirt featuring is a timeless one which can never go wrong for a cocktail event.</li>\n<li>The set comes with a solid black trouser tailored in straight fit crafted in terry rayon fabric.</li>\n<li>The tuxedo looks great with a embellished band with a bow.</li>\n<li>Accessorize the outfit with black suede shoes.</li>\n</ul>",
+    "text": "Disclaimer: Slight colour variations are possible due\nto photographic lighting or your monitor settings.\nProduct Details:\nExhibit a vibe of elegance with this classic three-piece suit from Kora.\nThe set comes with a royal cobalt blue embellished blazer, contrast white shirt and a black waist coat along with a classic black trouser, that is fashioned from premium quality material and is tailored for a slim fit.\nThe blazer is tailored to perfection in terry rayon fabric.\nThe abstract stripped embroidery in sequin and cutdana add charm to the blazer.\nThe lapel is tailored in contrast black blended fabric for a classy look.\nThe set comes with a black terry rayon waist coat.\nThe white shirt featuring is a timeless one which can never go wrong for a cocktail event.\nThe set comes with a solid black trouser tailored in straight fit crafted in terry rayon fabric.\nThe tuxedo looks great with a embellished band with a bow.\nAccessorize the outfit with black suede shoes.",
+    "parsed": {
+      "intro": {
+        "Disclaimer": "Slight colour variations are possible due",
+        "text": [
+          "to photographic lighting or your monitor settings.",
+          "Exhibit a vibe of elegance with this classic three-piece suit from Kora.",
+          "The set comes with a royal cobalt blue embellished blazer, contrast white shirt and a black waist coat along with a classic black trouser, that is fashioned from premium quality material and is tailored for a slim fit.",
+          "The blazer is tailored to perfection in terry rayon fabric.",
+          "The abstract stripped embroidery in sequin and cutdana add charm to the blazer.",
+          "The lapel is tailored in contrast black blended fabric for a classy look.",
+          "The set comes with a black terry rayon waist coat.",
+          "The white shirt featuring is a timeless one which can never go wrong for a cocktail event.",
+          "The set comes with a solid black trouser tailored in straight fit crafted in terry rayon fabric.",
+          "The tuxedo looks great with a embellished band with a bow.",
+          "Accessorize the outfit with black suede shoes."
+        ]
+      },
+      "product_details": {}
+    }
+  },
+  "page_features": {
+    "Design No": "NM-31569",
+    "Colour": "Blue",
+    "Material": "Rayon",
+    "Bottom Type": "Pant",
+    "Bottom Color": "Black",
+    "Includes": "Tuxedo , Waist Coat , Shirt, Pant, and Bow Tie",
+    "Pattern": "Embroidery",
+    "Occasions": "Wedding and Engagement",
+    "Set": "5",
+    "Wash Care": "Dry clean only",
+    "Closure Type": "Buttons"
+  },
+  "featured_model": "6ft and wearing size 40",
+  "size_chart": {
+    "headers": [
+      "SIZE",
+      "SHOULDER",
+      "SLEEVE LENGTH",
+      "CHEST",
+      "WAIST",
+      "HIPS"
+    ],
+    "rows": [
+      [
+        "36",
+        "17.5",
+        "25",
+        "39",
+        "30",
+        "36"
+      ],
+      [
+        "38",
+        "18",
+        "25.3",
+        "41",
+        "32",
+        "38"
+      ],
+      [
+        "40",
+        "18.5",
+        "25.5",
+        "43",
+        "34",
+        "40"
+      ],
+      [
+        "42",
+        "19",
+        "25.3",
+        "45",
+        "36",
+        "42"
+      ],
+      [
+        "44",
+        "19.5",
+        "26",
+        "47",
+        "38",
+        "44"
+      ],
+      [
+        "46",
+        "20",
+        "26.3",
+        "49",
+        "40",
+        "46"
+      ],
+      [
+        "48",
+        "20.5",
+        "26.5",
+        "51",
+        "42",
+        "48"
+      ],
+      [
+        "50",
+        "21",
+        "26.5",
+        "53",
+        "44",
+        "50"
+      ]
+    ],
+    "unit_as_published": "inches (unlabelled in table; page offers an in/cm toggle)",
+    "cm_toggle_present": true,
+    "notes": "Whatsapp Us at +91 88797 77222 if you are unsure of your size.\nOur size chart is based on ready-made garment measurements. For example, if your chest measurement is 40, please select size 40. Required fitting ease and loosenings are already included in the garment measurements.\nLength may vary according to the style.\nAlternatively, you may contact our customer care team for specific queries at customercare@koranm.com.",
+    "source": "product page size guide modal (HTML table)"
+  },
+  "variants": [
+    {
+      "id": 42482694127693,
+      "sku": "NM-31569-FHST-11-BLUE-38",
+      "title": "Blue / 38 / Rayon",
+      "color": "Blue",
+      "size": "38",
+      "material": "Rayon",
+      "available": true,
+      "price": 53352,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 42903705485389,
+      "sku": "NM-31569-FHST-11-BLUE-40",
+      "title": "Blue / 40 / Rayon",
+      "color": "Blue",
+      "size": "40",
+      "material": "Rayon",
+      "available": true,
+      "price": 53352,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 42903705518157,
+      "sku": "NM-31569-FHST-11-BLUE-42",
+      "title": "Blue / 42 / Rayon",
+      "color": "Blue",
+      "size": "42",
+      "material": "Rayon",
+      "available": true,
+      "price": 53352,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 42903705550925,
+      "sku": "NM-31569-FHST-11-BLUE-44",
+      "title": "Blue / 44 / Rayon",
+      "color": "Blue",
+      "size": "44",
+      "material": "Rayon",
+      "available": true,
+      "price": 58688,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 42903705583693,
+      "sku": "NM-31569-FHST-11-BLUE-46",
+      "title": "Blue / 46 / Rayon",
+      "color": "Blue",
+      "size": "46",
+      "material": "Rayon",
+      "available": true,
+      "price": 61352,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 42903705616461,
+      "sku": "NM-31569-FHST-11-BLUE-48",
+      "title": "Blue / 48 / Rayon",
+      "color": "Blue",
+      "size": "48",
+      "material": "Rayon",
+      "available": true,
+      "price": 64024,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 42903705649229,
+      "sku": "NM-31569-FHST-11-BLUE-50",
+      "title": "Blue / 50 / Rayon",
+      "color": "Blue",
+      "size": "50",
+      "material": "Rayon",
+      "available": true,
+      "price": 70416,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    }
+  ],
+  "variant_sizes": [
+    "38",
+    "40",
+    "42",
+    "44",
+    "46",
+    "48",
+    "50"
+  ],
+  "page_price": {
+    "amount": 53352,
+    "display": "₹ 53,352",
+    "label": "MRP (Inclusive of all taxes)"
+  },
+  "images": [
+    {
+      "id": "img-1",
+      "shopify_image_id": 31547275378765,
+      "position": 1,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/NM-31569-BLUE-01.jpg?v=1754459141",
+      "alt": "Cobalt Blue Embroidered Tuxedo Set",
+      "width": 1080,
+      "height": 1500,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/cobalt-blue-embroidered-tuxedo-set/01.jpg"
+    },
+    {
+      "id": "img-2",
+      "shopify_image_id": 31547275411533,
+      "position": 2,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/NM-31569-BLUE-02.jpg?v=1754459120",
+      "alt": "Cobalt Blue Embroidered Tuxedo Set",
+      "width": 1080,
+      "height": 1500,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/cobalt-blue-embroidered-tuxedo-set/02.jpg"
+    },
+    {
+      "id": "img-3",
+      "shopify_image_id": 31547275444301,
+      "position": 3,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/NM-31569-BLUE-03.jpg?v=1754459089",
+      "alt": "Cobalt Blue Embroidered Tuxedo Set",
+      "width": 1080,
+      "height": 1500,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/cobalt-blue-embroidered-tuxedo-set/03.jpg"
+    },
+    {
+      "id": "img-4",
+      "shopify_image_id": 31547275477069,
+      "position": 4,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/NM-31569-BLUE-04.jpg?v=1754459072",
+      "alt": "Cobalt Blue Embroidered Tuxedo Set",
+      "width": 1080,
+      "height": 1500,
+      "variant_ids": [
+        42482694127693
+      ],
+      "local_path": "data/demo/koranm/images/cobalt-blue-embroidered-tuxedo-set/04.jpg"
+    },
+    {
+      "id": "img-5",
+      "shopify_image_id": 31547275509837,
+      "position": 5,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/NM-31569-BLUE-5.jpg?v=1737371776",
+      "alt": "Cobalt Blue Embroidered Tuxedo Set",
+      "width": 1080,
+      "height": 1500,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/cobalt-blue-embroidered-tuxedo-set/05.jpg"
+    }
+  ],
+  "structured_data": [
+    {
+      "type": "ProductGroup",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "category",
+        "description",
+        "hasVariant",
+        "name",
+        "productGroupID",
+        "url"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "http://schema.org/",
+        "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set#product",
+        "@type": "ProductGroup",
+        "brand": {
+          "@type": "Brand",
+          "name": "KORA - N M FASHION DESIGNS PVT LTD"
+        },
+        "category": "Tuxedos",
+        "description": "Disclaimer: Slight colour variations are possible dueto photographic lighting or your monitor settings.Product Details:\n\nExhibit a vibe of elegance with this classic three-piece suit from Kora.\nThe set comes with a royal cobalt blue embellished blazer, contrast white shirt and a black waist coat along with a classic black trouser, that is fashioned from premium quality material and is tailored for a slim fit.\nThe blazer is tailored to perfection in terry rayon fabric.\nThe abstract stripped embroidery in sequin and cutdana add charm to the blazer.\nThe lapel is tailored in contrast black blended fabric for a classy look.\nThe set comes with a black terry rayon waist coat.\nThe white shirt featuring is a timeless one which can never go wrong for a cocktail event.\nThe set comes with a solid black trouser tailored in straight fit crafted in terry rayon fabric.\nThe tuxedo looks great with a embellished band with a bow.\nAccessorize the outfit with black suede shoes.\n",
+        "hasVariant": [
+          {
+            "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42482694127693#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/NM-31569-BLUE-04.jpg?v=1754459072&width=1920",
+            "mpn": "NMF614502",
+            "name": "Cobalt Blue Embroidered Tuxedo Set for Men - Blue / 38 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42482694127693#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "53352.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42482694127693"
+            },
+            "sku": "NM-31569-FHST-11-BLUE-38"
+          },
+          {
+            "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705485389#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/NM-31569-BLUE-01.jpg?v=1754459141&width=1920",
+            "mpn": "NMF614503",
+            "name": "Cobalt Blue Embroidered Tuxedo Set for Men - Blue / 40 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705485389#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "53352.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705485389"
+            },
+            "sku": "NM-31569-FHST-11-BLUE-40"
+          },
+          {
+            "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705518157#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/NM-31569-BLUE-01.jpg?v=1754459141&width=1920",
+            "mpn": "NMF614504",
+            "name": "Cobalt Blue Embroidered Tuxedo Set for Men - Blue / 42 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705518157#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "53352.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705518157"
+            },
+            "sku": "NM-31569-FHST-11-BLUE-42"
+          },
+          {
+            "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705550925#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/NM-31569-BLUE-01.jpg?v=1754459141&width=1920",
+            "mpn": "NMF614505",
+            "name": "Cobalt Blue Embroidered Tuxedo Set for Men - Blue / 44 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705550925#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "58688.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705550925"
+            },
+            "sku": "NM-31569-FHST-11-BLUE-44"
+          },
+          {
+            "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705583693#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/NM-31569-BLUE-01.jpg?v=1754459141&width=1920",
+            "mpn": "NMF614506",
+            "name": "Cobalt Blue Embroidered Tuxedo Set for Men - Blue / 46 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705583693#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "61352.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705583693"
+            },
+            "sku": "NM-31569-FHST-11-BLUE-46"
+          },
+          {
+            "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705616461#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/NM-31569-BLUE-01.jpg?v=1754459141&width=1920",
+            "mpn": "NMF614507",
+            "name": "Cobalt Blue Embroidered Tuxedo Set for Men - Blue / 48 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705616461#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "64024.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705616461"
+            },
+            "sku": "NM-31569-FHST-11-BLUE-48"
+          },
+          {
+            "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705649229#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/NM-31569-BLUE-01.jpg?v=1754459141&width=1920",
+            "mpn": "NMF614508",
+            "name": "Cobalt Blue Embroidered Tuxedo Set for Men - Blue / 50 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705649229#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "70416.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set?variant=42903705649229"
+            },
+            "sku": "NM-31569-FHST-11-BLUE-50"
+          }
+        ],
+        "name": "Cobalt Blue Embroidered Tuxedo Set for Men",
+        "productGroupID": "7087447113805",
+        "url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set"
+      }
+    },
+    {
+      "type": "Product",
+      "valid_json": false,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "description",
+        "image",
+        "name",
+        "offers",
+        "sku"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "@id": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set#product",
+        "name": "Cobalt Blue Embroidered Tuxedo Set for Men",
+        "image": [
+          "//koranm.com/cdn/shop/files/NM-31569-BLUE-01.jpg?v=1754459141",
+          "//koranm.com/cdn/shop/files/NM-31569-BLUE-02.jpg?v=1754459120",
+          "//koranm.com/cdn/shop/files/NM-31569-BLUE-03.jpg?v=1754459089",
+          "//koranm.com/cdn/shop/files/NM-31569-BLUE-04.jpg?v=1754459072",
+          "//koranm.com/cdn/shop/files/NM-31569-BLUE-5.jpg?v=1737371776"
+        ],
+        "description": "Disclaimer: Slight colour variations are possible dueto photographic lighting or your monitor settings.Product Details:  Exhibit a vibe of elegance with this classic three-piece suit from Kora. The set comes with a royal cobalt blue embellished blazer, contrast white shirt and a black waist coat along with a classic black trouser, that is fashioned from premium quality material and is tailored for a slim fit. The blazer is tailored to perfection in terry rayon fabric. The abstract stripped embroidery in sequin and cutdana add charm to the blazer. The lapel is tailored in contrast black blended fabric for a classy look. The set comes with a black terry rayon waist coat. The white shirt featuring is a timeless one which can never go wrong for a cocktail event. The set comes with a solid black trouser tailored in straight fit crafted in terry rayon fabric. The tuxedo looks great with a embellished band with a bow. Accessorize the outfit with black suede shoes. ",
+        "sku": "NM-31569-FHST-11-BLUE-38",
+        "brand": {
+          "@type": "Brand",
+          "name": "KORA - N M FASHION DESIGNS PVT LTD"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set",
+          "priceCurrency": "INR",
+          "price": "53,352",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ],
+  "reviews": {
+    "count": 0,
+    "source": "product page review widget"
+  },
+  "policies": {
+    "return_policy_url": "https://koranm.com/en-us/policies/refund-policy",
+    "shipping_policy_url": "https://koranm.com/en-us/policies/shipping-policy",
+    "page_claims": [
+      "World Wide Free Shipping"
+    ],
+    "disclaimer": "Slight colour variations are possible due to photographic lighting or your monitor settings."
+  }
+}

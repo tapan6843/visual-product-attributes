@@ -9,7 +9,10 @@
     "start": "next start",
     "lint": "next lint",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "demo:capture": "node scripts/demo/capture-koranm.mjs",
+    "demo:after": "node scripts/demo/build-after.mjs",
+    "demo:images": "node scripts/demo/download-images.mjs"
   },
   "dependencies": {
     "next": "^16.0.0",

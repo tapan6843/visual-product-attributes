@@ -1,0 +1,547 @@
+{
+  "demo_id": "koranm-09",
+  "captured_at": "2026-10-17T21:25:38.147Z",
+  "source": {
+    "brand_site": "https://koranm.com/en-us",
+    "product_url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set",
+    "feed_url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set.json",
+    "availability_url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set.js",
+    "capture_method": "Shopify product feed + raw product page HTML (no JavaScript rendering)"
+  },
+  "product": {
+    "shopify_id": 7897629556813,
+    "handle": "yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set",
+    "title": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men",
+    "vendor": "AROK - N M FASHION DESIGNS PVT LTD",
+    "product_type": "Bandi Set",
+    "tags": "Whats New",
+    "published_at": "2026-10-14T18:35:58+05:30",
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Yellow"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "38",
+          "40",
+          "42",
+          "44",
+          "46",
+          "48",
+          "50"
+        ]
+      },
+      {
+        "name": "Material",
+        "values": [
+          "Silk"
+        ]
+      }
+    ]
+  },
+  "description": {
+    "html": "<div class=\"ewa-rteLine\">Product Description</div>\n<div class=\"ewa-rteLine\">Redefine your festive presence with this Sunburst Yellow Silk Set. Crafted from rich, premium silk fabric, this refined outfit features a long, above-knee cream-yellow kurta, classic cream silk Aligarhi-style bottoms, and a statement Bandi jacket showcasing energetic chevron and Leheriya stripes in yellow, turquoise, and coral. Accentuated with delicate white floral embroidery framing the jacket border, a sharp Bandgala collar with multi-tone stitch detailing, and contrasting pink buttons along the kurta placket, this ensemble strikes a flawless balance between celebratory color and modern tailoring. Whether attending haldi ceremonies, daytime pujas, or festive family gatherings, this outfit guarantees a vibrant, royal presence.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Key Features</div>\n<div class=\"ewa-rteLine\">3-Piece Complete Set</div>\n<div class=\"ewa-rteLine\">Premium Silk Fabric with Cream Silk Aligarhi Bottoms</div>\n<div class=\"ewa-rteLine\">Yellow, Turquoise &amp; Coral Leheriya Print</div>\n<div class=\"ewa-rteLine\">Floral Thread Embroidery</div>\n<div class=\"ewa-rteLine\">Classic Bandhgala Collar with Multi-Color Stitching</div>\n<div class=\"ewa-rteLine\">Contrast Pink Button Detailing</div>\n<div class=\"ewa-rteLine\">Ideal for Haldi, Daytime Functions &amp; Festive Celebrations</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Styling Tips</div>\n<div class=\"ewa-rteLine\">Footwear: Complete your look by pairing this ensemble with our Handcrafted Embroidered Juttis for a traditional aesthetic, or our Classic Leather Sandals for a sleek, breathable finish.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Accessories: Enhance the look with an antique gold or silver-toned watch, regal metallic cuff studs, and a statement ring featuring traditional stone setting to complement the fine threadwork.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Styling: Wear the full 3-piece set for main daytime ceremonies and haldi festivities, or pair the cream-yellow kurta and cream Aligarhi bottoms solo for a light, effortless celebration look.</div>",
+    "text": "Product Description\nRedefine your festive presence with this Sunburst Yellow Silk Set. Crafted from rich, premium silk fabric, this refined outfit features a long, above-knee cream-yellow kurta, classic cream silk Aligarhi-style bottoms, and a statement Bandi jacket showcasing energetic chevron and Leheriya stripes in yellow, turquoise, and coral. Accentuated with delicate white floral embroidery framing the jacket border, a sharp Bandgala collar with multi-tone stitch detailing, and contrasting pink buttons along the kurta placket, this ensemble strikes a flawless balance between celebratory color and modern tailoring. Whether attending haldi ceremonies, daytime pujas, or festive family gatherings, this outfit guarantees a vibrant, royal presence.\nKey Features\n3-Piece Complete Set\nPremium Silk Fabric with Cream Silk Aligarhi Bottoms\nYellow, Turquoise & Coral Leheriya Print\nFloral Thread Embroidery\nClassic Bandhgala Collar with Multi-Color Stitching\nContrast Pink Button Detailing\nIdeal for Haldi, Daytime Functions & Festive Celebrations\nStyling Tips\nFootwear: Complete your look by pairing this ensemble with our Handcrafted Embroidered Juttis for a traditional aesthetic, or our Classic Leather Sandals for a sleek, breathable finish.\nAccessories: Enhance the look with an antique gold or silver-toned watch, regal metallic cuff studs, and a statement ring featuring traditional stone setting to complement the fine threadwork.\nStyling: Wear the full 3-piece set for main daytime ceremonies and haldi festivities, or pair the cream-yellow kurta and cream Aligarhi bottoms solo for a light, effortless celebration look.",
+    "parsed": {
+      "product_description": {},
+      "intro": {
+        "text": [
+          "Redefine your festive presence with this Sunburst Yellow Silk Set. Crafted from rich, premium silk fabric, this refined outfit features a long, above-knee cream-yellow kurta, classic cream silk Aligarhi-style bottoms, and a statement Bandi jacket showcasing energetic chevron and Leheriya stripes in yellow, turquoise, and coral. Accentuated with delicate white floral embroidery framing the jacket border, a sharp Bandgala collar with multi-tone stitch detailing, and contrasting pink buttons along the kurta placket, this ensemble strikes a flawless balance between celebratory color and modern tailoring. Whether attending haldi ceremonies, daytime pujas, or festive family gatherings, this outfit guarantees a vibrant, royal presence.",
+          "Premium Silk Fabric with Cream Silk Aligarhi Bottoms",
+          "Yellow, Turquoise & Coral Leheriya Print",
+          "Classic Bandhgala Collar with Multi-Color Stitching",
+          "Ideal for Haldi, Daytime Functions & Festive Celebrations"
+        ]
+      },
+      "key_features": {},
+      "piece_complete_set": {},
+      "floral_thread_embroidery": {},
+      "contrast_pink_button_detailing": {},
+      "styling_tips": {
+        "Footwear": "Complete your look by pairing this ensemble with our Handcrafted Embroidered Juttis for a traditional aesthetic, or our Classic Leather Sandals for a sleek, breathable finish.",
+        "Accessories": "Enhance the look with an antique gold or silver-toned watch, regal metallic cuff studs, and a statement ring featuring traditional stone setting to complement the fine threadwork.",
+        "Styling": "Wear the full 3-piece set for main daytime ceremonies and haldi festivities, or pair the cream-yellow kurta and cream Aligarhi bottoms solo for a light, effortless celebration look."
+      }
+    }
+  },
+  "page_features": {
+    "Design No": "AKB-0946",
+    "Colour": "Yellow",
+    "Material": "Silk",
+    "Bottom Type": "Aligarhi",
+    "Bottom Color": "Cream",
+    "Includes": "Kurta, Jacket, and Aligarhi",
+    "Pattern": "Embroidery and Printed",
+    "Occasions": "Reception and Office Party Wear",
+    "Set": "3",
+    "Wash Care": "Dry clean only",
+    "Closure Type": "Buttons"
+  },
+  "featured_model": "6ft and wearing size 40",
+  "size_chart": {
+    "headers": [
+      "SIZE",
+      "SHOULDER",
+      "SLEEVE LENGTH",
+      "CHEST",
+      "STOMACH",
+      "WAIST",
+      "HIP"
+    ],
+    "rows": [
+      [
+        "36",
+        "17.5",
+        "24.5",
+        "40",
+        "38",
+        "30",
+        "42"
+      ],
+      [
+        "38",
+        "18",
+        "25",
+        "42",
+        "40",
+        "32",
+        "44"
+      ],
+      [
+        "40",
+        "18.5",
+        "25.5",
+        "44",
+        "42",
+        "34",
+        "46"
+      ],
+      [
+        "42",
+        "19",
+        "26",
+        "46",
+        "44",
+        "36",
+        "48"
+      ],
+      [
+        "44",
+        "20.5",
+        "26.5",
+        "48",
+        "46",
+        "38",
+        "50"
+      ],
+      [
+        "46",
+        "21.5",
+        "27",
+        "50",
+        "48",
+        "40",
+        "52"
+      ],
+      [
+        "48",
+        "22",
+        "27.5",
+        "52",
+        "50",
+        "42",
+        "54"
+      ],
+      [
+        "50",
+        "23",
+        "28",
+        "54",
+        "52",
+        "44",
+        "56"
+      ]
+    ],
+    "unit_as_published": "inches (unlabelled in table; page offers an in/cm toggle)",
+    "cm_toggle_present": true,
+    "notes": "Whatsapp Us at +91 88797 77222 if you are unsure of your size.\nOur size chart is based on ready-made garment measurements. For example, if your chest measurement is 40, please select size 40. Required fitting ease and loosenings are already included in the garment measurements.\nLength may vary according to the style.\nAlternatively, you may contact our customer care team for specific queries at customercare@koranm.com.",
+    "source": "product page size guide modal (HTML table)"
+  },
+  "variants": [
+    {
+      "id": 43264187760717,
+      "sku": "AKB-0946-FKPR-4309-YELLOW-38",
+      "title": "Yellow / 38 / Silk",
+      "color": "Yellow",
+      "size": "38",
+      "material": "Silk",
+      "available": true,
+      "price": 28656,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43264187793485,
+      "sku": "AKB-0946-FKPR-4309-YELLOW-40",
+      "title": "Yellow / 40 / Silk",
+      "color": "Yellow",
+      "size": "40",
+      "material": "Silk",
+      "available": true,
+      "price": 28656,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43264187826253,
+      "sku": "AKB-0946-FKPR-4309-YELLOW-42",
+      "title": "Yellow / 42 / Silk",
+      "color": "Yellow",
+      "size": "42",
+      "material": "Silk",
+      "available": true,
+      "price": 28656,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43264187859021,
+      "sku": "AKB-0946-FKPR-4309-YELLOW-44",
+      "title": "Yellow / 44 / Silk",
+      "color": "Yellow",
+      "size": "44",
+      "material": "Silk",
+      "available": true,
+      "price": 28656,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43264187891789,
+      "sku": "AKB-0946-FKPR-4309-YELLOW-46",
+      "title": "Yellow / 46 / Silk",
+      "color": "Yellow",
+      "size": "46",
+      "material": "Silk",
+      "available": true,
+      "price": 31528,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43264187924557,
+      "sku": "AKB-0946-FKPR-4309-YELLOW-48",
+      "title": "Yellow / 48 / Silk",
+      "color": "Yellow",
+      "size": "48",
+      "material": "Silk",
+      "available": true,
+      "price": 31528,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43264187957325,
+      "sku": "AKB-0946-FKPR-4309-YELLOW-50",
+      "title": "Yellow / 50 / Silk",
+      "color": "Yellow",
+      "size": "50",
+      "material": "Silk",
+      "available": true,
+      "price": 32952,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    }
+  ],
+  "variant_sizes": [
+    "38",
+    "40",
+    "42",
+    "44",
+    "46",
+    "48",
+    "50"
+  ],
+  "page_price": {
+    "amount": 28656,
+    "display": "₹ 28,656",
+    "label": "MRP (Inclusive of all taxes)"
+  },
+  "images": [
+    {
+      "id": "img-1",
+      "shopify_image_id": 36313588793421,
+      "position": 1,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_4.jpg?v=1785849236",
+      "alt": null,
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set/01.jpg"
+    },
+    {
+      "id": "img-2",
+      "shopify_image_id": 36313588858957,
+      "position": 2,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_19__edit_1.jpg?v=1785849236",
+      "alt": null,
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set/02.jpg"
+    },
+    {
+      "id": "img-3",
+      "shopify_image_id": 36313588760653,
+      "position": 3,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_3.jpg?v=1785849236",
+      "alt": null,
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set/03.jpg"
+    },
+    {
+      "id": "img-4",
+      "shopify_image_id": 36313588826189,
+      "position": 4,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_16__ai-edit_1__ai-edit_1.jpg?v=1785849236",
+      "alt": null,
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set/04.jpg"
+    },
+    {
+      "id": "img-5",
+      "shopify_image_id": 36313588727885,
+      "position": 5,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/ALIGARHICREAM_2.jpg?v=1785849236",
+      "alt": null,
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set/05.jpg"
+    }
+  ],
+  "structured_data": [
+    {
+      "type": "ProductGroup",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "category",
+        "description",
+        "hasVariant",
+        "name",
+        "productGroupID",
+        "url"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "http://schema.org/",
+        "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set#product",
+        "@type": "ProductGroup",
+        "brand": {
+          "@type": "Brand",
+          "name": "AROK - N M FASHION DESIGNS PVT LTD"
+        },
+        "category": "Suits",
+        "description": "Product Description\nRedefine your festive presence with this Sunburst Yellow Silk Set. Crafted from rich, premium silk fabric, this refined outfit features a long, above-knee cream-yellow kurta, classic cream silk Aligarhi-style bottoms, and a statement Bandi jacket showcasing energetic chevron and Leheriya stripes in yellow, turquoise, and coral. Accentuated with delicate white floral embroidery framing the jacket border, a sharp Bandgala collar with multi-tone stitch detailing, and contrasting pink buttons along the kurta placket, this ensemble strikes a flawless balance between celebratory color and modern tailoring. Whether attending haldi ceremonies, daytime pujas, or festive family gatherings, this outfit guarantees a vibrant, royal presence.\n\nKey Features\n3-Piece Complete Set\nPremium Silk Fabric with Cream Silk Aligarhi Bottoms\nYellow, Turquoise &amp; Coral Leheriya Print\nFloral Thread Embroidery\nClassic Bandhgala Collar with Multi-Color Stitching\nContrast Pink Button Detailing\nIdeal for Haldi, Daytime Functions &amp; Festive Celebrations\n\nStyling Tips\nFootwear: Complete your look by pairing this ensemble with our Handcrafted Embroidered Juttis for a traditional aesthetic, or our Classic Leather Sandals for a sleek, breathable finish.\n\nAccessories: Enhance the look with an antique gold or silver-toned watch, regal metallic cuff studs, and a statement ring featuring traditional stone setting to complement the fine threadwork.\n\nStyling: Wear the full 3-piece set for main daytime ceremonies and haldi festivities, or pair the cream-yellow kurta and cream Aligarhi bottoms solo for a light, effortless celebration look.",
+        "hasVariant": [
+          {
+            "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187760717#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/ALIGARHICREAM_4.jpg?v=1785849236&width=1920",
+            "mpn": "NMG460824",
+            "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men - Yellow / 38 / Silk",
+            "offers": {
+              "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187760717#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "28656.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187760717"
+            },
+            "sku": "AKB-0946-FKPR-4309-YELLOW-38"
+          },
+          {
+            "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187793485#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/ALIGARHICREAM_4.jpg?v=1785849236&width=1920",
+            "mpn": "NMG460825",
+            "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men - Yellow / 40 / Silk",
+            "offers": {
+              "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187793485#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "28656.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187793485"
+            },
+            "sku": "AKB-0946-FKPR-4309-YELLOW-40"
+          },
+          {
+            "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187826253#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/ALIGARHICREAM_4.jpg?v=1785849236&width=1920",
+            "mpn": "NMG460826",
+            "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men - Yellow / 42 / Silk",
+            "offers": {
+              "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187826253#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "28656.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187826253"
+            },
+            "sku": "AKB-0946-FKPR-4309-YELLOW-42"
+          },
+          {
+            "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187859021#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/ALIGARHICREAM_4.jpg?v=1785849236&width=1920",
+            "mpn": "NMG460827",
+            "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men - Yellow / 44 / Silk",
+            "offers": {
+              "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187859021#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "28656.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187859021"
+            },
+            "sku": "AKB-0946-FKPR-4309-YELLOW-44"
+          },
+          {
+            "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187891789#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/ALIGARHICREAM_4.jpg?v=1785849236&width=1920",
+            "mpn": "NMG460828",
+            "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men - Yellow / 46 / Silk",
+            "offers": {
+              "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187891789#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "31528.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187891789"
+            },
+            "sku": "AKB-0946-FKPR-4309-YELLOW-46"
+          },
+          {
+            "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187924557#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/ALIGARHICREAM_4.jpg?v=1785849236&width=1920",
+            "mpn": "NMG460829",
+            "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men - Yellow / 48 / Silk",
+            "offers": {
+              "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187924557#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "31528.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187924557"
+            },
+            "sku": "AKB-0946-FKPR-4309-YELLOW-48"
+          },
+          {
+            "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187957325#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/ALIGARHICREAM_4.jpg?v=1785849236&width=1920",
+            "mpn": "NMG460830",
+            "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men - Yellow / 50 / Silk",
+            "offers": {
+              "@id": "/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187957325#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "32952.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set?variant=43264187957325"
+            },
+            "sku": "AKB-0946-FKPR-4309-YELLOW-50"
+          }
+        ],
+        "name": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men",
+        "productGroupID": "7897629556813",
+        "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set"
+      }
+    },
+    {
+      "type": "Product",
+      "valid_json": false,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "description",
+        "image",
+        "name",
+        "offers",
+        "sku"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "@id": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set#product",
+        "name": "Yellow Silk Kurta, Multi-Tone Chevron &amp; Embroidered Bandi Jacket &amp; Cream Aligarhi for Men",
+        "image": [
+          "//koranm.com/cdn/shop/files/ALIGARHICREAM_4.jpg?v=1785849236",
+          "//koranm.com/cdn/shop/files/ALIGARHICREAM_19__edit_1.jpg?v=1785849236",
+          "//koranm.com/cdn/shop/files/ALIGARHICREAM_3.jpg?v=1785849236",
+          "//koranm.com/cdn/shop/files/ALIGARHICREAM_16__ai-edit_1__ai-edit_1.jpg?v=1785849236",
+          "//koranm.com/cdn/shop/files/ALIGARHICREAM_2.jpg?v=1785849236"
+        ],
+        "description": "Product Description Redefine your festive presence with this Sunburst Yellow Silk Set. Crafted from rich, premium silk fabric, this refined outfit features a long, above-knee cream-yellow kurta, classic cream silk Aligarhi-style bottoms, and a statement Bandi jacket showcasing energetic chevron and Leheriya stripes in yellow, turquoise, and coral. Accentuated with delicate white floral embroidery framing the jacket border, a sharp Bandgala collar with multi-tone stitch detailing, and contrasting pink buttons along the kurta placket, this ensemble strikes a flawless balance between celebratory color and modern tailoring. Whether attending haldi ceremonies, daytime pujas, or festive family gatherings, this outfit guarantees a vibrant, royal presence.  Key Features 3-Piece Complete Set Premium Silk Fabric with Cream Silk Aligarhi Bottoms Yellow, Turquoise &amp;amp; Coral Leheriya Print Floral Thread Embroidery Classic Bandhgala Collar with Multi-Color Stitching Contrast Pink Button Detailing Ideal for Haldi, Daytime Functions &amp;amp; Festive Celebrations  Styling Tips Footwear: Complete your look by pairing this ensemble with our Handcrafted Embroidered Juttis for a traditional aesthetic, or our Classic Leather Sandals for a sleek, breathable finish.  Accessories: Enhance the look with an antique gold or silver-toned watch, regal metallic cuff studs, and a statement ring featuring traditional stone setting to complement the fine threadwork.  Styling: Wear the full 3-piece set for main daytime ceremonies and haldi festivities, or pair the cream-yellow kurta and cream Aligarhi bottoms solo for a light, effortless celebration look.",
+        "sku": "AKB-0946-FKPR-4309-YELLOW-38",
+        "brand": {
+          "@type": "Brand",
+          "name": "AROK - N M FASHION DESIGNS PVT LTD"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set",
+          "priceCurrency": "INR",
+          "price": "28,656",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ],
+  "reviews": {
+    "count": 0,
+    "source": "product page review widget"
+  },
+  "policies": {
+    "return_policy_url": "https://koranm.com/en-us/policies/refund-policy",
+    "shipping_policy_url": "https://koranm.com/en-us/policies/shipping-policy",
+    "page_claims": [
+      "World Wide Free Shipping"
+    ],
+    "disclaimer": "Slight colour variations are possible due to photographic lighting or your monitor settings."
+  }
+}

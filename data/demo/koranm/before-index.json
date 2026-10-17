@@ -1,0 +1,85 @@
+{
+  "captured_at": "2026-10-17T21:25:38.147Z",
+  "products": [
+    {
+      "demo_id": "koranm-01",
+      "title": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men",
+      "product_type": "Bandi Shirt",
+      "product_url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1",
+      "image_count": 5,
+      "file": "before/koranm-01-natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1.json"
+    },
+    {
+      "demo_id": "koranm-02",
+      "title": "Dark Fawn Rose Embroidery Bandi Shirt for Men",
+      "product_type": "Bandi Shirt",
+      "product_url": "https://koranm.com/en-us/products/dark-fawn-rose-embroidery-bandi-shirt-for-men",
+      "image_count": 6,
+      "file": "before/koranm-02-dark-fawn-rose-embroidery-bandi-shirt-for-men.json"
+    },
+    {
+      "demo_id": "koranm-03",
+      "title": "Black Embroidered Kurta with Palazzo Pant for Men",
+      "product_type": "Kurta Set",
+      "product_url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black",
+      "image_count": 9,
+      "file": "before/koranm-03-ak-2870-fkemb-3416-black.json"
+    },
+    {
+      "demo_id": "koranm-04",
+      "title": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men",
+      "product_type": "Kurta Set",
+      "product_url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green",
+      "image_count": 9,
+      "file": "before/koranm-04-ak-2869-fkemb-3417-b-green.json"
+    },
+    {
+      "demo_id": "koranm-05",
+      "title": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men",
+      "product_type": "Indowestern",
+      "product_url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream",
+      "image_count": 8,
+      "file": "before/koranm-05-ark-11536-faemb-909-cream.json"
+    },
+    {
+      "demo_id": "koranm-06",
+      "title": "Cream Matka Silk Jodhpuri Set – Aditya Roy Kapur Collection",
+      "product_type": "Jodhpuri Set",
+      "product_url": "https://koranm.com/en-us/products/cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection",
+      "image_count": 5,
+      "file": "before/koranm-06-cream-matka-silk-jodhpuri-set-aditya-roy-kapur-collection.json"
+    },
+    {
+      "demo_id": "koranm-07",
+      "title": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men",
+      "product_type": "Sherwani",
+      "product_url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant",
+      "image_count": 6,
+      "file": "before/koranm-07-purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant.json"
+    },
+    {
+      "demo_id": "koranm-08",
+      "title": "Pink Satin Linen Printed & Embroidered Kurta Set with Off White Palazzo Pant for Men",
+      "product_type": "Kurta Jacket Set",
+      "product_url": "https://koranm.com/en-us/products/pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants",
+      "image_count": 6,
+      "file": "before/koranm-08-pink-satin-linen-printed-embroidered-kurta-set-with-off-white-plazo-pants.json"
+    },
+    {
+      "demo_id": "koranm-09",
+      "title": "Yellow Silk Kurta, Multi-Tone Chevron & Embroidered Bandi Jacket & Cream Aligarhi for Men",
+      "product_type": "Bandi Set",
+      "product_url": "https://koranm.com/en-us/products/yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set",
+      "image_count": 5,
+      "file": "before/koranm-09-yellow-silk-kurta-multi-tone-chevron-embroidered-bandi-jacket-cream-aligarhi-set.json"
+    },
+    {
+      "demo_id": "koranm-10",
+      "title": "Cobalt Blue Embroidered Tuxedo Set for Men",
+      "product_type": "Tuxedo",
+      "product_url": "https://koranm.com/en-us/products/cobalt-blue-embroidered-tuxedo-set",
+      "image_count": 5,
+      "file": "before/koranm-10-cobalt-blue-embroidered-tuxedo-set.json"
+    }
+  ]
+}

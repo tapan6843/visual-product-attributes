@@ -1,0 +1,1289 @@
+{
+  "demo_id": "koranm-04",
+  "title": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men",
+  "product_url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green",
+  "before_file": "before/koranm-04-ak-2869-fkemb-3417-b-green.json",
+  "generated_at": "2026-10-17T21:29:33.358Z",
+  "generator": "scripts/demo/build-after.mjs (text and structured data rules; no vision yet)",
+  "score": {
+    "rubric": "PRD FR2 weights (fit 30, fabric 20, design 15, variants 15, policies 10, occasion 10); hackathon criteria, untuned.",
+    "before": 53,
+    "after_generated": 72,
+    "after_merchant_answers": 97,
+    "parts": {
+      "fit_and_sizing": {
+        "weight": 30,
+        "before": 15,
+        "after_generated": 25,
+        "after_merchant_answers": 30,
+        "criteria": [
+          {
+            "criterion": "Size chart published as text",
+            "points": 10,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Measurement units labelled (in and cm)",
+            "points": 5,
+            "before": false,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Model height and size worn",
+            "points": 5,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Fit type stated",
+            "points": 5,
+            "before": false,
+            "after_generated": false,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Size chart matches sizes sold",
+            "points": 5,
+            "before": false,
+            "after_generated": true,
+            "after_merchant_answers": true
+          }
+        ]
+      },
+      "fabric_and_care": {
+        "weight": 20,
+        "before": 6,
+        "after_generated": 6,
+        "after_merchant_answers": 20,
+        "criteria": [
+          {
+            "criterion": "Material stated without contradiction",
+            "points": 8,
+            "before": false,
+            "after_generated": false,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Fiber composition with %",
+            "points": 6,
+            "before": false,
+            "after_generated": false,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Care instructions",
+            "points": 6,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          }
+        ]
+      },
+      "design_details": {
+        "weight": 15,
+        "before": 13,
+        "after_generated": 13,
+        "after_merchant_answers": 15,
+        "criteria": [
+          {
+            "criterion": "Collar or neckline",
+            "points": 4,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Closure",
+            "points": 3,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Sleeve length",
+            "points": 3,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Pieces included, consistent",
+            "points": 3,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Garment length",
+            "points": 2,
+            "before": false,
+            "after_generated": false,
+            "after_merchant_answers": true
+          }
+        ]
+      },
+      "variants_and_availability": {
+        "weight": 15,
+        "before": 9,
+        "after_generated": 15,
+        "after_merchant_answers": 15,
+        "criteria": [
+          {
+            "criterion": "Every size as a record with availability",
+            "points": 5,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Colour named consistently",
+            "points": 4,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Valid structured data with material, colour, size",
+            "points": 6,
+            "before": false,
+            "after_generated": true,
+            "after_merchant_answers": true
+          }
+        ]
+      },
+      "policies_and_price": {
+        "weight": 10,
+        "before": 6,
+        "after_generated": 6,
+        "after_merchant_answers": 10,
+        "criteria": [
+          {
+            "criterion": "Price with currency",
+            "points": 4,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Return policy linked",
+            "points": 2,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Return window and return shipping cost on page",
+            "points": 4,
+            "before": false,
+            "after_generated": false,
+            "after_merchant_answers": true
+          }
+        ]
+      },
+      "occasion_and_style": {
+        "weight": 10,
+        "before": 4,
+        "after_generated": 7,
+        "after_merchant_answers": 7,
+        "criteria": [
+          {
+            "criterion": "Occasions listed",
+            "points": 4,
+            "before": true,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Occasions consistent across the page",
+            "points": 3,
+            "before": false,
+            "after_generated": true,
+            "after_merchant_answers": true
+          },
+          {
+            "criterion": "Occasion claims backed by reviews",
+            "points": 3,
+            "before": false,
+            "after_generated": false,
+            "after_merchant_answers": false
+          }
+        ]
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "F01",
+      "kind": "contradiction",
+      "severity": "high",
+      "field": "fabric",
+      "summary": "Material field says \"Silk\" but the description names a different fabric (nylon).",
+      "evidence": [
+        {
+          "source": "page_features.Material",
+          "value": "Silk"
+        },
+        {
+          "source": "description.text",
+          "value": "Designed in premium Storm Nylon fabric, this bottle green embroidered kurta set combines modern elegance with traditional styling. The mandarin-collar kurta is beautifully detailed with embroidery and paired with matching palazzo pants for enhanced comfort and contemporary appeal. An excellent choice for festive celebrations, receptions, and cultural events."
+        }
+      ],
+      "merchant_question": "What is the exact fiber composition (with %) of this kurta set: Silk or nylon?"
+    },
+    {
+      "id": "F02",
+      "kind": "contradiction",
+      "severity": "low",
+      "field": "occasions",
+      "summary": "Occasions field lists \"mehendi, office party wear\" which the description never mentions.",
+      "evidence": [
+        {
+          "source": "page_features.Occasions",
+          "value": "Mehendi, Reception, and Office Party Wear"
+        },
+        {
+          "source": "description.text",
+          "value": "Designed in premium Storm Nylon fabric, this bottle green embroidered kurta set combines modern elegance with traditional styling. The mandarin-collar kurta is beautifully detailed with embroidery and paired with matching palazzo pants for enhanced comfort and contemporary appeal. An excellent choice for festive celebrations, receptions, and cultural events."
+        }
+      ],
+      "merchant_question": "Which occasions should AI recommend this for? The page lists both \"Mehendi, Reception, and Office Party Wear\" and the description's wording."
+    },
+    {
+      "id": "F03",
+      "kind": "contradiction",
+      "severity": "low",
+      "field": "size_range",
+      "summary": "Size chart lists sizes 36, 48, 50 that are not sold for this product (sold: 38–46).",
+      "evidence": [
+        {
+          "source": "size_chart.rows",
+          "value": [
+            "36",
+            "38",
+            "40",
+            "42",
+            "44",
+            "46",
+            "48",
+            "50"
+          ]
+        },
+        {
+          "source": "variants[].size",
+          "value": [
+            "38",
+            "40",
+            "42",
+            "44",
+            "46"
+          ]
+        }
+      ],
+      "fix": {
+        "type": "size_chart",
+        "note": "Generated size chart keeps only sold sizes."
+      }
+    },
+    {
+      "id": "F04",
+      "kind": "data_quality",
+      "severity": "medium",
+      "field": "size_chart_units",
+      "summary": "Size chart values have no unit in the table; the page toggle defaults to inches.",
+      "evidence": [
+        {
+          "source": "size_chart.unit_as_published",
+          "value": "inches (unlabelled in table; page offers an in/cm toggle)"
+        }
+      ],
+      "fix": {
+        "type": "size_chart",
+        "note": "Generated chart labels inches and adds centimetres (×2.54)."
+      }
+    },
+    {
+      "id": "F05",
+      "kind": "gap",
+      "severity": "medium",
+      "field": "garment_length",
+      "summary": "Size chart has no garment length, so AI cannot say where the garment falls on the body.",
+      "evidence": [
+        {
+          "source": "size_chart.headers",
+          "value": [
+            "SIZE",
+            "SHOULDER",
+            "SLEEVE LENGTH",
+            "CHEST",
+            "STOMACH",
+            "WAIST",
+            "HIP"
+          ]
+        }
+      ],
+      "merchant_question": "What is the garment length per size?",
+      "pending_image_check": "Estimate where the hem falls on the model (inferred tier, merchant to confirm)."
+    },
+    {
+      "id": "F06",
+      "kind": "gap",
+      "severity": "medium",
+      "field": "fit_type",
+      "summary": "No fit type stated (slim, regular, relaxed).",
+      "evidence": [
+        {
+          "source": "description.text",
+          "value": null
+        }
+      ],
+      "merchant_question": "Is the fit slim, regular or relaxed?",
+      "pending_image_check": "Infer fit from model photos (inferred tier, merchant to confirm)."
+    },
+    {
+      "id": "F07",
+      "kind": "data_quality",
+      "severity": "medium",
+      "field": "model_size_worn",
+      "summary": "\"Featured Model: 6ft and wearing size 40\" appears on 10 of 10 demo products, so it may be a site-wide template rather than this shoot.",
+      "evidence": [
+        {
+          "source": "featured_model",
+          "value": "6ft and wearing size 40"
+        }
+      ],
+      "merchant_question": "Is the model in these photos 6 ft and wearing size 40?"
+    },
+    {
+      "id": "F08",
+      "kind": "data_quality",
+      "severity": "high",
+      "field": "structured_data",
+      "summary": "The schema.org Product block is invalid JSON (raw line breaks inside the description), so strict parsers drop it.",
+      "evidence": [
+        {
+          "source": "structured_data[Product].valid_json",
+          "value": false
+        }
+      ],
+      "fix": {
+        "type": "json_ld"
+      }
+    },
+    {
+      "id": "F09",
+      "kind": "gap",
+      "severity": "medium",
+      "field": "structured_data_attributes",
+      "summary": "Structured data has no material, colour or size fields, so agents must parse prose to find them.",
+      "evidence": [
+        {
+          "source": "structured_data[ProductGroup].fields_present",
+          "value": [
+            "@context",
+            "@id",
+            "@type",
+            "brand",
+            "category",
+            "description",
+            "hasVariant",
+            "name",
+            "productGroupID",
+            "url"
+          ]
+        }
+      ],
+      "fix": {
+        "type": "json_ld"
+      }
+    },
+    {
+      "id": "F10",
+      "kind": "gap",
+      "severity": "medium",
+      "field": "returns",
+      "summary": "No return window or return shipping cost on the product page; only a generic policy link.",
+      "evidence": [
+        {
+          "source": "policies.return_policy_url",
+          "value": "https://koranm.com/en-us/policies/refund-policy"
+        }
+      ],
+      "merchant_question": "For US orders: how many days to return, and who pays return shipping?"
+    },
+    {
+      "id": "F11",
+      "kind": "gap",
+      "severity": "low",
+      "field": "reviews",
+      "summary": "No customer reviews, so comfort and occasion claims have no shopper evidence.",
+      "evidence": [
+        {
+          "source": "reviews.count",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "merchant_questions": [
+    "What is the exact fiber composition (with %) of this kurta set: Silk or nylon?",
+    "Which occasions should AI recommend this for? The page lists both \"Mehendi, Reception, and Office Party Wear\" and the description's wording.",
+    "What is the garment length per size?",
+    "Is the fit slim, regular or relaxed?",
+    "Is the model in these photos 6 ft and wearing size 40?",
+    "For US orders: how many days to return, and who pays return shipping?"
+  ],
+  "attributes": [
+    {
+      "name": "garment_type",
+      "value": "Kurta Set",
+      "tier": "stated",
+      "sources": [
+        "product.product_type"
+      ]
+    },
+    {
+      "name": "color",
+      "value": "Green",
+      "tier": "stated",
+      "sources": [
+        "page_features.Colour",
+        "product.options.Color"
+      ]
+    },
+    {
+      "name": "bottom_color",
+      "value": "Green",
+      "tier": "stated",
+      "sources": [
+        "page_features.Bottom Color"
+      ]
+    },
+    {
+      "name": "fabric",
+      "value": "Silk",
+      "tier": "contradicted",
+      "sources": [
+        "page_features.Material"
+      ]
+    },
+    {
+      "name": "fiber_composition_pct",
+      "value": null,
+      "tier": "not_determinable",
+      "sources": [],
+      "note": "Never generated; merchant question."
+    },
+    {
+      "name": "care",
+      "value": "Dry clean only",
+      "tier": "stated",
+      "sources": [
+        "page_features.Wash Care"
+      ]
+    },
+    {
+      "name": "closure",
+      "value": "Buttons",
+      "tier": "stated",
+      "sources": [
+        "page_features.Closure Type"
+      ]
+    },
+    {
+      "name": "pattern",
+      "value": "Embroidery",
+      "tier": "stated",
+      "sources": [
+        "page_features.Pattern"
+      ]
+    },
+    {
+      "name": "work_type",
+      "value": "Thread Work and Mukaish",
+      "tier": "stated",
+      "sources": [
+        "page_features.Work Type"
+      ]
+    },
+    {
+      "name": "pieces_included",
+      "value": "Kurta and Plazzo Pant (Set: 2)",
+      "tier": "stated",
+      "sources": [
+        "page_features.Includes",
+        "page_features.Set"
+      ]
+    },
+    {
+      "name": "bottom_type",
+      "value": "Plazzo Pant",
+      "tier": "stated",
+      "sources": [
+        "page_features.Bottom Type"
+      ]
+    },
+    {
+      "name": "collar",
+      "value": "mandarin collar",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    {
+      "name": "fit_type",
+      "value": null,
+      "tier": "pending_vision",
+      "sources": [
+        "images"
+      ]
+    },
+    {
+      "name": "garment_length",
+      "value": null,
+      "tier": "pending_vision",
+      "sources": [
+        "images"
+      ]
+    },
+    {
+      "name": "sleeve_length",
+      "value": "full",
+      "tier": "stated",
+      "sources": [
+        "description.text"
+      ]
+    },
+    {
+      "name": "model_height_and_size_worn",
+      "value": "6ft and wearing size 40",
+      "tier": "inferred",
+      "sources": [
+        "featured_model"
+      ],
+      "note": "Same text on every demo product; merchant to confirm."
+    },
+    {
+      "name": "sizes_sold",
+      "value": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "tier": "stated",
+      "sources": [
+        "variants[].size"
+      ]
+    },
+    {
+      "name": "sizes_in_stock",
+      "value": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "tier": "stated",
+      "sources": [
+        "variants[].available"
+      ]
+    },
+    {
+      "name": "occasions",
+      "value": "Mehendi, Reception, and Office Party Wear",
+      "tier": "stated",
+      "sources": [
+        "page_features.Occasions"
+      ]
+    },
+    {
+      "name": "price",
+      "value": {
+        "amount": 15992,
+        "currency": "INR",
+        "label": "MRP (Inclusive of all taxes)"
+      },
+      "tier": "stated",
+      "sources": [
+        "page_price",
+        "variants[].price"
+      ]
+    }
+  ],
+  "fixes": {
+    "size_chart": {
+      "unit": "in",
+      "unit_tier": "inferred",
+      "unit_note": "Table is unlabelled; page toggle defaults to inches. Merchant to confirm.",
+      "basis": "Garment measurements; fitting ease already included (per page note).",
+      "headers": [
+        "size",
+        "shoulder_in",
+        "sleeve length_in",
+        "chest_in",
+        "stomach_in",
+        "waist_in",
+        "hip_in",
+        "shoulder_cm",
+        "sleeve length_cm",
+        "chest_cm",
+        "stomach_cm",
+        "waist_cm",
+        "hip_cm"
+      ],
+      "rows": [
+        [
+          "38",
+          18,
+          25,
+          42,
+          40,
+          32,
+          44,
+          45.7,
+          63.5,
+          106.7,
+          101.6,
+          81.3,
+          111.8
+        ],
+        [
+          "40",
+          18.5,
+          25.5,
+          44,
+          42,
+          34,
+          46,
+          47,
+          64.8,
+          111.8,
+          106.7,
+          86.4,
+          116.8
+        ],
+        [
+          "42",
+          19,
+          26,
+          46,
+          44,
+          36,
+          48,
+          48.3,
+          66,
+          116.8,
+          111.8,
+          91.4,
+          121.9
+        ],
+        [
+          "44",
+          20.5,
+          26.5,
+          48,
+          46,
+          38,
+          50,
+          52.1,
+          67.3,
+          121.9,
+          116.8,
+          96.5,
+          127
+        ],
+        [
+          "46",
+          21.5,
+          27,
+          50,
+          48,
+          40,
+          52,
+          54.6,
+          68.6,
+          127,
+          121.9,
+          101.6,
+          132.1
+        ]
+      ],
+      "sources": [
+        "size_chart.rows",
+        "size_chart.notes"
+      ]
+    },
+    "description": {
+      "text": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men. This 2-piece set includes: Kurta and Plazzo Pant. Fabric: to be confirmed by the merchant (the page names more than one fabric). Composition percentages are not stated. Colour: Green. Design: Mandarin collar, full sleeves, button closure, embroidery (thread work and mukaish). Fit type is not stated. Sizes 38–46 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–50 in, shoulder 18–21.5 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46). Care: dry clean only. Listed occasions: Mehendi, Reception, and Office Party Wear. Price: ₹ 15,992 MRP, inclusive of all taxes.",
+      "sentences": [
+        {
+          "text": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men.",
+          "sources": [
+            "product.title"
+          ]
+        },
+        {
+          "text": "This 2-piece set includes: Kurta and Plazzo Pant.",
+          "sources": [
+            "page_features.Includes",
+            "page_features.Set"
+          ]
+        },
+        {
+          "text": "Fabric: to be confirmed by the merchant (the page names more than one fabric). Composition percentages are not stated.",
+          "sources": [
+            "page_features.Material",
+            "description.text"
+          ]
+        },
+        {
+          "text": "Colour: Green.",
+          "sources": [
+            "page_features.Colour",
+            "page_features.Bottom Color"
+          ]
+        },
+        {
+          "text": "Design: Mandarin collar, full sleeves, button closure, embroidery (thread work and mukaish).",
+          "sources": [
+            "description.text",
+            "page_features.Closure Type",
+            "page_features.Pattern",
+            "page_features.Work Type"
+          ]
+        },
+        {
+          "text": "Fit type is not stated.",
+          "sources": []
+        },
+        {
+          "text": "Sizes 38–46 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–50 in, shoulder 18–21.5 in.",
+          "sources": [
+            "size_chart.rows",
+            "size_chart.notes",
+            "variants[].size"
+          ]
+        },
+        {
+          "text": "The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot).",
+          "sources": [
+            "featured_model"
+          ]
+        },
+        {
+          "text": "In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46).",
+          "sources": [
+            "variants[].available"
+          ]
+        },
+        {
+          "text": "Care: dry clean only.",
+          "sources": [
+            "page_features.Wash Care"
+          ]
+        },
+        {
+          "text": "Listed occasions: Mehendi, Reception, and Office Party Wear.",
+          "sources": [
+            "page_features.Occasions"
+          ]
+        },
+        {
+          "text": "Price: ₹ 15,992 MRP, inclusive of all taxes.",
+          "sources": [
+            "page_price"
+          ]
+        }
+      ]
+    },
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "ProductGroup",
+      "@id": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green#product",
+      "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men",
+      "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green",
+      "brand": {
+        "@type": "Brand",
+        "name": "KORA by NM"
+      },
+      "productGroupID": "AK-2869",
+      "category": "Kurta Set",
+      "color": "Green",
+      "audience": {
+        "@type": "PeopleAudience",
+        "suggestedGender": "male"
+      },
+      "variesBy": [
+        "https://schema.org/size"
+      ],
+      "image": [
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3588.jpg?v=1784897936",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3585.jpg?v=1784897936",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3580.jpg?v=1784897936",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3607.jpg?v=1784897936",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3612.jpg?v=1784897937",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3583.jpg?v=1784897936",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3591.jpg?v=1784897936",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3596.jpg?v=1784897936",
+        "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3575.jpg?v=1784897936"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Care",
+          "value": "Dry clean only"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Closure",
+          "value": "Buttons"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pattern",
+          "value": "Embroidery"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Work type",
+          "value": "Thread Work and Mukaish"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pieces included",
+          "value": "Kurta and Plazzo Pant (Set: 2)"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Bottom type",
+          "value": "Plazzo Pant"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Occasions",
+          "value": "Mehendi, Reception, and Office Party Wear"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Size chart basis",
+          "value": "Garment measurements; fitting ease already included (per page note). Units: in."
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "sku": "AK-2869-FKEMB-3417-B.GREEN-38",
+          "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men – size 38",
+          "size": "38",
+          "color": "Green",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034358349",
+            "price": 15992,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "sku": "AK-2869-FKEMB-3417-B.GREEN-40",
+          "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men – size 40",
+          "size": "40",
+          "color": "Green",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034391117",
+            "price": 15992,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "sku": "AK-2869-FKEMB-3417-B.GREEN-42",
+          "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men – size 42",
+          "size": "42",
+          "color": "Green",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034423885",
+            "price": 15992,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "sku": "AK-2869-FKEMB-3417-B.GREEN-44",
+          "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men – size 44",
+          "size": "44",
+          "color": "Green",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034456653",
+            "price": 15992,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "sku": "AK-2869-FKEMB-3417-B.GREEN-46",
+          "name": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men – size 46",
+          "size": "46",
+          "color": "Green",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://koranm.com/en-us/products/ak-2869-fkemb-3417-b-green?variant=43270034489421",
+            "price": 15992,
+            "priceCurrency": "INR",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    },
+    "alt_text": [
+      {
+        "image_id": "img-1",
+        "before": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "after": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "changed": false,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-2",
+        "before": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "after": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "changed": false,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-3",
+        "before": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "after": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "changed": false,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-4",
+        "before": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "after": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "changed": false,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-5",
+        "before": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "after": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "changed": false,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-6",
+        "before": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "after": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "changed": false,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-7",
+        "before": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "after": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "changed": false,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-8",
+        "before": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "after": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "changed": false,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      },
+      {
+        "image_id": "img-9",
+        "before": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "after": "Bottle Green Embroidered Kurta with Palazzo Pant - KORANM",
+        "changed": false,
+        "tier": "stated",
+        "note": "Text-derived placeholder; replace with a description of the view once the vision step runs."
+      }
+    ]
+  },
+  "image_processing": {
+    "status": "pending",
+    "download_command": "node scripts/demo/download-images.mjs",
+    "checks": [
+      "Estimate where the hem falls on the model (inferred tier, merchant to confirm).",
+      "Infer fit from model photos (inferred tier, merchant to confirm).",
+      "Read visible design attributes per image (neckline, sleeve, length, pattern)",
+      "OCR any size chart, care label or fabric tag"
+    ],
+    "images": [
+      {
+        "id": "img-1",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3588.jpg?v=1784897936",
+        "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/01.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-2",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3585.jpg?v=1784897936",
+        "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/02.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-3",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3580.jpg?v=1784897936",
+        "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/03.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-4",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3607.jpg?v=1784897936",
+        "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/04.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-5",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3612.jpg?v=1784897937",
+        "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/05.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-6",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3583.jpg?v=1784897936",
+        "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/06.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-7",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3591.jpg?v=1784897936",
+        "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/07.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-8",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3596.jpg?v=1784897936",
+        "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/08.jpg",
+        "width": 1080,
+        "height": 1440
+      },
+      {
+        "id": "img-9",
+        "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3575.jpg?v=1784897936",
+        "local_path": "data/demo/koranm/images/ak-2869-fkemb-3417-b-green/09.jpg",
+        "width": 1080,
+        "height": 1440
+      }
+    ]
+  },
+  "comparison": [
+    {
+      "field": "description",
+      "before": "Designed in premium Storm Nylon fabric, this bottle green embroidered kurta set combines modern elegance with traditional styling. The mandarin-collar kurta is beautifully detailed with embroidery and paired with matching palazzo pants for enhanced comfort and contemporary appeal. An excellent choice for festive celebrations, receptions, and cultural events.\nKey Features\nPremium Storm Nylon fabric\nElegant embroidered detailing\nMandarin collar for a refined finish\nFull sleeves with a comfortable fit\nMatching palazzo pants included\nLightweight and breathable construction\nPerfect for festive occasions, receptions, and celebrations\nStyling Tips\nPair with embroidered mojaris for a regal finish.\nAccessorize with a statement watch.\nLayer with a contrasting stole for wedding functions.",
+      "after": "Bottle Green Embroidered Short Kurta with Palazzo Pant for Men. This 2-piece set includes: Kurta and Plazzo Pant. Fabric: to be confirmed by the merchant (the page names more than one fabric). Composition percentages are not stated. Colour: Green. Design: Mandarin collar, full sleeves, button closure, embroidery (thread work and mukaish). Fit type is not stated. Sizes 38–46 are chest sizes in inches: pick your chest measurement, as fitting ease is already included. Garment chest runs 42–50 in, shoulder 18–21.5 in. The model is listed as 6ft and wearing size 40 (merchant to confirm for this shoot). In stock at capture: 38, 40, 42, 44 (of 38, 40, 42, 44, 46). Care: dry clean only. Listed occasions: Mehendi, Reception, and Office Party Wear. Price: ₹ 15,992 MRP, inclusive of all taxes.",
+      "change": "rewritten from cited page facts; contradicted facts held for merchant"
+    },
+    {
+      "field": "size_chart",
+      "before": "8 rows, unitless",
+      "after": "5 rows, in + cm",
+      "change": "labelled units, kept sold sizes only"
+    },
+    {
+      "field": "structured_data",
+      "before": "Product block valid JSON: false; material/colour/size fields: none",
+      "after": "valid ProductGroup with per-size offers, colour, material and properties",
+      "change": "replaced"
+    },
+    {
+      "field": "image_alt_text",
+      "before": "9/9 images have alt text",
+      "after": "9/9",
+      "change": "0 changed"
+    },
+    {
+      "field": "contradictions",
+      "before": 3,
+      "after": "surfaced with both sources; held out of generated copy",
+      "change": "flagged"
+    },
+    {
+      "field": "merchant_questions",
+      "before": 0,
+      "after": 6,
+      "change": "added"
+    },
+    {
+      "field": "attribute.garment_type",
+      "before": "Kurta Set",
+      "after": "Kurta Set",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.color",
+      "before": "Green",
+      "after": "Green",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.bottom_color",
+      "before": "Green",
+      "after": "Green",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.fabric",
+      "before": "Silk",
+      "after": "Silk",
+      "tier": "contradicted"
+    },
+    {
+      "field": "attribute.fiber_composition_pct",
+      "before": null,
+      "after": null,
+      "tier": "not_determinable"
+    },
+    {
+      "field": "attribute.care",
+      "before": "Dry clean only",
+      "after": "Dry clean only",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.closure",
+      "before": "Buttons",
+      "after": "Buttons",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.pattern",
+      "before": "Embroidery",
+      "after": "Embroidery",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.work_type",
+      "before": "Thread Work and Mukaish",
+      "after": "Thread Work and Mukaish",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.pieces_included",
+      "before": "Kurta and Plazzo Pant (Set: 2)",
+      "after": "Kurta and Plazzo Pant (Set: 2)",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.bottom_type",
+      "before": "Plazzo Pant",
+      "after": "Plazzo Pant",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.collar",
+      "before": "mandarin collar",
+      "after": "mandarin collar",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.fit_type",
+      "before": null,
+      "after": null,
+      "tier": "pending_vision"
+    },
+    {
+      "field": "attribute.garment_length",
+      "before": null,
+      "after": null,
+      "tier": "pending_vision"
+    },
+    {
+      "field": "attribute.sleeve_length",
+      "before": "full",
+      "after": "full",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.model_height_and_size_worn",
+      "before": "6ft and wearing size 40",
+      "after": "6ft and wearing size 40",
+      "tier": "inferred"
+    },
+    {
+      "field": "attribute.sizes_sold",
+      "before": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "after": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.sizes_in_stock",
+      "before": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "after": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.occasions",
+      "before": "Mehendi, Reception, and Office Party Wear",
+      "after": "Mehendi, Reception, and Office Party Wear",
+      "tier": "stated"
+    },
+    {
+      "field": "attribute.price",
+      "before": {
+        "amount": 15992,
+        "currency": "INR",
+        "label": "MRP (Inclusive of all taxes)"
+      },
+      "after": {
+        "amount": 15992,
+        "currency": "INR",
+        "label": "MRP (Inclusive of all taxes)"
+      },
+      "tier": "stated"
+    }
+  ]
+}

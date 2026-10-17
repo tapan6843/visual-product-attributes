@@ -1,0 +1,574 @@
+{
+  "demo_id": "koranm-05",
+  "captured_at": "2026-10-17T21:25:38.147Z",
+  "source": {
+    "brand_site": "https://koranm.com/en-us",
+    "product_url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream",
+    "feed_url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream.json",
+    "availability_url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream.js",
+    "capture_method": "Shopify product feed + raw product page HTML (no JavaScript rendering)"
+  },
+  "product": {
+    "shopify_id": 7902064738381,
+    "handle": "ark-11536-faemb-909-cream",
+    "title": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men",
+    "vendor": "AROK - N M FASHION DESIGNS PVT LTD",
+    "product_type": "Indowestern",
+    "tags": "Men, New Arrivals, Whats New",
+    "published_at": "2026-10-03T20:50:13+05:30",
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Cream"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "38",
+          "40",
+          "42",
+          "44",
+          "46",
+          "48",
+          "50"
+        ]
+      },
+      {
+        "name": "Material",
+        "values": [
+          "Prabal Silk"
+        ]
+      }
+    ]
+  },
+  "description": {
+    "html": "<div class=\"ewa-rteLine\">Elevate your festive wardrobe with this Cream Prabal Silk Indo Western Set, featuring elegant floral embroidery on premium silk fabric. Designed with a sophisticated Chinese collar and an open-style silhouette, this three-piece ensemble includes an embroidered Indo Western jacket, kurta, and pants. Perfect for weddings, receptions, engagements, and festive celebrations.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Key Features</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Premium Cream Prabal Silk Fabric</div>\n<div class=\"ewa-rteLine\">Elegant Floral Embroidery</div>\n<div class=\"ewa-rteLine\">Classic Chinese Collar</div>\n<div class=\"ewa-rteLine\">Open-Style Indo Western Jacket</div>\n<div class=\"ewa-rteLine\">Medium-Length Silhouette</div>\n<div class=\"ewa-rteLine\">Matching Cream Kurta &amp; Pants</div>\n<div class=\"ewa-rteLine\">3-Piece Indo Western Set</div>\n<div class=\"ewa-rteLine\">Ideal for Weddings, Receptions &amp; Festive Occasions</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Styling Tips</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Pair with cream embroidered juttis for a timeless ethnic look.</div>\n<div class=\"ewa-rteLine\">Style with tan leather slip-on shoes for a refined reception ensemble.</div>\n<div class=\"ewa-rteLine\">Complete the outfit with brown leather sandals for elegant festive celebrations.</div>",
+    "text": "Elevate your festive wardrobe with this Cream Prabal Silk Indo Western Set, featuring elegant floral embroidery on premium silk fabric. Designed with a sophisticated Chinese collar and an open-style silhouette, this three-piece ensemble includes an embroidered Indo Western jacket, kurta, and pants. Perfect for weddings, receptions, engagements, and festive celebrations.\nKey Features\nPremium Cream Prabal Silk Fabric\nElegant Floral Embroidery\nClassic Chinese Collar\nOpen-Style Indo Western Jacket\nMedium-Length Silhouette\nMatching Cream Kurta & Pants\n3-Piece Indo Western Set\nIdeal for Weddings, Receptions & Festive Occasions\nStyling Tips\nPair with cream embroidered juttis for a timeless ethnic look.\nStyle with tan leather slip-on shoes for a refined reception ensemble.\nComplete the outfit with brown leather sandals for elegant festive celebrations.",
+    "parsed": {
+      "intro": {
+        "text": [
+          "Elevate your festive wardrobe with this Cream Prabal Silk Indo Western Set, featuring elegant floral embroidery on premium silk fabric. Designed with a sophisticated Chinese collar and an open-style silhouette, this three-piece ensemble includes an embroidered Indo Western jacket, kurta, and pants. Perfect for weddings, receptions, engagements, and festive celebrations.",
+          "Ideal for Weddings, Receptions & Festive Occasions",
+          "Pair with cream embroidered juttis for a timeless ethnic look.",
+          "Style with tan leather slip-on shoes for a refined reception ensemble.",
+          "Complete the outfit with brown leather sandals for elegant festive celebrations."
+        ]
+      },
+      "key_features": {},
+      "premium_cream_prabal_silk_fabric": {},
+      "elegant_floral_embroidery": {},
+      "classic_chinese_collar": {},
+      "open_style_indo_western_jacket": {},
+      "medium_length_silhouette": {},
+      "matching_cream_kurta_pants": {},
+      "piece_indo_western_set": {},
+      "styling_tips": {}
+    }
+  },
+  "page_features": {
+    "Design No": "ARK-11536",
+    "Colour": "Cream",
+    "Material": "Prabal Silk",
+    "Bottom Type": "Pant",
+    "Bottom Color": "Cream",
+    "Includes": "Indo-Western, Kurta, and Pant",
+    "Pattern": "Embroidery",
+    "Work Type": "Resham Work",
+    "Occasions": "Wedding, Engagement, Reception, and Office Party Wear",
+    "Set": "3",
+    "Wash Care": "Dry clean only",
+    "Closure Type": "Open"
+  },
+  "featured_model": "6ft and wearing size 40",
+  "size_chart": {
+    "headers": [
+      "SIZE",
+      "SHOULDER",
+      "SLEEVE LENGTH",
+      "CHEST",
+      "PANTS WAIST",
+      "PANTS HIPS"
+    ],
+    "rows": [
+      [
+        "36",
+        "17.5",
+        "25",
+        "39",
+        "30",
+        "36"
+      ],
+      [
+        "38",
+        "18",
+        "25.3",
+        "41",
+        "32",
+        "38"
+      ],
+      [
+        "40",
+        "18.5",
+        "25.5",
+        "43",
+        "34",
+        "40"
+      ],
+      [
+        "42",
+        "19",
+        "25.3",
+        "45",
+        "36",
+        "42"
+      ],
+      [
+        "44",
+        "19.5",
+        "26",
+        "47",
+        "38",
+        "44"
+      ],
+      [
+        "46",
+        "20",
+        "26.3",
+        "49",
+        "40",
+        "46"
+      ],
+      [
+        "48",
+        "20.5",
+        "26.5",
+        "51",
+        "42",
+        "48"
+      ],
+      [
+        "50",
+        "21",
+        "26.5",
+        "53",
+        "44",
+        "50"
+      ]
+    ],
+    "unit_as_published": "inches (unlabelled in table; page offers an in/cm toggle)",
+    "cm_toggle_present": true,
+    "notes": "Whatsapp Us at +91 88797 77222 if you are unsure of your size.\nOur size chart is based on ready-made garment measurements. For example, if your chest measurement is 40, please select size 40. Required fitting ease and loosenings are already included in the garment measurements.\nLength may vary according to the style.\nAlternatively, you may contact our customer care team for specific queries at customercare@koranm.com.",
+    "source": "product page size guide modal (HTML table)"
+  },
+  "variants": [
+    {
+      "id": 43298769961037,
+      "sku": "ARK-11536-FAEMB-909-CREAM-38",
+      "title": "Cream / 38 / Prabal Silk",
+      "color": "Cream",
+      "size": "38",
+      "material": "Prabal Silk",
+      "available": true,
+      "price": 53438.4,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43298769993805,
+      "sku": "ARK-11536-FAEMB-909-CREAM-40",
+      "title": "Cream / 40 / Prabal Silk",
+      "color": "Cream",
+      "size": "40",
+      "material": "Prabal Silk",
+      "available": true,
+      "price": 53438.4,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43298770026573,
+      "sku": "ARK-11536-FAEMB-909-CREAM-42",
+      "title": "Cream / 42 / Prabal Silk",
+      "color": "Cream",
+      "size": "42",
+      "material": "Prabal Silk",
+      "available": true,
+      "price": 53438.4,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43298770059341,
+      "sku": "ARK-11536-FAEMB-909-CREAM-44",
+      "title": "Cream / 44 / Prabal Silk",
+      "color": "Cream",
+      "size": "44",
+      "material": "Prabal Silk",
+      "available": true,
+      "price": 53438.4,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43298770092109,
+      "sku": "ARK-11536-FAEMB-909-CREAM-46",
+      "title": "Cream / 46 / Prabal Silk",
+      "color": "Cream",
+      "size": "46",
+      "material": "Prabal Silk",
+      "available": false,
+      "price": 58768,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43298770124877,
+      "sku": "ARK-11536-FAEMB-909-CREAM-48",
+      "title": "Cream / 48 / Prabal Silk",
+      "color": "Cream",
+      "size": "48",
+      "material": "Prabal Silk",
+      "available": false,
+      "price": 61440,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43298770157645,
+      "sku": "ARK-11536-FAEMB-909-CREAM-50",
+      "title": "Cream / 50 / Prabal Silk",
+      "color": "Cream",
+      "size": "50",
+      "material": "Prabal Silk",
+      "available": false,
+      "price": 64112,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    }
+  ],
+  "variant_sizes": [
+    "38",
+    "40",
+    "42",
+    "44",
+    "46",
+    "48",
+    "50"
+  ],
+  "page_price": {
+    "amount": 53438.4,
+    "display": "₹ 53,438",
+    "label": "MRP (Inclusive of all taxes)"
+  },
+  "images": [
+    {
+      "id": "img-1",
+      "shopify_image_id": 36148693925965,
+      "position": 1,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A4106_43d0d8a0-4636-4e12-a07e-b40073e3041e.jpg?v=1784971678",
+      "alt": "Cream Prabal Silk Floral Embroidered Indo Western Set - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ark-11536-faemb-909-cream/01.jpg"
+    },
+    {
+      "id": "img-2",
+      "shopify_image_id": 36148694057037,
+      "position": 2,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A4118_08ad8ea4-045b-4eef-a656-4edd1c4227a4.jpg?v=1784971679",
+      "alt": "Cream Prabal Silk Floral Embroidered Indo Western Set - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ark-11536-faemb-909-cream/02.jpg"
+    },
+    {
+      "id": "img-3",
+      "shopify_image_id": 36148693958733,
+      "position": 3,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A4110_098ca8e8-3b09-44f9-bb1c-6419bb003380.jpg?v=1784971678",
+      "alt": "Cream Prabal Silk Floral Embroidered Indo Western Set - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ark-11536-faemb-909-cream/03.jpg"
+    },
+    {
+      "id": "img-4",
+      "shopify_image_id": 36148693991501,
+      "position": 4,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A4112.jpg?v=1784971678",
+      "alt": "Cream Prabal Silk Floral Embroidered Indo Western Set - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ark-11536-faemb-909-cream/04.jpg"
+    },
+    {
+      "id": "img-5",
+      "shopify_image_id": 36148694024269,
+      "position": 5,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A4117.jpg?v=1784971678",
+      "alt": "Cream Prabal Silk Floral Embroidered Indo Western Set - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ark-11536-faemb-909-cream/05.jpg"
+    },
+    {
+      "id": "img-6",
+      "shopify_image_id": 36148694089805,
+      "position": 6,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A4123.jpg?v=1784971678",
+      "alt": "Cream Prabal Silk Floral Embroidered Indo Western Set - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ark-11536-faemb-909-cream/06.jpg"
+    },
+    {
+      "id": "img-7",
+      "shopify_image_id": 36148694122573,
+      "position": 7,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A4129_ff15208c-78b3-4d5c-b107-002be0e1ba6b.jpg?v=1784971678",
+      "alt": "Cream Prabal Silk Floral Embroidered Indo Western Set - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ark-11536-faemb-909-cream/07.jpg"
+    },
+    {
+      "id": "img-8",
+      "shopify_image_id": 36148693893197,
+      "position": 8,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A4100.jpg?v=1784971678",
+      "alt": "Cream Prabal Silk Floral Embroidered Indo Western Set - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ark-11536-faemb-909-cream/08.jpg"
+    }
+  ],
+  "structured_data": [
+    {
+      "type": "ProductGroup",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "category",
+        "description",
+        "hasVariant",
+        "name",
+        "productGroupID",
+        "url"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "http://schema.org/",
+        "@id": "/en-us/products/ark-11536-faemb-909-cream#product",
+        "@type": "ProductGroup",
+        "brand": {
+          "@type": "Brand",
+          "name": "AROK - N M FASHION DESIGNS PVT LTD"
+        },
+        "category": "Suits",
+        "description": "Elevate your festive wardrobe with this Cream Prabal Silk Indo Western Set, featuring elegant floral embroidery on premium silk fabric. Designed with a sophisticated Chinese collar and an open-style silhouette, this three-piece ensemble includes an embroidered Indo Western jacket, kurta, and pants. Perfect for weddings, receptions, engagements, and festive celebrations.\n\nKey Features\n\nPremium Cream Prabal Silk Fabric\nElegant Floral Embroidery\nClassic Chinese Collar\nOpen-Style Indo Western Jacket\nMedium-Length Silhouette\nMatching Cream Kurta &amp; Pants\n3-Piece Indo Western Set\nIdeal for Weddings, Receptions &amp; Festive Occasions\n\nStyling Tips\n\nPair with cream embroidered juttis for a timeless ethnic look.\nStyle with tan leather slip-on shoes for a refined reception ensemble.\nComplete the outfit with brown leather sandals for elegant festive celebrations.",
+        "hasVariant": [
+          {
+            "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298769961037#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A4106_43d0d8a0-4636-4e12-a07e-b40073e3041e.jpg?v=1784971678&width=1920",
+            "mpn": "NMG483667",
+            "name": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men - Cream / 38 / Prabal Silk",
+            "offers": {
+              "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298769961037#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "53438.40",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream?variant=43298769961037"
+            },
+            "sku": "ARK-11536-FAEMB-909-CREAM-38"
+          },
+          {
+            "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298769993805#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A4106_43d0d8a0-4636-4e12-a07e-b40073e3041e.jpg?v=1784971678&width=1920",
+            "mpn": "NMG483668",
+            "name": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men - Cream / 40 / Prabal Silk",
+            "offers": {
+              "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298769993805#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "53438.40",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream?variant=43298769993805"
+            },
+            "sku": "ARK-11536-FAEMB-909-CREAM-40"
+          },
+          {
+            "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298770026573#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A4106_43d0d8a0-4636-4e12-a07e-b40073e3041e.jpg?v=1784971678&width=1920",
+            "mpn": "NMG483669",
+            "name": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men - Cream / 42 / Prabal Silk",
+            "offers": {
+              "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298770026573#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "53438.40",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream?variant=43298770026573"
+            },
+            "sku": "ARK-11536-FAEMB-909-CREAM-42"
+          },
+          {
+            "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298770059341#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A4106_43d0d8a0-4636-4e12-a07e-b40073e3041e.jpg?v=1784971678&width=1920",
+            "mpn": "NMG483670",
+            "name": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men - Cream / 44 / Prabal Silk",
+            "offers": {
+              "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298770059341#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "53438.40",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream?variant=43298770059341"
+            },
+            "sku": "ARK-11536-FAEMB-909-CREAM-44"
+          },
+          {
+            "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298770092109#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A4106_43d0d8a0-4636-4e12-a07e-b40073e3041e.jpg?v=1784971678&width=1920",
+            "mpn": "NMG483671",
+            "name": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men - Cream / 46 / Prabal Silk",
+            "offers": {
+              "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298770092109#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "58768.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream?variant=43298770092109"
+            },
+            "sku": "ARK-11536-FAEMB-909-CREAM-46"
+          },
+          {
+            "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298770124877#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A4106_43d0d8a0-4636-4e12-a07e-b40073e3041e.jpg?v=1784971678&width=1920",
+            "mpn": "NMG483672",
+            "name": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men - Cream / 48 / Prabal Silk",
+            "offers": {
+              "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298770124877#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "61440.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream?variant=43298770124877"
+            },
+            "sku": "ARK-11536-FAEMB-909-CREAM-48"
+          },
+          {
+            "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298770157645#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A4106_43d0d8a0-4636-4e12-a07e-b40073e3041e.jpg?v=1784971678&width=1920",
+            "mpn": "NMG483673",
+            "name": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men - Cream / 50 / Prabal Silk",
+            "offers": {
+              "@id": "/en-us/products/ark-11536-faemb-909-cream?variant=43298770157645#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "64112.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream?variant=43298770157645"
+            },
+            "sku": "ARK-11536-FAEMB-909-CREAM-50"
+          }
+        ],
+        "name": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men",
+        "productGroupID": "7902064738381",
+        "url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream"
+      }
+    },
+    {
+      "type": "Product",
+      "valid_json": false,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "description",
+        "image",
+        "name",
+        "offers",
+        "sku"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "@id": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream#product",
+        "name": "Cream Prabal Silk Floral Embroidered Indo Western Set for Men",
+        "image": [
+          "//koranm.com/cdn/shop/files/1J8A4106_43d0d8a0-4636-4e12-a07e-b40073e3041e.jpg?v=1784971678",
+          "//koranm.com/cdn/shop/files/1J8A4118_08ad8ea4-045b-4eef-a656-4edd1c4227a4.jpg?v=1784971679",
+          "//koranm.com/cdn/shop/files/1J8A4110_098ca8e8-3b09-44f9-bb1c-6419bb003380.jpg?v=1784971678",
+          "//koranm.com/cdn/shop/files/1J8A4112.jpg?v=1784971678",
+          "//koranm.com/cdn/shop/files/1J8A4117.jpg?v=1784971678",
+          "//koranm.com/cdn/shop/files/1J8A4123.jpg?v=1784971678",
+          "//koranm.com/cdn/shop/files/1J8A4129_ff15208c-78b3-4d5c-b107-002be0e1ba6b.jpg?v=1784971678",
+          "//koranm.com/cdn/shop/files/1J8A4100.jpg?v=1784971678"
+        ],
+        "description": "Elevate your festive wardrobe with this Cream Prabal Silk Indo Western Set, featuring elegant floral embroidery on premium silk fabric. Designed with a sophisticated Chinese collar and an open-style silhouette, this three-piece ensemble includes an embroidered Indo Western jacket, kurta, and pants. Perfect for weddings, receptions, engagements, and festive celebrations.  Key Features  Premium Cream Prabal Silk Fabric Elegant Floral Embroidery Classic Chinese Collar Open-Style Indo Western Jacket Medium-Length Silhouette Matching Cream Kurta &amp;amp; Pants 3-Piece Indo Western Set Ideal for Weddings, Receptions &amp;amp; Festive Occasions  Styling Tips  Pair with cream embroidered juttis for a timeless ethnic look. Style with tan leather slip-on shoes for a refined reception ensemble. Complete the outfit with brown leather sandals for elegant festive celebrations.",
+        "sku": "ARK-11536-FAEMB-909-CREAM-38",
+        "brand": {
+          "@type": "Brand",
+          "name": "AROK - N M FASHION DESIGNS PVT LTD"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://koranm.com/en-us/products/ark-11536-faemb-909-cream",
+          "priceCurrency": "INR",
+          "price": "53,438",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ],
+  "reviews": {
+    "count": 0,
+    "source": "product page review widget"
+  },
+  "policies": {
+    "return_policy_url": "https://koranm.com/en-us/policies/refund-policy",
+    "shipping_policy_url": "https://koranm.com/en-us/policies/shipping-policy",
+    "page_claims": [
+      "World Wide Free Shipping"
+    ],
+    "disclaimer": "Slight colour variations are possible due to photographic lighting or your monitor settings."
+  }
+}

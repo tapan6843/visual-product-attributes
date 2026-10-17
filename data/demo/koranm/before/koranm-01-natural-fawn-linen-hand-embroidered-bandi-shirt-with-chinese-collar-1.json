@@ -1,0 +1,535 @@
+{
+  "demo_id": "koranm-01",
+  "captured_at": "2026-10-17T21:25:38.147Z",
+  "source": {
+    "brand_site": "https://koranm.com/en-us",
+    "product_url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1",
+    "feed_url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1.json",
+    "availability_url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1.js",
+    "capture_method": "Shopify product feed + raw product page HTML (no JavaScript rendering)"
+  },
+  "product": {
+    "shopify_id": 10314194485325,
+    "handle": "natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1",
+    "title": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men",
+    "vendor": "KORA - N M FASHION DESIGNS PVT LTD",
+    "product_type": "Bandi Shirt",
+    "tags": "",
+    "published_at": "2026-10-17T17:41:09+05:30",
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Fawn"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "38",
+          "40",
+          "42",
+          "44",
+          "46",
+          "48",
+          "50"
+        ]
+      },
+      {
+        "name": "Fabric",
+        "values": [
+          "Linen"
+        ]
+      }
+    ]
+  },
+  "description": {
+    "html": "<p>Step into effortless sophistication with this Natural Fawn Linen Hand-Embroidered Bandi Shirt. Crafted from premium linen in a soft natural Fawn shade, this ensemble features a structured Chinese collar and a clean buttoned front for a refined silhouette. The subtle floral hand embroidery on the chest and sleeves adds an elegant artisanal touch, while the rolled cuff detailing gives the design a relaxed contemporary finish. Ideal for festive celebrations, daytime weddings, cultural gatherings, and intimate occasions.</p>\n<p><strong>Key Features</strong></p>\n<p>Fabric: Premium linen with a lightweight and breathable feel</p>\n<p>Color: Natural Fawn with subtle tonal embroidery</p>\n<p>Detailing: Delicate floral hand embroidery on the chest and sleeves</p>\n<p>Design: Chinese collar with a clean buttoned placket</p>\n<p>Sleeves: Folded cuff detailing for a contemporary finish</p>\n<p>Fit: Tailored silhouette for a polished and sophisticated look</p>\n<p>Product: Hand-Embroidered Bandi Shirt</p>\n<p><strong>Styling Tips</strong></p>\n<p>Footwear: Pair with tan or brown loafers for a refined look, or opt for beige juttis for a traditional festive appeal.</p>\n<p>Accessories: Style with a classic watch or minimal bracelet to complement the understated embroidery.</p>",
+    "text": "Step into effortless sophistication with this Natural Fawn Linen Hand-Embroidered Bandi Shirt. Crafted from premium linen in a soft natural Fawn shade, this ensemble features a structured Chinese collar and a clean buttoned front for a refined silhouette. The subtle floral hand embroidery on the chest and sleeves adds an elegant artisanal touch, while the rolled cuff detailing gives the design a relaxed contemporary finish. Ideal for festive celebrations, daytime weddings, cultural gatherings, and intimate occasions.\nKey Features\nFabric: Premium linen with a lightweight and breathable feel\nColor: Natural Fawn with subtle tonal embroidery\nDetailing: Delicate floral hand embroidery on the chest and sleeves\nDesign: Chinese collar with a clean buttoned placket\nSleeves: Folded cuff detailing for a contemporary finish\nFit: Tailored silhouette for a polished and sophisticated look\nProduct: Hand-Embroidered Bandi Shirt\nStyling Tips\nFootwear: Pair with tan or brown loafers for a refined look, or opt for beige juttis for a traditional festive appeal.\nAccessories: Style with a classic watch or minimal bracelet to complement the understated embroidery.",
+    "parsed": {
+      "intro": {
+        "text": [
+          "Step into effortless sophistication with this Natural Fawn Linen Hand-Embroidered Bandi Shirt. Crafted from premium linen in a soft natural Fawn shade, this ensemble features a structured Chinese collar and a clean buttoned front for a refined silhouette. The subtle floral hand embroidery on the chest and sleeves adds an elegant artisanal touch, while the rolled cuff detailing gives the design a relaxed contemporary finish. Ideal for festive celebrations, daytime weddings, cultural gatherings, and intimate occasions."
+        ]
+      },
+      "key_features": {
+        "Fabric": "Premium linen with a lightweight and breathable feel",
+        "Color": "Natural Fawn with subtle tonal embroidery",
+        "Detailing": "Delicate floral hand embroidery on the chest and sleeves",
+        "Design": "Chinese collar with a clean buttoned placket",
+        "Sleeves": "Folded cuff detailing for a contemporary finish",
+        "Fit": "Tailored silhouette for a polished and sophisticated look",
+        "Product": "Hand-Embroidered Bandi Shirt"
+      },
+      "styling_tips": {
+        "Footwear": "Pair with tan or brown loafers for a refined look, or opt for beige juttis for a traditional festive appeal.",
+        "Accessories": "Style with a classic watch or minimal bracelet to complement the understated embroidery."
+      }
+    }
+  },
+  "page_features": {
+    "Design No": "KVC-2137",
+    "Colour": "Fawn",
+    "Material": "Linen",
+    "Includes": "Nehru Jacket and Shirt",
+    "Pattern": "Embroidery",
+    "Work Type": "Hand Embroidery",
+    "Occasions": "Engagement, Reception, Sangeet, and Ceremony",
+    "Set": "2",
+    "Wash Care": "Dry clean only",
+    "Closure Type": "Buttons"
+  },
+  "featured_model": "6ft and wearing size 40",
+  "size_chart": {
+    "headers": [
+      "SIZE",
+      "SHOULDER",
+      "CHEST",
+      "STOMACH",
+      "NECK"
+    ],
+    "rows": [
+      [
+        "36",
+        "16.5",
+        "39",
+        "34",
+        "15.5"
+      ],
+      [
+        "38",
+        "17",
+        "41",
+        "36",
+        "16"
+      ],
+      [
+        "40",
+        "17.5",
+        "43",
+        "38",
+        "16.5"
+      ],
+      [
+        "42",
+        "18",
+        "45",
+        "40",
+        "17"
+      ],
+      [
+        "44",
+        "18.5",
+        "47",
+        "42",
+        "17.5"
+      ],
+      [
+        "46",
+        "19",
+        "49",
+        "44",
+        "18"
+      ],
+      [
+        "48",
+        "19",
+        "51",
+        "46",
+        "18.5"
+      ],
+      [
+        "50",
+        "19.5",
+        "53",
+        "48",
+        "18.5"
+      ]
+    ],
+    "unit_as_published": "inches (unlabelled in table; page offers an in/cm toggle)",
+    "cm_toggle_present": true,
+    "notes": "Whatsapp Us at +91 88797 77222 if you are unsure of your size.\nOur size chart is based on ready-made garment measurements. For example, if your chest measurement is 40, please select size 40. Required fitting ease and loosenings are already included in the garment measurements.\nLength may vary according to the style.\nAlternatively, you may contact our customer care team for specific queries at customercare@koranm.com.",
+    "source": "product page size guide modal (HTML table)"
+  },
+  "variants": [
+    {
+      "id": 50516533444685,
+      "sku": "KVC-2137-KSH-102-4-NATURAL-38",
+      "title": "Fawn / 38 / Linen",
+      "color": "Fawn",
+      "size": "38",
+      "material": "Linen",
+      "available": true,
+      "price": 23992,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 50516533477453,
+      "sku": "KVC-2137-KSH-102-4-NATURAL-40",
+      "title": "Fawn / 40 / Linen",
+      "color": "Fawn",
+      "size": "40",
+      "material": "Linen",
+      "available": true,
+      "price": 23992,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 50516533510221,
+      "sku": "KVC-2137-KSH-102-4-NATURAL-42",
+      "title": "Fawn / 42 / Linen",
+      "color": "Fawn",
+      "size": "42",
+      "material": "Linen",
+      "available": true,
+      "price": 23992,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 50516533542989,
+      "sku": "KVC-2137-KSH-102-4-NATURAL-44",
+      "title": "Fawn / 44 / Linen",
+      "color": "Fawn",
+      "size": "44",
+      "material": "Linen",
+      "available": true,
+      "price": 23992,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 50516533575757,
+      "sku": "KVC-2137-KSH-102-4-NATURAL-46",
+      "title": "Fawn / 46 / Linen",
+      "color": "Fawn",
+      "size": "46",
+      "material": "Linen",
+      "available": true,
+      "price": 26392,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 50516533608525,
+      "sku": "KVC-2137-KSH-102-4-NATURAL-48",
+      "title": "Fawn / 48 / Linen",
+      "color": "Fawn",
+      "size": "48",
+      "material": "Linen",
+      "available": true,
+      "price": 26392,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 50516533641293,
+      "sku": "KVC-2137-KSH-102-4-NATURAL-50",
+      "title": "Fawn / 50 / Linen",
+      "color": "Fawn",
+      "size": "50",
+      "material": "Linen",
+      "available": true,
+      "price": 27584,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    }
+  ],
+  "variant_sizes": [
+    "38",
+    "40",
+    "42",
+    "44",
+    "46",
+    "48",
+    "50"
+  ],
+  "page_price": {
+    "amount": 23992,
+    "display": "₹ 23,992",
+    "label": "MRP (Inclusive of all taxes)"
+  },
+  "images": [
+    {
+      "id": "img-1",
+      "shopify_image_id": 37800783970381,
+      "position": 1,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/23_2.jpg?v=1790846948",
+      "alt": "Natural Beige Linen Hand-Embroidered Bandi Shirt with Chinese Collar - KORANM",
+      "width": 1536,
+      "height": 2048,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1/01.jpg"
+    },
+    {
+      "id": "img-2",
+      "shopify_image_id": 37800784068685,
+      "position": 2,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/23_5.jpg?v=1790846948",
+      "alt": "Natural Beige Linen Hand-Embroidered Bandi Shirt with Chinese Collar - KORANM",
+      "width": 1536,
+      "height": 2048,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1/02.jpg"
+    },
+    {
+      "id": "img-3",
+      "shopify_image_id": 37800783937613,
+      "position": 3,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/23_1_32a7b712-d216-4988-a665-1730c48e6dfc.jpg?v=1790846948",
+      "alt": "Natural Beige Linen Hand-Embroidered Bandi Shirt with Chinese Collar - KORANM",
+      "width": 1536,
+      "height": 2048,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1/03.jpg"
+    },
+    {
+      "id": "img-4",
+      "shopify_image_id": 37800784003149,
+      "position": 4,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/23_3.jpg?v=1790846948",
+      "alt": "Natural Beige Linen Hand-Embroidered Bandi Shirt with Chinese Collar - KORANM",
+      "width": 1536,
+      "height": 2048,
+      "variant_ids": [
+        50516533444685,
+        50516533477453,
+        50516533510221,
+        50516533542989,
+        50516533575757,
+        50516533608525,
+        50516533641293
+      ],
+      "local_path": "data/demo/koranm/images/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1/04.jpg"
+    },
+    {
+      "id": "img-5",
+      "shopify_image_id": 37800784035917,
+      "position": 5,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/23_4.jpg?v=1790846948",
+      "alt": "Natural Beige Linen Hand-Embroidered Bandi Shirt with Chinese Collar - KORANM",
+      "width": 1536,
+      "height": 2048,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1/05.jpg"
+    }
+  ],
+  "structured_data": [
+    {
+      "type": "ProductGroup",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "category",
+        "description",
+        "hasVariant",
+        "name",
+        "productGroupID",
+        "url"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "http://schema.org/",
+        "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1#product",
+        "@type": "ProductGroup",
+        "brand": {
+          "@type": "Brand",
+          "name": "KORA - N M FASHION DESIGNS PVT LTD"
+        },
+        "category": "Suits",
+        "description": "Step into effortless sophistication with this Natural Fawn Linen Hand-Embroidered Bandi Shirt. Crafted from premium linen in a soft natural Fawn shade, this ensemble features a structured Chinese collar and a clean buttoned front for a refined silhouette. The subtle floral hand embroidery on the chest and sleeves adds an elegant artisanal touch, while the rolled cuff detailing gives the design a relaxed contemporary finish. Ideal for festive celebrations, daytime weddings, cultural gatherings, and intimate occasions.\nKey Features\nFabric: Premium linen with a lightweight and breathable feel\nColor: Natural Fawn with subtle tonal embroidery\nDetailing: Delicate floral hand embroidery on the chest and sleeves\nDesign: Chinese collar with a clean buttoned placket\nSleeves: Folded cuff detailing for a contemporary finish\nFit: Tailored silhouette for a polished and sophisticated look\nProduct: Hand-Embroidered Bandi Shirt\nStyling Tips\nFootwear: Pair with tan or brown loafers for a refined look, or opt for beige juttis for a traditional festive appeal.\nAccessories: Style with a classic watch or minimal bracelet to complement the understated embroidery.",
+        "hasVariant": [
+          {
+            "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533444685#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/23_3.jpg?v=1790846948&width=1920",
+            "mpn": "NMG490291",
+            "name": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men - Fawn / 38 / Linen",
+            "offers": {
+              "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533444685#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "23992.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533444685"
+            },
+            "sku": "KVC-2137-KSH-102-4-NATURAL-38"
+          },
+          {
+            "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533477453#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/23_3.jpg?v=1790846948&width=1920",
+            "mpn": "NMG487418",
+            "name": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men - Fawn / 40 / Linen",
+            "offers": {
+              "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533477453#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "23992.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533477453"
+            },
+            "sku": "KVC-2137-KSH-102-4-NATURAL-40"
+          },
+          {
+            "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533510221#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/23_3.jpg?v=1790846948&width=1920",
+            "mpn": "NMG487419",
+            "name": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men - Fawn / 42 / Linen",
+            "offers": {
+              "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533510221#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "23992.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533510221"
+            },
+            "sku": "KVC-2137-KSH-102-4-NATURAL-42"
+          },
+          {
+            "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533542989#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/23_3.jpg?v=1790846948&width=1920",
+            "mpn": "NMG487420",
+            "name": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men - Fawn / 44 / Linen",
+            "offers": {
+              "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533542989#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "23992.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533542989"
+            },
+            "sku": "KVC-2137-KSH-102-4-NATURAL-44"
+          },
+          {
+            "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533575757#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/23_3.jpg?v=1790846948&width=1920",
+            "mpn": "NMG487421",
+            "name": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men - Fawn / 46 / Linen",
+            "offers": {
+              "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533575757#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "26392.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533575757"
+            },
+            "sku": "KVC-2137-KSH-102-4-NATURAL-46"
+          },
+          {
+            "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533608525#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/23_3.jpg?v=1790846948&width=1920",
+            "mpn": "NMG487422",
+            "name": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men - Fawn / 48 / Linen",
+            "offers": {
+              "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533608525#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "26392.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533608525"
+            },
+            "sku": "KVC-2137-KSH-102-4-NATURAL-48"
+          },
+          {
+            "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533641293#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/23_3.jpg?v=1790846948&width=1920",
+            "mpn": "NMG487423",
+            "name": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men - Fawn / 50 / Linen",
+            "offers": {
+              "@id": "/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533641293#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "27584.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1?variant=50516533641293"
+            },
+            "sku": "KVC-2137-KSH-102-4-NATURAL-50"
+          }
+        ],
+        "name": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men",
+        "productGroupID": "10314194485325",
+        "url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1"
+      }
+    },
+    {
+      "type": "Product",
+      "valid_json": false,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "description",
+        "image",
+        "name",
+        "offers",
+        "sku"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "@id": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1#product",
+        "name": "Natural Fawn Linen Hand-Embroidered Bandi Shirt with Chinese Collar for Men",
+        "image": [
+          "//koranm.com/cdn/shop/files/23_2.jpg?v=1790846948",
+          "//koranm.com/cdn/shop/files/23_5.jpg?v=1790846948",
+          "//koranm.com/cdn/shop/files/23_1_32a7b712-d216-4988-a665-1730c48e6dfc.jpg?v=1790846948",
+          "//koranm.com/cdn/shop/files/23_3.jpg?v=1790846948",
+          "//koranm.com/cdn/shop/files/23_4.jpg?v=1790846948"
+        ],
+        "description": "Step into effortless sophistication with this Natural Fawn Linen Hand-Embroidered Bandi Shirt. Crafted from premium linen in a soft natural Fawn shade, this ensemble features a structured Chinese collar and a clean buttoned front for a refined silhouette. The subtle floral hand embroidery on the chest and sleeves adds an elegant artisanal touch, while the rolled cuff detailing gives the design a relaxed contemporary finish. Ideal for festive celebrations, daytime weddings, cultural gatherings, and intimate occasions. Key Features Fabric: Premium linen with a lightweight and breathable feel Color: Natural Fawn with subtle tonal embroidery Detailing: Delicate floral hand embroidery on the chest and sleeves Design: Chinese collar with a clean buttoned placket Sleeves: Folded cuff detailing for a contemporary finish Fit: Tailored silhouette for a polished and sophisticated look Product: Hand-Embroidered Bandi Shirt Styling Tips Footwear: Pair with tan or brown loafers for a refined look, or opt for beige juttis for a traditional festive appeal. Accessories: Style with a classic watch or minimal bracelet to complement the understated embroidery.",
+        "sku": "KVC-2137-KSH-102-4-NATURAL-38",
+        "brand": {
+          "@type": "Brand",
+          "name": "KORA - N M FASHION DESIGNS PVT LTD"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://koranm.com/en-us/products/natural-fawn-linen-hand-embroidered-bandi-shirt-with-chinese-collar-1",
+          "priceCurrency": "INR",
+          "price": "23,992",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ],
+  "reviews": {
+    "count": 0,
+    "source": "product page review widget"
+  },
+  "policies": {
+    "return_policy_url": "https://koranm.com/en-us/policies/refund-policy",
+    "shipping_policy_url": "https://koranm.com/en-us/policies/shipping-policy",
+    "page_claims": [
+      "World Wide Free Shipping"
+    ],
+    "disclaimer": "Slight colour variations are possible due to photographic lighting or your monitor settings."
+  }
+}

@@ -1,0 +1,548 @@
+{
+  "demo_id": "koranm-07",
+  "captured_at": "2026-10-17T21:25:38.147Z",
+  "source": {
+    "brand_site": "https://koranm.com/en-us",
+    "product_url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant",
+    "feed_url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant.json",
+    "availability_url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant.js",
+    "capture_method": "Shopify product feed + raw product page HTML (no JavaScript rendering)"
+  },
+  "product": {
+    "shopify_id": 7904148619341,
+    "handle": "purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant",
+    "title": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men",
+    "vendor": "AROK - N M FASHION DESIGNS PVT LTD",
+    "product_type": "Sherwani",
+    "tags": "Men, New Arrivals, Whats New",
+    "published_at": "2026-10-03T20:50:11+05:30",
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Purple"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "38",
+          "40",
+          "42",
+          "44",
+          "46",
+          "48",
+          "50"
+        ]
+      },
+      {
+        "name": "Material",
+        "values": [
+          "Rayon"
+        ]
+      }
+    ]
+  },
+  "description": {
+    "html": "<div class=\"ewa-rteLine\">Make a lasting impression with this Purple Rayon Silk Sherwani, crafted from premium rayon silk fabric with elegant highlight embroidery. Designed with a sophisticated Bandhgala neckline, full sleeves, and a button closure, this sherwani offers a regal and refined look. Paired with cream Aligarhi pants and a matching dupatta, it is an ideal choice for weddings, receptions, engagements, and grand festive celebrations.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Key Features</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Premium Purple Rayon Silk Fabric</div>\n<div class=\"ewa-rteLine\">Elegant Highlight Embroidery</div>\n<div class=\"ewa-rteLine\">Classic Bandhgala Neckline</div>\n<div class=\"ewa-rteLine\">Full Sleeves with Button Closure</div>\n<div class=\"ewa-rteLine\">Above-Length Sherwani</div>\n<div class=\"ewa-rteLine\">Cream Aligarhi Pants &amp; Matching Dupatta Included</div>\n<div class=\"ewa-rteLine\">Ideal for Weddings, Receptions, Engagements &amp; Festive Occasions</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Styling Tips</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Pair with black juttis for a classic royal look.</div>\n<div class=\"ewa-rteLine\">Style with black leather shoes for evening receptions and formal celebrations.</div>\n<div class=\"ewa-rteLine\">Complete the ensemble with maroon slip-on shoes for a refined festive appearance.</div>",
+    "text": "Make a lasting impression with this Purple Rayon Silk Sherwani, crafted from premium rayon silk fabric with elegant highlight embroidery. Designed with a sophisticated Bandhgala neckline, full sleeves, and a button closure, this sherwani offers a regal and refined look. Paired with cream Aligarhi pants and a matching dupatta, it is an ideal choice for weddings, receptions, engagements, and grand festive celebrations.\nKey Features\nPremium Purple Rayon Silk Fabric\nElegant Highlight Embroidery\nClassic Bandhgala Neckline\nFull Sleeves with Button Closure\nAbove-Length Sherwani\nCream Aligarhi Pants & Matching Dupatta Included\nIdeal for Weddings, Receptions, Engagements & Festive Occasions\nStyling Tips\nPair with black juttis for a classic royal look.\nStyle with black leather shoes for evening receptions and formal celebrations.\nComplete the ensemble with maroon slip-on shoes for a refined festive appearance.",
+    "parsed": {
+      "intro": {
+        "text": [
+          "Make a lasting impression with this Purple Rayon Silk Sherwani, crafted from premium rayon silk fabric with elegant highlight embroidery. Designed with a sophisticated Bandhgala neckline, full sleeves, and a button closure, this sherwani offers a regal and refined look. Paired with cream Aligarhi pants and a matching dupatta, it is an ideal choice for weddings, receptions, engagements, and grand festive celebrations.",
+          "Cream Aligarhi Pants & Matching Dupatta Included",
+          "Ideal for Weddings, Receptions, Engagements & Festive Occasions",
+          "Pair with black juttis for a classic royal look.",
+          "Style with black leather shoes for evening receptions and formal celebrations.",
+          "Complete the ensemble with maroon slip-on shoes for a refined festive appearance."
+        ]
+      },
+      "key_features": {},
+      "premium_purple_rayon_silk_fabric": {},
+      "elegant_highlight_embroidery": {},
+      "classic_bandhgala_neckline": {},
+      "full_sleeves_with_button_closure": {},
+      "above_length_sherwani": {},
+      "styling_tips": {}
+    }
+  },
+  "page_features": {
+    "Design No": "ARK-11616",
+    "Colour": "Purple",
+    "Material": "Rayon",
+    "Bottom Type": "Aligarhi",
+    "Bottom Color": "Cream",
+    "Includes": "Sherwani, Dupatta, and Aligarhi",
+    "Pattern": "Jacquard",
+    "Occasions": "Wedding, Reception, and Office Party Wear",
+    "Set": "3",
+    "Wash Care": "Dry clean only",
+    "Closure Type": "Buttons"
+  },
+  "featured_model": "6ft and wearing size 40",
+  "size_chart": {
+    "headers": [
+      "SIZE",
+      "SHOULDER",
+      "SLEEVE LENGTH",
+      "CHEST",
+      "WAIST",
+      "HIPS"
+    ],
+    "rows": [
+      [
+        "36",
+        "17.5",
+        "25",
+        "39",
+        "30",
+        "44"
+      ],
+      [
+        "38",
+        "18",
+        "25.3",
+        "41",
+        "32",
+        "46"
+      ],
+      [
+        "40",
+        "18.5",
+        "25.5",
+        "43",
+        "34",
+        "48"
+      ],
+      [
+        "42",
+        "19",
+        "25.3",
+        "45",
+        "36",
+        "50"
+      ],
+      [
+        "44",
+        "19.5",
+        "26",
+        "47",
+        "38",
+        "52"
+      ],
+      [
+        "46",
+        "20",
+        "26.3",
+        "49",
+        "40",
+        "54"
+      ],
+      [
+        "48",
+        "20.5",
+        "26.5",
+        "51",
+        "42",
+        "56"
+      ],
+      [
+        "50",
+        "21",
+        "26.5",
+        "53",
+        "44",
+        "58"
+      ]
+    ],
+    "unit_as_published": "inches (unlabelled in table; page offers an in/cm toggle)",
+    "cm_toggle_present": true,
+    "notes": "Whatsapp Us at +91 88797 77222 if you are unsure of your size.\nOur size chart is based on ready-made garment measurements. For example, if your chest measurement is 40, please select size 40. Required fitting ease and loosenings are already included in the garment measurements.\nLength may vary according to the style.\nAlternatively, you may contact our customer care team for specific queries at customercare@koranm.com.",
+    "source": "product page size guide modal (HTML table)"
+  },
+  "variants": [
+    {
+      "id": 43306065428557,
+      "sku": "ARK-11616-FAEMB-952-PURPLE-38",
+      "title": "Purple / 38 / Rayon",
+      "color": "Purple",
+      "size": "38",
+      "material": "Rayon",
+      "available": true,
+      "price": 47680,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43306065461325,
+      "sku": "ARK-11616-FAEMB-952-PURPLE-40",
+      "title": "Purple / 40 / Rayon",
+      "color": "Purple",
+      "size": "40",
+      "material": "Rayon",
+      "available": true,
+      "price": 47680,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43306065494093,
+      "sku": "ARK-11616-FAEMB-952-PURPLE-42",
+      "title": "Purple / 42 / Rayon",
+      "color": "Purple",
+      "size": "42",
+      "material": "Rayon",
+      "available": true,
+      "price": 47680,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43306065526861,
+      "sku": "ARK-11616-FAEMB-952-PURPLE-44",
+      "title": "Purple / 44 / Rayon",
+      "color": "Purple",
+      "size": "44",
+      "material": "Rayon",
+      "available": true,
+      "price": 47680,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43306065559629,
+      "sku": "ARK-11616-FAEMB-952-PURPLE-46",
+      "title": "Purple / 46 / Rayon",
+      "color": "Purple",
+      "size": "46",
+      "material": "Rayon",
+      "available": false,
+      "price": 52448,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43306065592397,
+      "sku": "ARK-11616-FAEMB-952-PURPLE-48",
+      "title": "Purple / 48 / Rayon",
+      "color": "Purple",
+      "size": "48",
+      "material": "Rayon",
+      "available": false,
+      "price": 54832,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43306065625165,
+      "sku": "ARK-11616-FAEMB-952-PURPLE-50",
+      "title": "Purple / 50 / Rayon",
+      "color": "Purple",
+      "size": "50",
+      "material": "Rayon",
+      "available": false,
+      "price": 57216,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    }
+  ],
+  "variant_sizes": [
+    "38",
+    "40",
+    "42",
+    "44",
+    "46",
+    "48",
+    "50"
+  ],
+  "page_price": {
+    "amount": 47680,
+    "display": "₹ 47,680",
+    "label": "MRP (Inclusive of all taxes)"
+  },
+  "images": [
+    {
+      "id": "img-1",
+      "shopify_image_id": 36152398544973,
+      "position": 1,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A2735.jpg?v=1784980351",
+      "alt": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant/01.jpg"
+    },
+    {
+      "id": "img-2",
+      "shopify_image_id": 36152398610509,
+      "position": 2,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A2749.jpg?v=1784980351",
+      "alt": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant/02.jpg"
+    },
+    {
+      "id": "img-3",
+      "shopify_image_id": 36152398676045,
+      "position": 3,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A2756.jpg?v=1784980351",
+      "alt": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant/03.jpg"
+    },
+    {
+      "id": "img-4",
+      "shopify_image_id": 36152398577741,
+      "position": 4,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A2744.jpg?v=1784980351",
+      "alt": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant/04.jpg"
+    },
+    {
+      "id": "img-5",
+      "shopify_image_id": 36152398643277,
+      "position": 5,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A2751.jpg?v=1784980351",
+      "alt": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant/05.jpg"
+    },
+    {
+      "id": "img-6",
+      "shopify_image_id": 36152398512205,
+      "position": 6,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A2728.jpg?v=1784980351",
+      "alt": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant/06.jpg"
+    }
+  ],
+  "structured_data": [
+    {
+      "type": "ProductGroup",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "category",
+        "description",
+        "hasVariant",
+        "name",
+        "productGroupID",
+        "url"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "http://schema.org/",
+        "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant#product",
+        "@type": "ProductGroup",
+        "brand": {
+          "@type": "Brand",
+          "name": "AROK - N M FASHION DESIGNS PVT LTD"
+        },
+        "category": "Suits",
+        "description": "Make a lasting impression with this Purple Rayon Silk Sherwani, crafted from premium rayon silk fabric with elegant highlight embroidery. Designed with a sophisticated Bandhgala neckline, full sleeves, and a button closure, this sherwani offers a regal and refined look. Paired with cream Aligarhi pants and a matching dupatta, it is an ideal choice for weddings, receptions, engagements, and grand festive celebrations.\n\nKey Features\n\nPremium Purple Rayon Silk Fabric\nElegant Highlight Embroidery\nClassic Bandhgala Neckline\nFull Sleeves with Button Closure\nAbove-Length Sherwani\nCream Aligarhi Pants &amp; Matching Dupatta Included\nIdeal for Weddings, Receptions, Engagements &amp; Festive Occasions\n\nStyling Tips\n\nPair with black juttis for a classic royal look.\nStyle with black leather shoes for evening receptions and formal celebrations.\nComplete the ensemble with maroon slip-on shoes for a refined festive appearance.",
+        "hasVariant": [
+          {
+            "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065428557#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A2735.jpg?v=1784980351&width=1920",
+            "mpn": "NMG516534",
+            "name": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men - Purple / 38 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065428557#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "47680.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065428557"
+            },
+            "sku": "ARK-11616-FAEMB-952-PURPLE-38"
+          },
+          {
+            "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065461325#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A2735.jpg?v=1784980351&width=1920",
+            "mpn": "NMG516535",
+            "name": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men - Purple / 40 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065461325#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "47680.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065461325"
+            },
+            "sku": "ARK-11616-FAEMB-952-PURPLE-40"
+          },
+          {
+            "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065494093#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A2735.jpg?v=1784980351&width=1920",
+            "mpn": "NMG516536",
+            "name": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men - Purple / 42 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065494093#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "47680.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065494093"
+            },
+            "sku": "ARK-11616-FAEMB-952-PURPLE-42"
+          },
+          {
+            "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065526861#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A2735.jpg?v=1784980351&width=1920",
+            "mpn": "NMG516537",
+            "name": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men - Purple / 44 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065526861#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "47680.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065526861"
+            },
+            "sku": "ARK-11616-FAEMB-952-PURPLE-44"
+          },
+          {
+            "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065559629#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A2735.jpg?v=1784980351&width=1920",
+            "mpn": "NMG516538",
+            "name": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men - Purple / 46 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065559629#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "52448.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065559629"
+            },
+            "sku": "ARK-11616-FAEMB-952-PURPLE-46"
+          },
+          {
+            "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065592397#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A2735.jpg?v=1784980351&width=1920",
+            "mpn": "NMG516539",
+            "name": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men - Purple / 48 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065592397#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "54832.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065592397"
+            },
+            "sku": "ARK-11616-FAEMB-952-PURPLE-48"
+          },
+          {
+            "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065625165#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A2735.jpg?v=1784980351&width=1920",
+            "mpn": "NMG516540",
+            "name": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men - Purple / 50 / Rayon",
+            "offers": {
+              "@id": "/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065625165#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "57216.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant?variant=43306065625165"
+            },
+            "sku": "ARK-11616-FAEMB-952-PURPLE-50"
+          }
+        ],
+        "name": "Purple Rayon Silk Sherwani with Dupatta & Aligarhi Pant for Men",
+        "productGroupID": "7904148619341",
+        "url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant"
+      }
+    },
+    {
+      "type": "Product",
+      "valid_json": false,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "description",
+        "image",
+        "name",
+        "offers",
+        "sku"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "@id": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant#product",
+        "name": "Purple Rayon Silk Sherwani with Dupatta &amp; Aligarhi Pant for Men",
+        "image": [
+          "//koranm.com/cdn/shop/files/1J8A2735.jpg?v=1784980351",
+          "//koranm.com/cdn/shop/files/1J8A2749.jpg?v=1784980351",
+          "//koranm.com/cdn/shop/files/1J8A2756.jpg?v=1784980351",
+          "//koranm.com/cdn/shop/files/1J8A2744.jpg?v=1784980351",
+          "//koranm.com/cdn/shop/files/1J8A2751.jpg?v=1784980351",
+          "//koranm.com/cdn/shop/files/1J8A2728.jpg?v=1784980351"
+        ],
+        "description": "Make a lasting impression with this Purple Rayon Silk Sherwani, crafted from premium rayon silk fabric with elegant highlight embroidery. Designed with a sophisticated Bandhgala neckline, full sleeves, and a button closure, this sherwani offers a regal and refined look. Paired with cream Aligarhi pants and a matching dupatta, it is an ideal choice for weddings, receptions, engagements, and grand festive celebrations.  Key Features  Premium Purple Rayon Silk Fabric Elegant Highlight Embroidery Classic Bandhgala Neckline Full Sleeves with Button Closure Above-Length Sherwani Cream Aligarhi Pants &amp;amp; Matching Dupatta Included Ideal for Weddings, Receptions, Engagements &amp;amp; Festive Occasions  Styling Tips  Pair with black juttis for a classic royal look. Style with black leather shoes for evening receptions and formal celebrations. Complete the ensemble with maroon slip-on shoes for a refined festive appearance.",
+        "sku": "ARK-11616-FAEMB-952-PURPLE-38",
+        "brand": {
+          "@type": "Brand",
+          "name": "AROK - N M FASHION DESIGNS PVT LTD"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://koranm.com/en-us/products/purple-rayon-silk-sherwani-with-dupatta-aligarhi-pant",
+          "priceCurrency": "INR",
+          "price": "47,680",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ],
+  "reviews": {
+    "count": 0,
+    "source": "product page review widget"
+  },
+  "policies": {
+    "return_policy_url": "https://koranm.com/en-us/policies/refund-policy",
+    "shipping_policy_url": "https://koranm.com/en-us/policies/shipping-policy",
+    "page_claims": [
+      "World Wide Free Shipping"
+    ],
+    "disclaimer": "Slight colour variations are possible due to photographic lighting or your monitor settings."
+  }
+}

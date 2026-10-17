@@ -1,0 +1,444 @@
+{
+  "demo_id": "koranm-03",
+  "captured_at": "2026-10-17T21:25:38.147Z",
+  "source": {
+    "brand_site": "https://koranm.com/en-us",
+    "product_url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black",
+    "feed_url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black.json",
+    "availability_url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black.js",
+    "capture_method": "Shopify product feed + raw product page HTML (no JavaScript rendering)"
+  },
+  "product": {
+    "shopify_id": 7899542847565,
+    "handle": "ak-2870-fkemb-3416-black",
+    "title": "Black Embroidered Kurta with Palazzo Pant for Men",
+    "vendor": "AROK - N M FASHION DESIGNS PVT LTD",
+    "product_type": "Kurta Set",
+    "tags": "Festive, Kurta Set, Men, New Arrivals, Whats New",
+    "published_at": "2026-10-12T17:08:37+05:30",
+    "options": [
+      {
+        "name": "Color",
+        "values": [
+          "Black"
+        ]
+      },
+      {
+        "name": "Size",
+        "values": [
+          "38",
+          "40",
+          "42",
+          "44",
+          "46"
+        ]
+      },
+      {
+        "name": "Material",
+        "values": [
+          "Silk"
+        ]
+      }
+    ]
+  },
+  "description": {
+    "html": "<div class=\"ewa-rteLine\">Make a sophisticated statement with this black embroidered kurta set. Featuring elegant embroidery on a mandarin-collar kurta, this outfit is paired with matching palazzo pants for exceptional comfort and effortless style. Ideal for evening celebrations, festive occasions, and wedding festivities, it delivers a refined ethnic look with modern appeal.</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Key Features</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Elegant embroidered craftsmanship</div>\n<div class=\"ewa-rteLine\">Classic mandarin collar</div>\n<div class=\"ewa-rteLine\">Comfortable regular-fit silhouette</div>\n<div class=\"ewa-rteLine\">Full sleeves for a polished finish</div>\n<div class=\"ewa-rteLine\">Matching palazzo pants included</div>\n<div class=\"ewa-rteLine\">Lightweight construction for extended comfort</div>\n<div class=\"ewa-rteLine\">Perfect for festive evenings, receptions, and celebrations</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Styling Tips</div>\n<div class=\"ewa-rteLine\"><br></div>\n<div class=\"ewa-rteLine\">Pair with black embroidered mojaris for a sophisticated finish.</div>\n<div class=\"ewa-rteLine\">Add a metallic watch for a premium touch.</div>\n<div class=\"ewa-rteLine\">Complete the look with a contrasting stole for grand occasions.</div>",
+    "text": "Make a sophisticated statement with this black embroidered kurta set. Featuring elegant embroidery on a mandarin-collar kurta, this outfit is paired with matching palazzo pants for exceptional comfort and effortless style. Ideal for evening celebrations, festive occasions, and wedding festivities, it delivers a refined ethnic look with modern appeal.\nKey Features\nElegant embroidered craftsmanship\nClassic mandarin collar\nComfortable regular-fit silhouette\nFull sleeves for a polished finish\nMatching palazzo pants included\nLightweight construction for extended comfort\nPerfect for festive evenings, receptions, and celebrations\nStyling Tips\nPair with black embroidered mojaris for a sophisticated finish.\nAdd a metallic watch for a premium touch.\nComplete the look with a contrasting stole for grand occasions.",
+    "parsed": {
+      "intro": {
+        "text": [
+          "Make a sophisticated statement with this black embroidered kurta set. Featuring elegant embroidery on a mandarin-collar kurta, this outfit is paired with matching palazzo pants for exceptional comfort and effortless style. Ideal for evening celebrations, festive occasions, and wedding festivities, it delivers a refined ethnic look with modern appeal.",
+          "Lightweight construction for extended comfort",
+          "Perfect for festive evenings, receptions, and celebrations",
+          "Pair with black embroidered mojaris for a sophisticated finish.",
+          "Add a metallic watch for a premium touch.",
+          "Complete the look with a contrasting stole for grand occasions."
+        ]
+      },
+      "key_features": {},
+      "elegant_embroidered_craftsmanship": {},
+      "classic_mandarin_collar": {},
+      "comfortable_regular_fit_silhouette": {},
+      "full_sleeves_for_a_polished_finish": {},
+      "matching_palazzo_pants_included": {},
+      "styling_tips": {}
+    }
+  },
+  "page_features": {
+    "Design No": "AK-2870",
+    "Colour": "Black",
+    "Material": "Silk",
+    "Bottom Type": "Plazzo Pant",
+    "Bottom Color": "Black",
+    "Includes": "Kurta and Plazzo Pant",
+    "Pattern": "Embroidery",
+    "Occasions": "Office Party Wear and Reception",
+    "Set": "3",
+    "Wash Care": "Dry clean only",
+    "Closure Type": "Buttons"
+  },
+  "featured_model": "6ft and wearing size 40",
+  "size_chart": null,
+  "variants": [
+    {
+      "id": 43270355386445,
+      "sku": "AK-2870-FKEMB-3416-BLACK-38",
+      "title": "Black / 38 / Silk",
+      "color": "Black",
+      "size": "38",
+      "material": "Silk",
+      "available": true,
+      "price": 18392,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43270355419213,
+      "sku": "AK-2870-FKEMB-3416-BLACK-40",
+      "title": "Black / 40 / Silk",
+      "color": "Black",
+      "size": "40",
+      "material": "Silk",
+      "available": true,
+      "price": 18392,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43270355451981,
+      "sku": "AK-2870-FKEMB-3416-BLACK-42",
+      "title": "Black / 42 / Silk",
+      "color": "Black",
+      "size": "42",
+      "material": "Silk",
+      "available": true,
+      "price": 18392,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43270355484749,
+      "sku": "AK-2870-FKEMB-3416-BLACK-44",
+      "title": "Black / 44 / Silk",
+      "color": "Black",
+      "size": "44",
+      "material": "Silk",
+      "available": true,
+      "price": 18392,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    },
+    {
+      "id": 43270355517517,
+      "sku": "AK-2870-FKEMB-3416-BLACK-46",
+      "title": "Black / 46 / Silk",
+      "color": "Black",
+      "size": "46",
+      "material": "Silk",
+      "available": false,
+      "price": 19984,
+      "compare_at_price": null,
+      "currency": "INR",
+      "image_id": null
+    }
+  ],
+  "variant_sizes": [
+    "38",
+    "40",
+    "42",
+    "44",
+    "46"
+  ],
+  "page_price": {
+    "amount": 18392,
+    "display": "₹ 18,392",
+    "label": "MRP (Inclusive of all taxes)"
+  },
+  "images": [
+    {
+      "id": "img-1",
+      "shopify_image_id": 36135112966221,
+      "position": 1,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3401.jpg?v=1784898206",
+      "alt": "Black Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2870-fkemb-3416-black/01.jpg"
+    },
+    {
+      "id": "img-2",
+      "shopify_image_id": 36135113097293,
+      "position": 2,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3411.jpg?v=1784898205",
+      "alt": "Black Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [
+        43270355386445,
+        43270355419213,
+        43270355451981,
+        43270355484749,
+        43270355517517
+      ],
+      "local_path": "data/demo/koranm/images/ak-2870-fkemb-3416-black/02.jpg"
+    },
+    {
+      "id": "img-3",
+      "shopify_image_id": 36135112933453,
+      "position": 3,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3396.jpg?v=1784898205",
+      "alt": "Black Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2870-fkemb-3416-black/03.jpg"
+    },
+    {
+      "id": "img-4",
+      "shopify_image_id": 36135113130061,
+      "position": 4,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3414.jpg?v=1784898205",
+      "alt": "Black Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2870-fkemb-3416-black/04.jpg"
+    },
+    {
+      "id": "img-5",
+      "shopify_image_id": 36135113031757,
+      "position": 5,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3405.jpg?v=1784898206",
+      "alt": "Black Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2870-fkemb-3416-black/05.jpg"
+    },
+    {
+      "id": "img-6",
+      "shopify_image_id": 36135112998989,
+      "position": 6,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3403.jpg?v=1784898205",
+      "alt": "Black Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2870-fkemb-3416-black/06.jpg"
+    },
+    {
+      "id": "img-7",
+      "shopify_image_id": 36135113064525,
+      "position": 7,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3409.jpg?v=1784898205",
+      "alt": "Black Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2870-fkemb-3416-black/07.jpg"
+    },
+    {
+      "id": "img-8",
+      "shopify_image_id": 36135113162829,
+      "position": 8,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3426.jpg?v=1784898206",
+      "alt": "Black Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2870-fkemb-3416-black/08.jpg"
+    },
+    {
+      "id": "img-9",
+      "shopify_image_id": 36135112900685,
+      "position": 9,
+      "src": "https://cdn.shopify.com/s/files/1/0583/3221/7421/files/1J8A3391.jpg?v=1784898206",
+      "alt": "Black Embroidered Kurta with Palazzo Pant - KORANM",
+      "width": 1080,
+      "height": 1440,
+      "variant_ids": [],
+      "local_path": "data/demo/koranm/images/ak-2870-fkemb-3416-black/09.jpg"
+    }
+  ],
+  "structured_data": [
+    {
+      "type": "ProductGroup",
+      "valid_json": true,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "category",
+        "description",
+        "hasVariant",
+        "name",
+        "productGroupID",
+        "url"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "http://schema.org/",
+        "@id": "/en-us/products/ak-2870-fkemb-3416-black#product",
+        "@type": "ProductGroup",
+        "brand": {
+          "@type": "Brand",
+          "name": "AROK - N M FASHION DESIGNS PVT LTD"
+        },
+        "category": "Traditional & Ceremonial Clothing",
+        "description": "Make a sophisticated statement with this black embroidered kurta set. Featuring elegant embroidery on a mandarin-collar kurta, this outfit is paired with matching palazzo pants for exceptional comfort and effortless style. Ideal for evening celebrations, festive occasions, and wedding festivities, it delivers a refined ethnic look with modern appeal.\n\nKey Features\n\nElegant embroidered craftsmanship\nClassic mandarin collar\nComfortable regular-fit silhouette\nFull sleeves for a polished finish\nMatching palazzo pants included\nLightweight construction for extended comfort\nPerfect for festive evenings, receptions, and celebrations\n\nStyling Tips\n\nPair with black embroidered mojaris for a sophisticated finish.\nAdd a metallic watch for a premium touch.\nComplete the look with a contrasting stole for grand occasions.",
+        "hasVariant": [
+          {
+            "@id": "/en-us/products/ak-2870-fkemb-3416-black?variant=43270355386445#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A3411.jpg?v=1784898205&width=1920",
+            "name": "Black Embroidered Kurta with Palazzo Pant for Men - Black / 38 / Silk",
+            "offers": {
+              "@id": "/en-us/products/ak-2870-fkemb-3416-black?variant=43270355386445#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "18392.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black?variant=43270355386445"
+            },
+            "sku": "AK-2870-FKEMB-3416-BLACK-38"
+          },
+          {
+            "@id": "/en-us/products/ak-2870-fkemb-3416-black?variant=43270355419213#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A3411.jpg?v=1784898205&width=1920",
+            "name": "Black Embroidered Kurta with Palazzo Pant for Men - Black / 40 / Silk",
+            "offers": {
+              "@id": "/en-us/products/ak-2870-fkemb-3416-black?variant=43270355419213#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "18392.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black?variant=43270355419213"
+            },
+            "sku": "AK-2870-FKEMB-3416-BLACK-40"
+          },
+          {
+            "@id": "/en-us/products/ak-2870-fkemb-3416-black?variant=43270355451981#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A3411.jpg?v=1784898205&width=1920",
+            "name": "Black Embroidered Kurta with Palazzo Pant for Men - Black / 42 / Silk",
+            "offers": {
+              "@id": "/en-us/products/ak-2870-fkemb-3416-black?variant=43270355451981#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "18392.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black?variant=43270355451981"
+            },
+            "sku": "AK-2870-FKEMB-3416-BLACK-42"
+          },
+          {
+            "@id": "/en-us/products/ak-2870-fkemb-3416-black?variant=43270355484749#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A3411.jpg?v=1784898205&width=1920",
+            "name": "Black Embroidered Kurta with Palazzo Pant for Men - Black / 44 / Silk",
+            "offers": {
+              "@id": "/en-us/products/ak-2870-fkemb-3416-black?variant=43270355484749#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/InStock",
+              "price": "18392.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black?variant=43270355484749"
+            },
+            "sku": "AK-2870-FKEMB-3416-BLACK-44"
+          },
+          {
+            "@id": "/en-us/products/ak-2870-fkemb-3416-black?variant=43270355517517#variant",
+            "@type": "Product",
+            "image": "https://koranm.com/cdn/shop/files/1J8A3411.jpg?v=1784898205&width=1920",
+            "name": "Black Embroidered Kurta with Palazzo Pant for Men - Black / 46 / Silk",
+            "offers": {
+              "@id": "/en-us/products/ak-2870-fkemb-3416-black?variant=43270355517517#offer",
+              "@type": "Offer",
+              "availability": "http://schema.org/OutOfStock",
+              "price": "19984.00",
+              "priceCurrency": "INR",
+              "url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black?variant=43270355517517"
+            },
+            "sku": "AK-2870-FKEMB-3416-BLACK-46"
+          }
+        ],
+        "name": "Black Embroidered Kurta with Palazzo Pant for Men",
+        "productGroupID": "7899542847565",
+        "url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black"
+      }
+    },
+    {
+      "type": "Product",
+      "valid_json": false,
+      "fields_present": [
+        "@context",
+        "@id",
+        "@type",
+        "brand",
+        "description",
+        "image",
+        "name",
+        "offers",
+        "sku"
+      ],
+      "has_offers": true,
+      "has_material": false,
+      "has_size": false,
+      "has_color": false,
+      "has_aggregate_rating": false,
+      "raw": {
+        "@context": "https://schema.org/",
+        "@type": "Product",
+        "@id": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black#product",
+        "name": "Black Embroidered Kurta with Palazzo Pant for Men",
+        "image": [
+          "//koranm.com/cdn/shop/files/1J8A3401.jpg?v=1784898206",
+          "//koranm.com/cdn/shop/files/1J8A3411.jpg?v=1784898205",
+          "//koranm.com/cdn/shop/files/1J8A3396.jpg?v=1784898205",
+          "//koranm.com/cdn/shop/files/1J8A3414.jpg?v=1784898205",
+          "//koranm.com/cdn/shop/files/1J8A3405.jpg?v=1784898206",
+          "//koranm.com/cdn/shop/files/1J8A3403.jpg?v=1784898205",
+          "//koranm.com/cdn/shop/files/1J8A3409.jpg?v=1784898205",
+          "//koranm.com/cdn/shop/files/1J8A3426.jpg?v=1784898206",
+          "//koranm.com/cdn/shop/files/1J8A3391.jpg?v=1784898206"
+        ],
+        "description": "Make a sophisticated statement with this black embroidered kurta set. Featuring elegant embroidery on a mandarin-collar kurta, this outfit is paired with matching palazzo pants for exceptional comfort and effortless style. Ideal for evening celebrations, festive occasions, and wedding festivities, it delivers a refined ethnic look with modern appeal.  Key Features  Elegant embroidered craftsmanship Classic mandarin collar Comfortable regular-fit silhouette Full sleeves for a polished finish Matching palazzo pants included Lightweight construction for extended comfort Perfect for festive evenings, receptions, and celebrations  Styling Tips  Pair with black embroidered mojaris for a sophisticated finish. Add a metallic watch for a premium touch. Complete the look with a contrasting stole for grand occasions.",
+        "sku": "AK-2870-FKEMB-3416-BLACK-38",
+        "brand": {
+          "@type": "Brand",
+          "name": "AROK - N M FASHION DESIGNS PVT LTD"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://koranm.com/en-us/products/ak-2870-fkemb-3416-black",
+          "priceCurrency": "INR",
+          "price": "18,392",
+          "availability": "https://schema.org/InStock"
+        }
+      }
+    }
+  ],
+  "reviews": {
+    "count": 0,
+    "source": "product page review widget"
+  },
+  "policies": {
+    "return_policy_url": "https://koranm.com/en-us/policies/refund-policy",
+    "shipping_policy_url": "https://koranm.com/en-us/policies/shipping-policy",
+    "page_claims": [
+      "World Wide Free Shipping"
+    ],
+    "disclaimer": "Slight colour variations are possible due to photographic lighting or your monitor settings."
+  }
+}

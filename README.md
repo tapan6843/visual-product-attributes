@@ -12,7 +12,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-Mock extraction is enabled by default. Set `USE_MOCK_EXTRACTION=false` after implementing the OpenAI adapter described in `documents/implementation.md`.
+Mock extraction is enabled by default. To use the live extraction adapter, add an OpenAI API key to `.env.local` and set `USE_MOCK_EXTRACTION=false`.
 
 ## Commands
 
@@ -27,4 +27,3 @@ npm run dev
 - `documents/plan.md` — MVP scope and decisions
 - `documents/implementation.md` — implementation design
 - `documents/taskTacker.md` — hackathon task tracker
-

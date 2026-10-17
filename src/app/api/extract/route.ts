@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
-import { extractVisualAttributes } from "@/lib/extract-attributes";
+import {
+  ExtractionError,
+  extractVisualAttributes
+} from "@/lib/extract-attributes";
 import {
   ExtractionRequestSchema,
   ExtractionResultSchema
@@ -23,15 +26,22 @@ export async function POST(request: Request) {
     const result = await extractVisualAttributes(parsedRequest.data);
     return NextResponse.json(ExtractionResultSchema.parse(result));
   } catch (error) {
+    if (error instanceof ExtractionError) {
+      return NextResponse.json(
+        {
+          error: error.message,
+          code: error.code
+        },
+        { status: error.code === "image_unavailable" ? 422 : 502 }
+      );
+    }
+
     return NextResponse.json(
       {
-        error:
-          error instanceof Error
-            ? error.message
-            : "The extraction service is temporarily unavailable"
+        error: "The extraction service is temporarily unavailable",
+        code: "service_error"
       },
       { status: 502 }
     );
   }
 }
-

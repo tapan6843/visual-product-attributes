@@ -11,11 +11,11 @@
 
 ## Extraction
 
-- [ ] Add failing tests for the OpenAI adapter
-- [ ] Implement multimodal Responses API call
-- [ ] Add strict Structured Outputs schema
-- [ ] Validate model output before returning it
-- [ ] Add inaccessible-image error handling
+- [x] Add failing tests for the OpenAI adapter
+- [x] Implement multimodal Responses API call
+- [x] Add strict Structured Outputs schema
+- [x] Validate model output before returning it
+- [x] Add inaccessible-image error handling
 
 ## Interface
 
@@ -38,9 +38,8 @@
 
 ## Demo readiness
 
-- [ ] Run focused tests
-- [ ] Run production build
+- [x] Run focused tests
+- [x] Run production build
 - [ ] Test prepared examples immediately before presenting
 - [ ] Rehearse the two-SKU demo
 - [ ] Prepare a fallback recording or screenshots
-

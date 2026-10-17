@@ -17,6 +17,7 @@ Attribute table + description + JSON
 ## Main modules
 
 - `src/lib/product-schema.ts`: request and response contracts
+- `src/lib/extraction-prompt.ts`: visual-only extraction instructions
 - `src/lib/mock-extraction.ts`: deterministic demo response
 - `src/lib/extract-attributes.ts`: model-adapter boundary
 - `src/app/api/extract/route.ts`: HTTP validation and error mapping
@@ -24,13 +25,15 @@ Attribute table + description + JSON
 
 ## Real model adapter
 
-Implement `extractVisualAttributes` with the OpenAI Responses API:
+`extractVisualAttributes` uses the OpenAI Responses API to:
 
 1. Add one instruction block describing the visual-only extraction rules.
 2. Add one `input_image` entry for each submitted image URL.
 3. Include the image ID and declared view before its corresponding image.
 4. Request strict JSON-schema output matching `ExtractionResultSchema`.
 5. Parse and validate the returned JSON before returning it to the route.
+6. Reject evidence references that do not match a supplied image ID.
+7. Classify inaccessible image URLs separately from model service errors.
 
 The model must not claim exact fabric composition, size, care instructions, authenticity, sustainability, or performance properties from appearance alone.
 
@@ -63,4 +66,3 @@ USE_MOCK_EXTRACTION=true
 ```
 
 Mock mode keeps the UI demonstrable before the live adapter is completed.
-
